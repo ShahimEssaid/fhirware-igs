@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="teleradiotherapy-treatment-phase-chest-wall-jenny-m"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-teleradiotherapy-treatment-phase"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Radiotherapy Modality</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/umls C3539769}">Photon Beam Radiation Therapy</span></p><p><b>Radiotherapy Technique</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/umls C3489631}">Volumetric-Modulated Arc Therapy</span></p><p><b>Radiotherapy Fractions Delivered</b>: 25</p><blockquote><p><b>Radiotherapy Dose Delivered To Body Volume</b></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: <a href="BodyStructure-jenny-m-chest-wall-treatment-volume.html">Generated Summary: id: 1.2.246.352…1; <span title="Codes: {http://snomed.info/sct 78904004}">Chest wall structure (body structure)</span>; <span title="Codes: {http://snomed.info/sct 255503000}">Entire (qualifier value)</span>; description: Chest Wall</a></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 5000 cGy</p></blockquote><blockquote><p><b>Radiotherapy Dose Delivered To Body Volume</b></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: <a href="BodyStructure-jenny-m-chest-wall-lymph-nodes-treatment-volume.html">Generated Summary: id: 1.2.246.352…2; <span title="Codes: {http://snomed.info/sct 245276004}">Mediastinal lymph node group (body structure)</span>; <span title="Codes: {http://snomed.info/sct 51440002}">Right and left (qualifier value)</span>; description: Chest Wall Lymph Nodes</a></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 5000 cGy</p></blockquote><p><b>partOf</b>: <a href="Procedure-radiotherapy-treatment-summary-chest-wall-jenny-m.html">Generated Summary: status: completed; <span title="Codes: {http://snomed.info/sct 108290001}">Radiation oncology AND/OR radiotherapy (procedure)</span>; <span title="Codes: {http://hl7.org/fhir/us/mcode/CodeSystem/mcode-resource-identifier-cs mcode-radiotherapy-course-summary}">Radiotherapy Course Summary Resource</span>; performed: 2018-05-01 --&gt; 2018-06-29; <span title="Codes: {http://hl7.org/fhir/sid/icd-10-cm C50.811}">Malignant neoplasm of overlapping sites of right female breast</span>; <span title="Codes: {http://snomed.info/sct 78904004}">Chest Wall Structure (body structure)</span></a></p><p><b>status</b>: completed</p><p><b>category</b>: <span title="Codes: {http://snomed.info/sct 108290001}">Radiation oncology AND/OR radiotherapy (procedure)</span></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/us/mcode/CodeSystem/mcode-resource-identifier-cs mcode-teleradiotherapy-treatment-phase}">Teleradiotherapy Treatment Phase Resource</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-jenny-m.html">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p><p><b>performed</b>: 2018-05-01 --&gt; 2018-06-29</p><p><b>asserter</b>: <a href="Practitioner-us-core-practitioner-kyle-anydoc.html">Generated Summary: id: 9988776655; Kyle Anydoc ; gender: male</a></p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/umls"/>
+        <code value="C3539769"/>
+        <display value="Photon Beam Radiation Therapy"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-technique">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/umls"/>
+        <code value="C3489631"/>
+        <display value="Volumetric-Modulated Arc Therapy"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-fractions-delivered">
+    <valueUnsignedInt value="25"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-dose-delivered-to-volume">
+    <extension url="volume">
+      <valueReference>
+        <reference value="BodyStructure/jenny-m-chest-wall-treatment-volume"/>
+      </valueReference>
+    </extension>
+    <extension url="totalDoseDelivered">
+      <valueQuantity>
+        <value value="5000"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="cGy"/>
+      </valueQuantity>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-dose-delivered-to-volume">
+    <extension url="volume">
+      <valueReference>
+        <reference value="BodyStructure/jenny-m-chest-wall-lymph-nodes-treatment-volume"/>
+      </valueReference>
+    </extension>
+    <extension url="totalDoseDelivered">
+      <valueQuantity>
+        <value value="5000"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="cGy"/>
+      </valueQuantity>
+    </extension>
+  </extension>
+  <partOf>
+    <reference value="Procedure/radiotherapy-treatment-summary-chest-wall-jenny-m"/>
+  </partOf>
+  <status value="completed"/>
+  <category>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="108290001"/>
+      <display value="Radiation oncology AND/OR radiotherapy (procedure)"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/us/mcode/CodeSystem/mcode-resource-identifier-cs"/>
+      <code value="mcode-teleradiotherapy-treatment-phase"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </subject>
+  <performedPeriod>
+    <start value="2018-05-01"/>
+    <end value="2018-06-29"/>
+  </performedPeriod>
+  <asserter>
+    <reference value="Practitioner/us-core-practitioner-kyle-anydoc"/>
+  </asserter>
+</Procedure>

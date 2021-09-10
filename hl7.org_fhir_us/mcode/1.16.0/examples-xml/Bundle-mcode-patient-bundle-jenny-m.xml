@@ -1,0 +1,2421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="mcode-patient-bundle-jenny-m"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-patient-bundle"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/cancer-disease-status-jenny-m"/>
+    <resource>
+      <Patient>
+        <id value="cancer-patient-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-patient"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><blockquote><p><b>US Core Race Extension</b></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2106-3}">White</span></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: White</p></blockquote><blockquote><p><b>US Core Ethnicity Extension</b></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2186-5}">Not Hispanic or Latino</span></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: Not Hispanic or Latino</p></blockquote><p><b>identifier</b>: Medical Record Number: MRN1234 (USUAL)</p><p><b>name</b>: Jenny M </p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1965-01-01</p><p><b>address</b>: 123 Main St Anytown 12345 United States </p><h3>Contacts</h3><table class="grid"><tr><td>-</td><td><b>Telecom</b></td></tr><tr><td>*</td><td>ph: 555-867-5309(HOME), <a href="mailto:example@example.com">example@example.com</a></td></tr></table><h3>Communications</h3><table class="grid"><tr><td>-</td><td><b>Language</b></td></tr><tr><td>*</td><td><span title="Codes: {urn:ietf:bcp:47 en-US}">English</span></td></tr></table></div>
+        </text>
+        <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
+          <extension url="ombCategory">
+            <valueCoding>
+              <system value="urn:oid:2.16.840.1.113883.6.238"/>
+              <code value="2106-3"/>
+              <display value="White"/>
+            </valueCoding>
+          </extension>
+          <extension url="text">
+            <valueString value="White"/>
+          </extension>
+        </extension>
+        <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
+          <extension url="ombCategory">
+            <valueCoding>
+              <system value="urn:oid:2.16.840.1.113883.6.238"/>
+              <code value="2186-5"/>
+              <display value="Not Hispanic or Latino"/>
+            </valueCoding>
+          </extension>
+          <extension url="text">
+            <valueString value="Not Hispanic or Latino"/>
+          </extension>
+        </extension>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+              <code value="MR"/>
+              <display value="Medical Record Number"/>
+            </coding>
+          </type>
+          <system value="http://hospital.example.org"/>
+          <value value="MRN1234"/>
+        </identifier>
+        <name>
+          <family value="M"/>
+          <given value="Jenny"/>
+        </name>
+        <gender value="female"/>
+        <birthDate value="1965-01-01"/>
+        <address>
+          <line value="123 Main St"/>
+          <city value="Anytown"/>
+          <postalCode value="12345"/>
+          <country value="United States"/>
+        </address>
+        <contact>
+          <telecom>
+            <system value="phone"/>
+            <value value="555-867-5309"/>
+            <use value="home"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="example@example.com"/>
+          </telecom>
+        </contact>
+        <communication>
+          <language>
+            <coding>
+              <system value="urn:ietf:bcp:47"/>
+              <code value="en-US"/>
+            </coding>
+            <text value="English"/>
+          </language>
+        </communication>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/cancer-genetic-variant-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="cancer-genetic-variant-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-genetic-variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: 2018-03-15</p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><p><b>method</b>: <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.genenames.org HGNC:26144}">PALB2</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81252-9}">Discrete genetic variant</span></p><p><b>value</b>: <span title="Codes: {http://www.ncbi.nlm.nih.gov/clinvar 128144}">NM_024675.3(PALB2):c.3549C&gt;A (p.Tyr1183Ter)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81290-9}">Genomic DNA change (gHGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org NC_000016.10:g.23603471G&gt;T}">NC_000016.10:g.23603471G&gt;T</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48002-0}">Genomic source class [Type]</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6684-0}">Somatic</span></p></blockquote></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-03-15"/>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA26398-0"/>
+            <display value="Sequencing"/>
+          </coding>
+        </method>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48018-6"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.genenames.org"/>
+              <code value="HGNC:26144"/>
+              <display value="PALB2"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="81252-9"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.ncbi.nlm.nih.gov/clinvar"/>
+              <code value="128144"/>
+              <display value="NM_024675.3(PALB2):c.3549C&gt;A (p.Tyr1183Ter)"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="81290-9"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="NC_000016.10:g.23603471G&gt;T"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48002-0"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA6684-0"/>
+              <display value="Somatic"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/DiagnosticReport/cancer-genomics-report-jenny-m"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="cancer-genomics-report-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-genomics-report"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0074 LAB}">Laboratory</span>, <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0074 GE}">Genetics</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81247-9}">Master HL7 genetic variant reporting panel</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: 2018-03-15</p><p><b>issued</b>: Mar 15, 2020 12:00:01 AM</p><p><b>specimen</b>: <a href="#Specimen_genetic-specimen-left-breast-jenny-m">See above (Specimen/genetic-specimen-left-breast-jenny-m)</a></p><p><b>result</b>: </p><ul><li><a href="#Observation_cancer-genetic-variant-jenny-m">See above (Observation/cancer-genetic-variant-jenny-m)</a></li><li><a href="#Observation_genomic-region-studied-jenny-m">See above (Observation/genomic-region-studied-jenny-m)</a></li></ul></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+            <code value="LAB"/>
+          </coding>
+        </category>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+            <code value="GE"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81247-9"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-03-15"/>
+        <issued value="2020-03-15T00:00:01+00:00"/>
+        <specimen>
+          <reference value="Specimen/genetic-specimen-left-breast-jenny-m"/>
+        </specimen>
+        <result>
+          <reference value="Observation/cancer-genetic-variant-jenny-m"/>
+        </result>
+        <result>
+          <reference value="Observation/genomic-region-studied-jenny-m"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Procedure/cancer-related-surgical-procedure-jenny-m"/>
+    <resource>
+      <Procedure>
+        <id value="cancer-related-surgical-procedure-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-surgical-procedure"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Treatment Intent</b>: <span title="Codes: {http://snomed.info/sct 373808002}">Curative - procedure intent (qualifier value)</span></p><p><b>status</b>: completed</p><p><b>category</b>: <span title="Codes: {http://snomed.info/sct 387713003}">Surgical procedure (procedure)</span></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 64368001}">Partial mastectomy (procedure)</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>performed</b>: 2018-04-01</p><p><b>asserter</b>: <a href="#Practitioner_us-core-practitioner-owen-oncologist">See above (Practitioner/us-core-practitioner-owen-oncologist)</a></p><p><b>reasonReference</b>: <a href="Condition-primary-cancer-condition-jenny-m.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical remission}">Remission</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span>; <span title="Codes: {http://snomed.info/sct 353431000119107}">Primary malignant neoplasm of female left breast (disorder)</span>; onset: 2018-03-16</a></p><p><b>bodySite</b>: <span title="Codes: {http://snomed.info/sct 80248007}">Left breast structure (body structure)</span></p></div>
+        </text>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-treatment-intent">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="373808002"/>
+              <display value="Curative - procedure intent (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <status value="completed"/>
+        <category>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="387713003"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="64368001"/>
+            <display value="Partial mastectomy (procedure)"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <performedDateTime value="2018-04-01"/>
+        <asserter>
+          <reference value="Practitioner/us-core-practitioner-owen-oncologist"/>
+        </asserter>
+        <reasonReference>
+          <reference value="Condition/primary-cancer-condition-jenny-m"/>
+        </reasonReference>
+        <bodySite>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="80248007"/>
+            <display value="Left breast structure (body structure)"/>
+          </coding>
+        </bodySite>
+      </Procedure>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Procedure/radiotherapy-treatment-summary-chest-wall-jenny-m"/>
+    <resource>
+      <Procedure>
+        <id value="radiotherapy-treatment-summary-chest-wall-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-course-summary"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Radiotherapy Number of Sessions</b>: 31</p><p><b>Treatment Intent</b>: <span title="Codes: {http://snomed.info/sct 373808002}">Curative - procedure intent</span></p><p><b>Radiotherapy Modality</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/umls C3539769}">Photon Beam Radiation Therapy</span></p><p><b>Radiotherapy Modality</b>: <span title="Codes: {http://snomed.info/sct 45643008}">Teleradiotherapy using electrons (procedure)</span></p><p><b>Radiotherapy Technique</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/umls C3489631}">Volumetric Modulated Arc Therapy</span></p><p><b>Radiotherapy Technique</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/radiotherapy 3D}">Three Dimensional</span></p><blockquote><p><b>Radiotherapy Dose Delivered To Body Volume</b></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: <a href="BodyStructure-jenny-m-chest-wall-treatment-volume.html">Generated Summary: id: 1.2.246.352…1; <span title="Codes: {http://snomed.info/sct 78904004}">Chest wall structure (body structure)</span>; <span title="Codes: {http://snomed.info/sct 255503000}">Entire (qualifier value)</span>; description: Chest Wall</a></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 6000 cGy</p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 30</p></blockquote><blockquote><p><b>Radiotherapy Dose Delivered To Body Volume</b></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: <a href="BodyStructure-jenny-m-chest-wall-lymph-nodes-treatment-volume.html">Generated Summary: id: 1.2.246.352…2; <span title="Codes: {http://snomed.info/sct 245276004}">Mediastinal lymph node group (body structure)</span>; <span title="Codes: {http://snomed.info/sct 51440002}">Right and left (qualifier value)</span>; description: Chest Wall Lymph Nodes</a></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 5000 cGy</p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 25</p></blockquote><p><b>status</b>: completed</p><p><b>category</b>: <span title="Codes: {http://snomed.info/sct 108290001}">Radiation oncology AND/OR radiotherapy (procedure)</span></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/us/mcode/CodeSystem/mcode-resource-identifier-cs mcode-radiotherapy-course-summary}">Radiotherapy Course Summary Resource</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>performed</b>: 2018-05-01 --&gt; 2018-06-29</p><p><b>asserter</b>: <a href="Practitioner-us-core-practitioner-kyle-anydoc.html">Generated Summary: id: 9988776655; Kyle Anydoc ; gender: male</a></p><p><b>reasonCode</b>: <span title="Codes: {http://hl7.org/fhir/sid/icd-10-cm C50.811}">Malignant neoplasm of overlapping sites of right female breast</span></p><p><b>bodySite</b>: <span title="Codes: {http://snomed.info/sct 78904004}">Chest Wall Structure (body structure)</span></p></div>
+        </text>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-sessions">
+          <valueUnsignedInt value="31"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-treatment-intent">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="373808002"/>
+              <display value="Curative - procedure intent"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/umls"/>
+              <code value="C3539769"/>
+              <display value="Photon Beam Radiation Therapy"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="45643008"/>
+              <display value="Teleradiotherapy using electrons (procedure)"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-technique">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/umls"/>
+              <code value="C3489631"/>
+              <display value="Volumetric Modulated Arc Therapy"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-technique">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/radiotherapy"/>
+              <code value="3D"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-dose-delivered-to-volume">
+          <extension url="volume">
+            <valueReference>
+              <reference value="BodyStructure/jenny-m-chest-wall-treatment-volume"/>
+            </valueReference>
+          </extension>
+          <extension url="totalDoseDelivered">
+            <valueQuantity>
+              <value value="6000"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="cGy"/>
+            </valueQuantity>
+          </extension>
+          <extension url="fractionsDelivered">
+            <valueUnsignedInt value="30"/>
+          </extension>
+        </extension>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-dose-delivered-to-volume">
+          <extension url="volume">
+            <valueReference>
+              <reference value="BodyStructure/jenny-m-chest-wall-lymph-nodes-treatment-volume"/>
+            </valueReference>
+          </extension>
+          <extension url="totalDoseDelivered">
+            <valueQuantity>
+              <value value="5000"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="cGy"/>
+            </valueQuantity>
+          </extension>
+          <extension url="fractionsDelivered">
+            <valueUnsignedInt value="25"/>
+          </extension>
+        </extension>
+        <status value="completed"/>
+        <category>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="108290001"/>
+            <display value="Radiation oncology AND/OR radiotherapy (procedure)"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://hl7.org/fhir/us/mcode/CodeSystem/mcode-resource-identifier-cs"/>
+            <code value="mcode-radiotherapy-course-summary"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <performedPeriod>
+          <start value="2018-05-01"/>
+          <end value="2018-06-29"/>
+        </performedPeriod>
+        <asserter>
+          <reference value="Practitioner/us-core-practitioner-kyle-anydoc"/>
+        </asserter>
+        <reasonCode>
+          <coding>
+            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+            <code value="C50.811"/>
+            <display value="Malignant neoplasm of overlapping sites of right female breast"/>
+          </coding>
+        </reasonCode>
+        <bodySite>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="78904004"/>
+            <display value="Chest Wall Structure (body structure)"/>
+          </coding>
+        </bodySite>
+      </Procedure>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Procedure/teleradiotherapy-treatment-phase-chest-wall-jenny-m"/>
+    <resource>
+      <Procedure>
+        <id value="teleradiotherapy-treatment-phase-chest-wall-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-teleradiotherapy-treatment-phase"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Radiotherapy Modality</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/umls C3539769}">Photon Beam Radiation Therapy</span></p><p><b>Radiotherapy Technique</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/umls C3489631}">Volumetric-Modulated Arc Therapy</span></p><p><b>Radiotherapy Fractions Delivered</b>: 25</p><blockquote><p><b>Radiotherapy Dose Delivered To Body Volume</b></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: <a href="BodyStructure-jenny-m-chest-wall-treatment-volume.html">Generated Summary: id: 1.2.246.352…1; <span title="Codes: {http://snomed.info/sct 78904004}">Chest wall structure (body structure)</span>; <span title="Codes: {http://snomed.info/sct 255503000}">Entire (qualifier value)</span>; description: Chest Wall</a></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 5000 cGy</p></blockquote><blockquote><p><b>Radiotherapy Dose Delivered To Body Volume</b></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: <a href="BodyStructure-jenny-m-chest-wall-lymph-nodes-treatment-volume.html">Generated Summary: id: 1.2.246.352…2; <span title="Codes: {http://snomed.info/sct 245276004}">Mediastinal lymph node group (body structure)</span>; <span title="Codes: {http://snomed.info/sct 51440002}">Right and left (qualifier value)</span>; description: Chest Wall Lymph Nodes</a></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 5000 cGy</p></blockquote><p><b>partOf</b>: <a href="#Procedure_radiotherapy-treatment-summary-chest-wall-jenny-m">See above (Procedure/radiotherapy-treatment-summary-chest-wall-jenny-m)</a></p><p><b>status</b>: completed</p><p><b>category</b>: <span title="Codes: {http://snomed.info/sct 108290001}">Radiation oncology AND/OR radiotherapy (procedure)</span></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/us/mcode/CodeSystem/mcode-resource-identifier-cs mcode-teleradiotherapy-treatment-phase}">Teleradiotherapy Treatment Phase Resource</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>performed</b>: 2018-05-01 --&gt; 2018-06-29</p><p><b>asserter</b>: <a href="Practitioner-us-core-practitioner-kyle-anydoc.html">Generated Summary: id: 9988776655; Kyle Anydoc ; gender: male</a></p></div>
+        </text>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/umls"/>
+              <code value="C3539769"/>
+              <display value="Photon Beam Radiation Therapy"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-technique">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/umls"/>
+              <code value="C3489631"/>
+              <display value="Volumetric-Modulated Arc Therapy"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-fractions-delivered">
+          <valueUnsignedInt value="25"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-dose-delivered-to-volume">
+          <extension url="volume">
+            <valueReference>
+              <reference value="BodyStructure/jenny-m-chest-wall-treatment-volume"/>
+            </valueReference>
+          </extension>
+          <extension url="totalDoseDelivered">
+            <valueQuantity>
+              <value value="5000"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="cGy"/>
+            </valueQuantity>
+          </extension>
+        </extension>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-dose-delivered-to-volume">
+          <extension url="volume">
+            <valueReference>
+              <reference value="BodyStructure/jenny-m-chest-wall-lymph-nodes-treatment-volume"/>
+            </valueReference>
+          </extension>
+          <extension url="totalDoseDelivered">
+            <valueQuantity>
+              <value value="5000"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="cGy"/>
+            </valueQuantity>
+          </extension>
+        </extension>
+        <partOf>
+          <reference value="Procedure/radiotherapy-treatment-summary-chest-wall-jenny-m"/>
+        </partOf>
+        <status value="completed"/>
+        <category>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="108290001"/>
+            <display value="Radiation oncology AND/OR radiotherapy (procedure)"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://hl7.org/fhir/us/mcode/CodeSystem/mcode-resource-identifier-cs"/>
+            <code value="mcode-teleradiotherapy-treatment-phase"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <performedPeriod>
+          <start value="2018-05-01"/>
+          <end value="2018-06-29"/>
+        </performedPeriod>
+        <asserter>
+          <reference value="Practitioner/us-core-practitioner-kyle-anydoc"/>
+        </asserter>
+      </Procedure>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Procedure/teleradiotherapy-treatment-phase-boost-jenny-m"/>
+    <resource>
+      <Procedure>
+        <id value="teleradiotherapy-treatment-phase-boost-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-teleradiotherapy-treatment-phase"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Radiotherapy Modality</b>: <span title="Codes: {http://snomed.info/sct 45643008}">Teleradiotherapy using electrons (procedure)</span></p><p><b>Radiotherapy Technique</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/radiotherapy 3D}">Three dimensional</span></p><p><b>Radiotherapy Fractions Delivered</b>: 5</p><blockquote><p><b>Radiotherapy Dose Delivered To Body Volume</b></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: <a href="BodyStructure-jenny-m-chest-wall-treatment-volume.html">Generated Summary: id: 1.2.246.352…1; <span title="Codes: {http://snomed.info/sct 78904004}">Chest wall structure (body structure)</span>; <span title="Codes: {http://snomed.info/sct 255503000}">Entire (qualifier value)</span>; description: Chest Wall</a></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 1000 cGy</p></blockquote><p><b>partOf</b>: <a href="#Procedure_radiotherapy-treatment-summary-chest-wall-jenny-m">See above (Procedure/radiotherapy-treatment-summary-chest-wall-jenny-m)</a></p><p><b>status</b>: completed</p><p><b>category</b>: <span title="Codes: {http://snomed.info/sct 108290001}">Radiation oncology AND/OR radiotherapy (procedure)</span></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/us/mcode/CodeSystem/mcode-resource-identifier-cs mcode-teleradiotherapy-treatment-phase}">Teleradiotherapy Treatment Phase Resource</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>performed</b>: 2018-08-01 --&gt; 2018-09-30</p><p><b>asserter</b>: <a href="Practitioner-us-core-practitioner-kyle-anydoc.html">Generated Summary: id: 9988776655; Kyle Anydoc ; gender: male</a></p></div>
+        </text>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="45643008"/>
+              <display value="Teleradiotherapy using electrons (procedure)"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-technique">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/radiotherapy"/>
+              <code value="3D"/>
+              <display value="Three dimensional"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-fractions-delivered">
+          <valueUnsignedInt value="5"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-dose-delivered-to-volume">
+          <extension url="volume">
+            <valueReference>
+              <reference value="BodyStructure/jenny-m-chest-wall-treatment-volume"/>
+            </valueReference>
+          </extension>
+          <extension url="totalDoseDelivered">
+            <valueQuantity>
+              <value value="1000"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="cGy"/>
+            </valueQuantity>
+          </extension>
+        </extension>
+        <partOf>
+          <reference value="Procedure/radiotherapy-treatment-summary-chest-wall-jenny-m"/>
+        </partOf>
+        <status value="completed"/>
+        <category>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="108290001"/>
+            <display value="Radiation oncology AND/OR radiotherapy (procedure)"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://hl7.org/fhir/us/mcode/CodeSystem/mcode-resource-identifier-cs"/>
+            <code value="mcode-teleradiotherapy-treatment-phase"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <performedPeriod>
+          <start value="2018-08-01"/>
+          <end value="2018-09-30"/>
+        </performedPeriod>
+        <asserter>
+          <reference value="Practitioner/us-core-practitioner-kyle-anydoc"/>
+        </asserter>
+      </Procedure>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/tnm-clinical-stage-group-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="tnm-clinical-stage-group-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-stage-group"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title="Codes: {http://loinc.org 21908-9}">Stage group.clinical Cancer</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: 2018-03-16</p><p><b>value</b>: <span title="Codes: {http://cancerstaging.org 2B}">IIB</span></p><p><b>method</b>: <span title="Codes: {http://snomed.info/sct 897275008}">American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)</span></p><p><b>hasMember</b>: </p><ul><li><a href="Observation-tnm-pathologic-primary-tumor-category-jenny-m.html">Generated Summary: <span title="Codes: {http://loinc.org 21899-0}">Primary tumor.pathology Cancer</span>; effective: 2018-04-01; <span title="Codes: {http://cancerstaging.org pT3}">pT3</span>; <span title="Codes: {http://snomed.info/sct 897275008}">American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)</span></a></li><li><a href="Observation-tnm-pathologic-regional-nodes-category-jenny-m.html">Generated Summary: <span title="Codes: {http://loinc.org 21900-6}">Regional lymph nodes.pathology [Class] Cancer</span>; effective: 2018-04-01; <span title="Codes: {http://cancerstaging.org pN0}">pN0</span>; <span title="Codes: {http://snomed.info/sct 897275008}">American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)</span></a></li><li><a href="Observation-tnm-pathologic-distant-metastases-category-jenny-m.html">Generated Summary: <span title="Codes: {http://loinc.org 21901-4}">Distant metastases.pathology [Class] Cancer</span>; effective: 2018-04-01; <span title="Codes: {http://cancerstaging.org pM0}">pM0</span>; <span title="Codes: {http://snomed.info/sct 897275008}">American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)</span></a></li></ul></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="21908-9"/>
+            <display value="Stage group.clinical Cancer"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-03-16"/>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://cancerstaging.org"/>
+            <code value="2B"/>
+            <display value="IIB"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="897275008"/>
+            <display value="American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)"/>
+          </coding>
+        </method>
+        <hasMember>
+          <reference value="Observation/tnm-pathologic-primary-tumor-category-jenny-m"/>
+        </hasMember>
+        <hasMember>
+          <reference value="Observation/tnm-pathologic-regional-nodes-category-jenny-m"/>
+        </hasMember>
+        <hasMember>
+          <reference value="Observation/tnm-pathologic-distant-metastases-category-jenny-m"/>
+        </hasMember>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/tnm-clinical-primary-tumor-category-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="tnm-clinical-primary-tumor-category-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tnm-primary-tumor-category"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title="Codes: {http://loinc.org 21905-5}">Primary tumor.clinical [Class] Cancer</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: 2018-03-16</p><p><b>value</b>: <span title="Codes: {http://cancerstaging.org cT3}">cT3</span></p><p><b>method</b>: <span title="Codes: {http://snomed.info/sct 897275008}">American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="21905-5"/>
+            <display value="Primary tumor.clinical [Class] Cancer"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-03-16"/>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://cancerstaging.org"/>
+            <code value="cT3"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="897275008"/>
+            <display value="American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)"/>
+          </coding>
+        </method>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/tnm-clinical-regional-nodes-category-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="tnm-clinical-regional-nodes-category-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tnm-regional-nodes-category"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title="Codes: {http://loinc.org 21906-3}">Regional lymph nodes.clinical [Class] Cancer</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: 2018-03-16</p><p><b>value</b>: <span title="Codes: {http://cancerstaging.org cN0}">cN0</span></p><p><b>method</b>: <span title="Codes: {http://snomed.info/sct 897275008}">American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="21906-3"/>
+            <display value="Regional lymph nodes.clinical [Class] Cancer"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-03-16"/>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://cancerstaging.org"/>
+            <code value="cN0"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="897275008"/>
+            <display value="American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)"/>
+          </coding>
+        </method>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/tnm-clinical-distant-metastases-category-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="tnm-clinical-distant-metastases-category-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tnm-distant-metastases-category"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title="Codes: {http://loinc.org 21907-1}">Distant metastases.clinical [Class] Cancer</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: 2018-03-16</p><p><b>value</b>: <span title="Codes: {http://cancerstaging.org cM0}">cM0</span></p><p><b>method</b>: <span title="Codes: {http://snomed.info/sct 897275008}">American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="21907-1"/>
+            <display value="Distant metastases.clinical [Class] Cancer"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-03-16"/>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://cancerstaging.org"/>
+            <code value="cM0"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="897275008"/>
+            <display value="American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)"/>
+          </coding>
+        </method>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Specimen/genetic-specimen-left-breast-jenny-m"/>
+    <resource>
+      <Specimen>
+        <id value="genetic-specimen-left-breast-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-genetic-specimen"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: available</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TISS}">Tissue</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><h3>Collections</h3><table class="grid"><tr><td>-</td><td><b>Collector</b></td><td><b>BodySite</b></td></tr><tr><td>*</td><td><a href="#Practitioner_us-core-practitioner-owen-oncologist">See above (Practitioner/us-core-practitioner-owen-oncologist)</a></td><td><span title="Codes: {http://snomed.info/sct 80248007}">Left breast structure (body structure)</span></td></tr></table><h3>Processings</h3><table class="grid"><tr><td>-</td><td><b>Time[x]</b></td></tr><tr><td>*</td><td>2018-03-06</td></tr></table></div>
+        </text>
+        <status value="available"/>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0487"/>
+            <code value="TISS"/>
+          </coding>
+        </type>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <collection>
+          <collector>
+            <reference value="Practitioner/us-core-practitioner-owen-oncologist"/>
+          </collector>
+          <bodySite>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="80248007"/>
+              <display value="Left breast structure (body structure)"/>
+            </coding>
+          </bodySite>
+        </collection>
+        <processing>
+          <timeDateTime value="2018-03-06"/>
+        </processing>
+      </Specimen>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/genomic-region-studied-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="genomic-region-studied-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-genomic-region-studied"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 53041-0}">DNA region of interest panel</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: 2018-03-15</p><p><b>issued</b>: Mar 15, 2018 12:00:01 AM</p><h3>Components</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></td><td><span title="Codes: {http://www.genenames.org 1100}, {http://www.genenames.org 1101}, {http://www.genenames.org 1748}, {http://www.genenames.org 26144}, {http://www.genenames.org 9588}, {http://www.genenames.org 11389}, {http://www.genenames.org 11998}">BRCA1</span></td></tr></table></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53041-0"/>
+            <display value="DNA region of interest panel"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-03-15"/>
+        <issued value="2018-03-15T00:00:01+00:00"/>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48018-6"/>
+              <display value="Gene studied [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.genenames.org"/>
+              <code value="1100"/>
+              <display value="BRCA1"/>
+            </coding>
+            <coding>
+              <system value="http://www.genenames.org"/>
+              <code value="1101"/>
+              <display value="BRCA2"/>
+            </coding>
+            <coding>
+              <system value="http://www.genenames.org"/>
+              <code value="1748"/>
+              <display value="CDH1"/>
+            </coding>
+            <coding>
+              <system value="http://www.genenames.org"/>
+              <code value="26144"/>
+              <display value="PALB2"/>
+            </coding>
+            <coding>
+              <system value="http://www.genenames.org"/>
+              <code value="9588"/>
+              <display value="PTEN"/>
+            </coding>
+            <coding>
+              <system value="http://www.genenames.org"/>
+              <code value="11389"/>
+              <display value="STK11"/>
+            </coding>
+            <coding>
+              <system value="http://www.genenames.org"/>
+              <code value="11998"/>
+              <display value="TP53"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/ecog-performance-status-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="ecog-performance-status-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-ecog-performance-status"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title="Codes: {http://loinc.org 89247-1}">ECOG Performance Status score</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: 2018-04-12</p><p><b>performer</b>: <a href="#Practitioner_us-core-practitioner-owen-oncologist">See above (Practitioner/us-core-practitioner-owen-oncologist)</a></p><p><b>value</b>: 0</p><p><b>interpretation</b>: <span title="Codes: {http://loinc.org LA9622-7}">Fully active, able to carry on all pre-disease performance without restriction</span></p><p><b>method</b>: <span title="Codes: {http://snomed.info/sct 5880005}">Physical examination procedure (procedure)</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="89247-1"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-04-12"/>
+        <performer>
+          <reference value="Practitioner/us-core-practitioner-owen-oncologist"/>
+        </performer>
+        <valueInteger value="0"/>
+        <interpretation>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9622-7"/>
+            <display value="Fully active, able to carry on all pre-disease performance without restriction"/>
+          </coding>
+        </interpretation>
+        <method>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="5880005"/>
+            <display value="Physical examination procedure (procedure)"/>
+          </coding>
+        </method>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/tumor-marker-test-er-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="tumor-marker-test-er-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-marker-test"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 85337-4}">Estrogen receptor Ag [Presence] in Breast cancer specimen by Immune stain</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: 2018-03-10</p><p><b>performer</b>: <a href="#Practitioner_us-core-practitioner-owen-oncologist">See above (Practitioner/us-core-practitioner-owen-oncologist)</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6576-8}">Positive</span></p></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="85337-4"/>
+            <display value="Estrogen receptor Ag [Presence] in Breast cancer specimen by Immune stain"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-03-10"/>
+        <performer>
+          <reference value="Practitioner/us-core-practitioner-owen-oncologist"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6576-8"/>
+            <display value="Positive"/>
+          </coding>
+        </valueCodeableConcept>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/tumor-marker-test-pr-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="tumor-marker-test-pr-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-marker-test"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 85339-0}">Progesterone receptor Ag [Presence] in Breast cancer specimen by Immune stain</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: 2018-03-10</p><p><b>performer</b>: <a href="#Practitioner_us-core-practitioner-owen-oncologist">See above (Practitioner/us-core-practitioner-owen-oncologist)</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6577-6}">Negative</span></p></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="85339-0"/>
+            <display value="Progesterone receptor Ag [Presence] in Breast cancer specimen by Immune stain"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-03-10"/>
+        <performer>
+          <reference value="Practitioner/us-core-practitioner-owen-oncologist"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6577-6"/>
+            <display value="Negative"/>
+          </coding>
+        </valueCodeableConcept>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/tumor-marker-test-her2-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="tumor-marker-test-her2-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-marker-test"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48676-1}">HER2 [Interpretation] in Tissue</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: 2018-03-10</p><p><b>performer</b>: <a href="#Practitioner_us-core-practitioner-owen-oncologist">See above (Practitioner/us-core-practitioner-owen-oncologist)</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6577-6}">Negative</span></p></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48676-1"/>
+            <display value="HER2 [Interpretation] in Tissue"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-03-10"/>
+        <performer>
+          <reference value="Practitioner/us-core-practitioner-owen-oncologist"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6577-6"/>
+            <display value="Negative"/>
+          </coding>
+        </valueCodeableConcept>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/tumor-marker-test-oncotype-dx-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="tumor-marker-test-oncotype-dx-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-marker-test"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/us/mcode/CodeSystem/mcode-catch-code-cs TMT-OTHER}, {http://www.ncbi.nlm.nih.gov/gtr 509910}">Oncotype DX Breast Recurrence Score Assay</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: 2018-04-12</p><p><b>performer</b>: <a href="Organization-us-core-organization-bedrock-medicine.html">Generated Summary: id: 1265710000; active; name: Bedrock Medicine</a></p><p><b>value</b>: 47 Recurrence score</p><p><b>interpretation</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation H}">High</span></p></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://hl7.org/fhir/us/mcode/CodeSystem/mcode-catch-code-cs"/>
+            <code value="TMT-OTHER"/>
+            <display value="Other Tumor Marker Test, Specify"/>
+          </coding>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/gtr"/>
+            <code value="509910"/>
+            <display value="Oncotype DX Breast Recurrence Score Assay"/>
+          </coding>
+          <text value="Oncotype DX Breast Recurrence Score Assay"/>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-04-12"/>
+        <performer>
+          <reference value="Organization/us-core-organization-bedrock-medicine"/>
+        </performer>
+        <valueQuantity>
+          <value value="47"/>
+          <unit value="Recurrence score"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="{ScoreOf}"/>
+        </valueQuantity>
+        <interpretation>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+            <code value="H"/>
+            <display value="High"/>
+          </coding>
+        </interpretation>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/MedicationRequest/cancer-related-medication-request-doxorubicin-jenny-m"/>
+    <resource>
+      <MedicationRequest>
+        <id value="cancer-related-medication-request-doxorubicin-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-request"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Treatment Intent</b>: <span title="Codes: {http://snomed.info/sct 373808002}">Curative - procedure intent (qualifier value)</span></p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/medicationrequest-category outpatient}">Outpatient</span></p><p><b>medication</b>: <span title="Codes: {http://www.nlm.nih.gov/research/umls/rxnorm 3639}">DOXOrubicin</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>authoredOn</b>: 2018-04-12</p><p><b>requester</b>: <a href="#Practitioner_us-core-practitioner-owen-oncologist">See above (Practitioner/us-core-practitioner-owen-oncologist)</a></p><p><b>reasonReference</b>: <a href="Condition-primary-cancer-condition-jenny-m.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical remission}">Remission</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span>; <span title="Codes: {http://snomed.info/sct 353431000119107}">Primary malignant neoplasm of female left breast (disorder)</span>; onset: 2018-03-16</a></p><h3>DosageInstructions</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table></div>
+        </text>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-treatment-intent">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="373808002"/>
+              <display value="Curative - procedure intent (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <status value="active"/>
+        <intent value="order"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+            <code value="outpatient"/>
+          </coding>
+        </category>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+            <code value="3639"/>
+            <display value="DOXOrubicin"/>
+          </coding>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <authoredOn value="2018-04-12"/>
+        <requester>
+          <reference value="Practitioner/us-core-practitioner-owen-oncologist"/>
+        </requester>
+        <reasonReference>
+          <reference value="Condition/primary-cancer-condition-jenny-m"/>
+        </reasonReference>
+        <dosageInstruction>
+          <text value="doxorubicin (60 mg/m&#xB2; IV)"/>
+          <timing>
+            <repeat>
+              <boundsPeriod>
+                <start value="2018-04-01"/>
+              </boundsPeriod>
+            </repeat>
+          </timing>
+          <route>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="47625008"/>
+              <display value="Intravenous route (qualifier value)"/>
+            </coding>
+          </route>
+          <doseAndRate>
+            <rateQuantity>
+              <value value="60"/>
+              <unit value="mg/m2"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="mg/m2"/>
+            </rateQuantity>
+          </doseAndRate>
+          <maxDosePerPeriod>
+            <numerator>
+              <value value="1"/>
+            </numerator>
+            <denominator>
+              <value value="3"/>
+              <unit value="week"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="wk"/>
+            </denominator>
+          </maxDosePerPeriod>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/MedicationRequest/cancer-related-medication-request-cyclophosphamide-jenny-m"/>
+    <resource>
+      <MedicationRequest>
+        <id value="cancer-related-medication-request-cyclophosphamide-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-request"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Treatment Intent</b>: <span title="Codes: {http://snomed.info/sct 373808002}">Curative - procedure intent (qualifier value)</span></p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/medicationrequest-category outpatient}">Outpatient</span></p><p><b>medication</b>: <span title="Codes: {http://www.nlm.nih.gov/research/umls/rxnorm 3002}">cyclophosphamide</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>authoredOn</b>: 2018-04-12</p><p><b>requester</b>: <a href="#Practitioner_us-core-practitioner-owen-oncologist">See above (Practitioner/us-core-practitioner-owen-oncologist)</a></p><p><b>reasonReference</b>: <a href="Condition-primary-cancer-condition-jenny-m.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical remission}">Remission</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span>; <span title="Codes: {http://snomed.info/sct 353431000119107}">Primary malignant neoplasm of female left breast (disorder)</span>; onset: 2018-03-16</a></p><h3>DosageInstructions</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table></div>
+        </text>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-treatment-intent">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="373808002"/>
+              <display value="Curative - procedure intent (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <status value="active"/>
+        <intent value="order"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+            <code value="outpatient"/>
+          </coding>
+        </category>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+            <code value="3002"/>
+            <display value="cyclophosphamide"/>
+          </coding>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <authoredOn value="2018-04-12"/>
+        <requester>
+          <reference value="Practitioner/us-core-practitioner-owen-oncologist"/>
+        </requester>
+        <reasonReference>
+          <reference value="Condition/primary-cancer-condition-jenny-m"/>
+        </reasonReference>
+        <dosageInstruction>
+          <text value="cyclophosphamide (600 mg/m&#xB2; IV), 932.59mg"/>
+          <timing>
+            <repeat>
+              <boundsPeriod>
+                <start value="2018-04-01"/>
+              </boundsPeriod>
+            </repeat>
+          </timing>
+          <route>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="47625008"/>
+              <display value="Intravenous route (qualifier value)"/>
+            </coding>
+          </route>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="932.59"/>
+              <unit value="mg"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="mg"/>
+            </doseQuantity>
+          </doseAndRate>
+          <maxDosePerPeriod>
+            <numerator>
+              <value value="1"/>
+            </numerator>
+            <denominator>
+              <value value="3"/>
+              <unit value="week"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="wk"/>
+            </denominator>
+          </maxDosePerPeriod>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/MedicationRequest/cancer-related-medication-request-paclitaxel-jenny-m"/>
+    <resource>
+      <MedicationRequest>
+        <id value="cancer-related-medication-request-paclitaxel-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-request"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Treatment Intent</b>: <span title="Codes: {http://snomed.info/sct 373808002}">Curative - procedure intent (qualifier value)</span></p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/medicationrequest-category outpatient}">Outpatient</span></p><p><b>medication</b>: <span title="Codes: {http://www.nlm.nih.gov/research/umls/rxnorm 56946}">PACLitaxel</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>authoredOn</b>: 2018-04-12</p><p><b>requester</b>: <a href="#Practitioner_us-core-practitioner-owen-oncologist">See above (Practitioner/us-core-practitioner-owen-oncologist)</a></p><p><b>reasonReference</b>: <a href="Condition-primary-cancer-condition-jenny-m.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical remission}">Remission</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span>; <span title="Codes: {http://snomed.info/sct 353431000119107}">Primary malignant neoplasm of female left breast (disorder)</span>; onset: 2018-03-16</a></p><h3>DosageInstructions</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table></div>
+        </text>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-treatment-intent">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="373808002"/>
+              <display value="Curative - procedure intent (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <status value="active"/>
+        <intent value="order"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+            <code value="outpatient"/>
+          </coding>
+        </category>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+            <code value="56946"/>
+            <display value="PACLitaxel"/>
+          </coding>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <authoredOn value="2018-04-12"/>
+        <requester>
+          <reference value="Practitioner/us-core-practitioner-owen-oncologist"/>
+        </requester>
+        <reasonReference>
+          <reference value="Condition/primary-cancer-condition-jenny-m"/>
+        </reasonReference>
+        <dosageInstruction>
+          <text value="doxorubicin (175 mg/m&#xB2; IV), 272.01mg"/>
+          <timing>
+            <repeat>
+              <boundsPeriod>
+                <start value="2018-04-12"/>
+              </boundsPeriod>
+            </repeat>
+          </timing>
+          <route>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="47625008"/>
+              <display value="Intravenous route (qualifier value)"/>
+            </coding>
+          </route>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="272.01"/>
+              <unit value="mg"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="mg"/>
+            </doseQuantity>
+          </doseAndRate>
+          <maxDosePerPeriod>
+            <numerator>
+              <value value="1"/>
+            </numerator>
+            <denominator>
+              <value value="3"/>
+              <unit value="week"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="wk"/>
+            </denominator>
+          </maxDosePerPeriod>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/MedicationRequest/cancer-related-medication-request-anastrozole-jenny-m"/>
+    <resource>
+      <MedicationRequest>
+        <id value="cancer-related-medication-request-anastrozole-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-request"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Treatment Intent</b>: <span title="Codes: {http://snomed.info/sct 373808002}">Curative - procedure intent (qualifier value)</span></p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/medicationrequest-category community}">Community</span></p><p><b>medication</b>: <span title="Codes: {http://www.nlm.nih.gov/research/umls/rxnorm 84857}">anastrozole</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>authoredOn</b>: 2018-09-30</p><p><b>requester</b>: <a href="#Practitioner_us-core-practitioner-owen-oncologist">See above (Practitioner/us-core-practitioner-owen-oncologist)</a></p><p><b>reasonReference</b>: <a href="Condition-primary-cancer-condition-jenny-m.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical remission}">Remission</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span>; <span title="Codes: {http://snomed.info/sct 353431000119107}">Primary malignant neoplasm of female left breast (disorder)</span>; onset: 2018-03-16</a></p><h3>DosageInstructions</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table></div>
+        </text>
+        <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-treatment-intent">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="373808002"/>
+              <display value="Curative - procedure intent (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <status value="active"/>
+        <intent value="order"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+            <code value="community"/>
+          </coding>
+        </category>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+            <code value="84857"/>
+            <display value="anastrozole"/>
+          </coding>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <authoredOn value="2018-09-30"/>
+        <requester>
+          <reference value="Practitioner/us-core-practitioner-owen-oncologist"/>
+        </requester>
+        <reasonReference>
+          <reference value="Condition/primary-cancer-condition-jenny-m"/>
+        </reasonReference>
+        <dosageInstruction>
+          <text value="1mg orally once daily"/>
+          <timing>
+            <repeat>
+              <boundsPeriod>
+                <start value="2018-09-30"/>
+              </boundsPeriod>
+            </repeat>
+          </timing>
+          <route>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="26643006"/>
+              <display value="Oral route (qualifier value)"/>
+            </coding>
+          </route>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="1"/>
+              <unit value="mg"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="mg"/>
+            </doseQuantity>
+          </doseAndRate>
+          <maxDosePerPeriod>
+            <numerator>
+              <value value="1"/>
+            </numerator>
+            <denominator>
+              <value value="1"/>
+              <unit value="day"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="d"/>
+            </denominator>
+          </maxDosePerPeriod>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/cancer-related-mcode-comorbidities-elixhauser-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="cancer-related-mcode-comorbidities-elixhauser-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-comorbidities-elixhauser"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title="Codes: {http://loinc.org 78923-0}">Comorbid condition panel</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: 2018-03-16</p><p><b>performer</b>: <a href="#Practitioner_us-core-practitioner-owen-oncologist">See above (Practitioner/us-core-practitioner-owen-oncologist)</a></p><blockquote><p><b>component</b></p><p><b>Specific Condition Reference for Comorbidity</b>: <a href="Condition-us-core-condition-depression-jenny-m.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span>; <span title="Codes: {http://snomed.info/sct 35489007}">Depressive disorder (disorder)</span>; onset: 2005-01-01</a></p><p><b>code</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser DEPRESS}">Depression Elixhauser category</span></p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 52101004}">Present (qualifier value)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>Specific Condition Reference for Comorbidity</b>: <a href="Condition-us-core-condition-hypertension-jenny-m.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span>; <span title="Codes: {http://snomed.info/sct 77970009}">Benign hypertensive heart disease without congestive heart failure (disorder)</span>; onset: 2012-01-01</a></p><p><b>code</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser HTN_CX}">Hypertension, complicated Elixhauser category</span></p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 52101004}">Present (qualifier value)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser ARTH}">Arthropathies Elixhauser category</span></p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 2667000}">Absent (qualifier value)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser CHF}">Congestive heart failure Elixhauser category</span></p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 2667000}">Absent (qualifier value)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser LUNG_CHRONIC}">Chronic pulmonary disease Elixhauser category</span></p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 2667000}">Absent (qualifier value)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser DIAB_CX}">Diabetes with chronic complications Elixhauser category</span></p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 2667000}">Absent (qualifier value)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser DIAB_UNCX}">Diabetes without chronic complications Elixhauser category</span></p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 2667000}">Absent (qualifier value)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser OBESE}">Obesity Elixhauser category</span></p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 2667000}">Absent (qualifier value)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser PERIVASC}">Peripheral vascular disease Elixhauser category</span></p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 2667000}">Absent (qualifier value)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser PULMCIRC}">Pulmonary circulation disease Elixhauser category</span></p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 2667000}">Absent (qualifier value)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser RENLFL_MOD}">Renal failure, moderate Elixhauser category</span></p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 2667000}">Absent (qualifier value)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser DRUG_ABUSE}">Drug abuse Elixhauser category</span></p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 261665006}">Unknown (qualifier value)</span></p></blockquote></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="78923-0"/>
+            <display value="Comorbid condition panel"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-03-16"/>
+        <performer>
+          <reference value="Practitioner/us-core-practitioner-owen-oncologist"/>
+        </performer>
+        <component>
+          <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-comorbid-condition-reference">
+            <valueReference>
+              <reference value="Condition/us-core-condition-depression-jenny-m"/>
+            </valueReference>
+          </extension>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser"/>
+              <code value="DEPRESS"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="52101004"/>
+              <display value="Present (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-comorbid-condition-reference">
+            <valueReference>
+              <reference value="Condition/us-core-condition-hypertension-jenny-m"/>
+            </valueReference>
+          </extension>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser"/>
+              <code value="HTN_CX"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="52101004"/>
+              <display value="Present (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser"/>
+              <code value="ARTH"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="2667000"/>
+              <display value="Absent (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser"/>
+              <code value="CHF"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="2667000"/>
+              <display value="Absent (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser"/>
+              <code value="LUNG_CHRONIC"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="2667000"/>
+              <display value="Absent (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser"/>
+              <code value="DIAB_CX"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="2667000"/>
+              <display value="Absent (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser"/>
+              <code value="DIAB_UNCX"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="2667000"/>
+              <display value="Absent (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser"/>
+              <code value="OBESE"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="2667000"/>
+              <display value="Absent (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser"/>
+              <code value="PERIVASC"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="2667000"/>
+              <display value="Absent (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser"/>
+              <code value="PULMCIRC"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="2667000"/>
+              <display value="Absent (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser"/>
+              <code value="RENLFL_MOD"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="2667000"/>
+              <display value="Absent (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser"/>
+              <code value="DRUG_ABUSE"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="261665006"/>
+              <display value="Unknown (qualifier value)"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/bodyweight-jenny-m-2018-03-16"/>
+    <resource>
+      <Observation>
+        <id value="bodyweight-jenny-m-2018-03-16"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/bodyweight"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category vital-signs}">Vital Signs</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 29463-7}">Body weight</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: 2018-03-06</p><p><b>value</b>: 155 lb</p></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="29463-7"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-03-06"/>
+        <valueQuantity>
+          <value value="155"/>
+          <unit value="lb"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="[lb_av]"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/us-core-observation-lab-neutrophils-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="us-core-observation-lab-neutrophils-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 26499-4}">Neutrophils [#/volume] in Blood</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: May 20, 2018 12:00:00 AM</p><p><b>value</b>: 3000 10*3/uL</p><h3>ReferenceRanges</h3><table class="grid"><tr><td>-</td><td><b>Low</b></td><td><b>High</b></td><td><b>AppliesTo</b></td></tr><tr><td>*</td><td>2500 10*3/uL</td><td>5000 10*3/uL</td><td><span title="Codes: {http://terminology.hl7.org/CodeSystem/referencerange-meaning normal}">Normal Range</span></td></tr></table></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="26499-4"/>
+            <display value="Neutrophils [#/volume] in Blood"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-05-20T00:00:00Z"/>
+        <valueQuantity>
+          <value value="3000"/>
+          <unit value="10*3/uL"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="10*3/uL"/>
+        </valueQuantity>
+        <referenceRange>
+          <low>
+            <value value="2500"/>
+            <unit value="10*3/uL"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*3/uL"/>
+          </low>
+          <high>
+            <value value="5000"/>
+            <unit value="10*3/uL"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*3/uL"/>
+          </high>
+          <appliesTo>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/referencerange-meaning"/>
+              <code value="normal"/>
+              <display value="Normal Range"/>
+            </coding>
+          </appliesTo>
+        </referenceRange>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Organization/us-core-organization-physician-services-inc"/>
+    <resource>
+      <Organization>
+        <id value="us-core-organization-physician-services-inc"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}">Healthcare Provider</span></p><p><b>name</b>: Physician Services, Inc.</p><p><b>telecom</b>: ph: 999-999-9999(WORK)</p><p><b>address</b>: 123 Corporate Drive Anytown MA 12345 US </p></div>
+        </text>
+        <active value="true"/>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/organization-type"/>
+            <code value="prov"/>
+            <display value="Healthcare Provider"/>
+          </coding>
+        </type>
+        <name value="Physician Services, Inc."/>
+        <telecom>
+          <system value="phone"/>
+          <value value="999-999-9999"/>
+          <use value="work"/>
+        </telecom>
+        <address>
+          <line value="123 Corporate Drive"/>
+          <city value="Anytown"/>
+          <state value="MA"/>
+          <postalCode value="12345"/>
+          <country value="US"/>
+        </address>
+      </Organization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/us-core-smokingstatus-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="us-core-smokingstatus-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title="Codes: {http://loinc.org 72166-2}">Tobacco smoking status</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>issued</b>: Mar 16, 2018 12:00:00 AM</p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 449868002}">Smokes tobacco daily (finding)</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="72166-2"/>
+            <display value="Tobacco smoking status"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <issued value="2018-03-16T00:00:00Z"/>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="449868002"/>
+            <display value="Smokes tobacco daily (finding)"/>
+          </coding>
+        </valueCodeableConcept>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/us-core-procedure-biopsy-jenny-m"/>
+    <resource>
+      <Procedure>
+        <id value="us-core-procedure-biopsy-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 723990008}">Biopsy of breast using ultrasonographic guidance (procedure)</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>performed</b>: 2018-03-06</p><p><b>asserter</b>: <a href="Practitioner-us-core-practitioner-mary-obgyn.html">Generated Summary: id: 234512367; Mary Obgyn ; gender: female</a></p><h3>Performers</h3><table class="grid"><tr><td>-</td><td><b>Actor</b></td></tr><tr><td>*</td><td><a href="Practitioner-us-core-practitioner-mary-obgyn.html">Generated Summary: id: 234512367; Mary Obgyn ; gender: female</a></td></tr></table><p><b>reasonReference</b>: <a href="Condition-primary-cancer-condition-jenny-m.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical remission}">Remission</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span>; <span title="Codes: {http://snomed.info/sct 353431000119107}">Primary malignant neoplasm of female left breast (disorder)</span>; onset: 2018-03-16</a></p><p><b>bodySite</b>: <span title="Codes: {http://snomed.info/sct 80248007}">Left breast structure (body structure)</span></p></div>
+        </text>
+        <status value="completed"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="723990008"/>
+            <display value="Biopsy of breast using ultrasonographic guidance (procedure)"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <performedDateTime value="2018-03-06"/>
+        <asserter>
+          <reference value="Practitioner/us-core-practitioner-mary-obgyn"/>
+        </asserter>
+        <performer>
+          <actor>
+            <reference value="Practitioner/us-core-practitioner-mary-obgyn"/>
+          </actor>
+        </performer>
+        <reasonReference>
+          <reference value="Condition/primary-cancer-condition-jenny-m"/>
+        </reasonReference>
+        <bodySite>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="80248007"/>
+            <display value="Left breast structure (body structure)"/>
+          </coding>
+        </bodySite>
+      </Procedure>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/us-core-procedure-mammogram-jenny-m"/>
+    <resource>
+      <Procedure>
+        <id value="us-core-procedure-mammogram-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 71651007}">Mammography (procedure)</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>performed</b>: 2018-02-01</p><p><b>asserter</b>: <a href="Practitioner-us-core-practitioner-mary-obgyn.html">Generated Summary: id: 234512367; Mary Obgyn ; gender: female</a></p><h3>Performers</h3><table class="grid"><tr><td>-</td><td><b>Actor</b></td></tr><tr><td>*</td><td><a href="Practitioner-us-core-practitioner-jane-radiotech.html">Generated Summary: id: 234512367; Jane Radiologist ; gender: female</a></td></tr></table></div>
+        </text>
+        <status value="completed"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="71651007"/>
+            <display value="Mammography (procedure)"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <performedDateTime value="2018-02-01"/>
+        <asserter>
+          <reference value="Practitioner/us-core-practitioner-mary-obgyn"/>
+        </asserter>
+        <performer>
+          <actor>
+            <reference value="Practitioner/us-core-practitioner-jane-radiotech"/>
+          </actor>
+        </performer>
+      </Procedure>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/FamilyMemberHistory/family-member-history-aunt-jenny-m"/>
+    <resource>
+      <FamilyMemberHistory>
+        <id value="family-member-history-aunt-jenny-m"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>patient</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>relationship</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode MAUNT}">maternal aunt</span></p><h3>Conditions</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>Onset[x]</b></td></tr><tr><td>*</td><td><span title="Codes: {http://snomed.info/sct 363443007}">Malignant tumor of ovary (disorder)</span></td><td>69 a</td></tr></table></div>
+        </text>
+        <status value="completed"/>
+        <patient>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </patient>
+        <relationship>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <code value="MAUNT"/>
+            <display value="maternal aunt"/>
+          </coding>
+        </relationship>
+        <condition>
+          <code>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="363443007"/>
+              <display value="Malignant tumor of ovary (disorder)"/>
+            </coding>
+          </code>
+          <onsetAge>
+            <value value="69"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="a"/>
+          </onsetAge>
+        </condition>
+      </FamilyMemberHistory>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Procedure/us-core-procedure-mammogram-jenny-m"/>
+    <resource>
+      <Procedure>
+        <id value="us-core-procedure-mammogram-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 71651007}">Mammography (procedure)</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>performed</b>: 2018-02-01</p><p><b>asserter</b>: <a href="Practitioner-us-core-practitioner-mary-obgyn.html">Generated Summary: id: 234512367; Mary Obgyn ; gender: female</a></p><h3>Performers</h3><table class="grid"><tr><td>-</td><td><b>Actor</b></td></tr><tr><td>*</td><td><a href="Practitioner-us-core-practitioner-jane-radiotech.html">Generated Summary: id: 234512367; Jane Radiologist ; gender: female</a></td></tr></table></div>
+        </text>
+        <status value="completed"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="71651007"/>
+            <display value="Mammography (procedure)"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <performedDateTime value="2018-02-01"/>
+        <asserter>
+          <reference value="Practitioner/us-core-practitioner-mary-obgyn"/>
+        </asserter>
+        <performer>
+          <actor>
+            <reference value="Practitioner/us-core-practitioner-jane-radiotech"/>
+          </actor>
+        </performer>
+      </Procedure>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/FamilyMemberHistory/family-member-history-uncle-jenny-m"/>
+    <resource>
+      <FamilyMemberHistory>
+        <id value="family-member-history-uncle-jenny-m"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>patient</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>relationship</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode PUNCLE}">paternal uncle</span></p><p><b>deceased</b>: true</p><h3>Conditions</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>ContributedToDeath</b></td></tr><tr><td>*</td><td><span title="Codes: {http://snomed.info/sct 363418001}">Malignant tumor of pancreas (disorder)</span></td><td>true</td></tr></table></div>
+        </text>
+        <status value="completed"/>
+        <patient>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </patient>
+        <relationship>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <code value="PUNCLE"/>
+            <display value="paternal uncle"/>
+          </coding>
+        </relationship>
+        <deceasedBoolean value="true"/>
+        <condition>
+          <code>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="363418001"/>
+              <display value="Malignant tumor of pancreas (disorder)"/>
+            </coding>
+          </code>
+          <contributedToDeath value="true"/>
+        </condition>
+      </FamilyMemberHistory>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/DiagnosticReport/us-core-diagnosticreport-lab-jenny-m"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="us-core-diagnosticreport-lab-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0074 LAB}">Laboratory</span>, <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0074 SP}">Surgical Pathology</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 22637-3}">Pathology report final diagnosis Narrative</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: Apr 1, 2018 12:00:00 AM</p><p><b>issued</b>: Apr 5, 2018 12:00:00 AM</p><p><b>performer</b>: <a href="#Organization_us-core-organization-physician-services-inc">See above (Organization/us-core-organization-physician-services-inc)</a></p><p><b>resultsInterpreter</b>: <a href="#Practitioner_us-core-practitioner-peter-pathologist">See above (Practitioner/us-core-practitioner-peter-pathologist)</a></p><p><b>specimen</b>: <a href="Specimen-tumor-specimen-left-breast-jenny-m.html">Generated Summary: BodyStructure: Tumor 1234 (USUAL); status: available; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TUMOR}">Tumor</span>; receivedTime: 2018-04-01</a></p><p><b>result</b>: </p><ul><li><a href="#Observation_us-core-observation-lab-tumor-invasion-jenny-m">See above (Observation/us-core-observation-lab-tumor-invasion-jenny-m)</a></li><li><a href="#Observation_us-core-observation-lab-tumor-margins-jenny-m">See above (Observation/us-core-observation-lab-tumor-margins-jenny-m)</a></li><li><a href="#Observation_us-core-observation-lab-sentinel-nodes-jenny-m">See above (Observation/us-core-observation-lab-sentinel-nodes-jenny-m)</a></li><li><a href="#Observation_tumor-size-jenny-m">See above (Observation/tumor-size-jenny-m)</a></li><li><a href="#Observation_us-core-observation-lab-tumor-dcis-jenny-m">See above (Observation/us-core-observation-lab-tumor-dcis-jenny-m)</a></li><li><a href="#Observation_tumor-marker-test-her2-jenny-m">See above (Observation/tumor-marker-test-her2-jenny-m)</a></li></ul></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+            <code value="LAB"/>
+          </coding>
+        </category>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+            <code value="SP"/>
+            <display value="Surgical Pathology"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="22637-3"/>
+            <display value="Pathology report final diagnosis Narrative"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-04-01T00:00:00Z"/>
+        <issued value="2018-04-05T00:00:00Z"/>
+        <performer>
+          <reference value="Organization/us-core-organization-physician-services-inc"/>
+        </performer>
+        <resultsInterpreter>
+          <reference value="Practitioner/us-core-practitioner-peter-pathologist"/>
+        </resultsInterpreter>
+        <specimen>
+          <reference value="Specimen/tumor-specimen-left-breast-jenny-m"/>
+        </specimen>
+        <result>
+          <reference value="Observation/us-core-observation-lab-tumor-invasion-jenny-m"/>
+        </result>
+        <result>
+          <reference value="Observation/us-core-observation-lab-tumor-margins-jenny-m"/>
+        </result>
+        <result>
+          <reference value="Observation/us-core-observation-lab-sentinel-nodes-jenny-m"/>
+        </result>
+        <result>
+          <reference value="Observation/tumor-size-jenny-m"/>
+        </result>
+        <result>
+          <reference value="Observation/us-core-observation-lab-tumor-dcis-jenny-m"/>
+        </result>
+        <result>
+          <reference value="Observation/tumor-marker-test-her2-jenny-m"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/us-core-diagnosticreport-lab-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="observation-smoking-history-jenny-m"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category social-history}">Social History</span></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 401201003}">Cigarette pack-years (observable entity)</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: 2018-03-16</p><p><b>value</b>: 20 Pack-Years</p></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="social-history"/>
+            <display value="Social History"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="401201003"/>
+            <display value="Cigarette pack-years (observable entity)"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-03-16"/>
+        <valueQuantity>
+          <value value="20"/>
+          <unit value="Pack-Years"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="{PackYears}"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/us-core-observation-lab-tumor-invasion-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="us-core-observation-lab-tumor-invasion-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 370052007}">Status of invasion by tumor (observable entity)</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: Apr 1, 2018 12:00:00 AM</p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 260385009}">Negative (qualifier value)</span></p><p><b>specimen</b>: <a href="Specimen-tumor-specimen-left-breast-jenny-m.html">Generated Summary: BodyStructure: Tumor 1234 (USUAL); status: available; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TUMOR}">Tumor</span>; receivedTime: 2018-04-01</a></p></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="370052007"/>
+            <display value="Status of invasion by tumor (observable entity)"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-04-01T00:00:00Z"/>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="260385009"/>
+            <display value="Negative (qualifier value)"/>
+          </coding>
+        </valueCodeableConcept>
+        <specimen>
+          <reference value="Specimen/tumor-specimen-left-breast-jenny-m"/>
+        </specimen>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/us-core-observation-lab-tumor-margins-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="us-core-observation-lab-tumor-margins-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 44669-0}">Margin involvement in Breast tumor</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: Apr 1, 2018 12:00:00 AM</p><p><b>value</b>: <span title="Codes: {http://loinc.org LA27151-2}">Uninvolved by invasive carcinoma</span></p><p><b>specimen</b>: <a href="Specimen-tumor-specimen-left-breast-jenny-m.html">Generated Summary: BodyStructure: Tumor 1234 (USUAL); status: available; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TUMOR}">Tumor</span>; receivedTime: 2018-04-01</a></p></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="44669-0"/>
+            <display value="Margin involvement in Breast tumor"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-04-01T00:00:00Z"/>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA27151-2"/>
+            <display value="Uninvolved by invasive carcinoma"/>
+          </coding>
+        </valueCodeableConcept>
+        <specimen>
+          <reference value="Specimen/tumor-specimen-left-breast-jenny-m"/>
+        </specimen>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/us-core-observation-lab-sentinel-nodes-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="us-core-observation-lab-sentinel-nodes-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 92832-5}">Sentinel lymph nodes with metastasis [#] in Cancer specimen</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: Apr 1, 2018 12:00:00 AM</p><p><b>specimen</b>: <a href="Specimen-tumor-specimen-left-breast-jenny-m.html">Generated Summary: BodyStructure: Tumor 1234 (USUAL); status: available; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TUMOR}">Tumor</span>; receivedTime: 2018-04-01</a></p><h3>Components</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="Codes: {http://loinc.org 92833-3}">Lymph nodes examined [#] in Cancer specimen by Light microscopy</span></td><td>3 Count</td></tr></table></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="92832-5"/>
+            <display value="Sentinel lymph nodes with metastasis [#] in Cancer specimen"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-04-01T00:00:00Z"/>
+        <specimen>
+          <reference value="Specimen/tumor-specimen-left-breast-jenny-m"/>
+        </specimen>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="92833-3"/>
+              <display value="Lymph nodes examined [#] in Cancer specimen by Light microscopy"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="3"/>
+            <unit value="Count"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{Count}"/>
+          </valueQuantity>
+        </component>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/tumor-size-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="tumor-size-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-size"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 21889-1}">Size Tumor</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: Apr 1, 2018 12:00:00 AM</p><p><b>method</b>: <span title="Codes: {http://loinc.org 24419-4}">Pathology report gross observation</span></p><p><b>specimen</b>: <a href="Specimen-tumor-specimen-left-breast-jenny-m.html">Generated Summary: BodyStructure: Tumor 1234 (USUAL); status: available; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TUMOR}">Tumor</span>; receivedTime: 2018-04-01</a></p><h3>Components</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="Codes: {http://loinc.org 33728-7}">Size.maximum dimension in Tumor</span></td><td>2.5 centimeters</td></tr></table></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="21889-1"/>
+            <display value="Size Tumor"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-04-01T00:00:00Z"/>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="24419-4"/>
+            <display value="Pathology report gross observation"/>
+          </coding>
+        </method>
+        <specimen>
+          <reference value="Specimen/tumor-specimen-left-breast-jenny-m"/>
+        </specimen>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="33728-7"/>
+              <display value="Size.maximum dimension in Tumor"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="2.5"/>
+            <unit value="centimeters"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="cm"/>
+          </valueQuantity>
+        </component>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Observation/us-core-observation-lab-tumor-dcis-jenny-m"/>
+    <resource>
+      <Observation>
+        <id value="us-core-observation-lab-tumor-dcis-jenny-m"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 29308-4}">Diagnosis</span></p><p><b>subject</b>: <a href="#Patient_cancer-patient-jenny-m">See above (Patient/cancer-patient-jenny-m)</a></p><p><b>effective</b>: Apr 1, 2018 12:00:00 AM</p><p><b>value</b>: <span title="Codes: {http://loinc.org 85336-6}">DCIS intraductal extension in Breast cancer specimen Qualitative by Light microscopy</span></p><p><b>specimen</b>: <a href="Specimen-tumor-specimen-left-breast-jenny-m.html">Generated Summary: BodyStructure: Tumor 1234 (USUAL); status: available; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TUMOR}">Tumor</span>; receivedTime: 2018-04-01</a></p></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="29308-4"/>
+            <display value="Diagnosis"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/cancer-patient-jenny-m"/>
+        </subject>
+        <effectiveDateTime value="2018-04-01T00:00:00Z"/>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="85336-6"/>
+            <display value="DCIS intraductal extension in Breast cancer specimen Qualitative by Light microscopy"/>
+          </coding>
+        </valueCodeableConcept>
+        <specimen>
+          <reference value="Specimen/tumor-specimen-left-breast-jenny-m"/>
+        </specimen>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Pracititioner/us-core-practitioner-owen-oncologist"/>
+    <resource>
+      <Practitioner>
+        <id value="us-core-practitioner-owen-oncologist"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 9988776655</p><p><b>name</b>: Owen Oncologist </p><p><b>address</b>: 123 Corporate Drive Anytown MA 12345 US (WORK)</p><p><b>gender</b>: male</p><h3>Qualifications</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td><span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0360 MD}">Doctor of Medicine</span></td></tr></table></div>
+        </text>
+        <identifier>
+          <system value="http://hl7.org/fhir/sid/us-npi"/>
+          <value value="9988776655"/>
+        </identifier>
+        <name>
+          <family value="Oncologist"/>
+          <given value="Owen"/>
+          <prefix value="Dr."/>
+        </name>
+        <address>
+          <use value="work"/>
+          <line value="123 Corporate Drive"/>
+          <city value="Anytown"/>
+          <state value="MA"/>
+          <postalCode value="12345"/>
+          <country value="US"/>
+        </address>
+        <gender value="male"/>
+        <qualification>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v2-0360"/>
+              <version value="2.7"/>
+              <code value="MD"/>
+            </coding>
+          </code>
+        </qualification>
+      </Practitioner>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Pracititioner/us-core-practitioner-peter-pathologist"/>
+    <resource>
+      <Practitioner>
+        <id value="us-core-practitioner-peter-pathologist"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 1122334455</p><p><b>name</b>: Peter Pathologist </p><p><b>address</b>: 123 Corporate Drive Anytown MA 12345 US (WORK)</p><p><b>gender</b>: female</p><h3>Qualifications</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td><span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0360 MD}">Doctor of Medicine</span></td></tr></table></div>
+        </text>
+        <identifier>
+          <system value="http://hl7.org/fhir/sid/us-npi"/>
+          <value value="1122334455"/>
+        </identifier>
+        <name>
+          <family value="Pathologist"/>
+          <given value="Peter"/>
+          <prefix value="Dr."/>
+        </name>
+        <address>
+          <use value="work"/>
+          <line value="123 Corporate Drive"/>
+          <city value="Anytown"/>
+          <state value="MA"/>
+          <postalCode value="12345"/>
+          <country value="US"/>
+        </address>
+        <gender value="female"/>
+        <qualification>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v2-0360"/>
+              <version value="2.7"/>
+              <code value="MD"/>
+            </coding>
+          </code>
+        </qualification>
+      </Practitioner>
+    </resource>
+  </entry>
+</Bundle>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="genomic-region-studied-jenny-m"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-genomic-region-studied"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 53041-0}">DNA region of interest panel</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-jenny-m.html">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p><p><b>effective</b>: 2018-03-15</p><p><b>issued</b>: Mar 15, 2018 12:00:01 AM</p><h3>Components</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></td><td><span title="Codes: {http://www.genenames.org 1100}, {http://www.genenames.org 1101}, {http://www.genenames.org 1748}, {http://www.genenames.org 26144}, {http://www.genenames.org 9588}, {http://www.genenames.org 11389}, {http://www.genenames.org 11998}">BRCA1</span></td></tr></table></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="53041-0"/>
+      <display value="DNA region of interest panel"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </subject>
+  <effectiveDateTime value="2018-03-15"/>
+  <issued value="2018-03-15T00:00:01+00:00"/>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="48018-6"/>
+        <display value="Gene studied [ID]"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://www.genenames.org"/>
+        <code value="1100"/>
+        <display value="BRCA1"/>
+      </coding>
+      <coding>
+        <system value="http://www.genenames.org"/>
+        <code value="1101"/>
+        <display value="BRCA2"/>
+      </coding>
+      <coding>
+        <system value="http://www.genenames.org"/>
+        <code value="1748"/>
+        <display value="CDH1"/>
+      </coding>
+      <coding>
+        <system value="http://www.genenames.org"/>
+        <code value="26144"/>
+        <display value="PALB2"/>
+      </coding>
+      <coding>
+        <system value="http://www.genenames.org"/>
+        <code value="9588"/>
+        <display value="PTEN"/>
+      </coding>
+      <coding>
+        <system value="http://www.genenames.org"/>
+        <code value="11389"/>
+        <display value="STK11"/>
+      </coding>
+      <coding>
+        <system value="http://www.genenames.org"/>
+        <code value="11998"/>
+        <display value="TP53"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+</Observation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BodyStructure xmlns="http://hl7.org/fhir">
+  <id value="jenny-m-chest-wall-treatment-volume"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-volume"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 1.2.246.352…1</p><p><b>location</b>: <span title="Codes: {http://snomed.info/sct 78904004}">Chest wall structure (body structure)</span></p><p><b>locationQualifier</b>: <span title="Codes: {http://snomed.info/sct 255503000}">Entire (qualifier value)</span></p><p><b>description</b>: Chest Wall</p><p><b>patient</b>: <a href="Patient-cancer-patient-jenny-m.html">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p></div>
+  </text>
+  <identifier>
+    <value value="1.2.246.352&#x2026;1"/>
+  </identifier>
+  <location>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="78904004"/>
+      <display value="Chest wall structure (body structure)"/>
+    </coding>
+  </location>
+  <locationQualifier>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="255503000"/>
+      <display value="Entire (qualifier value)"/>
+    </coding>
+  </locationQualifier>
+  <description value="Chest Wall"/>
+  <patient>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </patient>
+</BodyStructure>

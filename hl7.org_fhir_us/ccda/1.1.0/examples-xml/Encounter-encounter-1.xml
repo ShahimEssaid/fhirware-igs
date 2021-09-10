@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Encounter xmlns="http://hl7.org/fhir">
+  <id value="encounter-1"/>
+  <meta>
+    <versionId value="5"/>
+    <lastUpdated value="2020-08-12T21:30:19.918+00:00"/>
+    <source value="#csn482LCsnDWyxbW"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>status</b>: finished</p><p><b>class</b>: <span title="{http://terminology.hl7.org/CodeSystem/v3-ActCode AMB}">ambulatory</span></p><p><b>type</b>: <span title="Codes: {http://www.ama-assn.org/go/cpt 99201}">Office Visit</span></p><p><b>subject</b>: <a href="Patient-example.html">Generated Summary: Medical Record Number: 900 (USUAL); active; Paticia Noelle ; Phone: 555-555-2003, Patricia.Noelle@example.com; gender: female; birthDate: 1954-10-17</a></p><p><b>period</b>: Nov 1, 2015 10:00:14 PM --&gt; Nov 1, 2015 11:00:14 PM</p></div>
+  </text>
+  <status value="finished"/>
+  <class>
+    <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+    <code value="AMB"/>
+    <display value="ambulatory"/>
+  </class>
+  <type>
+    <coding>
+      <system value="http://www.ama-assn.org/go/cpt"/>
+      <code value="99201"/>
+    </coding>
+    <text value="Office Visit"/>
+  </type>
+  <subject>
+    <reference value="Patient/example"/>
+  </subject>
+  <period>
+    <start value="2015-11-01T17:00:14-05:00"/>
+    <end value="2015-11-01T18:00:14-05:00"/>
+  </period>
+</Encounter>

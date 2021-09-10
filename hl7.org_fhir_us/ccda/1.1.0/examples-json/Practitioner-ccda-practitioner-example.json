@@ -1,0 +1,70 @@
+{
+  "resourceType": "Practitioner",
+  "id": "ccda-practitioner-example",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2020-08-12T21:30:18.070+00:00",
+    "source": "#csn482LCsnDWyxbW",
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>identifier</b>: US National Provider Identifier: 9999991011 (OFFICIAL)</p><p><b>name</b>: Brenda Jennings Richard </p><p><b>telecom</b>: ph: 313-555-6868(HOME), ph: 313-555-6443(WORK)</p><p><b>address</b>: 346 W Plum Avenu Dearborn MI 48123</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1976-11-15</p></div>"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PRN",
+            "display": "Provider number"
+          }
+        ],
+        "text": "US National Provider Identifier"
+      },
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "9999991011"
+    }
+  ],
+  "name": [
+    {
+      "family": "Richard",
+      "given": [
+        "Brenda",
+        "Jennings"
+      ],
+      "suffix": [
+        "MD"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "313-555-6868",
+      "use": "home"
+    },
+    {
+      "system": "phone",
+      "value": "313-555-6443",
+      "use": "work"
+    }
+  ],
+  "address": [
+    {
+      "text": "346 W Plum Avenu Dearborn MI 48123",
+      "line": [
+        "346 W Plum Avenue"
+      ],
+      "city": "Dearborn",
+      "state": "MI",
+      "postalCode": "48126"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1976-11-15"
+}

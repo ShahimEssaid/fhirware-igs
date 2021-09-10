@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Task xmlns="http://hl7.org/fhir">
+  <id value="TaskMedChgExample1"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/task-med-chg"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: requested</p><p><b>intent</b>: proposal</p><p><b>code</b>: <span title="Codes: {http://loinc.org LA26421-0}">Consider alternative medication</span></p><p><b>description</b>: Patients positive for this allele should not be treated with CBZ, unless the benefits clearly outweigh the risk. Therapy should be discontinued immediately if symptoms of SJS or TEN develop. Alternative medication should be used as first line therapy. Consideration in the choice for alternative medications should be given to potential cross-reactivity with structurally similar aromatic antiepileptic drugs such as oxcarbazepine, phenytoin, fosphenytoin and lamotrigine, which can also moderately increase risk for SJS/TEN in association with HLA-B*15:02 positivity.</p><p><b>for</b>: <a href="Patient-CGPatientExample01.html">Generated Summary: Medical Record Number: m123 (USUAL); Adam B. Everyman ; gender: male; birthDate: 1951-01-20</a></p><p><b>reasonReference</b>: <a href="Observation-TherapeuticImplicationExample1.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes therapeutic-implication}">Therapeutic Implication</span></a></p></div>
+  </text>
+  <status value="requested"/>
+  <intent value="proposal"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA26421-0"/>
+    </coding>
+  </code>
+  <description value="Patients positive for this allele should not be treated with CBZ, unless the benefits clearly outweigh the risk. Therapy should be discontinued immediately if symptoms of SJS or TEN develop. Alternative medication should be used as first line therapy. Consideration in the choice for alternative medications should be given to potential cross-reactivity with structurally similar aromatic antiepileptic drugs such as oxcarbazepine, phenytoin, fosphenytoin and lamotrigine, which can also moderately increase risk for SJS/TEN in association with HLA-B*15:02 positivity."/>
+  <for>
+    <reference value="Patient/CGPatientExample01"/>
+  </for>
+  <reasonReference>
+    <reference value="Observation/TherapeuticImplicationExample1"/>
+  </reasonReference>
+</Task>

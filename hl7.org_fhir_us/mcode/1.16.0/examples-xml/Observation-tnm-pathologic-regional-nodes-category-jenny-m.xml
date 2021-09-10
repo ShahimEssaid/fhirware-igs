@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="tnm-pathologic-regional-nodes-category-jenny-m"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tnm-regional-nodes-category"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title="Codes: {http://loinc.org 21900-6}">Regional lymph nodes.pathology [Class] Cancer</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-jenny-m.html">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p><p><b>effective</b>: 2018-04-01</p><p><b>value</b>: <span title="Codes: {http://cancerstaging.org pN0}">pN0</span></p><p><b>method</b>: <span title="Codes: {http://snomed.info/sct 897275008}">American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)</span></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="21900-6"/>
+      <display value="Regional lymph nodes.pathology [Class] Cancer"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </subject>
+  <effectiveDateTime value="2018-04-01"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://cancerstaging.org"/>
+      <code value="pN0"/>
+    </coding>
+  </valueCodeableConcept>
+  <method>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="897275008"/>
+      <display value="American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)"/>
+    </coding>
+  </method>
+</Observation>

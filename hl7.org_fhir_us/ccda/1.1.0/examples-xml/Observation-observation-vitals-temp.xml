@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="observation-vitals-temp"/>
+  <meta>
+    <versionId value="6"/>
+    <lastUpdated value="2020-08-12T21:30:21.122+00:00"/>
+    <source value="#csn482LCsnDWyxbW"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category vital-signs}">Vital Signs</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 8310-5}">temperature</span></p><p><b>subject</b>: <a href="Patient-example.html">Amy Shaw. Generated Summary: Medical Record Number: 900 (USUAL); active; Paticia Noelle ; Phone: 555-555-2003, Patricia.Noelle@example.com; gender: female; birthDate: 1954-10-17</a></p><p><b>effective</b>: 1999-07-02</p><p><b>value</b>: 36.55556 Cel</p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+      <display value="Vital Signs"/>
+    </coding>
+    <text value="Vital Signs"/>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="8310-5"/>
+      <display value="Body temperature"/>
+    </coding>
+    <text value="temperature"/>
+  </code>
+  <subject>
+    <reference value="Patient/example"/>
+    <display value="Amy Shaw"/>
+  </subject>
+  <effectiveDateTime value="1999-07-02"/>
+  <valueQuantity>
+    <value value="36.55556"/>
+    <unit value="Cel"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="Cel"/>
+  </valueQuantity>
+</Observation>

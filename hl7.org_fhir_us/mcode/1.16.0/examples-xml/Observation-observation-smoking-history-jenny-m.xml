@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="observation-smoking-history-jenny-m"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category social-history}">Social History</span></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 401201003}">Cigarette pack-years (observable entity)</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-jenny-m.html">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p><p><b>effective</b>: 2018-03-16</p><p><b>value</b>: 20 Pack-Years</p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="social-history"/>
+      <display value="Social History"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="401201003"/>
+      <display value="Cigarette pack-years (observable entity)"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </subject>
+  <effectiveDateTime value="2018-03-16"/>
+  <valueQuantity>
+    <value value="20"/>
+    <unit value="Pack-Years"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="{PackYears}"/>
+  </valueQuantity>
+</Observation>

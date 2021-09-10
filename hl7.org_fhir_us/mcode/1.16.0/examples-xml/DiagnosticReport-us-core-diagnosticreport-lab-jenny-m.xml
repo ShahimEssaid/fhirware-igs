@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+  <id value="us-core-diagnosticreport-lab-jenny-m"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2><span title="Codes: {http://loinc.org 22637-3}">Pathology report final diagnosis Narrative</span> (<span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0074 LAB}">Laboratory</span>, <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0074 SP}">Surgical Pathology</span>) </h2><table class="grid"><tr><td>Subject</td><td><b>Jenny M </b>  1965-01-01 ( Medical Record Number: MRN1234 (USUAL))</td></tr><tr><td>When For</td><td>Apr 1, 2018 12:00:00 AM</td></tr><tr><td>Reported</td><td>Apr 5, 2018 12:00:00 AM</td></tr></table><p><b>Report Details</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>When For</b></td></tr><tr><td><a href="Observation-us-core-observation-lab-tumor-invasion-jenny-m.html"><span title="Codes: {http://snomed.info/sct 370052007}">Status of invasion by tumor (observable entity)</span></a></td><td><span title="Codes: {http://snomed.info/sct 260385009}">Negative (qualifier value)</span></td><td>Apr 1, 2018 12:00:00 AM</td></tr><tr><td><a href="Observation-us-core-observation-lab-tumor-margins-jenny-m.html"><span title="Codes: {http://loinc.org 44669-0}">Margin involvement in Breast tumor</span></a></td><td><span title="Codes: {http://loinc.org LA27151-2}">Uninvolved by invasive carcinoma</span></td><td>Apr 1, 2018 12:00:00 AM</td></tr><tr><td><a href="Observation-us-core-observation-lab-sentinel-nodes-jenny-m.html"><span title="Codes: {http://loinc.org 92832-5}">Sentinel lymph nodes with metastasis [#] in Cancer specimen</span></a></td><td></td><td>Apr 1, 2018 12:00:00 AM</td></tr><tr><td><a href="Observation-tumor-size-jenny-m.html"><span title="Codes: {http://loinc.org 21889-1}">Size Tumor</span></a></td><td></td><td>Apr 1, 2018 12:00:00 AM</td></tr><tr><td><a href="Observation-us-core-observation-lab-tumor-dcis-jenny-m.html"><span title="Codes: {http://loinc.org 29308-4}">Diagnosis</span></a></td><td><span title="Codes: {http://loinc.org 85336-6}">DCIS intraductal extension in Breast cancer specimen Qualitative by Light microscopy</span></td><td>Apr 1, 2018 12:00:00 AM</td></tr><tr><td><a href="Observation-tumor-marker-test-her2-jenny-m.html"><span title="Codes: {http://loinc.org 48676-1}">HER2 [Interpretation] in Tissue</span></a></td><td><span title="Codes: {http://loinc.org LA6577-6}">Negative</span></td><td>2018-03-10</td></tr></table></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+      <code value="LAB"/>
+    </coding>
+  </category>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+      <code value="SP"/>
+      <display value="Surgical Pathology"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="22637-3"/>
+      <display value="Pathology report final diagnosis Narrative"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </subject>
+  <effectiveDateTime value="2018-04-01T00:00:00Z"/>
+  <issued value="2018-04-05T00:00:00Z"/>
+  <performer>
+    <reference value="Organization/us-core-organization-physician-services-inc"/>
+  </performer>
+  <resultsInterpreter>
+    <reference value="Practitioner/us-core-practitioner-peter-pathologist"/>
+  </resultsInterpreter>
+  <specimen>
+    <reference value="Specimen/tumor-specimen-left-breast-jenny-m"/>
+  </specimen>
+  <result>
+    <reference value="Observation/us-core-observation-lab-tumor-invasion-jenny-m"/>
+  </result>
+  <result>
+    <reference value="Observation/us-core-observation-lab-tumor-margins-jenny-m"/>
+  </result>
+  <result>
+    <reference value="Observation/us-core-observation-lab-sentinel-nodes-jenny-m"/>
+  </result>
+  <result>
+    <reference value="Observation/tumor-size-jenny-m"/>
+  </result>
+  <result>
+    <reference value="Observation/us-core-observation-lab-tumor-dcis-jenny-m"/>
+  </result>
+  <result>
+    <reference value="Observation/tumor-marker-test-her2-jenny-m"/>
+  </result>
+</DiagnosticReport>

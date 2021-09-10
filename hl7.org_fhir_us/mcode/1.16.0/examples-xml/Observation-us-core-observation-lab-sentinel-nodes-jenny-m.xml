@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="us-core-observation-lab-sentinel-nodes-jenny-m"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 92832-5}">Sentinel lymph nodes with metastasis [#] in Cancer specimen</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-jenny-m.html">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p><p><b>effective</b>: Apr 1, 2018 12:00:00 AM</p><p><b>specimen</b>: <a href="Specimen-tumor-specimen-left-breast-jenny-m.html">Generated Summary: BodyStructure: Tumor 1234 (USUAL); status: available; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TUMOR}">Tumor</span>; receivedTime: 2018-04-01</a></p><h3>Components</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="Codes: {http://loinc.org 92833-3}">Lymph nodes examined [#] in Cancer specimen by Light microscopy</span></td><td>3 Count</td></tr></table></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="92832-5"/>
+      <display value="Sentinel lymph nodes with metastasis [#] in Cancer specimen"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </subject>
+  <effectiveDateTime value="2018-04-01T00:00:00Z"/>
+  <specimen>
+    <reference value="Specimen/tumor-specimen-left-breast-jenny-m"/>
+  </specimen>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="92833-3"/>
+        <display value="Lymph nodes examined [#] in Cancer specimen by Light microscopy"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="3"/>
+      <unit value="Count"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="{Count}"/>
+    </valueQuantity>
+  </component>
+</Observation>

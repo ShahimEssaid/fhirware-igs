@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicationRequest xmlns="http://hl7.org/fhir">
+  <id value="cancer-related-medication-request-paclitaxel-jenny-m"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-request"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Treatment Intent</b>: <span title="Codes: {http://snomed.info/sct 373808002}">Curative - procedure intent (qualifier value)</span></p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/medicationrequest-category outpatient}">Outpatient</span></p><p><b>medication</b>: <span title="Codes: {http://www.nlm.nih.gov/research/umls/rxnorm 56946}">PACLitaxel</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-jenny-m.html">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p><p><b>authoredOn</b>: 2018-04-12</p><p><b>requester</b>: <a href="Practitioner-us-core-practitioner-owen-oncologist.html">Generated Summary: id: 9988776655; Owen Oncologist ; gender: male</a></p><p><b>reasonReference</b>: <a href="Condition-primary-cancer-condition-jenny-m.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical remission}">Remission</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span>; <span title="Codes: {http://snomed.info/sct 353431000119107}">Primary malignant neoplasm of female left breast (disorder)</span>; onset: 2018-03-16</a></p><h3>DosageInstructions</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-treatment-intent">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="373808002"/>
+        <display value="Curative - procedure intent (qualifier value)"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <status value="active"/>
+  <intent value="order"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+      <code value="outpatient"/>
+    </coding>
+  </category>
+  <medicationCodeableConcept>
+    <coding>
+      <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+      <code value="56946"/>
+      <display value="PACLitaxel"/>
+    </coding>
+  </medicationCodeableConcept>
+  <subject>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </subject>
+  <authoredOn value="2018-04-12"/>
+  <requester>
+    <reference value="Practitioner/us-core-practitioner-owen-oncologist"/>
+  </requester>
+  <reasonReference>
+    <reference value="Condition/primary-cancer-condition-jenny-m"/>
+  </reasonReference>
+  <dosageInstruction>
+    <text value="doxorubicin (175 mg/m&#xB2; IV), 272.01mg"/>
+    <timing>
+      <repeat>
+        <boundsPeriod>
+          <start value="2018-04-12"/>
+        </boundsPeriod>
+      </repeat>
+    </timing>
+    <route>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="47625008"/>
+        <display value="Intravenous route (qualifier value)"/>
+      </coding>
+    </route>
+    <doseAndRate>
+      <doseQuantity>
+        <value value="272.01"/>
+        <unit value="mg"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mg"/>
+      </doseQuantity>
+    </doseAndRate>
+    <maxDosePerPeriod>
+      <numerator>
+        <value value="1"/>
+      </numerator>
+      <denominator>
+        <value value="3"/>
+        <unit value="week"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="wk"/>
+      </denominator>
+    </maxDosePerPeriod>
+  </dosageInstruction>
+</MedicationRequest>

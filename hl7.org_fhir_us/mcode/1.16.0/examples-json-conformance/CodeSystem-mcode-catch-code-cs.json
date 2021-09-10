@@ -1,0 +1,66 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "mcode-catch-code-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/mcode/CodeSystem/mcode-catch-code-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">PCC-OTHER<a name=\"mcode-catch-code-cs-PCC-OTHER\"> </a></td><td>Other Primary Cancer Condition, Specify</td><td>Code to be used when the desired concept is not represented base value set. This code represents the equivalent of 'Other, specify: _________'. Specify the additional concept as the second coding.</td></tr><tr><td style=\"white-space:nowrap\">SCC-OTHER<a name=\"mcode-catch-code-cs-SCC-OTHER\"> </a></td><td>Other Secondary Cancer Condition, Specify</td><td>Code to be used when the desired concept is not represented base value set. This code represents the equivalent of 'Other, specify: _________'. Specify the additional concept as the second coding.</td></tr><tr><td style=\"white-space:nowrap\">TMT-OTHER<a name=\"mcode-catch-code-cs-TMT-OTHER\"> </a></td><td>Other Tumor Marker Test, Specify</td><td>Code to be used when the desired concept is not represented base value set. This code represents the equivalent of 'Other, specify: _________'. Specify the additional concept as the second coding.</td></tr><tr><td style=\"white-space:nowrap\">CD-OTHER<a name=\"mcode-catch-code-cs-CD-OTHER\"> </a></td><td>Other Cancer Disorder, Specify</td><td>Code to be used when the desired concept is not represented base value set. This code represents the equivalent of 'Other, specify: _________'. Specify the additional concept as the second coding.</td></tr></table></div>"
+  },
+  "url": "http://hl7.org/fhir/us/mcode/CodeSystem/mcode-catch-code-cs",
+  "version": "1.16.0",
+  "name": "CatchCodeCS",
+  "title": "mCODE Catch Codes",
+  "status": "active",
+  "date": "2021-04-15T12:44:45+00:00",
+  "publisher": "HL7 International Clinical Interoperability Council",
+  "contact": [
+    {
+      "name": "HL7 International Clinical Interoperability Council",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/cic"
+        },
+        {
+          "system": "email",
+          "value": "ciclist@lists.HL7.org"
+        }
+      ]
+    }
+  ],
+  "description": "Codes needed for positive identification of certain types of instances, more specifically, to uniquely associate instances with slices when they are used in bundles. The codes in this code system are used when a concept falls outside of the defined set of codes. They make it possible to use 'required' bindings where 'extensible' bindings would result an instance matching multiple slices and thus trigger validation errors.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "PCC-OTHER",
+      "display": "Other Primary Cancer Condition, Specify",
+      "definition": "Code to be used when the desired concept is not represented base value set. This code represents the equivalent of 'Other, specify: _________'. Specify the additional concept as the second coding."
+    },
+    {
+      "code": "SCC-OTHER",
+      "display": "Other Secondary Cancer Condition, Specify",
+      "definition": "Code to be used when the desired concept is not represented base value set. This code represents the equivalent of 'Other, specify: _________'. Specify the additional concept as the second coding."
+    },
+    {
+      "code": "TMT-OTHER",
+      "display": "Other Tumor Marker Test, Specify",
+      "definition": "Code to be used when the desired concept is not represented base value set. This code represents the equivalent of 'Other, specify: _________'. Specify the additional concept as the second coding."
+    },
+    {
+      "code": "CD-OTHER",
+      "display": "Other Cancer Disorder, Specify",
+      "definition": "Code to be used when the desired concept is not represented base value set. This code represents the equivalent of 'Other, specify: _________'. Specify the additional concept as the second coding."
+    }
+  ]
+}

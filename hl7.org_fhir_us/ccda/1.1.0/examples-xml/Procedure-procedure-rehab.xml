@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="procedure-rehab"/>
+  <meta>
+    <versionId value="5"/>
+    <lastUpdated value="2020-08-12T19:18:13.140+00:00"/>
+    <source value="#uHmbKLN3xl8PqGKy"/>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>status</b>: completed</p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 35637008}">Alcohol rehabilitation</span></p><p><b>subject</b>: <a href="Patient-example.html">Amy Shaw. Generated Summary: Medical Record Number: 900 (USUAL); active; Paticia Noelle ; Phone: 555-555-2003, Patricia.Noelle@example.com; gender: female; birthDate: 1954-10-17</a></p><p><b>performed</b>: 2002-05-23</p></div>
+  </text>
+  <status value="completed"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="35637008"/>
+      <display value="Alcohol rehabilitation"/>
+    </coding>
+    <text value="Alcohol rehabilitation"/>
+  </code>
+  <subject>
+    <reference value="Patient/example"/>
+    <display value="Amy Shaw"/>
+  </subject>
+  <performedDateTime value="2002-05-23"/>
+</Procedure>

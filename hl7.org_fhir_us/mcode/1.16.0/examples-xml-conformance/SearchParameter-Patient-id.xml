@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Patient-id"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>http://hl7.org/fhir/us/mcode/SearchParameter/Patient-id</code></p><p><b>version</b>: 1.16.0</p><p><b>name</b>: PatientIdSearchParameter</p><p><b>derivedFrom</b>: <a href="http://hl7.org/fhir/SearchParameter/Resource-id">http://hl7.org/fhir/SearchParameter/Resource-id</a></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: Apr 15, 2021 12:44:45 PM</p><p><b>publisher</b>: HL7 International Clinical Interoperability Council</p><p><b>contact</b>: HL7 International Clinical Interoperability Council: <a href="http://www.hl7.org/Special/committees/cic">http://www.hl7.org/Special/committees/cic</a>,<a href="mailto:ciclist@lists.HL7.org">ciclist@lists.HL7.org</a></p><p><b>description</b>: This SearchParameter enables query of patients by `_id` with `mutlipleOr` enabled.</p><p><b>jurisdiction</b>: <span title="Codes: {urn:iso:std:iso:3166 US}">United States of America</span></p><p><b>code</b>: _id</p><p><b>base</b>: Patient</p><p><b>type</b>: token</p><p><b>expression</b>: Resource.id</p><p><b>xpath</b>: f:Resource/f:id</p><p><b>xpathUsage</b>: normal</p><p><b>multipleOr</b>: true</p></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/mcode/SearchParameter/Patient-id"/>
+  <version value="1.16.0"/>
+  <name value="PatientIdSearchParameter"/>
+  <derivedFrom value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2021-04-15T12:44:45+00:00"/>
+  <publisher value="HL7 International Clinical Interoperability Council"/>
+  <contact>
+    <name value="HL7 International Clinical Interoperability Council"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ciclist@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="This SearchParameter enables query of patients by `_id` with `mutlipleOr` enabled."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <code value="_id"/>
+  <base value="Patient"/>
+  <type value="token"/>
+  <expression value="Resource.id"/>
+  <xpath value="f:Resource/f:id"/>
+  <xpathUsage value="normal"/>
+  <multipleOr value="true"/>
+</SearchParameter>

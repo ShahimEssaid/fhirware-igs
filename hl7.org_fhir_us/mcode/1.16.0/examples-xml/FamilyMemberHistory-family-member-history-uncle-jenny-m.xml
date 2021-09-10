@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FamilyMemberHistory xmlns="http://hl7.org/fhir">
+  <id value="family-member-history-uncle-jenny-m"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>patient</b>: <a href="Patient-cancer-patient-jenny-m.html">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p><p><b>relationship</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode PUNCLE}">paternal uncle</span></p><p><b>deceased</b>: true</p><h3>Conditions</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>ContributedToDeath</b></td></tr><tr><td>*</td><td><span title="Codes: {http://snomed.info/sct 363418001}">Malignant tumor of pancreas (disorder)</span></td><td>true</td></tr></table></div>
+  </text>
+  <status value="completed"/>
+  <patient>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </patient>
+  <relationship>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <code value="PUNCLE"/>
+      <display value="paternal uncle"/>
+    </coding>
+  </relationship>
+  <deceasedBoolean value="true"/>
+  <condition>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="363418001"/>
+        <display value="Malignant tumor of pancreas (disorder)"/>
+      </coding>
+    </code>
+    <contributedToDeath value="true"/>
+  </condition>
+</FamilyMemberHistory>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="primary-cancer-condition-breast"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-primary-cancer-condition"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Histology-Morphology-Behavior</b>: <span title="Codes: {http://snomed.info/sct 77284006}">Lobular carcinoma in situ (morphologic abnormality)</span></p><p><b>clinicalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span></p><p><b>verificationStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 363346000}">Malignant neoplastic disease (disorder)</span></p><p><b>bodySite</b>: <span title="Codes: {http://snomed.info/sct 80248007}">Left breast structure (body structure)</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-eve-anyperson.html">Generated Summary: Medical Record Number: m456 (USUAL); Eve A. Anyperson ; gender: female; birthDate: 1955-05-20</a></p><p><b>onset</b>: 2019-04-01</p><p><b>asserter</b>: <a href="Practitioner-us-core-practitioner-kyle-anydoc.html">Generated Summary: id: 9988776655; Kyle Anydoc ; gender: male</a></p><h3>Stages</h3><table class="grid"><tr><td>-</td><td><b>Summary</b></td><td><b>Assessment</b></td></tr><tr><td>*</td><td><span title="Codes: {http://cancerstaging.org 3C}">IIIC</span></td><td><a href="Observation-tnm-clinical-stage-group-3c.html">Generated Summary: <span title="Codes: {http://loinc.org 21908-9}">Stage group.clinical Cancer</span>; effective: 2019-04-01; <span title="Codes: {http://cancerstaging.org 3C}">IIIC</span>; <span title="Codes: {http://snomed.info/sct 897275008}">American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)</span></a></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-histology-morphology-behavior">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="77284006"/>
+        <display value="Lobular carcinoma in situ (morphologic abnormality)"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+      <code value="confirmed"/>
+      <display value="Confirmed"/>
+    </coding>
+  </verificationStatus>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+      <code value="problem-list-item"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="363346000"/>
+      <display value="Malignant neoplastic disease (disorder)"/>
+    </coding>
+  </code>
+  <bodySite>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="80248007"/>
+      <display value="Left breast structure (body structure)"/>
+    </coding>
+  </bodySite>
+  <subject>
+    <reference value="Patient/cancer-patient-eve-anyperson"/>
+  </subject>
+  <onsetDateTime value="2019-04-01"/>
+  <asserter>
+    <reference value="Practitioner/us-core-practitioner-kyle-anydoc"/>
+  </asserter>
+  <stage>
+    <summary>
+      <coding>
+        <system value="http://cancerstaging.org"/>
+        <code value="3C"/>
+        <display value="IIIC"/>
+      </coding>
+    </summary>
+    <assessment>
+      <reference value="Observation/tnm-clinical-stage-group-3c"/>
+    </assessment>
+  </stage>
+</Condition>

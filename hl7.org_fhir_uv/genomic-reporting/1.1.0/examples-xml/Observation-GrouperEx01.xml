@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="GrouperEx01"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/grouper"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes grouper}">grouper</span></p><p><b>hasMember</b>: </p><ul><li><a href="Observation-TxImp01.html">clopidogrel, poor metabolizer. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes therapeutic-implication}">Therapeutic Implication</span></a></li><li><a href="Observation-TxImp02.html">voriconazole, poor metabolizer. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes therapeutic-implication}">Therapeutic Implication</span></a></li><li><a href="Observation-TxImp03.html">citalopram, poor metabolizer. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes therapeutic-implication}">Therapeutic Implication</span></a></li><li><a href="Observation-TxImp04.html">escitalopram, poor metabolizer. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes therapeutic-implication}">Therapeutic Implication</span></a></li><li><a href="Observation-TxImp05.html">amitriptyline, poor metabolizer. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes therapeutic-implication}">Therapeutic Implication</span></a></li><li><a href="Observation-TxImp06.html">medium sensitivity to warfarin. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes therapeutic-implication}">Therapeutic Implication</span></a></li></ul></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+      <code value="grouper"/>
+    </coding>
+  </code>
+  <hasMember>
+    <reference value="Observation/TxImp01"/>
+    <display value="clopidogrel, poor metabolizer"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/TxImp02"/>
+    <display value="voriconazole, poor metabolizer"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/TxImp03"/>
+    <display value="citalopram, poor metabolizer"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/TxImp04"/>
+    <display value="escitalopram, poor metabolizer"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/TxImp05"/>
+    <display value="amitriptyline, poor metabolizer"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/TxImp06"/>
+    <display value="medium sensitivity to warfarin"/>
+  </hasMember>
+</Observation>

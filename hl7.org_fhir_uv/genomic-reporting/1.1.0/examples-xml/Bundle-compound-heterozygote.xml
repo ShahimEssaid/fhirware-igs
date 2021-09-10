@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  Observation/?component-code=http://loinc.org|81263-6&_include:iterate=Observation:has-member  -->
+<!--  Observation/?component-code=http://loinc.org|81263-6&_include=Observation:has-member  -->
+<!--  Observation/?component-code=http://loinc.org|48004-6&_revinclude=Observation:has-member  -->
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="compound-heterozygote"/>
+  <type value="transaction"/>
+  <entry>
+    <fullUrl value="urn:uuid:16fdd5fc-e665-48af-99e4-48d603f3e12d"/>
+    <resource>
+      <Observation>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><h3>Components</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="Codes: {http://loinc.org 48004-6}">DNA change (c.HGVS)</span></td><td><span title="Codes: {http://varnomen.hgvs.org NM_022787.3:c.769G&gt;A}">NM_022787.3:c.769G&gt;A</span></td></tr></table></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48004-6"/>
+              <display value="DNA change (c.HGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="NM_022787.3:c.769G&gt;A"/>
+              <display value="NM_022787.3:c.769G&gt;A"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:16fdd5fc-e665-48af-99e4-48d603f3e12e"/>
+    <resource>
+      <Observation>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><h3>Components</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="Codes: {http://loinc.org 48004-6}">DNA change (c.HGVS)</span></td><td><span title="Codes: {http://varnomen.hgvs.org NM_022787.3:c.53A&gt;G}">NM_022787.3:c.53A&gt;G</span></td></tr></table></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48004-6"/>
+              <display value="DNA change (c.HGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="NM_022787.3:c.53A&gt;G"/>
+              <display value="NM_022787.3:c.53A&gt;G"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:16fdd5fc-e665-48af-99e4-48d603f3e12a"/>
+    <resource>
+      <Observation>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><p><b>hasMember</b>: </p><ul><li><a href="#urnuuid16fdd5fc-e665-48af-99e4-48d603f3e12e">NM_022787.3:c.53A&gt;G. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; <span title="Codes: {http://loinc.org LA9633-4}">Present</span></a></li><li><a href="#urnuuid16fdd5fc-e665-48af-99e4-48d603f3e12d">NM_022787.3:c.769G&gt;A. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; <span title="Codes: {http://loinc.org LA9633-4}">Present</span></a></li></ul><h3>Components</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="Codes: {http://loinc.org 81263-6}">Complex Variant Type</span></td><td><span title="Codes: {http://loinc.org LA26217-2}">Compound heterozygous</span></td></tr></table></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <hasMember>
+          <reference value="urn:uuid:16fdd5fc-e665-48af-99e4-48d603f3e12e"/>
+          <display value="NM_022787.3:c.53A&gt;G"/>
+        </hasMember>
+        <hasMember>
+          <reference value="urn:uuid:16fdd5fc-e665-48af-99e4-48d603f3e12d"/>
+          <display value="NM_022787.3:c.769G&gt;A"/>
+        </hasMember>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="81263-6"/>
+              <display value="Complex Variant Type"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA26217-2"/>
+              <display value="Compound heterozygous"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+</Bundle>

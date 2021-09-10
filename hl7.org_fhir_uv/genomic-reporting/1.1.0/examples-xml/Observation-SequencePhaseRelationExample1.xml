@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="SequencePhaseRelationExample1"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/sequence-phase-relationship"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 82120-7}">Allelic phase</span></p><p><b>issued</b>: Mar 5, 2019 4:04:44 PM</p><p><b>value</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/SequencePhaseRelationshipCS Cis}">Cis</span></p><p><b>derivedFrom</b>: </p><ul><li><a href="Observation-VariantExample1.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; effective: 2019-04-01; <span title="Codes: {http://loinc.org LA9633-4}">Present</span>; <span title="Codes: {http://snomed.info/sct 10828004}">Positive (qualifier value)</span>; <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></a></li><li><a href="Observation-VariantExample2.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; effective: 2019-04-01; <span title="Codes: {http://loinc.org LA9633-4}">Present</span>; <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></a></li></ul></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="82120-7"/>
+    </coding>
+  </code>
+  <issued value="2019-03-05T16:04:44+00:00"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/SequencePhaseRelationshipCS"/>
+      <code value="Cis"/>
+      <display value="Cis"/>
+    </coding>
+  </valueCodeableConcept>
+  <derivedFrom>
+    <reference value="Observation/VariantExample1"/>
+  </derivedFrom>
+  <derivedFrom>
+    <reference value="Observation/VariantExample2"/>
+  </derivedFrom>
+</Observation>

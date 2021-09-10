@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Immunization xmlns="http://hl7.org/fhir">
+  <id value="immunization"/>
+  <meta>
+    <versionId value="4"/>
+    <lastUpdated value="2020-08-12T19:18:13.351+00:00"/>
+    <source value="#GZdcyuPrL6zv6dDA"/>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>status</b>: completed</p><p><b>vaccineCode</b>: <span title="Codes: {http://hl7.org/fhir/sid/cvx 158}">influenza, injectable, quadrivalent</span></p><p><b>patient</b>: <a href="Patient-example.html">Amy Shaw. Generated Summary: Medical Record Number: 900 (USUAL); active; Paticia Noelle ; Phone: 555-555-2003, Patricia.Noelle@example.com; gender: female; birthDate: 1954-10-17</a></p><p><b>occurrence</b>: 2016-01-08</p><p><b>primarySource</b>: false</p></div>
+  </text>
+  <status value="completed"/>
+  <vaccineCode>
+    <coding>
+      <system value="http://hl7.org/fhir/sid/cvx"/>
+      <code value="158"/>
+      <display value="influenza, injectable, quadrivalent"/>
+    </coding>
+  </vaccineCode>
+  <patient>
+    <reference value="Patient/example"/>
+    <display value="Amy Shaw"/>
+  </patient>
+  <occurrenceDateTime value="2016-01-08"/>
+  <primarySource value="false"/>
+</Immunization>

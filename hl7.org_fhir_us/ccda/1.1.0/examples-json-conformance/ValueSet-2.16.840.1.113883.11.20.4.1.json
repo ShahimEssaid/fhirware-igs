@@ -1,0 +1,506 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113883.11.20.4.1",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2020-08-19T06:35:09.726+00:00",
+    "source": "#8awj3JDXaUCFNlQA"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/11490-0.html\">11490-0</a></td><td>Physician Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/18842-5.html\">18842-5</a></td><td>Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/28655-9.html\">28655-9</a></td><td>Attending Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/29761-4.html\">29761-4</a></td><td>Dentistry Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/34105-7.html\">34105-7</a></td><td>Hospital Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/34106-5.html\">34106-5</a></td><td>Physician Hospital Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/34745-0.html\">34745-0</a></td><td>Nurse Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/57058-0.html\">57058-0</a></td><td>Maternal discharge summary note</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/59258-4.html\">59258-4</a></td><td>Emergency department Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/59259-2.html\">59259-2</a></td><td>Psychiatry Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68558-6.html\">68558-6</a></td><td>Obstetrics and Gynecology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68572-7.html\">68572-7</a></td><td>Ophthalmology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68578-4.html\">68578-4</a></td><td>Orthopaedic surgery Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68591-7.html\">68591-7</a></td><td>Plastic surgery Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68612-1.html\">68612-1</a></td><td>Adolescent medicine Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68626-1.html\">68626-1</a></td><td>Allergy and immunology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68642-8.html\">68642-8</a></td><td>Child and adolescent psychiatry Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68653-5.html\">68653-5</a></td><td>Clinical genetics Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68663-4.html\">68663-4</a></td><td>Developmental-behavioral pediatrics Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68674-1.html\">68674-1</a></td><td>Multi-specialty program Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68688-1.html\">68688-1</a></td><td>Neurological surgery Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68697-2.html\">68697-2</a></td><td>Neurology with special qualifications in child neurology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68709-5.html\">68709-5</a></td><td>Pain medicine Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68719-4.html\">68719-4</a></td><td>Pediatric cardiology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68733-5.html\">68733-5</a></td><td>Pediatric endocrinology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68738-4.html\">68738-4</a></td><td>Pediatric gastroenterology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68749-1.html\">68749-1</a></td><td>Pediatric hematology-oncology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68768-1.html\">68768-1</a></td><td>Pediatric nephrology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68773-1.html\">68773-1</a></td><td>Pediatric otolaryngology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68779-8.html\">68779-8</a></td><td>Pediatric pulmonology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68795-4.html\">68795-4</a></td><td>Pediatric surgery Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68805-1.html\">68805-1</a></td><td>Pediatric urology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68815-0.html\">68815-0</a></td><td>Pediatrics Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68823-4.html\">68823-4</a></td><td>Pediatrics Hospital Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68831-7.html\">68831-7</a></td><td>Primary care Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68841-6.html\">68841-6</a></td><td>Speech-language pathology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/68856-4.html\">68856-4</a></td><td>Pediatric transplant hepatology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/77409-1.html\">77409-1</a></td><td>Cardiology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/77417-4.html\">77417-4</a></td><td>Critical care medicine Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/78263-1.html\">78263-1</a></td><td>Mental health Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/78264-9.html\">78264-9</a></td><td>General medicine Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/78418-1.html\">78418-1</a></td><td>Neonatal perinatal medicine Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/78419-9.html\">78419-9</a></td><td>Nephrology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/78420-7.html\">78420-7</a></td><td>Neurology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/78421-5.html\">78421-5</a></td><td>Oncology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/78585-7.html\">78585-7</a></td><td>Palliative care Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/80811-3.html\">80811-3</a></td><td>Geriatric medicine Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/83523-1.html\">83523-1</a></td><td>Cardiology Intensive care unit Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/83551-2.html\">83551-2</a></td><td>Nurse practitioner Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/83712-0.html\">83712-0</a></td><td>Physical medicine and rehab Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/83810-2.html\">83810-2</a></td><td>Physician assistant Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/83898-7.html\">83898-7</a></td><td>Psychology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/83921-7.html\">83921-7</a></td><td>Recreational therapy Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/83932-4.html\">83932-4</a></td><td>Research Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/83956-3.html\">83956-3</a></td><td>Social worker Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/83961-3.html\">83961-3</a></td><td>Social worker Patient's home Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/83968-8.html\">83968-8</a></td><td>Social worker Long term care facility Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/83993-6.html\">83993-6</a></td><td>Spinal cord injury medicine Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84013-2.html\">84013-2</a></td><td>Surgery Intensive care unit Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84017-3.html\">84017-3</a></td><td>Surgery Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84018-1.html\">84018-1</a></td><td>Surgery Outpatient Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84024-9.html\">84024-9</a></td><td>Team Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84040-5.html\">84040-5</a></td><td>Urology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84132-0.html\">84132-0</a></td><td>Primary care Patient's home Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84139-5.html\">84139-5</a></td><td>Hematology+Medical oncology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84179-1.html\">84179-1</a></td><td>Kinesiotherapy Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84248-4.html\">84248-4</a></td><td>Nurse Emergency department Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84254-2.html\">84254-2</a></td><td>Nurse Hospital Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84257-5.html\">84257-5</a></td><td>Nurse Long term care facility Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84262-5.html\">84262-5</a></td><td>Nurse Observation unit Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84278-1.html\">84278-1</a></td><td>Nutrition and dietetics Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84310-2.html\">84310-2</a></td><td>Vocational rehabilitation Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84321-9.html\">84321-9</a></td><td>Physical therapy Outpatient Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84328-4.html\">84328-4</a></td><td>Physical therapy Hospital Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84331-8.html\">84331-8</a></td><td>Physical therapy Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84367-2.html\">84367-2</a></td><td>Otolaryngology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/84393-8.html\">84393-8</a></td><td>Occupational therapy Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85154-3.html\">85154-3</a></td><td>Pharmacology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85176-6.html\">85176-6</a></td><td>Custodial care facility Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85192-3.html\">85192-3</a></td><td>Long term care facility Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85200-4.html\">85200-4</a></td><td>Observation unit Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85223-6.html\">85223-6</a></td><td>Case manager Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85240-0.html\">85240-0</a></td><td>Internal medicine Intensive care unit Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85243-4.html\">85243-4</a></td><td>Internal medicine Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85433-1.html\">85433-1</a></td><td>Respiratory therapy Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85434-9.html\">85434-9</a></td><td>Rheumatology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85440-6.html\">85440-6</a></td><td>Vascular surgery Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85442-2.html\">85442-2</a></td><td>Hematology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85514-8.html\">85514-8</a></td><td>Bariatric surgery Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85520-5.html\">85520-5</a></td><td>Child and adolescent psychology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85849-8.html\">85849-8</a></td><td>Anesthesiology Recovery room Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85875-3.html\">85875-3</a></td><td>Nurse Recovery room Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/85878-7.html\">85878-7</a></td><td>Neuropsychology Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/87235-8.html\">87235-8</a></td><td>Dialysis Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/87256-4.html\">87256-4</a></td><td>Addiction medicine Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/88641-6.html\">88641-6</a></td><td>Community health care Adult day care center Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/88645-7.html\">88645-7</a></td><td>Outpatient hospital Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/88693-7.html\">88693-7</a></td><td>Patient's home Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/89214-1.html\">89214-1</a></td><td>Obstetrics Discharge summary</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/89218-2.html\">89218-2</a></td><td>Gynecology Discharge summary</td></tr></table></li></ul></div>"
+  },
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.4.1",
+  "version": "1.1.0",
+  "name": "DischargeSummaryDocumentTypeCode",
+  "title": "DischargeSummaryDocumentTypeCode",
+  "status": "active",
+  "date": "2020-10-21T22:01:58+00:00",
+  "publisher": "HL7 Structured Documents Working Group",
+  "contact": [
+    {
+      "name": "HL7 Structured Documents Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/Special/committees/structure/index.cfm"
+        }
+      ]
+    },
+    {
+      "name": "Rick Geimer",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "rick.geimer@lantanagroup.com"
+        }
+      ]
+    },
+    {
+      "name": "Sarah Gaunt",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "sarah.gaunt@lantanagroup.com"
+        }
+      ]
+    },
+    {
+      "name": "Brett Marquard",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "brett@riverrockassociates.com"
+        }
+      ]
+    },
+    {
+      "name": "Corey Spears",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "spears.corey@gmail.com"
+        }
+      ]
+    },
+    {
+      "name": "Meenaxi Gosai",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "meenaxi.gosai@lantanagroup.com"
+        }
+      ]
+    },
+    {
+      "name": "HL7 International - Structured Documents",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/structure"
+        }
+      ]
+    }
+  ],
+  "description": "(Clinical Focus: Kind of discharge summary document classified by author role),(Data Element Scope: ),(Inclusion Criteria: A list of LOINC terms, intended to identify Discharge Summary Notes where component contains \"Discharge Summary Note\", Timing = \"Patient\", Property = Find\" , scale = \"Doc\"),(Exclusion Criteria: )\n\nThis value set was imported on 6/24/2019 with a version of 20190425.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "copyright": "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "11490-0",
+            "display": "Physician Discharge summary"
+          },
+          {
+            "code": "18842-5",
+            "display": "Discharge summary"
+          },
+          {
+            "code": "28655-9",
+            "display": "Attending Discharge summary"
+          },
+          {
+            "code": "29761-4",
+            "display": "Dentistry Discharge summary"
+          },
+          {
+            "code": "34105-7",
+            "display": "Hospital Discharge summary"
+          },
+          {
+            "code": "34106-5",
+            "display": "Physician Hospital Discharge summary"
+          },
+          {
+            "code": "34745-0",
+            "display": "Nurse Discharge summary"
+          },
+          {
+            "code": "57058-0",
+            "display": "Maternal discharge summary note"
+          },
+          {
+            "code": "59258-4",
+            "display": "Emergency department Discharge summary"
+          },
+          {
+            "code": "59259-2",
+            "display": "Psychiatry Discharge summary"
+          },
+          {
+            "code": "68558-6",
+            "display": "Obstetrics and Gynecology Discharge summary"
+          },
+          {
+            "code": "68572-7",
+            "display": "Ophthalmology Discharge summary"
+          },
+          {
+            "code": "68578-4",
+            "display": "Orthopaedic surgery Discharge summary"
+          },
+          {
+            "code": "68591-7",
+            "display": "Plastic surgery Discharge summary"
+          },
+          {
+            "code": "68612-1",
+            "display": "Adolescent medicine Discharge summary"
+          },
+          {
+            "code": "68626-1",
+            "display": "Allergy and immunology Discharge summary"
+          },
+          {
+            "code": "68642-8",
+            "display": "Child and adolescent psychiatry Discharge summary"
+          },
+          {
+            "code": "68653-5",
+            "display": "Clinical genetics Discharge summary"
+          },
+          {
+            "code": "68663-4",
+            "display": "Developmental-behavioral pediatrics Discharge summary"
+          },
+          {
+            "code": "68674-1",
+            "display": "Multi-specialty program Discharge summary"
+          },
+          {
+            "code": "68688-1",
+            "display": "Neurological surgery Discharge summary"
+          },
+          {
+            "code": "68697-2",
+            "display": "Neurology with special qualifications in child neurology Discharge summary"
+          },
+          {
+            "code": "68709-5",
+            "display": "Pain medicine Discharge summary"
+          },
+          {
+            "code": "68719-4",
+            "display": "Pediatric cardiology Discharge summary"
+          },
+          {
+            "code": "68733-5",
+            "display": "Pediatric endocrinology Discharge summary"
+          },
+          {
+            "code": "68738-4",
+            "display": "Pediatric gastroenterology Discharge summary"
+          },
+          {
+            "code": "68749-1",
+            "display": "Pediatric hematology-oncology Discharge summary"
+          },
+          {
+            "code": "68768-1",
+            "display": "Pediatric nephrology Discharge summary"
+          },
+          {
+            "code": "68773-1",
+            "display": "Pediatric otolaryngology Discharge summary"
+          },
+          {
+            "code": "68779-8",
+            "display": "Pediatric pulmonology Discharge summary"
+          },
+          {
+            "code": "68795-4",
+            "display": "Pediatric surgery Discharge summary"
+          },
+          {
+            "code": "68805-1",
+            "display": "Pediatric urology Discharge summary"
+          },
+          {
+            "code": "68815-0",
+            "display": "Pediatrics Discharge summary"
+          },
+          {
+            "code": "68823-4",
+            "display": "Pediatrics Hospital Discharge summary"
+          },
+          {
+            "code": "68831-7",
+            "display": "Primary care Discharge summary"
+          },
+          {
+            "code": "68841-6",
+            "display": "Speech-language pathology Discharge summary"
+          },
+          {
+            "code": "68856-4",
+            "display": "Pediatric transplant hepatology Discharge summary"
+          },
+          {
+            "code": "77409-1",
+            "display": "Cardiology Discharge summary"
+          },
+          {
+            "code": "77417-4",
+            "display": "Critical care medicine Discharge summary"
+          },
+          {
+            "code": "78263-1",
+            "display": "Mental health Discharge summary"
+          },
+          {
+            "code": "78264-9",
+            "display": "General medicine Discharge summary"
+          },
+          {
+            "code": "78418-1",
+            "display": "Neonatal perinatal medicine Discharge summary"
+          },
+          {
+            "code": "78419-9",
+            "display": "Nephrology Discharge summary"
+          },
+          {
+            "code": "78420-7",
+            "display": "Neurology Discharge summary"
+          },
+          {
+            "code": "78421-5",
+            "display": "Oncology Discharge summary"
+          },
+          {
+            "code": "78585-7",
+            "display": "Palliative care Discharge summary"
+          },
+          {
+            "code": "80811-3",
+            "display": "Geriatric medicine Discharge summary"
+          },
+          {
+            "code": "83523-1",
+            "display": "Cardiology Intensive care unit Discharge summary"
+          },
+          {
+            "code": "83551-2",
+            "display": "Nurse practitioner Discharge summary"
+          },
+          {
+            "code": "83712-0",
+            "display": "Physical medicine and rehab Discharge summary"
+          },
+          {
+            "code": "83810-2",
+            "display": "Physician assistant Discharge summary"
+          },
+          {
+            "code": "83898-7",
+            "display": "Psychology Discharge summary"
+          },
+          {
+            "code": "83921-7",
+            "display": "Recreational therapy Discharge summary"
+          },
+          {
+            "code": "83932-4",
+            "display": "Research Discharge summary"
+          },
+          {
+            "code": "83956-3",
+            "display": "Social worker Discharge summary"
+          },
+          {
+            "code": "83961-3",
+            "display": "Social worker Patient's home Discharge summary"
+          },
+          {
+            "code": "83968-8",
+            "display": "Social worker Long term care facility Discharge summary"
+          },
+          {
+            "code": "83993-6",
+            "display": "Spinal cord injury medicine Discharge summary"
+          },
+          {
+            "code": "84013-2",
+            "display": "Surgery Intensive care unit Discharge summary"
+          },
+          {
+            "code": "84017-3",
+            "display": "Surgery Discharge summary"
+          },
+          {
+            "code": "84018-1",
+            "display": "Surgery Outpatient Discharge summary"
+          },
+          {
+            "code": "84024-9",
+            "display": "Team Discharge summary"
+          },
+          {
+            "code": "84040-5",
+            "display": "Urology Discharge summary"
+          },
+          {
+            "code": "84132-0",
+            "display": "Primary care Patient's home Discharge summary"
+          },
+          {
+            "code": "84139-5",
+            "display": "Hematology+Medical oncology Discharge summary"
+          },
+          {
+            "code": "84179-1",
+            "display": "Kinesiotherapy Discharge summary"
+          },
+          {
+            "code": "84248-4",
+            "display": "Nurse Emergency department Discharge summary"
+          },
+          {
+            "code": "84254-2",
+            "display": "Nurse Hospital Discharge summary"
+          },
+          {
+            "code": "84257-5",
+            "display": "Nurse Long term care facility Discharge summary"
+          },
+          {
+            "code": "84262-5",
+            "display": "Nurse Observation unit Discharge summary"
+          },
+          {
+            "code": "84278-1",
+            "display": "Nutrition and dietetics Discharge summary"
+          },
+          {
+            "code": "84310-2",
+            "display": "Vocational rehabilitation Discharge summary"
+          },
+          {
+            "code": "84321-9",
+            "display": "Physical therapy Outpatient Discharge summary"
+          },
+          {
+            "code": "84328-4",
+            "display": "Physical therapy Hospital Discharge summary"
+          },
+          {
+            "code": "84331-8",
+            "display": "Physical therapy Discharge summary"
+          },
+          {
+            "code": "84367-2",
+            "display": "Otolaryngology Discharge summary"
+          },
+          {
+            "code": "84393-8",
+            "display": "Occupational therapy Discharge summary"
+          },
+          {
+            "code": "85154-3",
+            "display": "Pharmacology Discharge summary"
+          },
+          {
+            "code": "85176-6",
+            "display": "Custodial care facility Discharge summary"
+          },
+          {
+            "code": "85192-3",
+            "display": "Long term care facility Discharge summary"
+          },
+          {
+            "code": "85200-4",
+            "display": "Observation unit Discharge summary"
+          },
+          {
+            "code": "85223-6",
+            "display": "Case manager Discharge summary"
+          },
+          {
+            "code": "85240-0",
+            "display": "Internal medicine Intensive care unit Discharge summary"
+          },
+          {
+            "code": "85243-4",
+            "display": "Internal medicine Discharge summary"
+          },
+          {
+            "code": "85433-1",
+            "display": "Respiratory therapy Discharge summary"
+          },
+          {
+            "code": "85434-9",
+            "display": "Rheumatology Discharge summary"
+          },
+          {
+            "code": "85440-6",
+            "display": "Vascular surgery Discharge summary"
+          },
+          {
+            "code": "85442-2",
+            "display": "Hematology Discharge summary"
+          },
+          {
+            "code": "85514-8",
+            "display": "Bariatric surgery Discharge summary"
+          },
+          {
+            "code": "85520-5",
+            "display": "Child and adolescent psychology Discharge summary"
+          },
+          {
+            "code": "85849-8",
+            "display": "Anesthesiology Recovery room Discharge summary"
+          },
+          {
+            "code": "85875-3",
+            "display": "Nurse Recovery room Discharge summary"
+          },
+          {
+            "code": "85878-7",
+            "display": "Neuropsychology Discharge summary"
+          },
+          {
+            "code": "87235-8",
+            "display": "Dialysis Discharge summary"
+          },
+          {
+            "code": "87256-4",
+            "display": "Addiction medicine Discharge summary"
+          },
+          {
+            "code": "88641-6",
+            "display": "Community health care Adult day care center Discharge summary"
+          },
+          {
+            "code": "88645-7",
+            "display": "Outpatient hospital Discharge summary"
+          },
+          {
+            "code": "88693-7",
+            "display": "Patient's home Discharge summary"
+          },
+          {
+            "code": "89214-1",
+            "display": "Obstetrics Discharge summary"
+          },
+          {
+            "code": "89218-2",
+            "display": "Gynecology Discharge summary"
+          }
+        ]
+      }
+    ]
+  }
+}

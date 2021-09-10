@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="condition-problem"/>
+  <meta>
+    <versionId value="5"/>
+    <lastUpdated value="2020-08-12T21:30:13.114+00:00"/>
+    <source value="#csn482LCsnDWyxbW"/>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>category</b>: <span title="Codes: {http://hl7.org/fhir/us/core/CodeSystem/condition-category problem}">Problem</span></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 442311008}">Single liveborn, born in hospital, delivered without mention of cesarean section</span></p><p><b>subject</b>: <a href="Patient-example.html">Amy V. Shaw. Generated Summary: Medical Record Number: 900 (USUAL); active; Paticia Noelle ; Phone: 555-555-2003, Patricia.Noelle@example.com; gender: female; birthDate: 1954-10-17</a></p></div>
+  </text>
+  <category>
+    <coding>
+      <system value="http://hl7.org/fhir/us/core/CodeSystem/condition-category"/>
+      <code value="problem"/>
+      <display value="Problem"/>
+    </coding>
+    <text value="Problem"/>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="442311008"/>
+      <display value="Liveborn born in hospital"/>
+    </coding>
+    <text value="Single liveborn, born in hospital, delivered without mention of cesarean section"/>
+  </code>
+  <subject>
+    <reference value="Patient/example"/>
+    <display value="Amy V. Shaw"/>
+  </subject>
+</Condition>

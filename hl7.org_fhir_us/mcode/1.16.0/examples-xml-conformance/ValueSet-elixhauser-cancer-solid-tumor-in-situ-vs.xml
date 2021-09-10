@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="elixhauser-cancer-solid-tumor-in-situ-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="https://terminology.hl7.org/1.0.0//CodeSystem-icd10CM.html"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>D00.00</td><td>Carcinoma in situ of oral cavity, unspecified site</td></tr><tr><td>D00.01</td><td>Carcinoma in situ of labial mucosa and vermilion border</td></tr><tr><td>D00.02</td><td>Carcinoma in situ of buccal mucosa</td></tr><tr><td>D00.03</td><td>Carcinoma in situ of gingiva and edentulous alveolar ridge</td></tr><tr><td>D00.04</td><td>Carcinoma in situ of soft palate</td></tr><tr><td>D00.05</td><td>Carcinoma in situ of hard palate</td></tr><tr><td>D00.06</td><td>Carcinoma in situ of floor of mouth</td></tr><tr><td>D00.07</td><td>Carcinoma in situ of tongue</td></tr><tr><td>D00.08</td><td>Carcinoma in situ of pharynx</td></tr><tr><td>D00.1</td><td>Carcinoma in situ of esophagus</td></tr><tr><td>D00.2</td><td>Carcinoma in situ of stomach</td></tr><tr><td>D01.0</td><td>Carcinoma in situ of colon</td></tr><tr><td>D01.1</td><td>Carcinoma in situ of rectosigmoid junction</td></tr><tr><td>D01.2</td><td>Carcinoma in situ of rectum</td></tr><tr><td>D01.3</td><td>Carcinoma in situ of anus and anal canal</td></tr><tr><td>D01.40</td><td>Carcinoma in situ of unspecified part of intestine</td></tr><tr><td>D01.49</td><td>Carcinoma in situ of other parts of intestine</td></tr><tr><td>D01.5</td><td>Carcinoma in situ of liver, gallbladder and bile ducts</td></tr><tr><td>D01.7</td><td>Carcinoma in situ of other specified digestive organs</td></tr><tr><td>D01.9</td><td>Carcinoma in situ of digestive organ, unspecified</td></tr><tr><td>D02.0</td><td>Carcinoma in situ of larynx</td></tr><tr><td>D02.1</td><td>Carcinoma in situ of trachea</td></tr><tr><td>D02.20</td><td>Carcinoma in situ of unspecified bronchus and lung</td></tr><tr><td>D02.21</td><td>Carcinoma in situ of right bronchus and lung</td></tr><tr><td>D02.22</td><td>Carcinoma in situ of left bronchus and lung</td></tr><tr><td>D02.3</td><td>Carcinoma in situ of other parts of respiratory system</td></tr><tr><td>D02.4</td><td>Carcinoma in situ of respiratory system, unspecified</td></tr><tr><td>D03.0</td><td>Melanoma in situ of lip</td></tr><tr><td>D03.10</td><td>Melanoma in situ of unspecified eyelid, including canthus</td></tr><tr><td>D03.11</td><td>Melanoma in situ of right eyelid, including canthus</td></tr><tr><td>D03.111</td><td>Melanoma in situ of right upper eyelid, including canthus</td></tr><tr><td>D03.112</td><td>Melanoma in situ of right lower eyelid, including canthus</td></tr><tr><td>D03.12</td><td>Melanoma in situ of left eyelid, including canthus</td></tr><tr><td>D03.121</td><td>Melanoma in situ of left upper eyelid, including canthus</td></tr><tr><td>D03.122</td><td>Melanoma in situ of left lower eyelid, including canthus</td></tr><tr><td>D03.20</td><td>Melanoma in situ of unsp ear and external auricular canal</td></tr><tr><td>D03.21</td><td>Melanoma in situ of right ear and external auricular canal</td></tr><tr><td>D03.22</td><td>Melanoma in situ of left ear and external auricular canal</td></tr><tr><td>D03.30</td><td>Melanoma in situ of unspecified part of face</td></tr><tr><td>D03.39</td><td>Melanoma in situ of other parts of face</td></tr><tr><td>D03.4</td><td>Melanoma in situ of scalp and neck</td></tr><tr><td>D03.51</td><td>Melanoma in situ of anal skin</td></tr><tr><td>D03.52</td><td>Melanoma in situ of breast (skin) (soft tissue)</td></tr><tr><td>D03.59</td><td>Melanoma in situ of other part of trunk</td></tr><tr><td>D03.60</td><td>Melanoma in situ of unsp upper limb, including shoulder</td></tr><tr><td>D03.61</td><td>Melanoma in situ of right upper limb, including shoulder</td></tr><tr><td>D03.62</td><td>Melanoma in situ of left upper limb, including shoulder</td></tr><tr><td>D03.70</td><td>Melanoma in situ of unspecified lower limb, including hip</td></tr><tr><td>D03.71</td><td>Melanoma in situ of right lower limb, including hip</td></tr><tr><td>D03.72</td><td>Melanoma in situ of left lower limb, including hip</td></tr><tr><td>D03.8</td><td>Melanoma in situ of other sites</td></tr><tr><td>D03.9</td><td>Melanoma in situ, unspecified</td></tr><tr><td>D04.0</td><td>Carcinoma in situ of skin of lip</td></tr><tr><td>D04.10</td><td>Carcinoma in situ of skin of unsp eyelid, including canthus</td></tr><tr><td>D04.11</td><td>Carcinoma in situ of skin of right eyelid, including canthus</td></tr><tr><td>D04.111</td><td>Carcinoma in situ of skin of right upper eyelid, including canthus</td></tr><tr><td>D04.112</td><td>Carcinoma in situ of skin of right lower eyelid, including canthus</td></tr><tr><td>D04.12</td><td>Carcinoma in situ of skin of left eyelid, including canthus</td></tr><tr><td>D04.121</td><td>Carcinoma in situ of skin of left upper eyelid, including canthus</td></tr><tr><td>D04.122</td><td>Carcinoma in situ of skin of left lower eyelid, including canthus</td></tr><tr><td>D04.20</td><td>Ca in situ skin of unsp ear and external auricular canal</td></tr><tr><td>D04.21</td><td>Ca in situ skin of right ear and external auricular canal</td></tr><tr><td>D04.22</td><td>Ca in situ skin of left ear and external auricular canal</td></tr><tr><td>D04.30</td><td>Carcinoma in situ of skin of unspecified part of face</td></tr><tr><td>D04.39</td><td>Carcinoma in situ of skin of other parts of face</td></tr><tr><td>D04.4</td><td>Carcinoma in situ of skin of scalp and neck</td></tr><tr><td>D04.5</td><td>Carcinoma in situ of skin of trunk</td></tr><tr><td>D04.60</td><td>Ca in situ skin of unsp upper limb, including shoulder</td></tr><tr><td>D04.61</td><td>Ca in situ skin of right upper limb, including shoulder</td></tr><tr><td>D04.62</td><td>Ca in situ skin of left upper limb, including shoulder</td></tr><tr><td>D04.70</td><td>Carcinoma in situ of skin of unsp lower limb, including hip</td></tr><tr><td>D04.71</td><td>Carcinoma in situ of skin of right lower limb, including hip</td></tr><tr><td>D04.72</td><td>Carcinoma in situ of skin of left lower limb, including hip</td></tr><tr><td>D04.8</td><td>Carcinoma in situ of skin of other sites</td></tr><tr><td>D04.9</td><td>Carcinoma in situ of skin, unspecified</td></tr><tr><td>D05.00</td><td>Lobular carcinoma in situ of unspecified breast</td></tr><tr><td>D05.01</td><td>Lobular carcinoma in situ of right breast</td></tr><tr><td>D05.02</td><td>Lobular carcinoma in situ of left breast</td></tr><tr><td>D05.10</td><td>Intraductal carcinoma in situ of unspecified breast</td></tr><tr><td>D05.11</td><td>Intraductal carcinoma in situ of right breast</td></tr><tr><td>D05.12</td><td>Intraductal carcinoma in situ of left breast</td></tr><tr><td>D05.80</td><td>Oth type of carcinoma in situ of unspecified breast</td></tr><tr><td>D05.81</td><td>Other specified type of carcinoma in situ of right breast</td></tr><tr><td>D05.82</td><td>Other specified type of carcinoma in situ of left breast</td></tr><tr><td>D05.90</td><td>Unspecified type of carcinoma in situ of unspecified breast</td></tr><tr><td>D05.91</td><td>Unspecified type of carcinoma in situ of right breast</td></tr><tr><td>D05.92</td><td>Unspecified type of carcinoma in situ of left breast</td></tr><tr><td>D06.0</td><td>Carcinoma in situ of endocervix</td></tr><tr><td>D06.1</td><td>Carcinoma in situ of exocervix</td></tr><tr><td>D06.7</td><td>Carcinoma in situ of other parts of cervix</td></tr><tr><td>D06.9</td><td>Carcinoma in situ of cervix, unspecified</td></tr><tr><td>D07.0</td><td>Carcinoma in situ of endometrium</td></tr><tr><td>D07.1</td><td>Carcinoma in situ of vulva</td></tr><tr><td>D07.2</td><td>Carcinoma in situ of vagina</td></tr><tr><td>D07.30</td><td>Carcinoma in situ of unspecified female genital organs</td></tr><tr><td>D07.39</td><td>Carcinoma in situ of other female genital organs</td></tr><tr><td>D07.4</td><td>Carcinoma in situ of penis</td></tr><tr><td>D07.5</td><td>Carcinoma in situ of prostate</td></tr><tr><td>D07.60</td><td>Carcinoma in situ of unspecified male genital organs</td></tr><tr><td>D07.61</td><td>Carcinoma in situ of scrotum</td></tr><tr><td>D07.69</td><td>Carcinoma in situ of other male genital organs</td></tr><tr><td>D09.0</td><td>Carcinoma in situ of bladder</td></tr><tr><td>D09.10</td><td>Carcinoma in situ of unspecified urinary organ</td></tr><tr><td>D09.19</td><td>Carcinoma in situ of other urinary organs</td></tr><tr><td>D09.20</td><td>Carcinoma in situ of unspecified eye</td></tr><tr><td>D09.21</td><td>Carcinoma in situ of right eye</td></tr><tr><td>D09.22</td><td>Carcinoma in situ of left eye</td></tr><tr><td>D09.3</td><td>Carcinoma in situ of thyroid and other endocrine glands</td></tr><tr><td>D09.8</td><td>Carcinoma in situ of other specified sites</td></tr><tr><td>D09.9</td><td>Carcinoma in situ, unspecified</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/mcode/ValueSet/elixhauser-cancer-solid-tumor-in-situ-vs"/>
+  <version value="1.16.0"/>
+  <name value="ElixhauserCancerSolidTumorInSituVS"/>
+  <title value="Elixhauser Comorbid Condition Value Set for malignant solid tumors in situ"/>
+  <status value="active"/>
+  <date value="2021-04-15T12:44:45+00:00"/>
+  <publisher value="HL7 International Clinical Interoperability Council"/>
+  <contact>
+    <name value="HL7 International Clinical Interoperability Council"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ciclist@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Elixhauser Comorbid Condition Value Set for malignant solid tumors in situ. ICD-10 codes are drawn from https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp, version 2021.1"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <concept>
+        <code value="D00.00"/>
+        <display value="Carcinoma in situ of oral cavity, unspecified site"/>
+      </concept>
+      <concept>
+        <code value="D00.01"/>
+        <display value="Carcinoma in situ of labial mucosa and vermilion border"/>
+      </concept>
+      <concept>
+        <code value="D00.02"/>
+        <display value="Carcinoma in situ of buccal mucosa"/>
+      </concept>
+      <concept>
+        <code value="D00.03"/>
+        <display value="Carcinoma in situ of gingiva and edentulous alveolar ridge"/>
+      </concept>
+      <concept>
+        <code value="D00.04"/>
+        <display value="Carcinoma in situ of soft palate"/>
+      </concept>
+      <concept>
+        <code value="D00.05"/>
+        <display value="Carcinoma in situ of hard palate"/>
+      </concept>
+      <concept>
+        <code value="D00.06"/>
+        <display value="Carcinoma in situ of floor of mouth"/>
+      </concept>
+      <concept>
+        <code value="D00.07"/>
+        <display value="Carcinoma in situ of tongue"/>
+      </concept>
+      <concept>
+        <code value="D00.08"/>
+        <display value="Carcinoma in situ of pharynx"/>
+      </concept>
+      <concept>
+        <code value="D00.1"/>
+        <display value="Carcinoma in situ of esophagus"/>
+      </concept>
+      <concept>
+        <code value="D00.2"/>
+        <display value="Carcinoma in situ of stomach"/>
+      </concept>
+      <concept>
+        <code value="D01.0"/>
+        <display value="Carcinoma in situ of colon"/>
+      </concept>
+      <concept>
+        <code value="D01.1"/>
+        <display value="Carcinoma in situ of rectosigmoid junction"/>
+      </concept>
+      <concept>
+        <code value="D01.2"/>
+        <display value="Carcinoma in situ of rectum"/>
+      </concept>
+      <concept>
+        <code value="D01.3"/>
+        <display value="Carcinoma in situ of anus and anal canal"/>
+      </concept>
+      <concept>
+        <code value="D01.40"/>
+        <display value="Carcinoma in situ of unspecified part of intestine"/>
+      </concept>
+      <concept>
+        <code value="D01.49"/>
+        <display value="Carcinoma in situ of other parts of intestine"/>
+      </concept>
+      <concept>
+        <code value="D01.5"/>
+        <display value="Carcinoma in situ of liver, gallbladder and bile ducts"/>
+      </concept>
+      <concept>
+        <code value="D01.7"/>
+        <display value="Carcinoma in situ of other specified digestive organs"/>
+      </concept>
+      <concept>
+        <code value="D01.9"/>
+        <display value="Carcinoma in situ of digestive organ, unspecified"/>
+      </concept>
+      <concept>
+        <code value="D02.0"/>
+        <display value="Carcinoma in situ of larynx"/>
+      </concept>
+      <concept>
+        <code value="D02.1"/>
+        <display value="Carcinoma in situ of trachea"/>
+      </concept>
+      <concept>
+        <code value="D02.20"/>
+        <display value="Carcinoma in situ of unspecified bronchus and lung"/>
+      </concept>
+      <concept>
+        <code value="D02.21"/>
+        <display value="Carcinoma in situ of right bronchus and lung"/>
+      </concept>
+      <concept>
+        <code value="D02.22"/>
+        <display value="Carcinoma in situ of left bronchus and lung"/>
+      </concept>
+      <concept>
+        <code value="D02.3"/>
+        <display value="Carcinoma in situ of other parts of respiratory system"/>
+      </concept>
+      <concept>
+        <code value="D02.4"/>
+        <display value="Carcinoma in situ of respiratory system, unspecified"/>
+      </concept>
+      <concept>
+        <code value="D03.0"/>
+        <display value="Melanoma in situ of lip"/>
+      </concept>
+      <concept>
+        <code value="D03.10"/>
+        <display value="Melanoma in situ of unspecified eyelid, including canthus"/>
+      </concept>
+      <concept>
+        <code value="D03.11"/>
+        <display value="Melanoma in situ of right eyelid, including canthus"/>
+      </concept>
+      <concept>
+        <code value="D03.111"/>
+        <display value="Melanoma in situ of right upper eyelid, including canthus"/>
+      </concept>
+      <concept>
+        <code value="D03.112"/>
+        <display value="Melanoma in situ of right lower eyelid, including canthus"/>
+      </concept>
+      <concept>
+        <code value="D03.12"/>
+        <display value="Melanoma in situ of left eyelid, including canthus"/>
+      </concept>
+      <concept>
+        <code value="D03.121"/>
+        <display value="Melanoma in situ of left upper eyelid, including canthus"/>
+      </concept>
+      <concept>
+        <code value="D03.122"/>
+        <display value="Melanoma in situ of left lower eyelid, including canthus"/>
+      </concept>
+      <concept>
+        <code value="D03.20"/>
+        <display value="Melanoma in situ of unsp ear and external auricular canal"/>
+      </concept>
+      <concept>
+        <code value="D03.21"/>
+        <display value="Melanoma in situ of right ear and external auricular canal"/>
+      </concept>
+      <concept>
+        <code value="D03.22"/>
+        <display value="Melanoma in situ of left ear and external auricular canal"/>
+      </concept>
+      <concept>
+        <code value="D03.30"/>
+        <display value="Melanoma in situ of unspecified part of face"/>
+      </concept>
+      <concept>
+        <code value="D03.39"/>
+        <display value="Melanoma in situ of other parts of face"/>
+      </concept>
+      <concept>
+        <code value="D03.4"/>
+        <display value="Melanoma in situ of scalp and neck"/>
+      </concept>
+      <concept>
+        <code value="D03.51"/>
+        <display value="Melanoma in situ of anal skin"/>
+      </concept>
+      <concept>
+        <code value="D03.52"/>
+        <display value="Melanoma in situ of breast (skin) (soft tissue)"/>
+      </concept>
+      <concept>
+        <code value="D03.59"/>
+        <display value="Melanoma in situ of other part of trunk"/>
+      </concept>
+      <concept>
+        <code value="D03.60"/>
+        <display value="Melanoma in situ of unsp upper limb, including shoulder"/>
+      </concept>
+      <concept>
+        <code value="D03.61"/>
+        <display value="Melanoma in situ of right upper limb, including shoulder"/>
+      </concept>
+      <concept>
+        <code value="D03.62"/>
+        <display value="Melanoma in situ of left upper limb, including shoulder"/>
+      </concept>
+      <concept>
+        <code value="D03.70"/>
+        <display value="Melanoma in situ of unspecified lower limb, including hip"/>
+      </concept>
+      <concept>
+        <code value="D03.71"/>
+        <display value="Melanoma in situ of right lower limb, including hip"/>
+      </concept>
+      <concept>
+        <code value="D03.72"/>
+        <display value="Melanoma in situ of left lower limb, including hip"/>
+      </concept>
+      <concept>
+        <code value="D03.8"/>
+        <display value="Melanoma in situ of other sites"/>
+      </concept>
+      <concept>
+        <code value="D03.9"/>
+        <display value="Melanoma in situ, unspecified"/>
+      </concept>
+      <concept>
+        <code value="D04.0"/>
+        <display value="Carcinoma in situ of skin of lip"/>
+      </concept>
+      <concept>
+        <code value="D04.10"/>
+        <display value="Carcinoma in situ of skin of unsp eyelid, including canthus"/>
+      </concept>
+      <concept>
+        <code value="D04.11"/>
+        <display value="Carcinoma in situ of skin of right eyelid, including canthus"/>
+      </concept>
+      <concept>
+        <code value="D04.111"/>
+        <display value="Carcinoma in situ of skin of right upper eyelid, including canthus"/>
+      </concept>
+      <concept>
+        <code value="D04.112"/>
+        <display value="Carcinoma in situ of skin of right lower eyelid, including canthus"/>
+      </concept>
+      <concept>
+        <code value="D04.12"/>
+        <display value="Carcinoma in situ of skin of left eyelid, including canthus"/>
+      </concept>
+      <concept>
+        <code value="D04.121"/>
+        <display value="Carcinoma in situ of skin of left upper eyelid, including canthus"/>
+      </concept>
+      <concept>
+        <code value="D04.122"/>
+        <display value="Carcinoma in situ of skin of left lower eyelid, including canthus"/>
+      </concept>
+      <concept>
+        <code value="D04.20"/>
+        <display value="Ca in situ skin of unsp ear and external auricular canal"/>
+      </concept>
+      <concept>
+        <code value="D04.21"/>
+        <display value="Ca in situ skin of right ear and external auricular canal"/>
+      </concept>
+      <concept>
+        <code value="D04.22"/>
+        <display value="Ca in situ skin of left ear and external auricular canal"/>
+      </concept>
+      <concept>
+        <code value="D04.30"/>
+        <display value="Carcinoma in situ of skin of unspecified part of face"/>
+      </concept>
+      <concept>
+        <code value="D04.39"/>
+        <display value="Carcinoma in situ of skin of other parts of face"/>
+      </concept>
+      <concept>
+        <code value="D04.4"/>
+        <display value="Carcinoma in situ of skin of scalp and neck"/>
+      </concept>
+      <concept>
+        <code value="D04.5"/>
+        <display value="Carcinoma in situ of skin of trunk"/>
+      </concept>
+      <concept>
+        <code value="D04.60"/>
+        <display value="Ca in situ skin of unsp upper limb, including shoulder"/>
+      </concept>
+      <concept>
+        <code value="D04.61"/>
+        <display value="Ca in situ skin of right upper limb, including shoulder"/>
+      </concept>
+      <concept>
+        <code value="D04.62"/>
+        <display value="Ca in situ skin of left upper limb, including shoulder"/>
+      </concept>
+      <concept>
+        <code value="D04.70"/>
+        <display value="Carcinoma in situ of skin of unsp lower limb, including hip"/>
+      </concept>
+      <concept>
+        <code value="D04.71"/>
+        <display value="Carcinoma in situ of skin of right lower limb, including hip"/>
+      </concept>
+      <concept>
+        <code value="D04.72"/>
+        <display value="Carcinoma in situ of skin of left lower limb, including hip"/>
+      </concept>
+      <concept>
+        <code value="D04.8"/>
+        <display value="Carcinoma in situ of skin of other sites"/>
+      </concept>
+      <concept>
+        <code value="D04.9"/>
+        <display value="Carcinoma in situ of skin, unspecified"/>
+      </concept>
+      <concept>
+        <code value="D05.00"/>
+        <display value="Lobular carcinoma in situ of unspecified breast"/>
+      </concept>
+      <concept>
+        <code value="D05.01"/>
+        <display value="Lobular carcinoma in situ of right breast"/>
+      </concept>
+      <concept>
+        <code value="D05.02"/>
+        <display value="Lobular carcinoma in situ of left breast"/>
+      </concept>
+      <concept>
+        <code value="D05.10"/>
+        <display value="Intraductal carcinoma in situ of unspecified breast"/>
+      </concept>
+      <concept>
+        <code value="D05.11"/>
+        <display value="Intraductal carcinoma in situ of right breast"/>
+      </concept>
+      <concept>
+        <code value="D05.12"/>
+        <display value="Intraductal carcinoma in situ of left breast"/>
+      </concept>
+      <concept>
+        <code value="D05.80"/>
+        <display value="Oth type of carcinoma in situ of unspecified breast"/>
+      </concept>
+      <concept>
+        <code value="D05.81"/>
+        <display value="Other specified type of carcinoma in situ of right breast"/>
+      </concept>
+      <concept>
+        <code value="D05.82"/>
+        <display value="Other specified type of carcinoma in situ of left breast"/>
+      </concept>
+      <concept>
+        <code value="D05.90"/>
+        <display value="Unspecified type of carcinoma in situ of unspecified breast"/>
+      </concept>
+      <concept>
+        <code value="D05.91"/>
+        <display value="Unspecified type of carcinoma in situ of right breast"/>
+      </concept>
+      <concept>
+        <code value="D05.92"/>
+        <display value="Unspecified type of carcinoma in situ of left breast"/>
+      </concept>
+      <concept>
+        <code value="D06.0"/>
+        <display value="Carcinoma in situ of endocervix"/>
+      </concept>
+      <concept>
+        <code value="D06.1"/>
+        <display value="Carcinoma in situ of exocervix"/>
+      </concept>
+      <concept>
+        <code value="D06.7"/>
+        <display value="Carcinoma in situ of other parts of cervix"/>
+      </concept>
+      <concept>
+        <code value="D06.9"/>
+        <display value="Carcinoma in situ of cervix, unspecified"/>
+      </concept>
+      <concept>
+        <code value="D07.0"/>
+        <display value="Carcinoma in situ of endometrium"/>
+      </concept>
+      <concept>
+        <code value="D07.1"/>
+        <display value="Carcinoma in situ of vulva"/>
+      </concept>
+      <concept>
+        <code value="D07.2"/>
+        <display value="Carcinoma in situ of vagina"/>
+      </concept>
+      <concept>
+        <code value="D07.30"/>
+        <display value="Carcinoma in situ of unspecified female genital organs"/>
+      </concept>
+      <concept>
+        <code value="D07.39"/>
+        <display value="Carcinoma in situ of other female genital organs"/>
+      </concept>
+      <concept>
+        <code value="D07.4"/>
+        <display value="Carcinoma in situ of penis"/>
+      </concept>
+      <concept>
+        <code value="D07.5"/>
+        <display value="Carcinoma in situ of prostate"/>
+      </concept>
+      <concept>
+        <code value="D07.60"/>
+        <display value="Carcinoma in situ of unspecified male genital organs"/>
+      </concept>
+      <concept>
+        <code value="D07.61"/>
+        <display value="Carcinoma in situ of scrotum"/>
+      </concept>
+      <concept>
+        <code value="D07.69"/>
+        <display value="Carcinoma in situ of other male genital organs"/>
+      </concept>
+      <concept>
+        <code value="D09.0"/>
+        <display value="Carcinoma in situ of bladder"/>
+      </concept>
+      <concept>
+        <code value="D09.10"/>
+        <display value="Carcinoma in situ of unspecified urinary organ"/>
+      </concept>
+      <concept>
+        <code value="D09.19"/>
+        <display value="Carcinoma in situ of other urinary organs"/>
+      </concept>
+      <concept>
+        <code value="D09.20"/>
+        <display value="Carcinoma in situ of unspecified eye"/>
+      </concept>
+      <concept>
+        <code value="D09.21"/>
+        <display value="Carcinoma in situ of right eye"/>
+      </concept>
+      <concept>
+        <code value="D09.22"/>
+        <display value="Carcinoma in situ of left eye"/>
+      </concept>
+      <concept>
+        <code value="D09.3"/>
+        <display value="Carcinoma in situ of thyroid and other endocrine glands"/>
+      </concept>
+      <concept>
+        <code value="D09.8"/>
+        <display value="Carcinoma in situ of other specified sites"/>
+      </concept>
+      <concept>
+        <code value="D09.9"/>
+        <display value="Carcinoma in situ, unspecified"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

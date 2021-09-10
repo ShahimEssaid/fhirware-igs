@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="elixhauser-depression-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="https://terminology.hl7.org/1.0.0//CodeSystem-icd10CM.html"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>F06.31</td><td>Mood disorder due to known physiol cond w depressv features</td></tr><tr><td>F06.32</td><td>Mood disord d/t physiol cond w major depressive-like epsd</td></tr><tr><td>F06.34</td><td>Mood disorder due to known physiological condition with mixed features</td></tr><tr><td>F32.0</td><td>Major depressive disorder, single episode, mild</td></tr><tr><td>F32.1</td><td>Major depressive disorder, single episode, moderate</td></tr><tr><td>F32.2</td><td>Major depressv disord, single epsd, sev w/o psych features</td></tr><tr><td>F32.3</td><td>Major depressv disord, single epsd, severe w psych features</td></tr><tr><td>F32.8</td><td>Other depressive episodes</td></tr><tr><td>F32.81</td><td>Premenstrual dysphoric disorder</td></tr><tr><td>F32.89</td><td>Other specified depressive episodes</td></tr><tr><td>F32.9</td><td>Major depressive disorder, single episode, unspecified</td></tr><tr><td>F33.0</td><td>Major depressive disorder, recurrent, mild</td></tr><tr><td>F33.1</td><td>Major depressive disorder, recurrent, moderate</td></tr><tr><td>F33.2</td><td>Major depressv disorder, recurrent severe w/o psych features</td></tr><tr><td>F33.3</td><td>Major depressv disorder, recurrent, severe w psych symptoms</td></tr><tr><td>F33.8</td><td>Other recurrent depressive disorders</td></tr><tr><td>F33.9</td><td>Major depressive disorder, recurrent, unspecified</td></tr><tr><td>F34.1</td><td>Dysthymic disorder</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/mcode/ValueSet/elixhauser-depression-vs"/>
+  <version value="1.16.0"/>
+  <name value="ElixhauserDepressionVS"/>
+  <title value="Elixhauser Comorbid Condition Value Set for Depression"/>
+  <status value="active"/>
+  <date value="2021-04-15T12:44:45+00:00"/>
+  <publisher value="HL7 International Clinical Interoperability Council"/>
+  <contact>
+    <name value="HL7 International Clinical Interoperability Council"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ciclist@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Elixhauser Comorbid Condition Value Set for Depression. ICD-10 codes are drawn from https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp, version 2021.1"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <concept>
+        <code value="F06.31"/>
+        <display value="Mood disorder due to known physiol cond w depressv features"/>
+      </concept>
+      <concept>
+        <code value="F06.32"/>
+        <display value="Mood disord d/t physiol cond w major depressive-like epsd"/>
+      </concept>
+      <concept>
+        <code value="F06.34"/>
+        <display value="Mood disorder due to known physiological condition with mixed features"/>
+      </concept>
+      <concept>
+        <code value="F32.0"/>
+        <display value="Major depressive disorder, single episode, mild"/>
+      </concept>
+      <concept>
+        <code value="F32.1"/>
+        <display value="Major depressive disorder, single episode, moderate"/>
+      </concept>
+      <concept>
+        <code value="F32.2"/>
+        <display value="Major depressv disord, single epsd, sev w/o psych features"/>
+      </concept>
+      <concept>
+        <code value="F32.3"/>
+        <display value="Major depressv disord, single epsd, severe w psych features"/>
+      </concept>
+      <concept>
+        <code value="F32.8"/>
+        <display value="Other depressive episodes"/>
+      </concept>
+      <concept>
+        <code value="F32.81"/>
+        <display value="Premenstrual dysphoric disorder"/>
+      </concept>
+      <concept>
+        <code value="F32.89"/>
+        <display value="Other specified depressive episodes"/>
+      </concept>
+      <concept>
+        <code value="F32.9"/>
+        <display value="Major depressive disorder, single episode, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F33.0"/>
+        <display value="Major depressive disorder, recurrent, mild"/>
+      </concept>
+      <concept>
+        <code value="F33.1"/>
+        <display value="Major depressive disorder, recurrent, moderate"/>
+      </concept>
+      <concept>
+        <code value="F33.2"/>
+        <display value="Major depressv disorder, recurrent severe w/o psych features"/>
+      </concept>
+      <concept>
+        <code value="F33.3"/>
+        <display value="Major depressv disorder, recurrent, severe w psych symptoms"/>
+      </concept>
+      <concept>
+        <code value="F33.8"/>
+        <display value="Other recurrent depressive disorders"/>
+      </concept>
+      <concept>
+        <code value="F33.9"/>
+        <display value="Major depressive disorder, recurrent, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F34.1"/>
+        <display value="Dysthymic disorder"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

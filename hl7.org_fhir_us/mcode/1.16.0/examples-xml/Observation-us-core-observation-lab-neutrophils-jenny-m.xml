@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="us-core-observation-lab-neutrophils-jenny-m"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 26499-4}">Neutrophils [#/volume] in Blood</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-jenny-m.html">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p><p><b>effective</b>: May 20, 2018 12:00:00 AM</p><p><b>value</b>: 3000 10*3/uL</p><h3>ReferenceRanges</h3><table class="grid"><tr><td>-</td><td><b>Low</b></td><td><b>High</b></td><td><b>AppliesTo</b></td></tr><tr><td>*</td><td>2500 10*3/uL</td><td>5000 10*3/uL</td><td><span title="Codes: {http://terminology.hl7.org/CodeSystem/referencerange-meaning normal}">Normal Range</span></td></tr></table></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="26499-4"/>
+      <display value="Neutrophils [#/volume] in Blood"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </subject>
+  <effectiveDateTime value="2018-05-20T00:00:00Z"/>
+  <valueQuantity>
+    <value value="3000"/>
+    <unit value="10*3/uL"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="10*3/uL"/>
+  </valueQuantity>
+  <referenceRange>
+    <low>
+      <value value="2500"/>
+      <unit value="10*3/uL"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="10*3/uL"/>
+    </low>
+    <high>
+      <value value="5000"/>
+      <unit value="10*3/uL"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="10*3/uL"/>
+    </high>
+    <appliesTo>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/referencerange-meaning"/>
+        <code value="normal"/>
+        <display value="Normal Range"/>
+      </coding>
+    </appliesTo>
+  </referenceRange>
+</Observation>

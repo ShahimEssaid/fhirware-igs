@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="tnm-clinical-stage-group-jenny-m"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-stage-group"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title="Codes: {http://loinc.org 21908-9}">Stage group.clinical Cancer</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-jenny-m.html">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p><p><b>effective</b>: 2018-03-16</p><p><b>value</b>: <span title="Codes: {http://cancerstaging.org 2B}">IIB</span></p><p><b>method</b>: <span title="Codes: {http://snomed.info/sct 897275008}">American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)</span></p><p><b>hasMember</b>: </p><ul><li><a href="Observation-tnm-pathologic-primary-tumor-category-jenny-m.html">Generated Summary: <span title="Codes: {http://loinc.org 21899-0}">Primary tumor.pathology Cancer</span>; effective: 2018-04-01; <span title="Codes: {http://cancerstaging.org pT3}">pT3</span>; <span title="Codes: {http://snomed.info/sct 897275008}">American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)</span></a></li><li><a href="Observation-tnm-pathologic-regional-nodes-category-jenny-m.html">Generated Summary: <span title="Codes: {http://loinc.org 21900-6}">Regional lymph nodes.pathology [Class] Cancer</span>; effective: 2018-04-01; <span title="Codes: {http://cancerstaging.org pN0}">pN0</span>; <span title="Codes: {http://snomed.info/sct 897275008}">American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)</span></a></li><li><a href="Observation-tnm-pathologic-distant-metastases-category-jenny-m.html">Generated Summary: <span title="Codes: {http://loinc.org 21901-4}">Distant metastases.pathology [Class] Cancer</span>; effective: 2018-04-01; <span title="Codes: {http://cancerstaging.org pM0}">pM0</span>; <span title="Codes: {http://snomed.info/sct 897275008}">American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)</span></a></li></ul></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="21908-9"/>
+      <display value="Stage group.clinical Cancer"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </subject>
+  <effectiveDateTime value="2018-03-16"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://cancerstaging.org"/>
+      <code value="2B"/>
+      <display value="IIB"/>
+    </coding>
+  </valueCodeableConcept>
+  <method>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="897275008"/>
+      <display value="American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)"/>
+    </coding>
+  </method>
+  <hasMember>
+    <reference value="Observation/tnm-pathologic-primary-tumor-category-jenny-m"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/tnm-pathologic-regional-nodes-category-jenny-m"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/tnm-pathologic-distant-metastases-category-jenny-m"/>
+  </hasMember>
+</Observation>

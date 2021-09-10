@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="RegionStudiedPGx2"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/region-studied"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 53041-0}">DNA region of interest panel</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81293-3}">Description of ranges of DNA sequences examined</span></p><p><b>value</b>: protein-coding and exon-splicing regions.</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.genenames.org/geneId HGNC:2623}">CYP2C9</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes region-coverage}">region-coverage</span></p><p><b>value</b>: 100</p></blockquote></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="53041-0"/>
+    </coding>
+  </code>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="81293-3"/>
+      </coding>
+    </code>
+    <valueString value="protein-coding and exon-splicing regions."/>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="48018-6"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://www.genenames.org/geneId"/>
+        <code value="HGNC:2623"/>
+        <display value="CYP2C9"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+        <code value="region-coverage"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="100"/>
+    </valueQuantity>
+  </component>
+</Observation>

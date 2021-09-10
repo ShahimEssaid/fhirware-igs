@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="primary-cancer-condition-cll"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-primary-cancer-condition"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>clinicalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span></p><p><b>verificationStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 92814006}">Chronic lymphoid leukemia, disease (disorder)</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-adam-everyman.html">Generated Summary: Medical Record Number: m123 (USUAL); Adam A. Everyman ; gender: male; birthDate: 1962-02-05</a></p><p><b>onset</b>: 2020-05-12</p><p><b>asserter</b>: <a href="Practitioner-us-core-practitioner-kyle-anydoc.html">Generated Summary: id: 9988776655; Kyle Anydoc ; gender: male</a></p><h3>Stages</h3><table class="grid"><tr><td>-</td><td><b>Summary</b></td><td><b>Assessment</b></td></tr><tr><td>*</td><td><span title="Codes: {http://terminology.hl7.org/CodeSystem/umls C2698392}">Binet Stage A</span></td><td><a href="Observation-binet-stage-group-A.html">Generated Summary: <span title="Codes: {http://loinc.org 21914-7}">Stage group.other Cancer</span>; effective: 2020-05-18; <span title="Codes: {http://terminology.hl7.org/CodeSystem/umls C2698392}">Binet Stage A</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/umls C4683625}">Binet Staging</span></a></td></tr></table></div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+      <code value="confirmed"/>
+      <display value="Confirmed"/>
+    </coding>
+  </verificationStatus>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+      <code value="problem-list-item"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="92814006"/>
+      <display value="Chronic lymphoid leukemia, disease (disorder)"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cancer-patient-adam-everyman"/>
+  </subject>
+  <onsetDateTime value="2020-05-12"/>
+  <asserter>
+    <reference value="Practitioner/us-core-practitioner-kyle-anydoc"/>
+  </asserter>
+  <stage>
+    <summary>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/umls"/>
+        <code value="C2698392"/>
+        <display value="Binet Stage A"/>
+      </coding>
+    </summary>
+    <assessment>
+      <reference value="Observation/binet-stage-group-A"/>
+    </assessment>
+  </stage>
+</Condition>

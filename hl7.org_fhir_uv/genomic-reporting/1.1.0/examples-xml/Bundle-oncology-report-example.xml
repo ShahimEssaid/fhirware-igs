@@ -1,0 +1,2868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="oncology-report-example"/>
+  <type value="transaction"/>
+  <entry>
+    <fullUrl value="urn:uuid:fc16d84c-8584-4e1d-baae-64e2f95bfe17"/>
+    <resource>
+      <Organization>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: CEGAT</p><p><b>name</b>: CEGAT</p></div>
+        </text>
+        <identifier>
+          <system value="http://molit.eu/fhir/genomics/NamingSystem/organization"/>
+          <value value="CEGAT"/>
+        </identifier>
+        <name value="CEGAT"/>
+      </Organization>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Organization"/>
+      <ifNoneExist value="identifier=http://molit.eu/fhir/genomics/NamingSystem/organization|CEGAT"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:f7a438e6-f484-453d-97e8-aa4d51008648"/>
+    <resource>
+      <Patient>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 11111</p></div>
+        </text>
+        <identifier>
+          <system value="http://molit.eu/fhir/genomics/NamingSystem/cegat/patID"/>
+          <value value="11111"/>
+        </identifier>
+      </Patient>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Patient"/>
+      <ifNoneExist value="identifier=http://molit.eu/fhir/genomics/NamingSystem/cegat/patID|11111"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:a2041c83-b73d-4fc8-9466-4ba4a92da516"/>
+    <resource>
+      <Specimen>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: UNKNOWN</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TUMOR}">Tumor</span></p><p><b>subject</b>: <a href="#urnuuidf7a438e6-f484-453d-97e8-aa4d51008648">See above (Patient/null)</a></p><h3>Collections</h3><table class="grid"><tr><td>-</td><td><b>Method</b></td><td><b>BodySite</b></td></tr><tr><td>*</td><td><span title="Codes: {http://molit.eu/fhir/IG_TODO Biopsy}">Biopsie</span></td><td><span title="Codes: {http://example.org/fhir/sid/icd-9-cm C16.0}">C16.0</span></td></tr></table></div>
+        </text>
+        <identifier>
+          <system value="http://molit.eu/fhir/genomics/NamingSystem/cegat/tissueID"/>
+          <value value="UNKNOWN"/>
+        </identifier>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0487"/>
+            <code value="TUMOR"/>
+            <display value="Tumor"/>
+          </coding>
+        </type>
+        <subject>
+          <reference value="urn:uuid:f7a438e6-f484-453d-97e8-aa4d51008648"/>
+        </subject>
+        <collection>
+          <method>
+            <coding>
+              <system value="http://molit.eu/fhir/IG_TODO"/>
+              <code value="Biopsy"/>
+              <display value="Biopsie"/>
+            </coding>
+          </method>
+          <bodySite>
+            <coding>
+              <system value="http://example.org/fhir/sid/icd-9-cm"/>
+              <code value="C16.0"/>
+            </coding>
+          </bodySite>
+        </collection>
+      </Specimen>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Specimen"/>
+      <ifNoneExist value="identifier=http://molit.eu/fhir/genomics/NamingSystem/cegat/tissueID|UNKNOWN"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:dac358c3-403a-4dbb-b478-4259aed882ae"/>
+    <resource>
+      <Observation>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>subject</b>: <a href="#urnuuidf7a438e6-f484-453d-97e8-aa4d51008648">See above (Patient/null)</a></p><p><b>performer</b>: <a href="#urnuuidfc16d84c-8584-4e1d-baae-64e2f95bfe17">See above (Organization/null)</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><p><b>method</b>: <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></p><p><b>specimen</b>: <span></span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48002-0}">Genomic source class</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6684-0}">Somatic</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.genenames.org/geneId HGNC:8975}">PIK3CA</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 62374-4}">Human reference sequence assembly version</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA14029-5}">GRCh37</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48004-6}">DNA change (c.HGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org c.3140A&gt;G}">c.3140A&gt;G</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48019-4}">DNA change type</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:1000002}">substitution</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48005-3}">Amino acid change (pHGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org p.H1047R}">p.H1047R</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes molecular-consequence}">Molecular Consequence</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:0001583}">missense_variant</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 51958-7}">Transcript reference sequence [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.ncbi.nlm.nih.gov/refseq NM_006218.3}">NM_006218.3</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69547-8}">Genomic ref allele [ID]</span></p><p><b>value</b>: A</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81258-6}">Sample VAF</span></p><p><b>value</b>: 0.2188 relative frequency of a particular allele in the specimen</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 82121-5}">Allelic read depth</span></p><p><b>value</b>: 64.0 reads per base pair</p></blockquote></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:f7a438e6-f484-453d-97e8-aa4d51008648"/>
+        </subject>
+        <performer>
+          <reference value="urn:uuid:fc16d84c-8584-4e1d-baae-64e2f95bfe17"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA26398-0"/>
+            <display value="Sequencing"/>
+          </coding>
+        </method>
+        <specimen>
+          <identifier>
+            <system value="http://molit.eu/fhir/genomics/NamingSystem/cegat/tissueID"/>
+            <value value="UNKNOWN"/>
+          </identifier>
+        </specimen>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48002-0"/>
+              <display value="Genomic source class"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA6684-0"/>
+              <display value="Somatic"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48018-6"/>
+              <display value="Gene studied [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.genenames.org/geneId"/>
+              <code value="HGNC:8975"/>
+              <display value="PIK3CA"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="62374-4"/>
+              <display value="Human reference sequence assembly version"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA14029-5"/>
+              <display value="GRCh37"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48004-6"/>
+              <display value="DNA change (c.HGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="c.3140A&gt;G"/>
+              <display value="c.3140A&gt;G"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48019-4"/>
+              <display value="DNA change type"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:1000002"/>
+              <display value="substitution"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48005-3"/>
+              <display value="Amino acid change (pHGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="p.H1047R"/>
+              <display value="p.H1047R"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+              <code value="molecular-consequence"/>
+              <display value="Molecular Consequence"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:0001583"/>
+              <display value="missense_variant"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="51958-7"/>
+              <display value="Transcript reference sequence [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.ncbi.nlm.nih.gov/refseq"/>
+              <code value="NM_006218.3"/>
+              <display value="NM_006218.3"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="69547-8"/>
+              <display value="Genomic ref allele [ID]"/>
+            </coding>
+          </code>
+          <valueString value="A"/>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="81258-6"/>
+              <display value="Sample VAF"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="0.2188"/>
+            <unit value="relative frequency of a particular allele in the specimen"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="1"/>
+          </valueQuantity>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="82121-5"/>
+              <display value="Allelic read depth"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="64.0"/>
+            <unit value="reads per base pair"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{reads}/{base}"/>
+          </valueQuantity>
+        </component>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:1d773d66-cec7-44a2-b92a-46d00adeae00"/>
+    <resource>
+      <Observation>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>subject</b>: <a href="#urnuuidf7a438e6-f484-453d-97e8-aa4d51008648">See above (Patient/null)</a></p><p><b>performer</b>: <a href="#urnuuidfc16d84c-8584-4e1d-baae-64e2f95bfe17">See above (Organization/null)</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><p><b>method</b>: <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></p><p><b>specimen</b>: <span></span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48002-0}">Genomic source class</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6684-0}">Somatic</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.genenames.org/geneId HGNC:7989}">NRAS</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 62374-4}">Human reference sequence assembly version</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA14029-5}">GRCh37</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48004-6}">DNA change (c.HGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org c.34G&gt;T}">c.34G&gt;T</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48019-4}">DNA change type</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:1000002}">substitution</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48005-3}">Amino acid change (pHGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org p.G12C}">p.G12C</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes molecular-consequence}">Molecular Consequence</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:0001583}">missense_variant</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 51958-7}">Transcript reference sequence [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.ncbi.nlm.nih.gov/refseq NM_002524.4}">NM_002524.4</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69547-8}">Genomic ref allele [ID]</span></p><p><b>value</b>: C</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81258-6}">Sample VAF</span></p><p><b>value</b>: 0.1793 relative frequency of a particular allele in the specimen</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 82121-5}">Allelic read depth</span></p><p><b>value</b>: 145.0 reads per base pair</p></blockquote></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:f7a438e6-f484-453d-97e8-aa4d51008648"/>
+        </subject>
+        <performer>
+          <reference value="urn:uuid:fc16d84c-8584-4e1d-baae-64e2f95bfe17"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA26398-0"/>
+            <display value="Sequencing"/>
+          </coding>
+        </method>
+        <specimen>
+          <identifier>
+            <system value="http://molit.eu/fhir/genomics/NamingSystem/cegat/tissueID"/>
+            <value value="UNKNOWN"/>
+          </identifier>
+        </specimen>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48002-0"/>
+              <display value="Genomic source class"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA6684-0"/>
+              <display value="Somatic"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48018-6"/>
+              <display value="Gene studied [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.genenames.org/geneId"/>
+              <code value="HGNC:7989"/>
+              <display value="NRAS"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="62374-4"/>
+              <display value="Human reference sequence assembly version"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA14029-5"/>
+              <display value="GRCh37"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48004-6"/>
+              <display value="DNA change (c.HGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="c.34G&gt;T"/>
+              <display value="c.34G&gt;T"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48019-4"/>
+              <display value="DNA change type"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:1000002"/>
+              <display value="substitution"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48005-3"/>
+              <display value="Amino acid change (pHGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="p.G12C"/>
+              <display value="p.G12C"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+              <code value="molecular-consequence"/>
+              <display value="Molecular Consequence"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:0001583"/>
+              <display value="missense_variant"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="51958-7"/>
+              <display value="Transcript reference sequence [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.ncbi.nlm.nih.gov/refseq"/>
+              <code value="NM_002524.4"/>
+              <display value="NM_002524.4"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="69547-8"/>
+              <display value="Genomic ref allele [ID]"/>
+            </coding>
+          </code>
+          <valueString value="C"/>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="81258-6"/>
+              <display value="Sample VAF"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="0.1793"/>
+            <unit value="relative frequency of a particular allele in the specimen"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="1"/>
+          </valueQuantity>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="82121-5"/>
+              <display value="Allelic read depth"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="145.0"/>
+            <unit value="reads per base pair"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{reads}/{base}"/>
+          </valueQuantity>
+        </component>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:842d9ab9-d940-4f0c-adf9-e5c528f5c0e5"/>
+    <resource>
+      <Observation>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>subject</b>: <a href="#urnuuidf7a438e6-f484-453d-97e8-aa4d51008648">See above (Patient/null)</a></p><p><b>performer</b>: <a href="#urnuuidfc16d84c-8584-4e1d-baae-64e2f95bfe17">See above (Organization/null)</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><p><b>method</b>: <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></p><p><b>specimen</b>: <span></span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48002-0}">Genomic source class</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6684-0}">Somatic</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.genenames.org/geneId HGNC:16712}">FBXW7</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 62374-4}">Human reference sequence assembly version</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA14029-5}">GRCh37</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48004-6}">DNA change (c.HGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org c.1394G&gt;A}">c.1394G&gt;A</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48019-4}">DNA change type</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:1000002}">substitution</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48005-3}">Amino acid change (pHGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org p.R465H}">p.R465H</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes molecular-consequence}">Molecular Consequence</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:0001583}">missense_variant</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 51958-7}">Transcript reference sequence [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.ncbi.nlm.nih.gov/refseq NM_001349798.2}">NM_001349798.2</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69547-8}">Genomic ref allele [ID]</span></p><p><b>value</b>: C</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81258-6}">Sample VAF</span></p><p><b>value</b>: 0.1053 relative frequency of a particular allele in the specimen</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 82121-5}">Allelic read depth</span></p><p><b>value</b>: 57.0 reads per base pair</p></blockquote></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:f7a438e6-f484-453d-97e8-aa4d51008648"/>
+        </subject>
+        <performer>
+          <reference value="urn:uuid:fc16d84c-8584-4e1d-baae-64e2f95bfe17"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA26398-0"/>
+            <display value="Sequencing"/>
+          </coding>
+        </method>
+        <specimen>
+          <identifier>
+            <system value="http://molit.eu/fhir/genomics/NamingSystem/cegat/tissueID"/>
+            <value value="UNKNOWN"/>
+          </identifier>
+        </specimen>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48002-0"/>
+              <display value="Genomic source class"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA6684-0"/>
+              <display value="Somatic"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48018-6"/>
+              <display value="Gene studied [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.genenames.org/geneId"/>
+              <code value="HGNC:16712"/>
+              <display value="FBXW7"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="62374-4"/>
+              <display value="Human reference sequence assembly version"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA14029-5"/>
+              <display value="GRCh37"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48004-6"/>
+              <display value="DNA change (c.HGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="c.1394G&gt;A"/>
+              <display value="c.1394G&gt;A"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48019-4"/>
+              <display value="DNA change type"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:1000002"/>
+              <display value="substitution"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48005-3"/>
+              <display value="Amino acid change (pHGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="p.R465H"/>
+              <display value="p.R465H"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+              <code value="molecular-consequence"/>
+              <display value="Molecular Consequence"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:0001583"/>
+              <display value="missense_variant"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="51958-7"/>
+              <display value="Transcript reference sequence [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.ncbi.nlm.nih.gov/refseq"/>
+              <code value="NM_001349798.2"/>
+              <display value="NM_001349798.2"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="69547-8"/>
+              <display value="Genomic ref allele [ID]"/>
+            </coding>
+          </code>
+          <valueString value="C"/>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="81258-6"/>
+              <display value="Sample VAF"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="0.1053"/>
+            <unit value="relative frequency of a particular allele in the specimen"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="1"/>
+          </valueQuantity>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="82121-5"/>
+              <display value="Allelic read depth"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="57.0"/>
+            <unit value="reads per base pair"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{reads}/{base}"/>
+          </valueQuantity>
+        </component>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:9a9f9a4a-52e3-4738-bd0b-a25374bbf358"/>
+    <resource>
+      <Observation>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>subject</b>: <a href="#urnuuidf7a438e6-f484-453d-97e8-aa4d51008648">See above (Patient/null)</a></p><p><b>performer</b>: <a href="#urnuuidfc16d84c-8584-4e1d-baae-64e2f95bfe17">See above (Organization/null)</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><p><b>method</b>: <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></p><p><b>specimen</b>: <span></span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48002-0}">Genomic source class</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6684-0}">Somatic</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.genenames.org/geneId HGNC:7133}">KMT2D</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 62374-4}">Human reference sequence assembly version</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA14029-5}">GRCh37</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48004-6}">DNA change (c.HGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org c.7900_7901delCA}">c.7900_7901delCA</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48019-4}">DNA change type</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:0000159}">deletion</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48005-3}">Amino acid change (pHGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org p.Q2634Afs*20}">p.Q2634Afs*20</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes molecular-consequence}">Molecular Consequence</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:0000865}">frameshift</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 51958-7}">Transcript reference sequence [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.ncbi.nlm.nih.gov/refseq NM_003482.3}">NM_003482.3</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69547-8}">Genomic ref allele [ID]</span></p><p><b>value</b>: CTG</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81258-6}">Sample VAF</span></p><p><b>value</b>: 0.188 relative frequency of a particular allele in the specimen</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 82121-5}">Allelic read depth</span></p><p><b>value</b>: 117.0 reads per base pair</p></blockquote></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:f7a438e6-f484-453d-97e8-aa4d51008648"/>
+        </subject>
+        <performer>
+          <reference value="urn:uuid:fc16d84c-8584-4e1d-baae-64e2f95bfe17"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA26398-0"/>
+            <display value="Sequencing"/>
+          </coding>
+        </method>
+        <specimen>
+          <identifier>
+            <system value="http://molit.eu/fhir/genomics/NamingSystem/cegat/tissueID"/>
+            <value value="UNKNOWN"/>
+          </identifier>
+        </specimen>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48002-0"/>
+              <display value="Genomic source class"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA6684-0"/>
+              <display value="Somatic"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48018-6"/>
+              <display value="Gene studied [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.genenames.org/geneId"/>
+              <code value="HGNC:7133"/>
+              <display value="KMT2D"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="62374-4"/>
+              <display value="Human reference sequence assembly version"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA14029-5"/>
+              <display value="GRCh37"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48004-6"/>
+              <display value="DNA change (c.HGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="c.7900_7901delCA"/>
+              <display value="c.7900_7901delCA"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48019-4"/>
+              <display value="DNA change type"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:0000159"/>
+              <display value="deletion"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48005-3"/>
+              <display value="Amino acid change (pHGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="p.Q2634Afs*20"/>
+              <display value="p.Q2634Afs*20"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+              <code value="molecular-consequence"/>
+              <display value="Molecular Consequence"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:0000865"/>
+              <display value="frameshift"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="51958-7"/>
+              <display value="Transcript reference sequence [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.ncbi.nlm.nih.gov/refseq"/>
+              <code value="NM_003482.3"/>
+              <display value="NM_003482.3"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="69547-8"/>
+              <display value="Genomic ref allele [ID]"/>
+            </coding>
+          </code>
+          <valueString value="CTG"/>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="81258-6"/>
+              <display value="Sample VAF"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="0.188"/>
+            <unit value="relative frequency of a particular allele in the specimen"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="1"/>
+          </valueQuantity>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="82121-5"/>
+              <display value="Allelic read depth"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="117.0"/>
+            <unit value="reads per base pair"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{reads}/{base}"/>
+          </valueQuantity>
+        </component>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:58828523-8893-45fc-973b-16290366c5e5"/>
+    <resource>
+      <Observation>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>subject</b>: <a href="#urnuuidf7a438e6-f484-453d-97e8-aa4d51008648">See above (Patient/null)</a></p><p><b>performer</b>: <a href="#urnuuidfc16d84c-8584-4e1d-baae-64e2f95bfe17">See above (Organization/null)</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><p><b>method</b>: <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></p><p><b>specimen</b>: <span></span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48002-0}">Genomic source class</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6684-0}">Somatic</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.genenames.org/geneId HGNC:8975}">PIK3CA</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 62374-4}">Human reference sequence assembly version</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA14029-5}">GRCh37</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48004-6}">DNA change (c.HGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org c.333G&gt;T}">c.333G&gt;T</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48019-4}">DNA change type</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:1000002}">substitution</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48005-3}">Amino acid change (pHGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org p.K111N}">p.K111N</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes molecular-consequence}">Molecular Consequence</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:0001583}">missense_variant</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 51958-7}">Transcript reference sequence [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.ncbi.nlm.nih.gov/refseq NM_006218.3}">NM_006218.3</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69547-8}">Genomic ref allele [ID]</span></p><p><b>value</b>: G</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81258-6}">Sample VAF</span></p><p><b>value</b>: 0.1471 relative frequency of a particular allele in the specimen</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 82121-5}">Allelic read depth</span></p><p><b>value</b>: 68.0 reads per base pair</p></blockquote></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:f7a438e6-f484-453d-97e8-aa4d51008648"/>
+        </subject>
+        <performer>
+          <reference value="urn:uuid:fc16d84c-8584-4e1d-baae-64e2f95bfe17"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA26398-0"/>
+            <display value="Sequencing"/>
+          </coding>
+        </method>
+        <specimen>
+          <identifier>
+            <system value="http://molit.eu/fhir/genomics/NamingSystem/cegat/tissueID"/>
+            <value value="UNKNOWN"/>
+          </identifier>
+        </specimen>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48002-0"/>
+              <display value="Genomic source class"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA6684-0"/>
+              <display value="Somatic"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48018-6"/>
+              <display value="Gene studied [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.genenames.org/geneId"/>
+              <code value="HGNC:8975"/>
+              <display value="PIK3CA"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="62374-4"/>
+              <display value="Human reference sequence assembly version"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA14029-5"/>
+              <display value="GRCh37"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48004-6"/>
+              <display value="DNA change (c.HGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="c.333G&gt;T"/>
+              <display value="c.333G&gt;T"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48019-4"/>
+              <display value="DNA change type"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:1000002"/>
+              <display value="substitution"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48005-3"/>
+              <display value="Amino acid change (pHGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="p.K111N"/>
+              <display value="p.K111N"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+              <code value="molecular-consequence"/>
+              <display value="Molecular Consequence"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:0001583"/>
+              <display value="missense_variant"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="51958-7"/>
+              <display value="Transcript reference sequence [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.ncbi.nlm.nih.gov/refseq"/>
+              <code value="NM_006218.3"/>
+              <display value="NM_006218.3"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="69547-8"/>
+              <display value="Genomic ref allele [ID]"/>
+            </coding>
+          </code>
+          <valueString value="G"/>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="81258-6"/>
+              <display value="Sample VAF"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="0.1471"/>
+            <unit value="relative frequency of a particular allele in the specimen"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="1"/>
+          </valueQuantity>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="82121-5"/>
+              <display value="Allelic read depth"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="68.0"/>
+            <unit value="reads per base pair"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{reads}/{base}"/>
+          </valueQuantity>
+        </component>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:2c28b23f-3e9f-4c03-8c8f-0e76bc5dc9c2"/>
+    <resource>
+      <Observation>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>subject</b>: <a href="#urnuuidf7a438e6-f484-453d-97e8-aa4d51008648">See above (Patient/null)</a></p><p><b>performer</b>: <a href="#urnuuidfc16d84c-8584-4e1d-baae-64e2f95bfe17">See above (Organization/null)</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><p><b>method</b>: <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></p><p><b>specimen</b>: <span></span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48002-0}">Genomic source class</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6684-0}">Somatic</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.genenames.org/geneId HGNC:6126}">IRS2</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 62374-4}">Human reference sequence assembly version</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA14029-5}">GRCh37</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48004-6}">DNA change (c.HGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org c.3960C&gt;T}">c.3960C&gt;T</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48019-4}">DNA change type</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:1000002}">substitution</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48005-3}">Amino acid change (pHGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org p.=}">p.=</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes molecular-consequence}">Molecular Consequence</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:0001819}">synonymous_variant</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 51958-7}">Transcript reference sequence [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.ncbi.nlm.nih.gov/refseq NM_003749.2}">NM_003749.2</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69547-8}">Genomic ref allele [ID]</span></p><p><b>value</b>: G</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81258-6}">Sample VAF</span></p><p><b>value</b>: 0.1343 relative frequency of a particular allele in the specimen</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 82121-5}">Allelic read depth</span></p><p><b>value</b>: 134.0 reads per base pair</p></blockquote></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:f7a438e6-f484-453d-97e8-aa4d51008648"/>
+        </subject>
+        <performer>
+          <reference value="urn:uuid:fc16d84c-8584-4e1d-baae-64e2f95bfe17"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA26398-0"/>
+            <display value="Sequencing"/>
+          </coding>
+        </method>
+        <specimen>
+          <identifier>
+            <system value="http://molit.eu/fhir/genomics/NamingSystem/cegat/tissueID"/>
+            <value value="UNKNOWN"/>
+          </identifier>
+        </specimen>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48002-0"/>
+              <display value="Genomic source class"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA6684-0"/>
+              <display value="Somatic"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48018-6"/>
+              <display value="Gene studied [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.genenames.org/geneId"/>
+              <code value="HGNC:6126"/>
+              <display value="IRS2"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="62374-4"/>
+              <display value="Human reference sequence assembly version"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA14029-5"/>
+              <display value="GRCh37"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48004-6"/>
+              <display value="DNA change (c.HGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="c.3960C&gt;T"/>
+              <display value="c.3960C&gt;T"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48019-4"/>
+              <display value="DNA change type"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:1000002"/>
+              <display value="substitution"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48005-3"/>
+              <display value="Amino acid change (pHGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="p.="/>
+              <display value="p.="/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+              <code value="molecular-consequence"/>
+              <display value="Molecular Consequence"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:0001819"/>
+              <display value="synonymous_variant"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="51958-7"/>
+              <display value="Transcript reference sequence [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.ncbi.nlm.nih.gov/refseq"/>
+              <code value="NM_003749.2"/>
+              <display value="NM_003749.2"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="69547-8"/>
+              <display value="Genomic ref allele [ID]"/>
+            </coding>
+          </code>
+          <valueString value="G"/>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="81258-6"/>
+              <display value="Sample VAF"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="0.1343"/>
+            <unit value="relative frequency of a particular allele in the specimen"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="1"/>
+          </valueQuantity>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="82121-5"/>
+              <display value="Allelic read depth"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="134.0"/>
+            <unit value="reads per base pair"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{reads}/{base}"/>
+          </valueQuantity>
+        </component>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:41bebbe5-e06f-4867-aa22-7c06db69dbd1"/>
+    <resource>
+      <Observation>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>subject</b>: <a href="#urnuuidf7a438e6-f484-453d-97e8-aa4d51008648">See above (Patient/null)</a></p><p><b>performer</b>: <a href="#urnuuidfc16d84c-8584-4e1d-baae-64e2f95bfe17">See above (Organization/null)</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><p><b>method</b>: <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></p><p><b>specimen</b>: <span></span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48002-0}">Genomic source class</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6684-0}">Somatic</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.genenames.org/geneId HGNC:1787}">CDKN2A</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 62374-4}">Human reference sequence assembly version</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA14029-5}">GRCh37</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48004-6}">DNA change (c.HGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org c.9_32del}">c.9_32del</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48019-4}">DNA change type</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:0000159}">deletion</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48005-3}">Amino acid change (pHGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org p.A4_P11del}">p.A4_P11del</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes molecular-consequence}">Molecular Consequence</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:0001650}">inframe_variant</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 51958-7}">Transcript reference sequence [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.ncbi.nlm.nih.gov/refseq NM_000077.4}">NM_000077.4</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69547-8}">Genomic ref allele [ID]</span></p><p><b>value</b>: AGGCTCCATGCTGCTCCCCGCCGCC</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81258-6}">Sample VAF</span></p><p><b>value</b>: 0.0536 relative frequency of a particular allele in the specimen</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 82121-5}">Allelic read depth</span></p><p><b>value</b>: 112.0 reads per base pair</p></blockquote></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:f7a438e6-f484-453d-97e8-aa4d51008648"/>
+        </subject>
+        <performer>
+          <reference value="urn:uuid:fc16d84c-8584-4e1d-baae-64e2f95bfe17"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA26398-0"/>
+            <display value="Sequencing"/>
+          </coding>
+        </method>
+        <specimen>
+          <identifier>
+            <system value="http://molit.eu/fhir/genomics/NamingSystem/cegat/tissueID"/>
+            <value value="UNKNOWN"/>
+          </identifier>
+        </specimen>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48002-0"/>
+              <display value="Genomic source class"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA6684-0"/>
+              <display value="Somatic"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48018-6"/>
+              <display value="Gene studied [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.genenames.org/geneId"/>
+              <code value="HGNC:1787"/>
+              <display value="CDKN2A"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="62374-4"/>
+              <display value="Human reference sequence assembly version"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA14029-5"/>
+              <display value="GRCh37"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48004-6"/>
+              <display value="DNA change (c.HGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="c.9_32del"/>
+              <display value="c.9_32del"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48019-4"/>
+              <display value="DNA change type"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:0000159"/>
+              <display value="deletion"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48005-3"/>
+              <display value="Amino acid change (pHGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="p.A4_P11del"/>
+              <display value="p.A4_P11del"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+              <code value="molecular-consequence"/>
+              <display value="Molecular Consequence"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:0001650"/>
+              <display value="inframe_variant"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="51958-7"/>
+              <display value="Transcript reference sequence [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.ncbi.nlm.nih.gov/refseq"/>
+              <code value="NM_000077.4"/>
+              <display value="NM_000077.4"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="69547-8"/>
+              <display value="Genomic ref allele [ID]"/>
+            </coding>
+          </code>
+          <valueString value="AGGCTCCATGCTGCTCCCCGCCGCC"/>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="81258-6"/>
+              <display value="Sample VAF"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="0.0536"/>
+            <unit value="relative frequency of a particular allele in the specimen"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="1"/>
+          </valueQuantity>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="82121-5"/>
+              <display value="Allelic read depth"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="112.0"/>
+            <unit value="reads per base pair"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{reads}/{base}"/>
+          </valueQuantity>
+        </component>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:1642f190-e2c6-4999-8040-b9b2a70618bf"/>
+    <resource>
+      <Observation>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>subject</b>: <a href="#urnuuidf7a438e6-f484-453d-97e8-aa4d51008648">See above (Patient/null)</a></p><p><b>performer</b>: <a href="#urnuuidfc16d84c-8584-4e1d-baae-64e2f95bfe17">See above (Organization/null)</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><p><b>method</b>: <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></p><p><b>specimen</b>: <span></span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48002-0}">Genomic source class</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6684-0}">Somatic</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.genenames.org/geneId HGNC:9949}">RECQL4</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 62374-4}">Human reference sequence assembly version</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA14029-5}">GRCh37</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48004-6}">DNA change (c.HGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org c.2086C&gt;T}">c.2086C&gt;T</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48019-4}">DNA change type</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:1000002}">substitution</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48005-3}">Amino acid change (pHGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org p.R696C}">p.R696C</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes molecular-consequence}">Molecular Consequence</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:0001583}">missense_variant</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 51958-7}">Transcript reference sequence [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.ncbi.nlm.nih.gov/refseq NM_004260.3}">NM_004260.3</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69547-8}">Genomic ref allele [ID]</span></p><p><b>value</b>: G</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81258-6}">Sample VAF</span></p><p><b>value</b>: 0.2568 relative frequency of a particular allele in the specimen</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 82121-5}">Allelic read depth</span></p><p><b>value</b>: 148.0 reads per base pair</p></blockquote></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:f7a438e6-f484-453d-97e8-aa4d51008648"/>
+        </subject>
+        <performer>
+          <reference value="urn:uuid:fc16d84c-8584-4e1d-baae-64e2f95bfe17"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA26398-0"/>
+            <display value="Sequencing"/>
+          </coding>
+        </method>
+        <specimen>
+          <identifier>
+            <system value="http://molit.eu/fhir/genomics/NamingSystem/cegat/tissueID"/>
+            <value value="UNKNOWN"/>
+          </identifier>
+        </specimen>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48002-0"/>
+              <display value="Genomic source class"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA6684-0"/>
+              <display value="Somatic"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48018-6"/>
+              <display value="Gene studied [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.genenames.org/geneId"/>
+              <code value="HGNC:9949"/>
+              <display value="RECQL4"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="62374-4"/>
+              <display value="Human reference sequence assembly version"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA14029-5"/>
+              <display value="GRCh37"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48004-6"/>
+              <display value="DNA change (c.HGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="c.2086C&gt;T"/>
+              <display value="c.2086C&gt;T"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48019-4"/>
+              <display value="DNA change type"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:1000002"/>
+              <display value="substitution"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48005-3"/>
+              <display value="Amino acid change (pHGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="p.R696C"/>
+              <display value="p.R696C"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+              <code value="molecular-consequence"/>
+              <display value="Molecular Consequence"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:0001583"/>
+              <display value="missense_variant"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="51958-7"/>
+              <display value="Transcript reference sequence [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.ncbi.nlm.nih.gov/refseq"/>
+              <code value="NM_004260.3"/>
+              <display value="NM_004260.3"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="69547-8"/>
+              <display value="Genomic ref allele [ID]"/>
+            </coding>
+          </code>
+          <valueString value="G"/>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="81258-6"/>
+              <display value="Sample VAF"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="0.2568"/>
+            <unit value="relative frequency of a particular allele in the specimen"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="1"/>
+          </valueQuantity>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="82121-5"/>
+              <display value="Allelic read depth"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="148.0"/>
+            <unit value="reads per base pair"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{reads}/{base}"/>
+          </valueQuantity>
+        </component>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:c3587931-242f-4129-93f9-be24500c8f29"/>
+    <resource>
+      <Observation>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>subject</b>: <a href="#urnuuidf7a438e6-f484-453d-97e8-aa4d51008648">See above (Patient/null)</a></p><p><b>performer</b>: <a href="#urnuuidfc16d84c-8584-4e1d-baae-64e2f95bfe17">See above (Organization/null)</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><p><b>method</b>: <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></p><p><b>specimen</b>: <span></span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48002-0}">Genomic source class</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6684-0}">Somatic</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.genenames.org/geneId HGNC:10483}">RYR1</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 62374-4}">Human reference sequence assembly version</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA14029-5}">GRCh37</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48004-6}">DNA change (c.HGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org c.4964G&gt;A}">c.4964G&gt;A</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48019-4}">DNA change type</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:1000002}">substitution</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48005-3}">Amino acid change (pHGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org p.R1655H}">p.R1655H</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes molecular-consequence}">Molecular Consequence</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:0001583}">missense_variant</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 51958-7}">Transcript reference sequence [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.ncbi.nlm.nih.gov/refseq NM_000540.2}">NM_000540.2</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69547-8}">Genomic ref allele [ID]</span></p><p><b>value</b>: G</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81258-6}">Sample VAF</span></p><p><b>value</b>: 0.2151 relative frequency of a particular allele in the specimen</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 82121-5}">Allelic read depth</span></p><p><b>value</b>: 93.0 reads per base pair</p></blockquote></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:f7a438e6-f484-453d-97e8-aa4d51008648"/>
+        </subject>
+        <performer>
+          <reference value="urn:uuid:fc16d84c-8584-4e1d-baae-64e2f95bfe17"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA26398-0"/>
+            <display value="Sequencing"/>
+          </coding>
+        </method>
+        <specimen>
+          <identifier>
+            <system value="http://molit.eu/fhir/genomics/NamingSystem/cegat/tissueID"/>
+            <value value="UNKNOWN"/>
+          </identifier>
+        </specimen>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48002-0"/>
+              <display value="Genomic source class"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA6684-0"/>
+              <display value="Somatic"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48018-6"/>
+              <display value="Gene studied [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.genenames.org/geneId"/>
+              <code value="HGNC:10483"/>
+              <display value="RYR1"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="62374-4"/>
+              <display value="Human reference sequence assembly version"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA14029-5"/>
+              <display value="GRCh37"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48004-6"/>
+              <display value="DNA change (c.HGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="c.4964G&gt;A"/>
+              <display value="c.4964G&gt;A"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48019-4"/>
+              <display value="DNA change type"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:1000002"/>
+              <display value="substitution"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48005-3"/>
+              <display value="Amino acid change (pHGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="p.R1655H"/>
+              <display value="p.R1655H"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+              <code value="molecular-consequence"/>
+              <display value="Molecular Consequence"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:0001583"/>
+              <display value="missense_variant"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="51958-7"/>
+              <display value="Transcript reference sequence [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.ncbi.nlm.nih.gov/refseq"/>
+              <code value="NM_000540.2"/>
+              <display value="NM_000540.2"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="69547-8"/>
+              <display value="Genomic ref allele [ID]"/>
+            </coding>
+          </code>
+          <valueString value="G"/>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="81258-6"/>
+              <display value="Sample VAF"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="0.2151"/>
+            <unit value="relative frequency of a particular allele in the specimen"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="1"/>
+          </valueQuantity>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="82121-5"/>
+              <display value="Allelic read depth"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="93.0"/>
+            <unit value="reads per base pair"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{reads}/{base}"/>
+          </valueQuantity>
+        </component>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:41695fc0-1fd5-4cc8-95e6-82b2848a5cb6"/>
+    <resource>
+      <Observation>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>subject</b>: <a href="#urnuuidf7a438e6-f484-453d-97e8-aa4d51008648">See above (Patient/null)</a></p><p><b>performer</b>: <a href="#urnuuidfc16d84c-8584-4e1d-baae-64e2f95bfe17">See above (Organization/null)</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><p><b>method</b>: <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></p><p><b>specimen</b>: <span></span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48002-0}">Genomic source class</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6684-0}">Somatic</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.genenames.org/geneId HGNC:10519}">SACS</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 62374-4}">Human reference sequence assembly version</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA14029-5}">GRCh37</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48004-6}">DNA change (c.HGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org c.12118G&gt;A}">c.12118G&gt;A</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48019-4}">DNA change type</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:1000002}">substitution</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48005-3}">Amino acid change (pHGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org p.A4040T}">p.A4040T</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes molecular-consequence}">Molecular Consequence</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:0001583}">missense_variant</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 51958-7}">Transcript reference sequence [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.ncbi.nlm.nih.gov/refseq NM_014363.5}">NM_014363.5</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69547-8}">Genomic ref allele [ID]</span></p><p><b>value</b>: C</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81258-6}">Sample VAF</span></p><p><b>value</b>: 0.3333 relative frequency of a particular allele in the specimen</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 82121-5}">Allelic read depth</span></p><p><b>value</b>: 60.0 reads per base pair</p></blockquote></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:f7a438e6-f484-453d-97e8-aa4d51008648"/>
+        </subject>
+        <performer>
+          <reference value="urn:uuid:fc16d84c-8584-4e1d-baae-64e2f95bfe17"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA26398-0"/>
+            <display value="Sequencing"/>
+          </coding>
+        </method>
+        <specimen>
+          <identifier>
+            <system value="http://molit.eu/fhir/genomics/NamingSystem/cegat/tissueID"/>
+            <value value="UNKNOWN"/>
+          </identifier>
+        </specimen>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48002-0"/>
+              <display value="Genomic source class"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA6684-0"/>
+              <display value="Somatic"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48018-6"/>
+              <display value="Gene studied [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.genenames.org/geneId"/>
+              <code value="HGNC:10519"/>
+              <display value="SACS"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="62374-4"/>
+              <display value="Human reference sequence assembly version"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA14029-5"/>
+              <display value="GRCh37"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48004-6"/>
+              <display value="DNA change (c.HGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="c.12118G&gt;A"/>
+              <display value="c.12118G&gt;A"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48019-4"/>
+              <display value="DNA change type"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:1000002"/>
+              <display value="substitution"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48005-3"/>
+              <display value="Amino acid change (pHGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="p.A4040T"/>
+              <display value="p.A4040T"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+              <code value="molecular-consequence"/>
+              <display value="Molecular Consequence"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:0001583"/>
+              <display value="missense_variant"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="51958-7"/>
+              <display value="Transcript reference sequence [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.ncbi.nlm.nih.gov/refseq"/>
+              <code value="NM_014363.5"/>
+              <display value="NM_014363.5"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="69547-8"/>
+              <display value="Genomic ref allele [ID]"/>
+            </coding>
+          </code>
+          <valueString value="C"/>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="81258-6"/>
+              <display value="Sample VAF"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="0.3333"/>
+            <unit value="relative frequency of a particular allele in the specimen"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="1"/>
+          </valueQuantity>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="82121-5"/>
+              <display value="Allelic read depth"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="60.0"/>
+            <unit value="reads per base pair"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{reads}/{base}"/>
+          </valueQuantity>
+        </component>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:58eb14f6-4059-4168-86a9-155ae61d30e2"/>
+    <resource>
+      <Observation>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>subject</b>: <a href="#urnuuidf7a438e6-f484-453d-97e8-aa4d51008648">See above (Patient/null)</a></p><p><b>performer</b>: <a href="#urnuuidfc16d84c-8584-4e1d-baae-64e2f95bfe17">See above (Organization/null)</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><p><b>method</b>: <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></p><p><b>specimen</b>: <span></span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48002-0}">Genomic source class</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6684-0}">Somatic</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.genenames.org/geneId HGNC:11086}">SLIT2</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 62374-4}">Human reference sequence assembly version</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA14029-5}">GRCh37</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48004-6}">DNA change (c.HGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org c.1290C&gt;A}">c.1290C&gt;A</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48019-4}">DNA change type</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:1000002}">substitution</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48005-3}">Amino acid change (pHGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org p.N430K}">p.N430K</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes molecular-consequence}">Molecular Consequence</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:0001583}">missense_variant</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 51958-7}">Transcript reference sequence [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.ncbi.nlm.nih.gov/refseq NM_004787.3}">NM_004787.3</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69547-8}">Genomic ref allele [ID]</span></p><p><b>value</b>: C</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81258-6}">Sample VAF</span></p><p><b>value</b>: 0.2642 relative frequency of a particular allele in the specimen</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 82121-5}">Allelic read depth</span></p><p><b>value</b>: 53.0 reads per base pair</p></blockquote></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:f7a438e6-f484-453d-97e8-aa4d51008648"/>
+        </subject>
+        <performer>
+          <reference value="urn:uuid:fc16d84c-8584-4e1d-baae-64e2f95bfe17"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA26398-0"/>
+            <display value="Sequencing"/>
+          </coding>
+        </method>
+        <specimen>
+          <identifier>
+            <system value="http://molit.eu/fhir/genomics/NamingSystem/cegat/tissueID"/>
+            <value value="UNKNOWN"/>
+          </identifier>
+        </specimen>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48002-0"/>
+              <display value="Genomic source class"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA6684-0"/>
+              <display value="Somatic"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48018-6"/>
+              <display value="Gene studied [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.genenames.org/geneId"/>
+              <code value="HGNC:11086"/>
+              <display value="SLIT2"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="62374-4"/>
+              <display value="Human reference sequence assembly version"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA14029-5"/>
+              <display value="GRCh37"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48004-6"/>
+              <display value="DNA change (c.HGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="c.1290C&gt;A"/>
+              <display value="c.1290C&gt;A"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48019-4"/>
+              <display value="DNA change type"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:1000002"/>
+              <display value="substitution"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48005-3"/>
+              <display value="Amino acid change (pHGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="p.N430K"/>
+              <display value="p.N430K"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+              <code value="molecular-consequence"/>
+              <display value="Molecular Consequence"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:0001583"/>
+              <display value="missense_variant"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="51958-7"/>
+              <display value="Transcript reference sequence [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.ncbi.nlm.nih.gov/refseq"/>
+              <code value="NM_004787.3"/>
+              <display value="NM_004787.3"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="69547-8"/>
+              <display value="Genomic ref allele [ID]"/>
+            </coding>
+          </code>
+          <valueString value="C"/>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="81258-6"/>
+              <display value="Sample VAF"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="0.2642"/>
+            <unit value="relative frequency of a particular allele in the specimen"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="1"/>
+          </valueQuantity>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="82121-5"/>
+              <display value="Allelic read depth"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="53.0"/>
+            <unit value="reads per base pair"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{reads}/{base}"/>
+          </valueQuantity>
+        </component>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:1a71e80f-b044-4a91-80e1-eadbe5a53dca"/>
+    <resource>
+      <Observation>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>subject</b>: <a href="#urnuuidf7a438e6-f484-453d-97e8-aa4d51008648">See above (Patient/null)</a></p><p><b>performer</b>: <a href="#urnuuidfc16d84c-8584-4e1d-baae-64e2f95bfe17">See above (Organization/null)</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><p><b>method</b>: <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></p><p><b>specimen</b>: <span></span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48002-0}">Genomic source class</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6684-0}">Somatic</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.genenames.org/geneId HGNC:11100}">SMARCA4</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 62374-4}">Human reference sequence assembly version</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA14029-5}">GRCh37</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48004-6}">DNA change (c.HGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org c.2372C&gt;T}">c.2372C&gt;T</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48019-4}">DNA change type</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:1000002}">substitution</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48005-3}">Amino acid change (pHGVS)</span></p><p><b>value</b>: <span title="Codes: {http://varnomen.hgvs.org p.A791V}">p.A791V</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes molecular-consequence}">Molecular Consequence</span></p><p><b>value</b>: <span title="Codes: {http://www.sequenceontology.org SO:0001583}">missense_variant</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 51958-7}">Transcript reference sequence [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.ncbi.nlm.nih.gov/refseq NM_001128849.1}">NM_001128849.1</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69547-8}">Genomic ref allele [ID]</span></p><p><b>value</b>: C</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81258-6}">Sample VAF</span></p><p><b>value</b>: 0.1938 relative frequency of a particular allele in the specimen</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 82121-5}">Allelic read depth</span></p><p><b>value</b>: 160.0 reads per base pair</p></blockquote></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69548-6"/>
+            <display value="Genetic variant assessment"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:f7a438e6-f484-453d-97e8-aa4d51008648"/>
+        </subject>
+        <performer>
+          <reference value="urn:uuid:fc16d84c-8584-4e1d-baae-64e2f95bfe17"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA26398-0"/>
+            <display value="Sequencing"/>
+          </coding>
+        </method>
+        <specimen>
+          <identifier>
+            <system value="http://molit.eu/fhir/genomics/NamingSystem/cegat/tissueID"/>
+            <value value="UNKNOWN"/>
+          </identifier>
+        </specimen>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48002-0"/>
+              <display value="Genomic source class"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA6684-0"/>
+              <display value="Somatic"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48018-6"/>
+              <display value="Gene studied [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.genenames.org/geneId"/>
+              <code value="HGNC:11100"/>
+              <display value="SMARCA4"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="62374-4"/>
+              <display value="Human reference sequence assembly version"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA14029-5"/>
+              <display value="GRCh37"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48004-6"/>
+              <display value="DNA change (c.HGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="c.2372C&gt;T"/>
+              <display value="c.2372C&gt;T"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48019-4"/>
+              <display value="DNA change type"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:1000002"/>
+              <display value="substitution"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48005-3"/>
+              <display value="Amino acid change (pHGVS)"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://varnomen.hgvs.org"/>
+              <code value="p.A791V"/>
+              <display value="p.A791V"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+              <code value="molecular-consequence"/>
+              <display value="Molecular Consequence"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.sequenceontology.org"/>
+              <code value="SO:0001583"/>
+              <display value="missense_variant"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="51958-7"/>
+              <display value="Transcript reference sequence [ID]"/>
+            </coding>
+          </code>
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.ncbi.nlm.nih.gov/refseq"/>
+              <code value="NM_001128849.1"/>
+              <display value="NM_001128849.1"/>
+            </coding>
+          </valueCodeableConcept>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="69547-8"/>
+              <display value="Genomic ref allele [ID]"/>
+            </coding>
+          </code>
+          <valueString value="C"/>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="81258-6"/>
+              <display value="Sample VAF"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="0.1938"/>
+            <unit value="relative frequency of a particular allele in the specimen"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="1"/>
+          </valueQuantity>
+        </component>
+        <component>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="82121-5"/>
+              <display value="Allelic read depth"/>
+            </coding>
+          </code>
+          <valueQuantity>
+            <value value="160.0"/>
+            <unit value="reads per base pair"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{reads}/{base}"/>
+          </valueQuantity>
+        </component>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:6a80003f-822d-489e-8286-1f1dcba56dfa"/>
+    <resource>
+      <DiagnosticReport>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 42867</p><p><b>status</b>: final</p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0074 GE}">Genetics</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 81247-9}">Master HL7 genetic variant reporting panel</span></p><p><b>subject</b>: <a href="#urnuuidf7a438e6-f484-453d-97e8-aa4d51008648">See above (Patient/null)</a></p><p><b>issued</b>: Sep 15, 2019 3:35:05 PM</p><p><b>performer</b>: <a href="#urnuuidfc16d84c-8584-4e1d-baae-64e2f95bfe17">See above (Organization/null)</a></p><p><b>specimen</b>: <a href="#urnuuida2041c83-b73d-4fc8-9466-4ba4a92da516">See above (Specimen/null)</a></p><p><b>result</b>: </p><ul><li><a href="#urnuuiddac358c3-403a-4dbb-b478-4259aed882ae">See above (Observation/null)</a></li><li><a href="#urnuuid1d773d66-cec7-44a2-b92a-46d00adeae00">See above (Observation/null)</a></li><li><a href="#urnuuid842d9ab9-d940-4f0c-adf9-e5c528f5c0e5">See above (Observation/null)</a></li><li><a href="#urnuuid9a9f9a4a-52e3-4738-bd0b-a25374bbf358">See above (Observation/null)</a></li><li><a href="#urnuuid58828523-8893-45fc-973b-16290366c5e5">See above (Observation/null)</a></li><li><a href="#urnuuid2c28b23f-3e9f-4c03-8c8f-0e76bc5dc9c2">See above (Observation/null)</a></li><li><a href="#urnuuid41bebbe5-e06f-4867-aa22-7c06db69dbd1">See above (Observation/null)</a></li><li><a href="#urnuuid1642f190-e2c6-4999-8040-b9b2a70618bf">See above (Observation/null)</a></li><li><a href="#urnuuidc3587931-242f-4129-93f9-be24500c8f29">See above (Observation/null)</a></li><li><a href="#urnuuid41695fc0-1fd5-4cc8-95e6-82b2848a5cb6">See above (Observation/null)</a></li><li><a href="#urnuuid58eb14f6-4059-4168-86a9-155ae61d30e2">See above (Observation/null)</a></li><li><a href="#urnuuid1a71e80f-b044-4a91-80e1-eadbe5a53dca">See above (Observation/null)</a></li></ul></div>
+        </text>
+        <identifier>
+          <system value="http://molit.eu/fhir/genomics/NamingSystem/cegat/reportID"/>
+          <value value="42867"/>
+        </identifier>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+            <code value="GE"/>
+            <display value="Genetics"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81247-9"/>
+            <display value="Master HL7 genetic variant reporting panel"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:f7a438e6-f484-453d-97e8-aa4d51008648"/>
+        </subject>
+        <issued value="2019-09-15T11:35:05.722-04:00"/>
+        <performer>
+          <reference value="urn:uuid:fc16d84c-8584-4e1d-baae-64e2f95bfe17"/>
+        </performer>
+        <specimen>
+          <reference value="urn:uuid:a2041c83-b73d-4fc8-9466-4ba4a92da516"/>
+        </specimen>
+        <result>
+          <reference value="urn:uuid:dac358c3-403a-4dbb-b478-4259aed882ae"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:1d773d66-cec7-44a2-b92a-46d00adeae00"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:842d9ab9-d940-4f0c-adf9-e5c528f5c0e5"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:9a9f9a4a-52e3-4738-bd0b-a25374bbf358"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:58828523-8893-45fc-973b-16290366c5e5"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:2c28b23f-3e9f-4c03-8c8f-0e76bc5dc9c2"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:41bebbe5-e06f-4867-aa22-7c06db69dbd1"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:1642f190-e2c6-4999-8040-b9b2a70618bf"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:c3587931-242f-4129-93f9-be24500c8f29"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:41695fc0-1fd5-4cc8-95e6-82b2848a5cb6"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:58eb14f6-4059-4168-86a9-155ae61d30e2"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:1a71e80f-b044-4a91-80e1-eadbe5a53dca"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="DiagnosticReport"/>
+    </request>
+  </entry>
+</Bundle>

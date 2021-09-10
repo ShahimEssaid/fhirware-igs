@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="GrouperEx02"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/grouper"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes grouper}">grouper</span></p><p><b>hasMember</b>: </p><ul><li><a href="Observation-Pgx-geno-1001.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 84413-4}">Genotype display name</span>; effective: 2020-01-01; <span title="Codes: {http://www.ncbi.nlm.nih.gov/clinvar 638797}">CYP2C19*2/*2</span></a></li><li><a href="Observation-Pgx-geno-1003.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 84413-4}">Genotype display name</span>; effective: 2020-01-01; <span title="Codes: ">VKORC1 rs9923231 C/T</span></a></li><li><a href="Observation-Pgx-geno-1002.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 84413-4}">Genotype display name</span>; effective: 2020-01-01; <span title="Codes: ">CYP2C9*1/*1</span></a></li></ul></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+      <code value="grouper"/>
+    </coding>
+  </code>
+  <hasMember>
+    <reference value="Observation/Pgx-geno-1001"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/Pgx-geno-1003"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/Pgx-geno-1002"/>
+  </hasMember>
+</Observation>

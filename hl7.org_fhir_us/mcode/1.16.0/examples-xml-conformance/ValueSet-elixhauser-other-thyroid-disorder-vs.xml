@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="elixhauser-other-thyroid-disorder-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="https://terminology.hl7.org/1.0.0//CodeSystem-icd10CM.html"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>E04.0</td><td>Nontoxic diffuse goiter</td></tr><tr><td>E04.1</td><td>Nontoxic single thyroid nodule</td></tr><tr><td>E04.2</td><td>Nontoxic multinodular goiter</td></tr><tr><td>E04.8</td><td>Other specified nontoxic goiter</td></tr><tr><td>E04.9</td><td>Nontoxic goiter, unspecified</td></tr><tr><td>E05.00</td><td>Thyrotoxicosis w diffuse goiter w/o thyrotoxic crisis</td></tr><tr><td>E05.01</td><td>Thyrotoxicosis w diffuse goiter w thyrotoxic crisis or storm</td></tr><tr><td>E05.10</td><td>Thyrotxcosis w toxic sing thyroid nodule w/o thyrotxc crisis</td></tr><tr><td>E05.11</td><td>Thyrotxcosis w toxic single thyroid nodule w thyrotxc crisis</td></tr><tr><td>E05.20</td><td>Thyrotxcosis w toxic multinod goiter w/o thyrotoxic crisis</td></tr><tr><td>E05.21</td><td>Thyrotxcosis w toxic multinodular goiter w thyrotoxic crisis</td></tr><tr><td>E05.30</td><td>Thyrotxcosis from ectopic thyroid tissue w/o thyrotxc crisis</td></tr><tr><td>E05.31</td><td>Thyrotxcosis from ectopic thyroid tissue w thyrotoxic crisis</td></tr><tr><td>E05.40</td><td>Thyrotoxicosis factitia without thyrotoxic crisis or storm</td></tr><tr><td>E05.41</td><td>Thyrotoxicosis factitia with thyrotoxic crisis or storm</td></tr><tr><td>E05.80</td><td>Other thyrotoxicosis without thyrotoxic crisis or storm</td></tr><tr><td>E05.81</td><td>Other thyrotoxicosis with thyrotoxic crisis or storm</td></tr><tr><td>E05.90</td><td>Thyrotoxicosis, unsp without thyrotoxic crisis or storm</td></tr><tr><td>E05.91</td><td>Thyrotoxicosis, unspecified with thyrotoxic crisis or storm</td></tr><tr><td>E06.0</td><td>Acute thyroiditis</td></tr><tr><td>E06.1</td><td>Subacute thyroiditis</td></tr><tr><td>E06.2</td><td>Chronic thyroiditis with transient thyrotoxicosis</td></tr><tr><td>E06.3</td><td>Autoimmune thyroiditis</td></tr><tr><td>E06.4</td><td>Drug-induced thyroiditis</td></tr><tr><td>E06.5</td><td>Other chronic thyroiditis</td></tr><tr><td>E06.9</td><td>Thyroiditis, unspecified</td></tr><tr><td>O90.5</td><td>Postpartum thyroiditis</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/mcode/ValueSet/elixhauser-other-thyroid-disorder-vs"/>
+  <version value="1.16.0"/>
+  <name value="ElixhauserOtherThyroidDisorderVS"/>
+  <title value="Elixhauser Comorbid Condition Value Set for Other Thyroid Disorder"/>
+  <status value="active"/>
+  <date value="2021-04-15T12:44:45+00:00"/>
+  <publisher value="HL7 International Clinical Interoperability Council"/>
+  <contact>
+    <name value="HL7 International Clinical Interoperability Council"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ciclist@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Elixhauser Comorbid Condition Value Set for Other Thyroid Disorder. ICD-10 codes are drawn from https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp, version 2021.1"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <concept>
+        <code value="E04.0"/>
+        <display value="Nontoxic diffuse goiter"/>
+      </concept>
+      <concept>
+        <code value="E04.1"/>
+        <display value="Nontoxic single thyroid nodule"/>
+      </concept>
+      <concept>
+        <code value="E04.2"/>
+        <display value="Nontoxic multinodular goiter"/>
+      </concept>
+      <concept>
+        <code value="E04.8"/>
+        <display value="Other specified nontoxic goiter"/>
+      </concept>
+      <concept>
+        <code value="E04.9"/>
+        <display value="Nontoxic goiter, unspecified"/>
+      </concept>
+      <concept>
+        <code value="E05.00"/>
+        <display value="Thyrotoxicosis w diffuse goiter w/o thyrotoxic crisis"/>
+      </concept>
+      <concept>
+        <code value="E05.01"/>
+        <display value="Thyrotoxicosis w diffuse goiter w thyrotoxic crisis or storm"/>
+      </concept>
+      <concept>
+        <code value="E05.10"/>
+        <display value="Thyrotxcosis w toxic sing thyroid nodule w/o thyrotxc crisis"/>
+      </concept>
+      <concept>
+        <code value="E05.11"/>
+        <display value="Thyrotxcosis w toxic single thyroid nodule w thyrotxc crisis"/>
+      </concept>
+      <concept>
+        <code value="E05.20"/>
+        <display value="Thyrotxcosis w toxic multinod goiter w/o thyrotoxic crisis"/>
+      </concept>
+      <concept>
+        <code value="E05.21"/>
+        <display value="Thyrotxcosis w toxic multinodular goiter w thyrotoxic crisis"/>
+      </concept>
+      <concept>
+        <code value="E05.30"/>
+        <display value="Thyrotxcosis from ectopic thyroid tissue w/o thyrotxc crisis"/>
+      </concept>
+      <concept>
+        <code value="E05.31"/>
+        <display value="Thyrotxcosis from ectopic thyroid tissue w thyrotoxic crisis"/>
+      </concept>
+      <concept>
+        <code value="E05.40"/>
+        <display value="Thyrotoxicosis factitia without thyrotoxic crisis or storm"/>
+      </concept>
+      <concept>
+        <code value="E05.41"/>
+        <display value="Thyrotoxicosis factitia with thyrotoxic crisis or storm"/>
+      </concept>
+      <concept>
+        <code value="E05.80"/>
+        <display value="Other thyrotoxicosis without thyrotoxic crisis or storm"/>
+      </concept>
+      <concept>
+        <code value="E05.81"/>
+        <display value="Other thyrotoxicosis with thyrotoxic crisis or storm"/>
+      </concept>
+      <concept>
+        <code value="E05.90"/>
+        <display value="Thyrotoxicosis, unsp without thyrotoxic crisis or storm"/>
+      </concept>
+      <concept>
+        <code value="E05.91"/>
+        <display value="Thyrotoxicosis, unspecified with thyrotoxic crisis or storm"/>
+      </concept>
+      <concept>
+        <code value="E06.0"/>
+        <display value="Acute thyroiditis"/>
+      </concept>
+      <concept>
+        <code value="E06.1"/>
+        <display value="Subacute thyroiditis"/>
+      </concept>
+      <concept>
+        <code value="E06.2"/>
+        <display value="Chronic thyroiditis with transient thyrotoxicosis"/>
+      </concept>
+      <concept>
+        <code value="E06.3"/>
+        <display value="Autoimmune thyroiditis"/>
+      </concept>
+      <concept>
+        <code value="E06.4"/>
+        <display value="Drug-induced thyroiditis"/>
+      </concept>
+      <concept>
+        <code value="E06.5"/>
+        <display value="Other chronic thyroiditis"/>
+      </concept>
+      <concept>
+        <code value="E06.9"/>
+        <display value="Thyroiditis, unspecified"/>
+      </concept>
+      <concept>
+        <code value="O90.5"/>
+        <display value="Postpartum thyroiditis"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

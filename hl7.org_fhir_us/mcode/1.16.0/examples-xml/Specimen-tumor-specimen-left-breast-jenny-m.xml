@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Specimen xmlns="http://hl7.org/fhir">
+  <id value="tumor-specimen-left-breast-jenny-m"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-specimen"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: BodyStructure: Tumor 1234 (USUAL)</p><p><b>status</b>: available</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TUMOR}">Tumor</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-jenny-m.html">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p><p><b>receivedTime</b>: 2018-04-01</p><h3>Collections</h3><table class="grid"><tr><td>-</td><td><b>BodySite</b></td></tr><tr><td>*</td><td><span title="Codes: {http://snomed.info/sct 80248007}">Left breast structure (body structure)</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="usual"/>
+    <type>
+      <coding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="BodyStructure"/>
+      </coding>
+    </type>
+    <system value="http://radiology.hospital.example.org"/>
+    <value value="Tumor 1234"/>
+  </identifier>
+  <status value="available"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0487"/>
+      <code value="TUMOR"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </subject>
+  <receivedTime value="2018-04-01"/>
+  <collection>
+    <bodySite>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="80248007"/>
+        <display value="Left breast structure (body structure)"/>
+      </coding>
+    </bodySite>
+  </collection>
+</Specimen>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Specimen xmlns="http://hl7.org/fhir">
+  <id value="tumor-specimen-lobular-carcinoma-left-breast"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-specimen"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Condition related to resource</b>: <a href="Condition-primary-cancer-condition-breast.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span>; <span title="Codes: {http://snomed.info/sct 363346000}">Malignant neoplastic disease (disorder)</span>; <span title="Codes: {http://snomed.info/sct 80248007}">Left breast structure (body structure)</span>; onset: 2019-04-01</a></p><p><b>identifier</b>: BodyStructure: Tumor 1234 (USUAL)</p><p><b>status</b>: available</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TUMOR}">Tumor</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-eve-anyperson.html">Generated Summary: Medical Record Number: m456 (USUAL); Eve A. Anyperson ; gender: female; birthDate: 1955-05-20</a></p><p><b>receivedTime</b>: 2020-05-01</p><h3>Collections</h3><table class="grid"><tr><td>-</td><td><b>BodySite</b></td></tr><tr><td>*</td><td><span title="Codes: {http://snomed.info/sct 80248007}">Left breast structure (body structure)</span></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-condition-related">
+    <valueReference>
+      <reference value="Condition/primary-cancer-condition-breast"/>
+    </valueReference>
+  </extension>
+  <identifier>
+    <use value="usual"/>
+    <type>
+      <coding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="BodyStructure"/>
+      </coding>
+    </type>
+    <system value="http://radiology.hospital.example.org"/>
+    <value value="Tumor 1234"/>
+  </identifier>
+  <status value="available"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0487"/>
+      <code value="TUMOR"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="Patient/cancer-patient-eve-anyperson"/>
+  </subject>
+  <receivedTime value="2020-05-01"/>
+  <collection>
+    <bodySite>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="80248007"/>
+        <display value="Left breast structure (body structure)"/>
+      </coding>
+    </bodySite>
+  </collection>
+</Specimen>

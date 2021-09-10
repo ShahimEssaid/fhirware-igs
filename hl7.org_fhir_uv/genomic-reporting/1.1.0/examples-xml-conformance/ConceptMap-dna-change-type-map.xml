@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="dna-change-type-map"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>DNAChangeType (http://hl7.org/fhir/uv/genomics-reporting/ConceptMap/dna-change-type-map)</h2><p>Mapping from http://loinc.org to http://www.sequenceontology.org</p><p>DRAFT. Published on Apr 13, 2021 7:13:37 PM by HL7 International Clinical Genomics Work Group (<a href="http://www.hl7.org/Special/committees/clingenomics">http://www.hl7.org/Special/com...</a>). This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.</p><div><p>LOINC and SequenceOntology mappings for dna change type</p>
+</div><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>LA9658-1 (Wild type)</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>SO:0002073</td></tr><tr><td>LA6692-3 (Deletion)</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>SO:0000159</td></tr><tr><td>LA6686-5 (Duplication)</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>SO:1000035</td></tr><tr><td>LA6687-3 (Insertion)</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>SO:0000667</td></tr><tr><td>LA6688-1 (Insertion/Deletion)</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>SO:1000032</td></tr><tr><td>LA6689-9 (Inversion)</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>SO:1000036</td></tr><tr><td>LA6690-7 (Substitution)</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>SO:1000002</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/uv/genomics-reporting/ConceptMap/dna-change-type-map"/>
+  <version value="1.1.0"/>
+  <name value="DNAChangeType"/>
+  <status value="draft"/>
+  <date value="2021-04-13T19:13:37+00:00"/>
+  <publisher value="HL7 International Clinical Genomics Work Group"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/clingenomics"/>
+    </telecom>
+  </contact>
+  <description value="LOINC and SequenceOntology mappings for dna change type"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright &#xA9; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC&#xAE; is a registered United States trademark of Regenstrief Institute, Inc."/>
+  <sourceCanonical value="http://loinc.org"/>
+  <targetCanonical value="http://www.sequenceontology.org"/>
+  <group>
+    <source value="http://loinc.org"/>
+    <target value="http://www.sequenceontology.org"/>
+    <element>
+      <code value="LA9658-1"/>
+      <display value="Wild type"/>
+      <target>
+        <code value="SO:0002073"/>
+        <display value="no_sequence_alteration"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="LA6692-3"/>
+      <display value="Deletion"/>
+      <target>
+        <code value="SO:0000159"/>
+        <display value="deletion"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="LA6686-5"/>
+      <display value="Duplication"/>
+      <target>
+        <code value="SO:1000035"/>
+        <display value="duplication"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="LA6687-3"/>
+      <display value="Insertion"/>
+      <target>
+        <code value="SO:0000667"/>
+        <display value="insertion"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="LA6688-1"/>
+      <display value="Insertion/Deletion"/>
+      <target>
+        <code value="SO:1000032"/>
+        <display value="delins"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="LA6689-9"/>
+      <display value="Inversion"/>
+      <target>
+        <code value="SO:1000036"/>
+        <display value="inversion"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="LA6690-7"/>
+      <display value="Substitution"/>
+      <target>
+        <code value="SO:1000002"/>
+        <display value="substitution"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

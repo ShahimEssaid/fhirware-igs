@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="elixhauser-hypothyroidism-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="https://terminology.hl7.org/1.0.0//CodeSystem-icd10CM.html"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>E00.0</td><td>Congenital iodine-deficiency syndrome, neurological type</td></tr><tr><td>E00.1</td><td>Congenital iodine-deficiency syndrome, myxedematous type</td></tr><tr><td>E00.2</td><td>Congenital iodine-deficiency syndrome, mixed type</td></tr><tr><td>E00.9</td><td>Congenital iodine-deficiency syndrome, unspecified</td></tr><tr><td>E01.0</td><td>Iodine-deficiency related diffuse (endemic) goiter</td></tr><tr><td>E01.1</td><td>Iodine-deficiency related multinodular (endemic) goiter</td></tr><tr><td>E01.2</td><td>Iodine-deficiency related (endemic) goiter, unspecified</td></tr><tr><td>E01.8</td><td>Oth iodine-deficiency related thyroid disord and allied cond</td></tr><tr><td>E02</td><td>Subclinical iodine-deficiency hypothyroidism</td></tr><tr><td>E03.0</td><td>Congenital hypothyroidism with diffuse goiter</td></tr><tr><td>E03.1</td><td>Congenital hypothyroidism without goiter</td></tr><tr><td>E03.2</td><td>Hypothyroidism due to medicaments and other exogenous substances</td></tr><tr><td>E03.3</td><td>Postinfectious hypothyroidism</td></tr><tr><td>E03.4</td><td>Atrophy of thyroid (acquired)</td></tr><tr><td>E03.5</td><td>Myxedema coma</td></tr><tr><td>E03.8</td><td>Other specified hypothyroidism</td></tr><tr><td>E03.9</td><td>Hypothyroidism, unspecified</td></tr><tr><td>E89.0</td><td>Postprocedural hypothyroidism</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/mcode/ValueSet/elixhauser-hypothyroidism-vs"/>
+  <version value="1.16.0"/>
+  <name value="ElixhauserHypothyroidismVS"/>
+  <title value="Elixhauser Comorbid Condition Value Set for Hypothyroidism"/>
+  <status value="active"/>
+  <date value="2021-04-15T12:44:45+00:00"/>
+  <publisher value="HL7 International Clinical Interoperability Council"/>
+  <contact>
+    <name value="HL7 International Clinical Interoperability Council"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ciclist@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Elixhauser Comorbid Condition Value Set for Hypothyroidism. ICD-10 codes are drawn from https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp, version 2021.1"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <concept>
+        <code value="E00.0"/>
+        <display value="Congenital iodine-deficiency syndrome, neurological type"/>
+      </concept>
+      <concept>
+        <code value="E00.1"/>
+        <display value="Congenital iodine-deficiency syndrome, myxedematous type"/>
+      </concept>
+      <concept>
+        <code value="E00.2"/>
+        <display value="Congenital iodine-deficiency syndrome, mixed type"/>
+      </concept>
+      <concept>
+        <code value="E00.9"/>
+        <display value="Congenital iodine-deficiency syndrome, unspecified"/>
+      </concept>
+      <concept>
+        <code value="E01.0"/>
+        <display value="Iodine-deficiency related diffuse (endemic) goiter"/>
+      </concept>
+      <concept>
+        <code value="E01.1"/>
+        <display value="Iodine-deficiency related multinodular (endemic) goiter"/>
+      </concept>
+      <concept>
+        <code value="E01.2"/>
+        <display value="Iodine-deficiency related (endemic) goiter, unspecified"/>
+      </concept>
+      <concept>
+        <code value="E01.8"/>
+        <display value="Oth iodine-deficiency related thyroid disord and allied cond"/>
+      </concept>
+      <concept>
+        <code value="E02"/>
+        <display value="Subclinical iodine-deficiency hypothyroidism"/>
+      </concept>
+      <concept>
+        <code value="E03.0"/>
+        <display value="Congenital hypothyroidism with diffuse goiter"/>
+      </concept>
+      <concept>
+        <code value="E03.1"/>
+        <display value="Congenital hypothyroidism without goiter"/>
+      </concept>
+      <concept>
+        <code value="E03.2"/>
+        <display value="Hypothyroidism due to medicaments and other exogenous substances"/>
+      </concept>
+      <concept>
+        <code value="E03.3"/>
+        <display value="Postinfectious hypothyroidism"/>
+      </concept>
+      <concept>
+        <code value="E03.4"/>
+        <display value="Atrophy of thyroid (acquired)"/>
+      </concept>
+      <concept>
+        <code value="E03.5"/>
+        <display value="Myxedema coma"/>
+      </concept>
+      <concept>
+        <code value="E03.8"/>
+        <display value="Other specified hypothyroidism"/>
+      </concept>
+      <concept>
+        <code value="E03.9"/>
+        <display value="Hypothyroidism, unspecified"/>
+      </concept>
+      <concept>
+        <code value="E89.0"/>
+        <display value="Postprocedural hypothyroidism"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

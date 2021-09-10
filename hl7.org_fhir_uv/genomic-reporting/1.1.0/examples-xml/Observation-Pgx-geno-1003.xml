@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="Pgx-geno-1003"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genotype"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 84413-4}">Genotype display name</span></p><p><b>subject</b>: <a href="Patient-CGPatientExample01.html">Generated Summary: Medical Record Number: m123 (USUAL); Adam B. Everyman ; gender: male; birthDate: 1951-01-20</a></p><p><b>effective</b>: 2020-01-01</p><p><b>value</b>: <span title="Codes: ">VKORC1 rs9923231 C/T</span></p><p><b>specimen</b>: <a href="Specimen-GenomicSpecimenExample01.html">Generated Summary: status: available; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TISS}">Tissue</span></a></p><p><b>derivedFrom</b>: <a href="Observation-Pgx-var-1019.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; effective: 2020-01-01; <span title="Codes: {http://loinc.org LA9633-4}">Present</span>; <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></a></p><h3>Components</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></td><td><span title="Codes: {http://www.genenames.org/geneId HGNC:23663}">VKORC1</span></td></tr></table></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="84413-4"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/CGPatientExample01"/>
+  </subject>
+  <effectiveDateTime value="2020-01-01"/>
+  <valueCodeableConcept>
+    <text value="VKORC1 rs9923231 C/T"/>
+  </valueCodeableConcept>
+  <specimen>
+    <reference value="Specimen/GenomicSpecimenExample01"/>
+  </specimen>
+  <derivedFrom>
+    <reference value="Observation/Pgx-var-1019"/>
+  </derivedFrom>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="48018-6"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://www.genenames.org/geneId"/>
+        <code value="HGNC:23663"/>
+        <display value="VKORC1"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+</Observation>

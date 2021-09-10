@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="radiotherapy-treatment-summary-chest-wall-jenny-m"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-course-summary"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Radiotherapy Number of Sessions</b>: 31</p><p><b>Treatment Intent</b>: <span title="Codes: {http://snomed.info/sct 373808002}">Curative - procedure intent</span></p><p><b>Radiotherapy Modality</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/umls C3539769}">Photon Beam Radiation Therapy</span></p><p><b>Radiotherapy Modality</b>: <span title="Codes: {http://snomed.info/sct 45643008}">Teleradiotherapy using electrons (procedure)</span></p><p><b>Radiotherapy Technique</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/umls C3489631}">Volumetric Modulated Arc Therapy</span></p><p><b>Radiotherapy Technique</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/radiotherapy 3D}">Three Dimensional</span></p><blockquote><p><b>Radiotherapy Dose Delivered To Body Volume</b></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: <a href="BodyStructure-jenny-m-chest-wall-treatment-volume.html">Generated Summary: id: 1.2.246.352…1; <span title="Codes: {http://snomed.info/sct 78904004}">Chest wall structure (body structure)</span>; <span title="Codes: {http://snomed.info/sct 255503000}">Entire (qualifier value)</span>; description: Chest Wall</a></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 6000 cGy</p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 30</p></blockquote><blockquote><p><b>Radiotherapy Dose Delivered To Body Volume</b></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: <a href="BodyStructure-jenny-m-chest-wall-lymph-nodes-treatment-volume.html">Generated Summary: id: 1.2.246.352…2; <span title="Codes: {http://snomed.info/sct 245276004}">Mediastinal lymph node group (body structure)</span>; <span title="Codes: {http://snomed.info/sct 51440002}">Right and left (qualifier value)</span>; description: Chest Wall Lymph Nodes</a></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 5000 cGy</p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: 25</p></blockquote><p><b>status</b>: completed</p><p><b>category</b>: <span title="Codes: {http://snomed.info/sct 108290001}">Radiation oncology AND/OR radiotherapy (procedure)</span></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/us/mcode/CodeSystem/mcode-resource-identifier-cs mcode-radiotherapy-course-summary}">Radiotherapy Course Summary Resource</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-jenny-m.html">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p><p><b>performed</b>: 2018-05-01 --&gt; 2018-06-29</p><p><b>asserter</b>: <a href="Practitioner-us-core-practitioner-kyle-anydoc.html">Generated Summary: id: 9988776655; Kyle Anydoc ; gender: male</a></p><p><b>reasonCode</b>: <span title="Codes: {http://hl7.org/fhir/sid/icd-10-cm C50.811}">Malignant neoplasm of overlapping sites of right female breast</span></p><p><b>bodySite</b>: <span title="Codes: {http://snomed.info/sct 78904004}">Chest Wall Structure (body structure)</span></p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-sessions">
+    <valueUnsignedInt value="31"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-treatment-intent">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="373808002"/>
+        <display value="Curative - procedure intent"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/umls"/>
+        <code value="C3539769"/>
+        <display value="Photon Beam Radiation Therapy"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="45643008"/>
+        <display value="Teleradiotherapy using electrons (procedure)"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-technique">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/umls"/>
+        <code value="C3489631"/>
+        <display value="Volumetric Modulated Arc Therapy"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-technique">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/radiotherapy"/>
+        <code value="3D"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-dose-delivered-to-volume">
+    <extension url="volume">
+      <valueReference>
+        <reference value="BodyStructure/jenny-m-chest-wall-treatment-volume"/>
+      </valueReference>
+    </extension>
+    <extension url="totalDoseDelivered">
+      <valueQuantity>
+        <value value="6000"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="cGy"/>
+      </valueQuantity>
+    </extension>
+    <extension url="fractionsDelivered">
+      <valueUnsignedInt value="30"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-dose-delivered-to-volume">
+    <extension url="volume">
+      <valueReference>
+        <reference value="BodyStructure/jenny-m-chest-wall-lymph-nodes-treatment-volume"/>
+      </valueReference>
+    </extension>
+    <extension url="totalDoseDelivered">
+      <valueQuantity>
+        <value value="5000"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="cGy"/>
+      </valueQuantity>
+    </extension>
+    <extension url="fractionsDelivered">
+      <valueUnsignedInt value="25"/>
+    </extension>
+  </extension>
+  <status value="completed"/>
+  <category>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="108290001"/>
+      <display value="Radiation oncology AND/OR radiotherapy (procedure)"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/us/mcode/CodeSystem/mcode-resource-identifier-cs"/>
+      <code value="mcode-radiotherapy-course-summary"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </subject>
+  <performedPeriod>
+    <start value="2018-05-01"/>
+    <end value="2018-06-29"/>
+  </performedPeriod>
+  <asserter>
+    <reference value="Practitioner/us-core-practitioner-kyle-anydoc"/>
+  </asserter>
+  <reasonCode>
+    <coding>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <code value="C50.811"/>
+      <display value="Malignant neoplasm of overlapping sites of right female breast"/>
+    </coding>
+  </reasonCode>
+  <bodySite>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="78904004"/>
+      <display value="Chest Wall Structure (body structure)"/>
+    </coding>
+  </bodySite>
+</Procedure>

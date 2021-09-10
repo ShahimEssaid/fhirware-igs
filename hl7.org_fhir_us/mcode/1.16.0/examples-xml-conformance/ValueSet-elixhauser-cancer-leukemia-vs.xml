@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="elixhauser-cancer-leukemia-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="https://terminology.hl7.org/1.0.0//CodeSystem-icd10CM.html"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>C90.10</td><td>Plasma cell leukemia not having achieved remission</td></tr><tr><td>C90.11</td><td>Plasma cell leukemia in remission</td></tr><tr><td>C90.12</td><td>Plasma cell leukemia in relapse</td></tr><tr><td>C91.00</td><td>Acute lymphoblastic leukemia not having achieved remission</td></tr><tr><td>C91.01</td><td>Acute lymphoblastic leukemia, in remission</td></tr><tr><td>C91.02</td><td>Acute lymphoblastic leukemia, in relapse</td></tr><tr><td>C91.10</td><td>Chronic lymphocytic leuk of B-cell type not achieve remis</td></tr><tr><td>C91.11</td><td>Chronic lymphocytic leukemia of B-cell type in remission</td></tr><tr><td>C91.12</td><td>Chronic lymphocytic leukemia of B-cell type in relapse</td></tr><tr><td>C91.30</td><td>Prolymphocytic leukemia of B-cell type not achieve remission</td></tr><tr><td>C91.31</td><td>Prolymphocytic leukemia of B-cell type, in remission</td></tr><tr><td>C91.32</td><td>Prolymphocytic leukemia of B-cell type, in relapse</td></tr><tr><td>C91.40</td><td>Hairy cell leukemia not having achieved remission</td></tr><tr><td>C91.41</td><td>Hairy cell leukemia, in remission</td></tr><tr><td>C91.42</td><td>Hairy cell leukemia, in relapse</td></tr><tr><td>C91.50</td><td>Adult T-cell lymph/leuk (HTLV-1-assoc) not achieve remission</td></tr><tr><td>C91.51</td><td>Adult T-cell lymphoma/leukemia (HTLV-1-assoc), in remission</td></tr><tr><td>C91.52</td><td>Adult T-cell lymphoma/leukemia (HTLV-1-assoc), in relapse</td></tr><tr><td>C91.60</td><td>Prolymphocytic leukemia of T-cell type not achieve remission</td></tr><tr><td>C91.61</td><td>Prolymphocytic leukemia of T-cell type, in remission</td></tr><tr><td>C91.62</td><td>Prolymphocytic leukemia of T-cell type, in relapse</td></tr><tr><td>C91.90</td><td>Lymphoid leukemia, unspecified not having achieved remission</td></tr><tr><td>C91.91</td><td>Lymphoid leukemia, unspecified, in remission</td></tr><tr><td>C91.92</td><td>Lymphoid leukemia, unspecified, in relapse</td></tr><tr><td>C91.A0</td><td>Mature B-cell leukemia Burkitt-type not achieve remission</td></tr><tr><td>C91.A1</td><td>Mature B-cell leukemia Burkitt-type, in remission</td></tr><tr><td>C91.A2</td><td>Mature B-cell leukemia Burkitt-type, in relapse</td></tr><tr><td>C91.Z0</td><td>Other lymphoid leukemia not having achieved remission</td></tr><tr><td>C91.Z1</td><td>Other lymphoid leukemia, in remission</td></tr><tr><td>C91.Z2</td><td>Other lymphoid leukemia, in relapse</td></tr><tr><td>C92.00</td><td>Acute myeloblastic leukemia, not having achieved remission</td></tr><tr><td>C92.01</td><td>Acute myeloblastic leukemia, in remission</td></tr><tr><td>C92.02</td><td>Acute myeloblastic leukemia, in relapse</td></tr><tr><td>C92.10</td><td>Chronic myeloid leuk, BCR/ABL-positive, not achieve remis</td></tr><tr><td>C92.11</td><td>Chronic myeloid leukemia, BCR/ABL-positive, in remission</td></tr><tr><td>C92.12</td><td>Chronic myeloid leukemia, BCR/ABL-positive, in relapse</td></tr><tr><td>C92.20</td><td>Atyp chronic myeloid leuk, BCR/ABL-neg, not achieve remis</td></tr><tr><td>C92.21</td><td>Atypical chronic myeloid leukemia, BCR/ABL-neg, in remission</td></tr><tr><td>C92.22</td><td>Atypical chronic myeloid leukemia, BCR/ABL-neg, in relapse</td></tr><tr><td>C92.30</td><td>Myeloid sarcoma, not having achieved remission</td></tr><tr><td>C92.31</td><td>Myeloid sarcoma, in remission</td></tr><tr><td>C92.32</td><td>Myeloid sarcoma, in relapse</td></tr><tr><td>C92.40</td><td>Acute promyelocytic leukemia, not having achieved remission</td></tr><tr><td>C92.41</td><td>Acute promyelocytic leukemia, in remission</td></tr><tr><td>C92.42</td><td>Acute promyelocytic leukemia, in relapse</td></tr><tr><td>C92.50</td><td>Acute myelomonocytic leukemia, not having achieved remission</td></tr><tr><td>C92.51</td><td>Acute myelomonocytic leukemia, in remission</td></tr><tr><td>C92.52</td><td>Acute myelomonocytic leukemia, in relapse</td></tr><tr><td>C92.60</td><td>Acute myeloid leukemia w 11q23-abnormality not achieve remis</td></tr><tr><td>C92.61</td><td>Acute myeloid leukemia with 11q23-abnormality in remission</td></tr><tr><td>C92.62</td><td>Acute myeloid leukemia with 11q23-abnormality in relapse</td></tr><tr><td>C92.90</td><td>Myeloid leukemia, unspecified, not having achieved remission</td></tr><tr><td>C92.91</td><td>Myeloid leukemia, unspecified in remission</td></tr><tr><td>C92.92</td><td>Myeloid leukemia, unspecified in relapse</td></tr><tr><td>C92.A0</td><td>Acute myeloid leuk w multilin dysplasia, not achieve remis</td></tr><tr><td>C92.A1</td><td>Acute myeloid leukemia w multilin dysplasia, in remission</td></tr><tr><td>C92.A2</td><td>Acute myeloid leukemia w multilineage dysplasia, in relapse</td></tr><tr><td>C92.Z0</td><td>Other myeloid leukemia not having achieved remission</td></tr><tr><td>C92.Z1</td><td>Other myeloid leukemia, in remission</td></tr><tr><td>C92.Z2</td><td>Other myeloid leukemia, in relapse</td></tr><tr><td>C93.00</td><td>Acute monoblastic/monocytic leukemia, not achieve remission</td></tr><tr><td>C93.01</td><td>Acute monoblastic/monocytic leukemia, in remission</td></tr><tr><td>C93.02</td><td>Acute monoblastic/monocytic leukemia, in relapse</td></tr><tr><td>C93.10</td><td>Chronic myelomonocytic leukemia not achieve remission</td></tr><tr><td>C93.11</td><td>Chronic myelomonocytic leukemia, in remission</td></tr><tr><td>C93.12</td><td>Chronic myelomonocytic leukemia, in relapse</td></tr><tr><td>C93.30</td><td>Juvenile myelomonocytic leukemia, not achieve remission</td></tr><tr><td>C93.31</td><td>Juvenile myelomonocytic leukemia, in remission</td></tr><tr><td>C93.32</td><td>Juvenile myelomonocytic leukemia, in relapse</td></tr><tr><td>C93.90</td><td>Monocytic leukemia, unsp, not having achieved remission</td></tr><tr><td>C93.91</td><td>Monocytic leukemia, unspecified in remission</td></tr><tr><td>C93.92</td><td>Monocytic leukemia, unspecified in relapse</td></tr><tr><td>C93.Z0</td><td>Other monocytic leukemia, not having achieved remission</td></tr><tr><td>C93.Z1</td><td>Other monocytic leukemia, in remission</td></tr><tr><td>C93.Z2</td><td>Other monocytic leukemia, in relapse</td></tr><tr><td>C94.00</td><td>Acute erythroid leukemia, not having achieved remission</td></tr><tr><td>C94.01</td><td>Acute erythroid leukemia, in remission</td></tr><tr><td>C94.02</td><td>Acute erythroid leukemia, in relapse</td></tr><tr><td>C94.20</td><td>Acute megakaryoblastic leukemia not achieve remission</td></tr><tr><td>C94.21</td><td>Acute megakaryoblastic leukemia, in remission</td></tr><tr><td>C94.22</td><td>Acute megakaryoblastic leukemia, in relapse</td></tr><tr><td>C94.30</td><td>Mast cell leukemia not having achieved remission</td></tr><tr><td>C94.31</td><td>Mast cell leukemia, in remission</td></tr><tr><td>C94.32</td><td>Mast cell leukemia, in relapse</td></tr><tr><td>C94.40</td><td>Acute panmyelosis w myelofibrosis not achieve remission</td></tr><tr><td>C94.41</td><td>Acute panmyelosis with myelofibrosis, in remission</td></tr><tr><td>C94.42</td><td>Acute panmyelosis with myelofibrosis, in relapse</td></tr><tr><td>C94.6</td><td>Myelodysplastic disease, not classified</td></tr><tr><td>C94.80</td><td>Other specified leukemias not having achieved remission</td></tr><tr><td>C94.81</td><td>Other specified leukemias, in remission</td></tr><tr><td>C94.82</td><td>Other specified leukemias, in relapse</td></tr><tr><td>C95.00</td><td>Acute leukemia of unsp cell type not achieve remission</td></tr><tr><td>C95.01</td><td>Acute leukemia of unspecified cell type, in remission</td></tr><tr><td>C95.02</td><td>Acute leukemia of unspecified cell type, in relapse</td></tr><tr><td>C95.10</td><td>Chronic leukemia of unsp cell type not achieve remission</td></tr><tr><td>C95.11</td><td>Chronic leukemia of unspecified cell type, in remission</td></tr><tr><td>C95.12</td><td>Chronic leukemia of unspecified cell type, in relapse</td></tr><tr><td>C95.90</td><td>Leukemia, unspecified not having achieved remission</td></tr><tr><td>C95.91</td><td>Leukemia, unspecified, in remission</td></tr><tr><td>C95.92</td><td>Leukemia, unspecified, in relapse</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/mcode/ValueSet/elixhauser-cancer-leukemia-vs"/>
+  <version value="1.16.0"/>
+  <name value="ElixhauserCancerLeukemiaVS"/>
+  <title value="Elixhauser Comorbid Condition Value Set for Leukemia"/>
+  <status value="active"/>
+  <date value="2021-04-15T12:44:45+00:00"/>
+  <publisher value="HL7 International Clinical Interoperability Council"/>
+  <contact>
+    <name value="HL7 International Clinical Interoperability Council"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ciclist@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Elixhauser Comorbid Condition Value Set for Leukemia. ICD-10 codes are drawn from https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp, version 2021.1"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <concept>
+        <code value="C90.10"/>
+        <display value="Plasma cell leukemia not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C90.11"/>
+        <display value="Plasma cell leukemia in remission"/>
+      </concept>
+      <concept>
+        <code value="C90.12"/>
+        <display value="Plasma cell leukemia in relapse"/>
+      </concept>
+      <concept>
+        <code value="C91.00"/>
+        <display value="Acute lymphoblastic leukemia not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C91.01"/>
+        <display value="Acute lymphoblastic leukemia, in remission"/>
+      </concept>
+      <concept>
+        <code value="C91.02"/>
+        <display value="Acute lymphoblastic leukemia, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C91.10"/>
+        <display value="Chronic lymphocytic leuk of B-cell type not achieve remis"/>
+      </concept>
+      <concept>
+        <code value="C91.11"/>
+        <display value="Chronic lymphocytic leukemia of B-cell type in remission"/>
+      </concept>
+      <concept>
+        <code value="C91.12"/>
+        <display value="Chronic lymphocytic leukemia of B-cell type in relapse"/>
+      </concept>
+      <concept>
+        <code value="C91.30"/>
+        <display value="Prolymphocytic leukemia of B-cell type not achieve remission"/>
+      </concept>
+      <concept>
+        <code value="C91.31"/>
+        <display value="Prolymphocytic leukemia of B-cell type, in remission"/>
+      </concept>
+      <concept>
+        <code value="C91.32"/>
+        <display value="Prolymphocytic leukemia of B-cell type, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C91.40"/>
+        <display value="Hairy cell leukemia not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C91.41"/>
+        <display value="Hairy cell leukemia, in remission"/>
+      </concept>
+      <concept>
+        <code value="C91.42"/>
+        <display value="Hairy cell leukemia, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C91.50"/>
+        <display value="Adult T-cell lymph/leuk (HTLV-1-assoc) not achieve remission"/>
+      </concept>
+      <concept>
+        <code value="C91.51"/>
+        <display value="Adult T-cell lymphoma/leukemia (HTLV-1-assoc), in remission"/>
+      </concept>
+      <concept>
+        <code value="C91.52"/>
+        <display value="Adult T-cell lymphoma/leukemia (HTLV-1-assoc), in relapse"/>
+      </concept>
+      <concept>
+        <code value="C91.60"/>
+        <display value="Prolymphocytic leukemia of T-cell type not achieve remission"/>
+      </concept>
+      <concept>
+        <code value="C91.61"/>
+        <display value="Prolymphocytic leukemia of T-cell type, in remission"/>
+      </concept>
+      <concept>
+        <code value="C91.62"/>
+        <display value="Prolymphocytic leukemia of T-cell type, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C91.90"/>
+        <display value="Lymphoid leukemia, unspecified not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C91.91"/>
+        <display value="Lymphoid leukemia, unspecified, in remission"/>
+      </concept>
+      <concept>
+        <code value="C91.92"/>
+        <display value="Lymphoid leukemia, unspecified, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C91.A0"/>
+        <display value="Mature B-cell leukemia Burkitt-type not achieve remission"/>
+      </concept>
+      <concept>
+        <code value="C91.A1"/>
+        <display value="Mature B-cell leukemia Burkitt-type, in remission"/>
+      </concept>
+      <concept>
+        <code value="C91.A2"/>
+        <display value="Mature B-cell leukemia Burkitt-type, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C91.Z0"/>
+        <display value="Other lymphoid leukemia not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C91.Z1"/>
+        <display value="Other lymphoid leukemia, in remission"/>
+      </concept>
+      <concept>
+        <code value="C91.Z2"/>
+        <display value="Other lymphoid leukemia, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C92.00"/>
+        <display value="Acute myeloblastic leukemia, not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C92.01"/>
+        <display value="Acute myeloblastic leukemia, in remission"/>
+      </concept>
+      <concept>
+        <code value="C92.02"/>
+        <display value="Acute myeloblastic leukemia, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C92.10"/>
+        <display value="Chronic myeloid leuk, BCR/ABL-positive, not achieve remis"/>
+      </concept>
+      <concept>
+        <code value="C92.11"/>
+        <display value="Chronic myeloid leukemia, BCR/ABL-positive, in remission"/>
+      </concept>
+      <concept>
+        <code value="C92.12"/>
+        <display value="Chronic myeloid leukemia, BCR/ABL-positive, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C92.20"/>
+        <display value="Atyp chronic myeloid leuk, BCR/ABL-neg, not achieve remis"/>
+      </concept>
+      <concept>
+        <code value="C92.21"/>
+        <display value="Atypical chronic myeloid leukemia, BCR/ABL-neg, in remission"/>
+      </concept>
+      <concept>
+        <code value="C92.22"/>
+        <display value="Atypical chronic myeloid leukemia, BCR/ABL-neg, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C92.30"/>
+        <display value="Myeloid sarcoma, not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C92.31"/>
+        <display value="Myeloid sarcoma, in remission"/>
+      </concept>
+      <concept>
+        <code value="C92.32"/>
+        <display value="Myeloid sarcoma, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C92.40"/>
+        <display value="Acute promyelocytic leukemia, not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C92.41"/>
+        <display value="Acute promyelocytic leukemia, in remission"/>
+      </concept>
+      <concept>
+        <code value="C92.42"/>
+        <display value="Acute promyelocytic leukemia, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C92.50"/>
+        <display value="Acute myelomonocytic leukemia, not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C92.51"/>
+        <display value="Acute myelomonocytic leukemia, in remission"/>
+      </concept>
+      <concept>
+        <code value="C92.52"/>
+        <display value="Acute myelomonocytic leukemia, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C92.60"/>
+        <display value="Acute myeloid leukemia w 11q23-abnormality not achieve remis"/>
+      </concept>
+      <concept>
+        <code value="C92.61"/>
+        <display value="Acute myeloid leukemia with 11q23-abnormality in remission"/>
+      </concept>
+      <concept>
+        <code value="C92.62"/>
+        <display value="Acute myeloid leukemia with 11q23-abnormality in relapse"/>
+      </concept>
+      <concept>
+        <code value="C92.90"/>
+        <display value="Myeloid leukemia, unspecified, not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C92.91"/>
+        <display value="Myeloid leukemia, unspecified in remission"/>
+      </concept>
+      <concept>
+        <code value="C92.92"/>
+        <display value="Myeloid leukemia, unspecified in relapse"/>
+      </concept>
+      <concept>
+        <code value="C92.A0"/>
+        <display value="Acute myeloid leuk w multilin dysplasia, not achieve remis"/>
+      </concept>
+      <concept>
+        <code value="C92.A1"/>
+        <display value="Acute myeloid leukemia w multilin dysplasia, in remission"/>
+      </concept>
+      <concept>
+        <code value="C92.A2"/>
+        <display value="Acute myeloid leukemia w multilineage dysplasia, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C92.Z0"/>
+        <display value="Other myeloid leukemia not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C92.Z1"/>
+        <display value="Other myeloid leukemia, in remission"/>
+      </concept>
+      <concept>
+        <code value="C92.Z2"/>
+        <display value="Other myeloid leukemia, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C93.00"/>
+        <display value="Acute monoblastic/monocytic leukemia, not achieve remission"/>
+      </concept>
+      <concept>
+        <code value="C93.01"/>
+        <display value="Acute monoblastic/monocytic leukemia, in remission"/>
+      </concept>
+      <concept>
+        <code value="C93.02"/>
+        <display value="Acute monoblastic/monocytic leukemia, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C93.10"/>
+        <display value="Chronic myelomonocytic leukemia not achieve remission"/>
+      </concept>
+      <concept>
+        <code value="C93.11"/>
+        <display value="Chronic myelomonocytic leukemia, in remission"/>
+      </concept>
+      <concept>
+        <code value="C93.12"/>
+        <display value="Chronic myelomonocytic leukemia, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C93.30"/>
+        <display value="Juvenile myelomonocytic leukemia, not achieve remission"/>
+      </concept>
+      <concept>
+        <code value="C93.31"/>
+        <display value="Juvenile myelomonocytic leukemia, in remission"/>
+      </concept>
+      <concept>
+        <code value="C93.32"/>
+        <display value="Juvenile myelomonocytic leukemia, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C93.90"/>
+        <display value="Monocytic leukemia, unsp, not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C93.91"/>
+        <display value="Monocytic leukemia, unspecified in remission"/>
+      </concept>
+      <concept>
+        <code value="C93.92"/>
+        <display value="Monocytic leukemia, unspecified in relapse"/>
+      </concept>
+      <concept>
+        <code value="C93.Z0"/>
+        <display value="Other monocytic leukemia, not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C93.Z1"/>
+        <display value="Other monocytic leukemia, in remission"/>
+      </concept>
+      <concept>
+        <code value="C93.Z2"/>
+        <display value="Other monocytic leukemia, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C94.00"/>
+        <display value="Acute erythroid leukemia, not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C94.01"/>
+        <display value="Acute erythroid leukemia, in remission"/>
+      </concept>
+      <concept>
+        <code value="C94.02"/>
+        <display value="Acute erythroid leukemia, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C94.20"/>
+        <display value="Acute megakaryoblastic leukemia not achieve remission"/>
+      </concept>
+      <concept>
+        <code value="C94.21"/>
+        <display value="Acute megakaryoblastic leukemia, in remission"/>
+      </concept>
+      <concept>
+        <code value="C94.22"/>
+        <display value="Acute megakaryoblastic leukemia, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C94.30"/>
+        <display value="Mast cell leukemia not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C94.31"/>
+        <display value="Mast cell leukemia, in remission"/>
+      </concept>
+      <concept>
+        <code value="C94.32"/>
+        <display value="Mast cell leukemia, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C94.40"/>
+        <display value="Acute panmyelosis w myelofibrosis not achieve remission"/>
+      </concept>
+      <concept>
+        <code value="C94.41"/>
+        <display value="Acute panmyelosis with myelofibrosis, in remission"/>
+      </concept>
+      <concept>
+        <code value="C94.42"/>
+        <display value="Acute panmyelosis with myelofibrosis, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C94.6"/>
+        <display value="Myelodysplastic disease, not classified"/>
+      </concept>
+      <concept>
+        <code value="C94.80"/>
+        <display value="Other specified leukemias not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C94.81"/>
+        <display value="Other specified leukemias, in remission"/>
+      </concept>
+      <concept>
+        <code value="C94.82"/>
+        <display value="Other specified leukemias, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C95.00"/>
+        <display value="Acute leukemia of unsp cell type not achieve remission"/>
+      </concept>
+      <concept>
+        <code value="C95.01"/>
+        <display value="Acute leukemia of unspecified cell type, in remission"/>
+      </concept>
+      <concept>
+        <code value="C95.02"/>
+        <display value="Acute leukemia of unspecified cell type, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C95.10"/>
+        <display value="Chronic leukemia of unsp cell type not achieve remission"/>
+      </concept>
+      <concept>
+        <code value="C95.11"/>
+        <display value="Chronic leukemia of unspecified cell type, in remission"/>
+      </concept>
+      <concept>
+        <code value="C95.12"/>
+        <display value="Chronic leukemia of unspecified cell type, in relapse"/>
+      </concept>
+      <concept>
+        <code value="C95.90"/>
+        <display value="Leukemia, unspecified not having achieved remission"/>
+      </concept>
+      <concept>
+        <code value="C95.91"/>
+        <display value="Leukemia, unspecified, in remission"/>
+      </concept>
+      <concept>
+        <code value="C95.92"/>
+        <display value="Leukemia, unspecified, in relapse"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

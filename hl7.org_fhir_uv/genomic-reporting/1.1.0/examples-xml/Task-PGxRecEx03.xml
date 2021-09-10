@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Task xmlns="http://hl7.org/fhir">
+  <id value="PGxRecEx03"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/task-rec-followup"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: requested</p><p><b>intent</b>: proposal</p><p><b>code</b>: <span title="Codes: {http://loinc.org LA26422-8}">Decrease dose</span></p><p><b>description</b>: For citalopram, a 50% reduction in starting dose is recommended with therapeutic drug monitoring to guide dose adjustment or select an alternate drug not predominantly metabolized by CYP2C19. Refer to current guidelines for dosage and recommendations at https://cpicpgx.org/guidelines/guideline-for-selective-serotonin-reuptake-inhibitors-and-cyp2d6-and-cyp2c19/. If CYP2D6 genotyping is available, refer to the current guidelines for dosing recommendations.</p><p><b>for</b>: <a href="Patient-CGPatientExample01.html">Generated Summary: Medical Record Number: m123 (USUAL); Adam B. Everyman ; gender: male; birthDate: 1951-01-20</a></p><p><b>reasonReference</b>: <a href="Observation-TxImp03.html">Poor metabolizer. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes therapeutic-implication}">Therapeutic Implication</span></a></p></div>
+  </text>
+  <status value="requested"/>
+  <intent value="proposal"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA26422-8"/>
+      <display value="Decrease dose"/>
+    </coding>
+  </code>
+  <description value="For citalopram, a 50% reduction in starting dose is recommended with therapeutic drug monitoring to guide dose adjustment or select an alternate drug not predominantly metabolized by CYP2C19. Refer to current guidelines for dosage and recommendations at https://cpicpgx.org/guidelines/guideline-for-selective-serotonin-reuptake-inhibitors-and-cyp2d6-and-cyp2c19/. If CYP2D6 genotyping is available, refer to the current guidelines for dosing recommendations."/>
+  <for>
+    <reference value="Patient/CGPatientExample01"/>
+  </for>
+  <reasonReference>
+    <reference value="Observation/TxImp03"/>
+    <display value="Poor metabolizer"/>
+  </reasonReference>
+</Task>

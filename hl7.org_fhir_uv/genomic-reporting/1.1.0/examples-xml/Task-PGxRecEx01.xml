@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Task xmlns="http://hl7.org/fhir">
+  <id value="PGxRecEx01"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/task-rec-followup"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: requested</p><p><b>intent</b>: proposal</p><p><b>code</b>: <span title="Codes: {http://loinc.org LA26421-0}">Consider alternative medication</span></p><p><b>description</b>: For clopidogrel, individuals with this diplotype are expected to have significantly reduced platelet inhibition, increased residual platelet aggregation and increased risk for adverse cardiovascular events in response to clopidogrel. Alternative antiplatelet therapy (if no contraindication) is recommended. Refer to current guidelines for dosage and recommendations at https://cpicpgx.org/guidelines/guideline- for-clopidogrel-and-cyp2c19/</p><p><b>for</b>: <a href="Patient-CGPatientExample01.html">Generated Summary: Medical Record Number: m123 (USUAL); Adam B. Everyman ; gender: male; birthDate: 1951-01-20</a></p><p><b>reasonReference</b>: <a href="Observation-TxImp01.html">Poor metabolizer. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes therapeutic-implication}">Therapeutic Implication</span></a></p></div>
+  </text>
+  <status value="requested"/>
+  <intent value="proposal"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA26421-0"/>
+      <display value="Consider alternative medication"/>
+    </coding>
+  </code>
+  <description value="For clopidogrel, individuals with this diplotype are expected to have significantly reduced platelet inhibition, increased residual platelet aggregation and increased risk for adverse cardiovascular events in response to clopidogrel. Alternative antiplatelet therapy (if no contraindication) is recommended. Refer to current guidelines for dosage and recommendations at https://cpicpgx.org/guidelines/guideline- for-clopidogrel-and-cyp2c19/"/>
+  <for>
+    <reference value="Patient/CGPatientExample01"/>
+  </for>
+  <reasonReference>
+    <reference value="Observation/TxImp01"/>
+    <display value="Poor metabolizer"/>
+  </reasonReference>
+</Task>

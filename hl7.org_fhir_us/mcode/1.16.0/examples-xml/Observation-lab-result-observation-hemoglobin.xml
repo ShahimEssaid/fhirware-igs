@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="lab-result-observation-hemoglobin"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 718-7}">Hemoglobin [Mass/volume] in Blood</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-adam-everyman.html">Generated Summary: Medical Record Number: m123 (USUAL); Adam A. Everyman ; gender: male; birthDate: 1962-02-05</a></p><p><b>effective</b>: 2020-03-06</p><p><b>performer</b>: <a href="Practitioner-us-core-practitioner-owen-oncologist.html">Generated Summary: id: 9988776655; Owen Oncologist ; gender: male</a></p><p><b>value</b>: 13.5 g/dl</p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="718-7"/>
+      <display value="Hemoglobin [Mass/volume] in Blood"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cancer-patient-adam-everyman"/>
+  </subject>
+  <effectiveDateTime value="2020-03-06"/>
+  <performer>
+    <reference value="Practitioner/us-core-practitioner-owen-oncologist"/>
+  </performer>
+  <valueQuantity>
+    <value value="13.5"/>
+    <unit value="g/dl"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="g/dl"/>
+  </valueQuantity>
+</Observation>

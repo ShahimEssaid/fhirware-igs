@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="elixhauser-pulmonary-circulation-disorder-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="https://terminology.hl7.org/1.0.0//CodeSystem-icd10CM.html"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>I27.0</td><td>Primary pulmonary hypertension</td></tr><tr><td>I27.1</td><td>Kyphoscoliotic heart disease</td></tr><tr><td>I27.2</td><td>Other secondary pulmonary hypertension</td></tr><tr><td>I27.20</td><td>Pulmonary hypertension, unspecified</td></tr><tr><td>I27.21</td><td>Secondary pulmonary arterial hypertension</td></tr><tr><td>I27.22</td><td>Pulmonary hypertension due to left heart disease</td></tr><tr><td>I27.23</td><td>Pulmonary hypertension due to lung diseases and hypoxia</td></tr><tr><td>I27.24</td><td>Chronic thromboembolic pulmonary hypertension</td></tr><tr><td>I27.29</td><td>Other secondary pulmonary hypertension</td></tr><tr><td>I27.81</td><td>Cor pulmonale (chronic)</td></tr><tr><td>I27.82</td><td>Chronic pulmonary embolism</td></tr><tr><td>I27.83</td><td>Eisenmenger's syndrome</td></tr><tr><td>I27.89</td><td>Other specified pulmonary heart diseases</td></tr><tr><td>I27.9</td><td>Pulmonary heart disease, unspecified</td></tr><tr><td>I28.0</td><td>Arteriovenous fistula of pulmonary vessels</td></tr><tr><td>I28.1</td><td>Aneurysm of pulmonary artery</td></tr><tr><td>I28.8</td><td>Other diseases of pulmonary vessels</td></tr><tr><td>I28.9</td><td>Disease of pulmonary vessels, unspecified</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/mcode/ValueSet/elixhauser-pulmonary-circulation-disorder-vs"/>
+  <version value="1.16.0"/>
+  <name value="ElixhauserPulmonaryCirculationDisorderVS"/>
+  <title value="Elixhauser Comorbid Condition Value Set for Pulmonary circulation disorders"/>
+  <status value="active"/>
+  <date value="2021-04-15T12:44:45+00:00"/>
+  <publisher value="HL7 International Clinical Interoperability Council"/>
+  <contact>
+    <name value="HL7 International Clinical Interoperability Council"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ciclist@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Elixhauser Comorbid Condition Value Set for Pulmonary circulation disorders. ICD-10 codes are drawn from https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp, version 2021.1"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <concept>
+        <code value="I27.0"/>
+        <display value="Primary pulmonary hypertension"/>
+      </concept>
+      <concept>
+        <code value="I27.1"/>
+        <display value="Kyphoscoliotic heart disease"/>
+      </concept>
+      <concept>
+        <code value="I27.2"/>
+        <display value="Other secondary pulmonary hypertension"/>
+      </concept>
+      <concept>
+        <code value="I27.20"/>
+        <display value="Pulmonary hypertension, unspecified"/>
+      </concept>
+      <concept>
+        <code value="I27.21"/>
+        <display value="Secondary pulmonary arterial hypertension"/>
+      </concept>
+      <concept>
+        <code value="I27.22"/>
+        <display value="Pulmonary hypertension due to left heart disease"/>
+      </concept>
+      <concept>
+        <code value="I27.23"/>
+        <display value="Pulmonary hypertension due to lung diseases and hypoxia"/>
+      </concept>
+      <concept>
+        <code value="I27.24"/>
+        <display value="Chronic thromboembolic pulmonary hypertension"/>
+      </concept>
+      <concept>
+        <code value="I27.29"/>
+        <display value="Other secondary pulmonary hypertension"/>
+      </concept>
+      <concept>
+        <code value="I27.81"/>
+        <display value="Cor pulmonale (chronic)"/>
+      </concept>
+      <concept>
+        <code value="I27.82"/>
+        <display value="Chronic pulmonary embolism"/>
+      </concept>
+      <concept>
+        <code value="I27.83"/>
+        <display value="Eisenmenger&#39;s syndrome"/>
+      </concept>
+      <concept>
+        <code value="I27.89"/>
+        <display value="Other specified pulmonary heart diseases"/>
+      </concept>
+      <concept>
+        <code value="I27.9"/>
+        <display value="Pulmonary heart disease, unspecified"/>
+      </concept>
+      <concept>
+        <code value="I28.0"/>
+        <display value="Arteriovenous fistula of pulmonary vessels"/>
+      </concept>
+      <concept>
+        <code value="I28.1"/>
+        <display value="Aneurysm of pulmonary artery"/>
+      </concept>
+      <concept>
+        <code value="I28.8"/>
+        <display value="Other diseases of pulmonary vessels"/>
+      </concept>
+      <concept>
+        <code value="I28.9"/>
+        <display value="Disease of pulmonary vessels, unspecified"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="69f2b2e8-9067-4dae-99ad-3449f8e89d41"/>
+  <meta>
+    <lastUpdated value="2021-04-13T19:13:37.587+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/condition-inheritance-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="condition-inheritance-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 25 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-ConditionInheritanceMode.html">Condition Inheritance Pattern v1.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-ConditionInheritanceMode.html">
+                <code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-GENO-0000143"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-GENO.580000143">GENO:0000143</a>
+                </td>
+                <td>Codominant inheritance</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-GENO-0000889"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-GENO.580000889">GENO:0000889</a>
+                </td>
+                <td>Unknown inheritance</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-GENO-0000892"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-GENO.580000892">GENO:0000892</a>
+                </td>
+                <td>Mitochondrial inheritance (primarily or exclusively heteroplasmic)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-GENO-0000893"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-GENO.580000893">GENO:0000893</a>
+                </td>
+                <td>Mitochondrial inheritance (primarily or exclusively homoplasmic)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0000006"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580000006">HP:0000006</a>
+                </td>
+                <td>Autosomal dominant inheritance</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0000007"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580000007">HP:0000007</a>
+                </td>
+                <td>Autosomal recessive inheritance</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0001417"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580001417">HP:0001417</a>
+                </td>
+                <td>X-linked inheritance</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0001419"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580001419">HP:0001419</a>
+                </td>
+                <td>X-linked inheritance (recessive)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0001423"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580001423">HP:0001423</a>
+                </td>
+                <td>X-linked inheritance (dominant)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0001426"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580001426">HP:0001426</a>
+                </td>
+                <td>Multifactorial inheritance</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0001427"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580001427">HP:0001427</a>
+                </td>
+                <td>Mitochondrial inheritance</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0001428"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580001428">HP:0001428</a>
+                </td>
+                <td>Somatic mutation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0001450"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580001450">HP:0001450</a>
+                </td>
+                <td>Y-linked inheritance</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0001470"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580001470">HP:0001470</a>
+                </td>
+                <td>Autosomal dominant inheritance (sex-limited)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0003743"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580003743">HP:0003743</a>
+                </td>
+                <td>Genetic anticipation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0003745"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580003745">HP:0003745</a>
+                </td>
+                <td>Sporadic</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0010983"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580010983">HP:0010983</a>
+                </td>
+                <td>Oligogenic</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0012274"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580012274">HP:0012274</a>
+                </td>
+                <td>Autosomal dominant inheritance (with paternal imprinting)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0012275"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580012275">HP:0012275</a>
+                </td>
+                <td>Autosomal dominant inheritance (with maternal imprinting)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0025352"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580025352">HP:0025352</a>
+                </td>
+                <td>Autosomal dominant inheritance (primarily or exclusively de novo)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-HP-0031362"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-HP.580031362">HP:0031362</a>
+                </td>
+                <td>Autosomal recessive inheritance (sex-limited)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-SEPIO-CG-97020"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-SEPIO-CG.5897020">SEPIO-CG:97020</a>
+                </td>
+                <td>Semidominant inheritance</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-SEPIO-CG-97021"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-SEPIO-CG.5897021">SEPIO-CG:97021</a>
+                </td>
+                <td>X-linked inheritance (primarily recessive with milder female expression)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-SEPIO-CG-97022"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-SEPIO-CG.5897022">SEPIO-CG:97022</a>
+                </td>
+                <td>Autosomal dominant inheritance (with genetic anticipation)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-ConditionInheritanceMode-SEPIO-CG-97023"> </a>
+                  <a href="CodeSystem-ConditionInheritanceMode.html#ConditionInheritanceMode-SEPIO-CG.5897023">SEPIO-CG:97023</a>
+                </td>
+                <td>Autosomal recessive inheritance (with genetic anticipation)</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/condition-inheritance-vs"/>
+        <version value="1.1.0"/>
+        <name value="ConditionInheritanceModeVS"/>
+        <title value="Condition Inheritance Pattern"/>
+        <status value="active"/>
+        <date value="2021-04-13T19:13:37+00:00"/>
+        <publisher value="HL7 International Clinical Genomics Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/clingenomics"/>
+          </telecom>
+        </contact>
+        <description value="Value Set for specific ttransmission patterns of a condition in a pedigree"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:5e66bb53-d726-4b32-9daa-6380bfa50f79"/>
+          <timestamp value="2021-04-13T19:18:23+00:00"/>
+          <total value="25"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="GENO:0000143"/>
+            <display value="Codominant inheritance"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="GENO:0000889"/>
+            <display value="Unknown inheritance"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="GENO:0000892"/>
+            <display value="Mitochondrial inheritance (primarily or exclusively heteroplasmic)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="GENO:0000893"/>
+            <display value="Mitochondrial inheritance (primarily or exclusively homoplasmic)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0000006"/>
+            <display value="Autosomal dominant inheritance"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0000007"/>
+            <display value="Autosomal recessive inheritance"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0001417"/>
+            <display value="X-linked inheritance"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0001419"/>
+            <display value="X-linked inheritance (recessive)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0001423"/>
+            <display value="X-linked inheritance (dominant)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0001426"/>
+            <display value="Multifactorial inheritance"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0001427"/>
+            <display value="Mitochondrial inheritance"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0001428"/>
+            <display value="Somatic mutation"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0001450"/>
+            <display value="Y-linked inheritance"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0001470"/>
+            <display value="Autosomal dominant inheritance (sex-limited)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0003743"/>
+            <display value="Genetic anticipation"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0003745"/>
+            <display value="Sporadic"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0010983"/>
+            <display value="Oligogenic"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0012274"/>
+            <display value="Autosomal dominant inheritance (with paternal imprinting)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0012275"/>
+            <display value="Autosomal dominant inheritance (with maternal imprinting)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0025352"/>
+            <display value="Autosomal dominant inheritance (primarily or exclusively de novo)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="HP:0031362"/>
+            <display value="Autosomal recessive inheritance (sex-limited)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="SEPIO-CG:97020"/>
+            <display value="Semidominant inheritance"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="SEPIO-CG:97021"/>
+            <display value="X-linked inheritance (primarily recessive with milder female expression)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="SEPIO-CG:97022"/>
+            <display value="Autosomal dominant inheritance (with genetic anticipation)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/ConditionInheritanceMode"/>
+            <code value="SEPIO-CG:97023"/>
+            <display value="Autosomal recessive inheritance (with genetic anticipation)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgvs"/>
+    <resource>
+      <ValueSet>
+        <id value="hgvs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 0 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgvs"/>
+        <version value="1.1.0"/>
+        <name value="HGVSVS"/>
+        <title value="Human Genome Variation Society (HGVS) Nomenclature"/>
+        <status value="active"/>
+        <date value="2021-04-13T19:13:37+00:00"/>
+        <publisher value="HL7 International Clinical Genomics Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/clingenomics"/>
+          </telecom>
+        </contact>
+        <description value="HGVS-nomenclature is used to report and exchange information regarding variants found in DNA, RNA and protein sequences and serves as an international standard. (source: varnomen.hgvs.org)"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:c412ede2-38a6-4422-9731-f53d13976dcd"/>
+          <timestamp value="2021-04-13T19:18:28+00:00"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/high-low-codes"/>
+    <resource>
+      <ValueSet>
+        <id value="high-low-codes"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="https://terminology.hl7.org/1.0.0//CodeSystem-v3-ObservationInterpretation.html">ObservationInterpretation v2.0.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="https://terminology.hl7.org/1.0.0//CodeSystem-v3-ObservationInterpretation.html">
+                <code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ObservationInterpretation-H"> </a>
+                  <a href="https://terminology.hl7.org/1.0.0//CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-H">H</a>
+                </td>
+                <td>High</td>
+                <td>The result for a quantitative observation is above the upper limit of the reference range (as defined for the respective test procedure).
+
+Synonym: Above high normal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ObservationInterpretation-L"> </a>
+                  <a href="https://terminology.hl7.org/1.0.0//CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-L">L</a>
+                </td>
+                <td>Low</td>
+                <td>The result for a quantitative observation is below the lower limit of the reference range (as defined for the respective test procedure).
+
+Synonym: Below low normal</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/high-low-codes"/>
+        <version value="1.1.0"/>
+        <name value="HighLowCodesVS"/>
+        <title value="High Low codes"/>
+        <status value="active"/>
+        <date value="2021-04-13T19:13:37+00:00"/>
+        <publisher value="HL7 International Clinical Genomics Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/clingenomics"/>
+          </telecom>
+        </contact>
+        <description value="This value set includes high/low codes for Observation Interpretations"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:1cd89add-9754-446e-97a1-cbc4479ffcfd"/>
+          <timestamp value="2021-04-13T19:18:28+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation|2.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+            <code value="H"/>
+            <display value="High"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+            <code value="L"/>
+            <display value="Low"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/seq-phase-relationship"/>
+    <resource>
+      <ValueSet>
+        <id value="seq-phase-relationship"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-SequencePhaseRelationshipCS.html">Sequence Phase Relationship v1.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-SequencePhaseRelationshipCS.html">
+                <code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/SequencePhaseRelationshipCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-SequencePhaseRelationshipCS-Cis"> </a>
+                  <a href="CodeSystem-SequencePhaseRelationshipCS.html#SequencePhaseRelationshipCS-Cis">Cis</a>
+                </td>
+                <td>Cis</td>
+                <td>Phase is in cis (same chromosome)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-SequencePhaseRelationshipCS-Trans"> </a>
+                  <a href="CodeSystem-SequencePhaseRelationshipCS.html#SequencePhaseRelationshipCS-Trans">Trans</a>
+                </td>
+                <td>Trans</td>
+                <td>Phase is in trans (different chromosomes)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-SequencePhaseRelationshipCS-Indeterminate"> </a>
+                  <a href="CodeSystem-SequencePhaseRelationshipCS.html#SequencePhaseRelationshipCS-Indeterminate">Indeterminate</a>
+                </td>
+                <td>Indeterminate</td>
+                <td>Phase is unable to be determined</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-SequencePhaseRelationshipCS-Unknown"> </a>
+                  <a href="CodeSystem-SequencePhaseRelationshipCS.html#SequencePhaseRelationshipCS-Unknown">Unknown</a>
+                </td>
+                <td>Unknown</td>
+                <td>Phase is unknown</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/seq-phase-relationship"/>
+        <version value="1.1.0"/>
+        <name value="SeqPhaseRelationshipVS"/>
+        <title value="Sequence Phase Relationship"/>
+        <status value="active"/>
+        <date value="2021-04-13T19:13:37+00:00"/>
+        <publisher value="HL7 International Clinical Genomics Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/clingenomics"/>
+          </telecom>
+        </contact>
+        <description value="Value Set for specific types of relationships"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:419d9f0b-6520-4e20-abaa-9b5621b7d66d"/>
+          <timestamp value="2021-04-13T19:18:29+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/SequencePhaseRelationshipCS|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/SequencePhaseRelationshipCS"/>
+            <code value="Cis"/>
+            <display value="Cis"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/SequencePhaseRelationshipCS"/>
+            <code value="Trans"/>
+            <display value="Trans"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/SequencePhaseRelationshipCS"/>
+            <code value="Indeterminate"/>
+            <display value="Indeterminate"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/SequencePhaseRelationshipCS"/>
+            <code value="Unknown"/>
+            <display value="Unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/tbd"/>
+    <resource>
+      <ValueSet>
+        <id value="tbd"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 21 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-TbdCodes.html">ToBeDeterminedCodes (&#39;TbdCodes&#39;) v1.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-TbdCodes.html">
+                <code>http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-grouper"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-grouper">grouper</a>
+                </td>
+                <td>grouper</td>
+                <td>A means to bundle several observations such as one would find in a genetics test panel.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-effect-transporter-function"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-effect-transporter-function">effect-transporter-function</a>
+                </td>
+                <td>effect-transporter-function</td>
+                <td>Predicted phenotype for drug efficacy through transport mechanism. A single marker interpretation value known to increase or decrease the drug&#39;s performance.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-effect-medication-efficacy"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-effect-medication-efficacy">effect-medication-efficacy</a>
+                </td>
+                <td>Medication Efficacy</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-effect-medication-metabolism"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-effect-medication-metabolism">effect-medication-metabolism</a>
+                </td>
+                <td>Medication Metabolism</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-effect-medication-transporter"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-effect-medication-transporter">effect-medication-transporter</a>
+                </td>
+                <td>Medication Transporter Function</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-effect-high-risk-allele"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-effect-high-risk-allele">effect-high-risk-allele</a>
+                </td>
+                <td>High Risk Allele</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-prognostic-implication"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-prognostic-implication">prognostic-implication</a>
+                </td>
+                <td>Prognostic Implication component</td>
+                <td>Finding of whether a particular somatic genotype/haplotype/variation or combination-thereof predicts a particular outcome for the specified cancer - either on its own or in conjunction with one or more interventions.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-associated-cancer"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-associated-cancer">associated-cancer</a>
+                </td>
+                <td>associated-cancer</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-associated-therapy"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-associated-therapy">associated-therapy</a>
+                </td>
+                <td>Genomically linked therapy</td>
+                <td>The non-medication therapy (procedure) associated with this implication.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-region-coverage"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-region-coverage">region-coverage</a>
+                </td>
+                <td>region-coverage</td>
+                <td>Given as a number between 0 and 100. Mean mapped read depth. Obtained by counting total number of mapped reads and divided by the number of bases in the region sequence.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-molecular-consequence"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-molecular-consequence">molecular-consequence</a>
+                </td>
+                <td>Molecular Consequence</td>
+                <td>Annotated changes to sequence features caused by this variant. Terms are from the sequence ontology under SO:0001537.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-exact-start-end"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-exact-start-end">exact-start-end</a>
+                </td>
+                <td>Variant exact start and end</td>
+                <td>The genomic coordinates of the exact genomic range in which the variant resides.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-inner-start-end"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-inner-start-end">inner-start-end</a>
+                </td>
+                <td>Variant inner start and end</td>
+                <td>The genomic coordinates of the inner genomic range in which the variant might reside.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-outer-start-end"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-outer-start-end">outer-start-end</a>
+                </td>
+                <td>Variant outer start and end</td>
+                <td>The genomic coordinates of the outer genomic range in which the variant might reside.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-variant-inheritance"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-variant-inheritance">variant-inheritance</a>
+                </td>
+                <td>Variant inheritance</td>
+                <td>A quality inhering in a variant by virtue of its origin. The terms are in the sequence ontology under SO:0001762.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-diagnostic-implication"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-diagnostic-implication">diagnostic-implication</a>
+                </td>
+                <td>Diagnostic Implication</td>
+                <td>An observation linking a genomic finding with a knowledge base, providing context that may aid in diagnosing a patient with a particular phenotype or condition.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-therapeutic-implication"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-therapeutic-implication">therapeutic-implication</a>
+                </td>
+                <td>Therapeutic Implication</td>
+                <td>An observation linking a genomic finding with a knowledge base, providing potential evidence of an interaction with a specified medication or non-medicinal therapy.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-uncallable-regions"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-uncallable-regions">uncallable-regions</a>
+                </td>
+                <td>Uncallable Regions</td>
+                <td>Contiguous regions where a call was not made. Must be inside the range given by &#39;ranges examined&#39; in the given reference sequence and coordinate system.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-functional-effect"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-functional-effect">functional-effect</a>
+                </td>
+                <td>Functional Effect</td>
+                <td>The effect of a variant on downstream biological products or pathways (from Sequence Ontology).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-conclusion-string"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-conclusion-string">conclusion-string</a>
+                </td>
+                <td>Conclusion text</td>
+                <td>Clinical conclusion (interpretation) of the observation.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-genomics-reporting-CodeSystem-TbdCodes-condition-inheritance"> </a>
+                  <a href="CodeSystem-TbdCodes.html#TbdCodes-condition-inheritance">condition-inheritance</a>
+                </td>
+                <td>Condition Inheritance</td>
+                <td>The transmission pattern of the condition/phenotype in a pedigree.</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/tbd"/>
+        <version value="1.1.0"/>
+        <name value="TBDVS"/>
+        <title value="TBD Value Set"/>
+        <status value="active"/>
+        <date value="2021-04-13T19:13:37+00:00"/>
+        <publisher value="HL7 International Clinical Genomics Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/clingenomics"/>
+          </telecom>
+        </contact>
+        <description value="Value Set for codes yet to be defined in LOINC"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:dc7c8d29-36e4-4c31-9e9b-3494673afb8d"/>
+          <timestamp value="2021-04-13T19:18:29+00:00"/>
+          <total value="21"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="grouper"/>
+            <display value="grouper"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="effect-transporter-function"/>
+            <display value="effect-transporter-function"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="effect-medication-efficacy"/>
+            <display value="Medication Efficacy"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="effect-medication-metabolism"/>
+            <display value="Medication Metabolism"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="effect-medication-transporter"/>
+            <display value="Medication Transporter Function"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="effect-high-risk-allele"/>
+            <display value="High Risk Allele"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="prognostic-implication"/>
+            <display value="Prognostic Implication component"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="associated-cancer"/>
+            <display value="associated-cancer"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="associated-therapy"/>
+            <display value="Genomically linked therapy"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="region-coverage"/>
+            <display value="region-coverage"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="molecular-consequence"/>
+            <display value="Molecular Consequence"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="exact-start-end"/>
+            <display value="Variant exact start and end"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="inner-start-end"/>
+            <display value="Variant inner start and end"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="outer-start-end"/>
+            <display value="Variant outer start and end"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="variant-inheritance"/>
+            <display value="Variant inheritance"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="diagnostic-implication"/>
+            <display value="Diagnostic Implication"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="therapeutic-implication"/>
+            <display value="Therapeutic Implication"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="uncallable-regions"/>
+            <display value="Uncallable Regions"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="functional-effect"/>
+            <display value="Functional Effect"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="conclusion-string"/>
+            <display value="Conclusion text"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+            <code value="condition-inheritance"/>
+            <display value="Condition Inheritance"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/variant-inheritance"/>
+    <resource>
+      <ValueSet>
+        <id value="variant-inheritance"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.68</p>
+            <p>All codes from system 
+              <code>http://loinc.org</code>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-LA26320-4"> </a>
+                  <a href="http://details.loinc.org/LOINC/LA26320-4.html">LA26320-4</a>
+                </td>
+                <td>Maternal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-LA26321-2"> </a>
+                  <a href="http://details.loinc.org/LOINC/LA26321-2.html">LA26321-2</a>
+                </td>
+                <td>Paternal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-LA4489-6"> </a>
+                  <a href="http://details.loinc.org/LOINC/LA4489-6.html">LA4489-6</a>
+                </td>
+                <td>Unknown</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/variant-inheritance"/>
+        <version value="1.1.0"/>
+        <name value="VariantInheritanceVS"/>
+        <title value="Variant Inheritance"/>
+        <status value="active"/>
+        <date value="2021-04-13T19:13:37+00:00"/>
+        <publisher value="HL7 International Clinical Genomics Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/clingenomics"/>
+          </telecom>
+        </contact>
+        <description value="By which parent the variant was inherited in the patient, if known."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright &#xA9; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC&#xAE; is a registered United States trademark of Regenstrief Institute, Inc."/>
+        <expansion>
+          <identifier value="urn:uuid:2ea92264-73a1-4e2f-977a-7e5bd0e12910"/>
+          <timestamp value="2021-04-13T19:18:29+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://loinc.org|2.68"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA26320-4"/>
+            <display value="Maternal"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA26321-2"/>
+            <display value="Paternal"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA4489-6"/>
+            <display value="Unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

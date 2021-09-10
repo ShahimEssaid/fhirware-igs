@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="hgnc"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <code>http://www.genenames.org/geneId</code></li><li>Include all codes defined in <code>http://www.genenames.org/genegroup</code></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc"/>
+  <version value="1.1.0"/>
+  <name value="HGNCVS"/>
+  <title value="HUGO Gene Nomenclature Committee Gene Names (HGNC)"/>
+  <status value="active"/>
+  <date value="2021-04-13T19:13:37+00:00"/>
+  <publisher value="HL7 International Clinical Genomics Work Group"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/clingenomics"/>
+    </telecom>
+  </contact>
+  <description value="This value set includes all HGNC Codes, which includes multiple code systems. In this guide, Gene IDs from HGNC are used as CodeableConcepts, which must be sent with the HGNC gene ID including the prefix &#39;HGNC:&#39; as the code and the HGNC &#39;gene symbol&#39; as display. CAUTION: HGNC also indexes gene groups by numeric ID (without a prefix), and older systems may send HGNC gene IDs without the prefix, so care must be taken to confirm alignment. We have separately included the genegroup code system to draw attention to this ambiguity and potential error."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://www.genenames.org/geneId"/>
+    </include>
+    <include>
+      <system value="http://www.genenames.org/genegroup"/>
+    </include>
+  </compose>
+</ValueSet>

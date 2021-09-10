@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="GrouperEx03"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/grouper"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes grouper}">grouper</span></p><p><b>hasMember</b>: </p><ul><li><a href="Observation-Pgx-var-1011.html">NC_000010.10(CYP2C19):g.96521657C=. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; effective: 2020-01-01; <span title="Codes: {http://loinc.org LA9633-4}">Present</span>; <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></a></li><li><a href="Observation-Pgx-var-1012.html">NC_000010.10(CYP2C19):g.96522463A=. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; effective: 2020-01-01; <span title="Codes: {http://loinc.org LA9633-4}">Present</span>; <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></a></li><li><a href="Observation-Pgx-var-1013.html">NC_000010.10(CYP2C19):g.96535173T=. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; effective: 2020-01-01; <span title="Codes: {http://loinc.org LA9633-4}">Present</span>; <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></a></li><li><a href="Observation-Pgx-var-1014.html">NC_000010.10(CYP2C19):g.96535210G=. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; effective: 2020-01-01; <span title="Codes: {http://loinc.org LA9633-4}">Present</span>; <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></a></li><li><a href="Observation-Pgx-var-1015.html">NC_000010.10(CYP2C19):g.96540410G&gt;A. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; effective: 2020-01-01; <span title="Codes: {http://loinc.org LA9633-4}">Present</span>; <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></a></li><li><a href="Observation-Pgx-var-1016.html">NC_000010.10(CYP2C19):g.96541616G=. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; effective: 2020-01-01; <span title="Codes: {http://loinc.org LA9633-4}">Present</span>; <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></a></li><li><a href="Observation-Pgx-var-1017.html">NC_000010.10(CYP2C19):g.96541756T=. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; effective: 2020-01-01; <span title="Codes: {http://loinc.org LA9633-4}">Present</span>; <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></a></li><li><a href="Observation-Pgx-var-1018.html">NC_000010.10(CYP2C19):g.96612495C=. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; effective: 2020-01-01; <span title="Codes: {http://loinc.org LA9633-4}">Present</span>; <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></a></li><li><a href="Observation-Pgx-var-1019.html">NC_000016.9(VKORC1):g.31096368C&gt;T. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; effective: 2020-01-01; <span title="Codes: {http://loinc.org LA9633-4}">Present</span>; <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></a></li><li><a href="Observation-Pgx-var-1020.html">NC_000010.10(CYP2C9):g.96702047C=. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; effective: 2020-01-01; <span title="Codes: {http://loinc.org LA9633-4}">Present</span>; <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></a></li><li><a href="Observation-Pgx-var-1021.html">NC_000010.10(CYP2C9):g.96741053A=. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span>; effective: 2020-01-01; <span title="Codes: {http://loinc.org LA9633-4}">Present</span>; <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></a></li><li><a href="Observation-RegionStudiedPGx1.html">CYP2C19. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 53041-0}">DNA region of interest panel</span></a></li><li><a href="Observation-RegionStudiedPGx2.html">CYP2C9. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 53041-0}">DNA region of interest panel</span></a></li><li><a href="Observation-RegionStudiedPGx3.html">VKORC1. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 53041-0}">DNA region of interest panel</span></a></li></ul></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+      <code value="grouper"/>
+    </coding>
+  </code>
+  <hasMember>
+    <reference value="Observation/Pgx-var-1011"/>
+    <display value="NC_000010.10(CYP2C19):g.96521657C="/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/Pgx-var-1012"/>
+    <display value="NC_000010.10(CYP2C19):g.96522463A="/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/Pgx-var-1013"/>
+    <display value="NC_000010.10(CYP2C19):g.96535173T="/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/Pgx-var-1014"/>
+    <display value="NC_000010.10(CYP2C19):g.96535210G="/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/Pgx-var-1015"/>
+    <display value="NC_000010.10(CYP2C19):g.96540410G&gt;A"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/Pgx-var-1016"/>
+    <display value="NC_000010.10(CYP2C19):g.96541616G="/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/Pgx-var-1017"/>
+    <display value="NC_000010.10(CYP2C19):g.96541756T="/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/Pgx-var-1018"/>
+    <display value="NC_000010.10(CYP2C19):g.96612495C="/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/Pgx-var-1019"/>
+    <display value="NC_000016.9(VKORC1):g.31096368C&gt;T"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/Pgx-var-1020"/>
+    <display value="NC_000010.10(CYP2C9):g.96702047C="/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/Pgx-var-1021"/>
+    <display value="NC_000010.10(CYP2C9):g.96741053A="/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/RegionStudiedPGx1"/>
+    <display value="CYP2C19"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/RegionStudiedPGx2"/>
+    <display value="CYP2C9"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/RegionStudiedPGx3"/>
+    <display value="VKORC1"/>
+  </hasMember>
+</Observation>

@@ -1,0 +1,137 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "radiotherapy-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://terminology.hl7.org/CodeSystem/radiotherapy defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">LDR-PERM<a name=\"radiotherapy-cs-LDR-PERM\"> </a></td><td>Low Dose Rate Brachytherapy - Permanent Placement</td><td>Radiation treatment that irradiates a body volume with permanently placed radiation sources delivering low dose rates (typically less than or equal to 2 Gy/hour).</td></tr><tr><td style=\"white-space:nowrap\">LDR-TEMP<a name=\"radiotherapy-cs-LDR-TEMP\"> </a></td><td>Low Dose Rate Brachytherapy - Temporary Placement</td><td>Radiation treatment that irradiates a body volume with temporarily placed radiation sources delivering low dose rates (typically less than or equal to 2 Gy/hour).</td></tr><tr><td style=\"white-space:nowrap\">3D<a name=\"radiotherapy-cs-3D\"> </a></td><td>Three Dimensional</td><td>Dose calculated with projection onto 3D imaging (e.g., CT or MR) delivered with either static aperture (Collimator, SRS Cone, Static MLC, blocks, etc) or non-IMRT/VMAT dynamic apertures (e.g., field-in-field, dynamic arc) using either single gantry angles or arcs.</td></tr><tr><td style=\"white-space:nowrap\">PPS<a name=\"radiotherapy-cs-PPS\"> </a></td><td>Particle Passive Scattering</td><td>In proton or carbon ion beam therapy, a technique where the beam is spread out to larger dimension using a scattering device such as lead foil.</td></tr><tr><td style=\"white-space:nowrap\">PSS<a name=\"radiotherapy-cs-PSS\"> </a></td><td>Particle Spot Scanning</td><td>In proton or carbon ion beam therapy, a technique where accelerated particles are focused into a small beam and then moved (scanned) over target regions in the patient.</td></tr><tr><td style=\"white-space:nowrap\">MIX<a name=\"radiotherapy-cs-MIX\"> </a></td><td>Mixed</td><td>Both photon and particle based beams are used to deliver the radiation therapy.</td></tr><tr><td style=\"white-space:nowrap\">CAV-IMB<a name=\"radiotherapy-cs-CAV-IMB\"> </a></td><td>Intracavitary, Intensity Modulated</td><td>A technique of brachytherapy that dynamically directs the radiation into the tumours and away from healthy tissue, for example, by incorporation of metallic shields inside brachytherapy applicators.</td></tr><tr><td style=\"white-space:nowrap\">LN_AX_L1<a name=\"radiotherapy-cs-LN_AX_L1\"> </a></td><td>Level 1 Axillary Lymph Nodes</td><td/></tr><tr><td style=\"white-space:nowrap\">LN_Ax_L2<a name=\"radiotherapy-cs-LN_Ax_L2\"> </a></td><td>Level 2 Axillary Lymph Nodes</td><td/></tr><tr><td style=\"white-space:nowrap\">LN_Ax_L3<a name=\"radiotherapy-cs-LN_Ax_L3\"> </a></td><td>Level 3 Axillary Lymph Nodes</td><td/></tr><tr><td style=\"white-space:nowrap\">LN_Neck_IA<a name=\"radiotherapy-cs-LN_Neck_IA\"> </a></td><td>Level IA (Submental) neck node</td><td/></tr><tr><td style=\"white-space:nowrap\">LN_Neck_IB<a name=\"radiotherapy-cs-LN_Neck_IB\"> </a></td><td>Level IB (Submandibular) neck node</td><td/></tr><tr><td style=\"white-space:nowrap\">LN_Neck_IIA<a name=\"radiotherapy-cs-LN_Neck_IIA\"> </a></td><td>Level IIA (Upper Jugular) neck node</td><td/></tr><tr><td style=\"white-space:nowrap\">LN_Neck_IIB<a name=\"radiotherapy-cs-LN_Neck_IIB\"> </a></td><td>Level IIB (Upper Jugular) neck node</td><td/></tr><tr><td style=\"white-space:nowrap\">LN_Neck_III<a name=\"radiotherapy-cs-LN_Neck_III\"> </a></td><td>Level III (Middle Jugular) neck node</td><td/></tr><tr><td style=\"white-space:nowrap\">LN_Neck_IV<a name=\"radiotherapy-cs-LN_Neck_IV\"> </a></td><td>Level IV neck (Lower Jugular) node</td><td/></tr><tr><td style=\"white-space:nowrap\">LN_Neck_VA<a name=\"radiotherapy-cs-LN_Neck_VA\"> </a></td><td>Level VA (Posterior Triangle) neck node</td><td/></tr><tr><td style=\"white-space:nowrap\">LN_Neck_VB<a name=\"radiotherapy-cs-LN_Neck_VB\"> </a></td><td>Level VB (Posterior Triangle) neck node</td><td/></tr><tr><td style=\"white-space:nowrap\">LN_Neck_VC<a name=\"radiotherapy-cs-LN_Neck_VC\"> </a></td><td>Level VC (Posterior Triangle) neck node</td><td/></tr><tr><td style=\"white-space:nowrap\">LN_Neck_VI<a name=\"radiotherapy-cs-LN_Neck_VI\"> </a></td><td>Level VI (Anterior Triangle) neck node</td><td/></tr><tr><td style=\"white-space:nowrap\">LN_Neck_VII<a name=\"radiotherapy-cs-LN_Neck_VII\"> </a></td><td>Level VII (Upper Mediastinal) neck node</td><td/></tr></table></div>"
+  },
+  "url": "http://terminology.hl7.org/CodeSystem/radiotherapy",
+  "version": "1.16.0",
+  "name": "RadiotherapyCS",
+  "title": "Radiotherapy Code System",
+  "status": "active",
+  "date": "2021-04-15T12:44:45+00:00",
+  "publisher": "HL7 International Clinical Interoperability Council",
+  "contact": [
+    {
+      "name": "HL7 International Clinical Interoperability Council",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/cic"
+        },
+        {
+          "system": "email",
+          "value": "ciclist@lists.HL7.org"
+        }
+      ]
+    }
+  ],
+  "description": "Concepts used in association with radiotherapy profiles in mCODE, where terms could not be found in standard sources such as SNOMED CT.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 21,
+  "concept": [
+    {
+      "code": "LDR-PERM",
+      "display": "Low Dose Rate Brachytherapy - Permanent Placement",
+      "definition": "Radiation treatment that irradiates a body volume with permanently placed radiation sources delivering low dose rates (typically less than or equal to 2 Gy/hour)."
+    },
+    {
+      "code": "LDR-TEMP",
+      "display": "Low Dose Rate Brachytherapy - Temporary Placement",
+      "definition": "Radiation treatment that irradiates a body volume with temporarily placed radiation sources delivering low dose rates (typically less than or equal to 2 Gy/hour)."
+    },
+    {
+      "code": "3D",
+      "display": "Three Dimensional",
+      "definition": "Dose calculated with projection onto 3D imaging (e.g., CT or MR) delivered with either static aperture (Collimator, SRS Cone, Static MLC, blocks, etc) or non-IMRT/VMAT dynamic apertures (e.g., field-in-field, dynamic arc) using either single gantry angles or arcs."
+    },
+    {
+      "code": "PPS",
+      "display": "Particle Passive Scattering",
+      "definition": "In proton or carbon ion beam therapy, a technique where the beam is spread out to larger dimension using a scattering device such as lead foil."
+    },
+    {
+      "code": "PSS",
+      "display": "Particle Spot Scanning",
+      "definition": "In proton or carbon ion beam therapy, a technique where accelerated particles are focused into a small beam and then moved (scanned) over target regions in the patient."
+    },
+    {
+      "code": "MIX",
+      "display": "Mixed",
+      "definition": "Both photon and particle based beams are used to deliver the radiation therapy."
+    },
+    {
+      "code": "CAV-IMB",
+      "display": "Intracavitary, Intensity Modulated",
+      "definition": "A technique of brachytherapy that dynamically directs the radiation into the tumours and away from healthy tissue, for example, by incorporation of metallic shields inside brachytherapy applicators."
+    },
+    {
+      "code": "LN_AX_L1",
+      "display": "Level 1 Axillary Lymph Nodes"
+    },
+    {
+      "code": "LN_Ax_L2",
+      "display": "Level 2 Axillary Lymph Nodes"
+    },
+    {
+      "code": "LN_Ax_L3",
+      "display": "Level 3 Axillary Lymph Nodes"
+    },
+    {
+      "code": "LN_Neck_IA",
+      "display": "Level IA (Submental) neck node"
+    },
+    {
+      "code": "LN_Neck_IB",
+      "display": "Level IB (Submandibular) neck node"
+    },
+    {
+      "code": "LN_Neck_IIA",
+      "display": "Level IIA (Upper Jugular) neck node"
+    },
+    {
+      "code": "LN_Neck_IIB",
+      "display": "Level IIB (Upper Jugular) neck node"
+    },
+    {
+      "code": "LN_Neck_III",
+      "display": "Level III (Middle Jugular) neck node"
+    },
+    {
+      "code": "LN_Neck_IV",
+      "display": "Level IV neck (Lower Jugular) node"
+    },
+    {
+      "code": "LN_Neck_VA",
+      "display": "Level VA (Posterior Triangle) neck node"
+    },
+    {
+      "code": "LN_Neck_VB",
+      "display": "Level VB (Posterior Triangle) neck node"
+    },
+    {
+      "code": "LN_Neck_VC",
+      "display": "Level VC (Posterior Triangle) neck node"
+    },
+    {
+      "code": "LN_Neck_VI",
+      "display": "Level VI (Anterior Triangle) neck node"
+    },
+    {
+      "code": "LN_Neck_VII",
+      "display": "Level VII (Upper Mediastinal) neck node"
+    }
+  ]
+}

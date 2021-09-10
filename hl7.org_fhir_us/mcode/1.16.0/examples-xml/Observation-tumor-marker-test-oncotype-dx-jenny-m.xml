@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="tumor-marker-test-oncotype-dx-jenny-m"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-marker-test"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/us/mcode/CodeSystem/mcode-catch-code-cs TMT-OTHER}, {http://www.ncbi.nlm.nih.gov/gtr 509910}">Oncotype DX Breast Recurrence Score Assay</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-jenny-m.html">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p><p><b>effective</b>: 2018-04-12</p><p><b>performer</b>: <a href="Organization-us-core-organization-bedrock-medicine.html">Generated Summary: id: 1265710000; active; name: Bedrock Medicine</a></p><p><b>value</b>: 47 Recurrence score</p><p><b>interpretation</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation H}">High</span></p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/us/mcode/CodeSystem/mcode-catch-code-cs"/>
+      <code value="TMT-OTHER"/>
+      <display value="Other Tumor Marker Test, Specify"/>
+    </coding>
+    <coding>
+      <system value="http://www.ncbi.nlm.nih.gov/gtr"/>
+      <code value="509910"/>
+      <display value="Oncotype DX Breast Recurrence Score Assay"/>
+    </coding>
+    <text value="Oncotype DX Breast Recurrence Score Assay"/>
+  </code>
+  <subject>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </subject>
+  <effectiveDateTime value="2018-04-12"/>
+  <performer>
+    <reference value="Organization/us-core-organization-bedrock-medicine"/>
+  </performer>
+  <valueQuantity>
+    <value value="47"/>
+    <unit value="Recurrence score"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="{ScoreOf}"/>
+  </valueQuantity>
+  <interpretation>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <code value="H"/>
+      <display value="High"/>
+    </coding>
+  </interpretation>
+</Observation>

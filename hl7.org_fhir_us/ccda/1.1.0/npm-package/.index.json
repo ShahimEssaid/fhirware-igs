@@ -1,0 +1,285 @@
+{
+  "index-version": 1,
+  "files": [
+    {
+      "filename": "ig-r4.json",
+      "resourceType": "ImplementationGuide",
+      "id": "hl7.fhir.us.ccda",
+      "url": "http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda",
+      "version": "1.1.0"
+    },
+    {
+      "filename": "ImplementationGuide-hl7.fhir.us.ccda.json",
+      "resourceType": "ImplementationGuide",
+      "id": "hl7.fhir.us.ccda",
+      "url": "http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda",
+      "version": "1.1.0"
+    },
+    {
+      "filename": "StructureDefinition-US-Realm-Header.json",
+      "resourceType": "StructureDefinition",
+      "id": "US-Realm-Header",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/US-Realm-Header",
+      "version": "1.1.0",
+      "kind": "resource",
+      "type": "Composition"
+    },
+    {
+      "filename": "StructureDefinition-Care-Plan-Document.json",
+      "resourceType": "StructureDefinition",
+      "id": "Care-Plan-Document",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/Care-Plan-Document",
+      "version": "1.1.0",
+      "kind": "resource",
+      "type": "Composition"
+    },
+    {
+      "filename": "StructureDefinition-Consultation-Note.json",
+      "resourceType": "StructureDefinition",
+      "id": "Consultation-Note",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/Consultation-Note",
+      "version": "1.1.0",
+      "kind": "resource",
+      "type": "Composition"
+    },
+    {
+      "filename": "StructureDefinition-Continuity-of-Care-Document.json",
+      "resourceType": "StructureDefinition",
+      "id": "Continuity-of-Care-Document",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/Continuity-of-Care-Document",
+      "version": "1.1.0",
+      "kind": "resource",
+      "type": "Composition"
+    },
+    {
+      "filename": "StructureDefinition-Diagnostic-Imaging-Report.json",
+      "resourceType": "StructureDefinition",
+      "id": "Diagnostic-Imaging-Report",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/Diagnostic-Imaging-Report",
+      "version": "1.1.0",
+      "kind": "resource",
+      "type": "Composition"
+    },
+    {
+      "filename": "StructureDefinition-Discharge-Summary.json",
+      "resourceType": "StructureDefinition",
+      "id": "Discharge-Summary",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary",
+      "version": "1.1.0",
+      "kind": "resource",
+      "type": "Composition"
+    },
+    {
+      "filename": "StructureDefinition-History-and-Physical.json",
+      "resourceType": "StructureDefinition",
+      "id": "History-and-Physical",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/History-and-Physical",
+      "version": "1.1.0",
+      "kind": "resource",
+      "type": "Composition"
+    },
+    {
+      "filename": "StructureDefinition-Operative-Note.json",
+      "resourceType": "StructureDefinition",
+      "id": "Operative-Note",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/Operative-Note",
+      "version": "1.1.0",
+      "kind": "resource",
+      "type": "Composition"
+    },
+    {
+      "filename": "StructureDefinition-Procedure-Note.json",
+      "resourceType": "StructureDefinition",
+      "id": "Procedure-Note",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/Procedure-Note",
+      "version": "1.1.0",
+      "kind": "resource",
+      "type": "Composition"
+    },
+    {
+      "filename": "StructureDefinition-Progress-Note.json",
+      "resourceType": "StructureDefinition",
+      "id": "Progress-Note",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/Progress-Note",
+      "version": "1.1.0",
+      "kind": "resource",
+      "type": "Composition"
+    },
+    {
+      "filename": "StructureDefinition-Referral-Note.json",
+      "resourceType": "StructureDefinition",
+      "id": "Referral-Note",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/Referral-Note",
+      "version": "1.1.0",
+      "kind": "resource",
+      "type": "Composition"
+    },
+    {
+      "filename": "StructureDefinition-Transfer-Summary.json",
+      "resourceType": "StructureDefinition",
+      "id": "Transfer-Summary",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/Transfer-Summary",
+      "version": "1.1.0",
+      "kind": "resource",
+      "type": "Composition"
+    },
+    {
+      "filename": "ValueSet-2.16.840.1.113883.1.11.20.2.3.json",
+      "resourceType": "ValueSet",
+      "id": "2.16.840.1.113883.1.11.20.2.3",
+      "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.3",
+      "version": "1.1.0"
+    },
+    {
+      "filename": "ValueSet-2.16.840.1.113883.1.11.20.2.4.json",
+      "resourceType": "ValueSet",
+      "id": "2.16.840.1.113883.1.11.20.2.4",
+      "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.4",
+      "version": "1.1.0"
+    },
+    {
+      "filename": "ValueSet-2.16.840.1.113883.1.11.20.22.json",
+      "resourceType": "ValueSet",
+      "id": "2.16.840.1.113883.1.11.20.22",
+      "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.22",
+      "version": "1.1.0"
+    },
+    {
+      "filename": "ValueSet-2.16.840.1.113883.11.20.1.1.json",
+      "resourceType": "ValueSet",
+      "id": "2.16.840.1.113883.11.20.1.1",
+      "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.1.1",
+      "version": "1.1.0"
+    },
+    {
+      "filename": "ValueSet-2.16.840.1.113883.11.20.4.1.json",
+      "resourceType": "ValueSet",
+      "id": "2.16.840.1.113883.11.20.4.1",
+      "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.4.1",
+      "version": "1.1.0"
+    },
+    {
+      "filename": "ValueSet-2.16.840.1.113883.11.20.6.1.json",
+      "resourceType": "ValueSet",
+      "id": "2.16.840.1.113883.11.20.6.1",
+      "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.6.1",
+      "version": "1.1.0"
+    },
+    {
+      "filename": "ValueSet-2.16.840.1.113883.11.20.8.1.json",
+      "resourceType": "ValueSet",
+      "id": "2.16.840.1.113883.11.20.8.1",
+      "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.8.1",
+      "version": "1.1.0"
+    },
+    {
+      "filename": "ValueSet-2.16.840.1.113883.11.20.9.31.json",
+      "resourceType": "ValueSet",
+      "id": "2.16.840.1.113883.11.20.9.31",
+      "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.31",
+      "version": "1.1.0"
+    },
+    {
+      "filename": "ValueSet-1.3.6.1.4.1.12009.10.2.5.json",
+      "resourceType": "ValueSet",
+      "id": "1.3.6.1.4.1.12009.10.2.5",
+      "url": "http://cts.nlm.nih.gov/fhir/ValueSet/1.3.6.1.4.1.12009.10.2.5",
+      "version": "1.1.0"
+    },
+    {
+      "filename": "ValueSet-2.16.840.1.113762.1.4.1099.10.json",
+      "resourceType": "ValueSet",
+      "id": "2.16.840.1.113762.1.4.1099.10",
+      "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.10",
+      "version": "1.1.0"
+    },
+    {
+      "filename": "StructureDefinition-AuthorizationExtension.json",
+      "resourceType": "StructureDefinition",
+      "id": "AuthorizationExtension",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/AuthorizationExtension",
+      "version": "1.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-InformantExtension.json",
+      "resourceType": "StructureDefinition",
+      "id": "InformantExtension",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/InformantExtension",
+      "version": "1.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-ParticipantExtension.json",
+      "resourceType": "StructureDefinition",
+      "id": "ParticipantExtension",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/ParticipantExtension",
+      "version": "1.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-PerformerExtension.json",
+      "resourceType": "StructureDefinition",
+      "id": "PerformerExtension",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/PerformerExtension",
+      "version": "1.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-DataEntererExtension.json",
+      "resourceType": "StructureDefinition",
+      "id": "DataEntererExtension",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/DataEntererExtension",
+      "version": "1.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-InformationRecipientExtension.json",
+      "resourceType": "StructureDefinition",
+      "id": "InformationRecipientExtension",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/InformationRecipientExtension",
+      "version": "1.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-OrderExtension.json",
+      "resourceType": "StructureDefinition",
+      "id": "OrderExtension",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/OrderExtension",
+      "version": "1.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-VersionNumber.json",
+      "resourceType": "StructureDefinition",
+      "id": "VersionNumber",
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/VersionNumber",
+      "version": "1.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "CapabilityStatement-CcdaOnFhirClient.json",
+      "resourceType": "CapabilityStatement",
+      "id": "CcdaOnFhirClient",
+      "url": "http://hl7.org/fhir/us/ccda/CapabilityStatement/CcdaOnFhirClient",
+      "version": "1.1.0",
+      "kind": "requirements"
+    },
+    {
+      "filename": "CapabilityStatement-CcdaOnFhirServer.json",
+      "resourceType": "CapabilityStatement",
+      "id": "CcdaOnFhirServer",
+      "url": "http://hl7.org/fhir/us/ccda/CapabilityStatement/CcdaOnFhirServer",
+      "version": "1.1.0",
+      "kind": "requirements"
+    }
+  ]
+}

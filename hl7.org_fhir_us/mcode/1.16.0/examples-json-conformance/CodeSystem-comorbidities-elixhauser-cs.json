@@ -1,0 +1,236 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "comorbidities-elixhauser-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">AIDS<a name=\"comorbidities-elixhauser-cs-AIDS\"> </a></td><td>Acquired immune deficiency syndrome Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserAidsVS</td></tr><tr><td style=\"white-space:nowrap\">ALCOHOL<a name=\"comorbidities-elixhauser-cs-ALCOHOL\"> </a></td><td>Alcohol abuse Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserAlcoholAbuseVS</td></tr><tr><td style=\"white-space:nowrap\">ANEMDF<a name=\"comorbidities-elixhauser-cs-ANEMDF\"> </a></td><td>Deficiency anemias Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserDeficiencyAnemiaVS</td></tr><tr><td style=\"white-space:nowrap\">ARTH<a name=\"comorbidities-elixhauser-cs-ARTH\"> </a></td><td>Arthropathies Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserRheumatoidArthritisVS</td></tr><tr><td style=\"white-space:nowrap\">BLDLOSS<a name=\"comorbidities-elixhauser-cs-BLDLOSS\"> </a></td><td>Chronic blood loss anemia Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserBloodLossAnemiaVS</td></tr><tr><td style=\"white-space:nowrap\">CANCER_LEUK<a name=\"comorbidities-elixhauser-cs-CANCER_LEUK\"> </a></td><td>Leukemia Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserCancerLeukemiaVS</td></tr><tr><td style=\"white-space:nowrap\">CANCER_LYMPH<a name=\"comorbidities-elixhauser-cs-CANCER_LYMPH\"> </a></td><td>Lymphoma Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserCancerLymphomaVS</td></tr><tr><td style=\"white-space:nowrap\">CANCER_METS<a name=\"comorbidities-elixhauser-cs-CANCER_METS\"> </a></td><td>Metastatic cancer Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserCancerMetastaticVS</td></tr><tr><td style=\"white-space:nowrap\">CANCER_NSITU<a name=\"comorbidities-elixhauser-cs-CANCER_NSITU\"> </a></td><td>Solid tumor without metastasis, in situ Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserCancerSolidTumorInSituVS</td></tr><tr><td style=\"white-space:nowrap\">CANCER_SOLID<a name=\"comorbidities-elixhauser-cs-CANCER_SOLID\"> </a></td><td>Solid tumor without metastasis, malignant Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserCancerSolidTumorMalignantVS</td></tr><tr><td style=\"white-space:nowrap\">CBVD<a name=\"comorbidities-elixhauser-cs-CBVD\"> </a></td><td>Cerebrovascular disease Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserCerebrovascularDiseaseVS</td></tr><tr><td style=\"white-space:nowrap\">CHF<a name=\"comorbidities-elixhauser-cs-CHF\"> </a></td><td>Congestive heart failure Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserCongestiveHeartFailureVS</td></tr><tr><td style=\"white-space:nowrap\">COAG<a name=\"comorbidities-elixhauser-cs-COAG\"> </a></td><td>Coagulopathy Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserCoagulationDeficiencyVS</td></tr><tr><td style=\"white-space:nowrap\">DEMENTIA<a name=\"comorbidities-elixhauser-cs-DEMENTIA\"> </a></td><td>Dementia Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserDementiaVS</td></tr><tr><td style=\"white-space:nowrap\">DEPRESS<a name=\"comorbidities-elixhauser-cs-DEPRESS\"> </a></td><td>Depression Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserDepressionVS</td></tr><tr><td style=\"white-space:nowrap\">DIAB_CX<a name=\"comorbidities-elixhauser-cs-DIAB_CX\"> </a></td><td>Diabetes with chronic complications Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserDiabetesComplicatedVS</td></tr><tr><td style=\"white-space:nowrap\">DIAB_UNCX<a name=\"comorbidities-elixhauser-cs-DIAB_UNCX\"> </a></td><td>Diabetes without chronic complications Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserDiabetesUncomplicatedVS</td></tr><tr><td style=\"white-space:nowrap\">DRUG_ABUSE<a name=\"comorbidities-elixhauser-cs-DRUG_ABUSE\"> </a></td><td>Drug abuse Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserDrugAbuseVS</td></tr><tr><td style=\"white-space:nowrap\">HTN_CX<a name=\"comorbidities-elixhauser-cs-HTN_CX\"> </a></td><td>Hypertension, complicated Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserHypertensionComplicatedVS</td></tr><tr><td style=\"white-space:nowrap\">HTN_UNCX<a name=\"comorbidities-elixhauser-cs-HTN_UNCX\"> </a></td><td>Hypertension, uncomplicated Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserHypertensionUncomplicatedVS</td></tr><tr><td style=\"white-space:nowrap\">LIVER_MLD<a name=\"comorbidities-elixhauser-cs-LIVER_MLD\"> </a></td><td>Liver disease, mild Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserLiverDiseaseMildVS</td></tr><tr><td style=\"white-space:nowrap\">LIVER_SEV<a name=\"comorbidities-elixhauser-cs-LIVER_SEV\"> </a></td><td>Liver disease, moderate to severe Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserLiverDiseaseSevereVS</td></tr><tr><td style=\"white-space:nowrap\">LUNG_CHRONIC<a name=\"comorbidities-elixhauser-cs-LUNG_CHRONIC\"> </a></td><td>Chronic pulmonary disease Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserChronicPulmonaryDiseaseVS</td></tr><tr><td style=\"white-space:nowrap\">NEURO_MOVT<a name=\"comorbidities-elixhauser-cs-NEURO_MOVT\"> </a></td><td>Neurological disorders affecting movement Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserNeurologicalMovementDisorderVS</td></tr><tr><td style=\"white-space:nowrap\">NEURO_OTH<a name=\"comorbidities-elixhauser-cs-NEURO_OTH\"> </a></td><td>Other neurological disorders Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserOtherNeurologicalVS</td></tr><tr><td style=\"white-space:nowrap\">NEURO_SEIZ<a name=\"comorbidities-elixhauser-cs-NEURO_SEIZ\"> </a></td><td>Seizures and epilepsy Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserNeurologicalSeizureDisorderVS</td></tr><tr><td style=\"white-space:nowrap\">OBESE<a name=\"comorbidities-elixhauser-cs-OBESE\"> </a></td><td>Obesity Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserObesityVS</td></tr><tr><td style=\"white-space:nowrap\">PARALYSIS<a name=\"comorbidities-elixhauser-cs-PARALYSIS\"> </a></td><td>Paralysis Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserParalysisVS</td></tr><tr><td style=\"white-space:nowrap\">PERIVASC<a name=\"comorbidities-elixhauser-cs-PERIVASC\"> </a></td><td>Peripheral vascular disease Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserPeripheralVascularDiseaseVS</td></tr><tr><td style=\"white-space:nowrap\">PSYCHOSIS<a name=\"comorbidities-elixhauser-cs-PSYCHOSIS\"> </a></td><td>Psychosis Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserPsychosisVS</td></tr><tr><td style=\"white-space:nowrap\">PULMCIRC<a name=\"comorbidities-elixhauser-cs-PULMCIRC\"> </a></td><td>Pulmonary circulation disease Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserPulmonaryCirculationDisorderVS</td></tr><tr><td style=\"white-space:nowrap\">RENLFL_MOD<a name=\"comorbidities-elixhauser-cs-RENLFL_MOD\"> </a></td><td>Renal failure, moderate Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserRenalFailureModerateVS</td></tr><tr><td style=\"white-space:nowrap\">RENLFL_SEV<a name=\"comorbidities-elixhauser-cs-RENLFL_SEV\"> </a></td><td>Renal failure, severe Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserRenalFailureSevereVS</td></tr><tr><td style=\"white-space:nowrap\">THYROID_HYPO<a name=\"comorbidities-elixhauser-cs-THYROID_HYPO\"> </a></td><td>Hypothyroidism Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserHypothyroidismVS</td></tr><tr><td style=\"white-space:nowrap\">THYROID_OTH<a name=\"comorbidities-elixhauser-cs-THYROID_OTH\"> </a></td><td>Other thyroid disorders Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserOtherThyroidDisorderVS</td></tr><tr><td style=\"white-space:nowrap\">ULCER_PEPTIC<a name=\"comorbidities-elixhauser-cs-ULCER_PEPTIC\"> </a></td><td>Peptic ulcer with bleeding Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserUlcerVS</td></tr><tr><td style=\"white-space:nowrap\">VALVE<a name=\"comorbidities-elixhauser-cs-VALVE\"> </a></td><td>Valvular disease Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserValvularDiseaseVS</td></tr><tr><td style=\"white-space:nowrap\">WGHTLOSS<a name=\"comorbidities-elixhauser-cs-WGHTLOSS\"> </a></td><td>Weight loss Elixhauser category</td><td>Patient has a disorder in the value set ElixhauserWeightLossVS</td></tr></table></div>"
+  },
+  "url": "http://terminology.hl7.org/CodeSystem/comorbidities-elixhauser",
+  "version": "1.16.0",
+  "name": "ComorbiditiesElixhauserCS",
+  "title": "Elixhauser Comorbidity Categories",
+  "status": "active",
+  "date": "2021-04-15T12:44:45+00:00",
+  "publisher": "HL7 International Clinical Interoperability Council",
+  "contact": [
+    {
+      "name": "HL7 International Clinical Interoperability Council",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/cic"
+        },
+        {
+          "system": "email",
+          "value": "ciclist@lists.HL7.org"
+        }
+      ]
+    }
+  ],
+  "description": "A set of codes representing the comorbidity categories originally defined by Elixhauser, and updated by the Agency for Healthcare Research and Quality (AHRQ) Healthcare Cost and Utilization Project (H-CUP).",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 38,
+  "concept": [
+    {
+      "code": "AIDS",
+      "display": "Acquired immune deficiency syndrome Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserAidsVS"
+    },
+    {
+      "code": "ALCOHOL",
+      "display": "Alcohol abuse Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserAlcoholAbuseVS"
+    },
+    {
+      "code": "ANEMDF",
+      "display": "Deficiency anemias Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserDeficiencyAnemiaVS"
+    },
+    {
+      "code": "ARTH",
+      "display": "Arthropathies Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserRheumatoidArthritisVS"
+    },
+    {
+      "code": "BLDLOSS",
+      "display": "Chronic blood loss anemia Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserBloodLossAnemiaVS"
+    },
+    {
+      "code": "CANCER_LEUK",
+      "display": "Leukemia Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserCancerLeukemiaVS"
+    },
+    {
+      "code": "CANCER_LYMPH",
+      "display": "Lymphoma Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserCancerLymphomaVS"
+    },
+    {
+      "code": "CANCER_METS",
+      "display": "Metastatic cancer Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserCancerMetastaticVS"
+    },
+    {
+      "code": "CANCER_NSITU",
+      "display": "Solid tumor without metastasis, in situ Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserCancerSolidTumorInSituVS"
+    },
+    {
+      "code": "CANCER_SOLID",
+      "display": "Solid tumor without metastasis, malignant Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserCancerSolidTumorMalignantVS"
+    },
+    {
+      "code": "CBVD",
+      "display": "Cerebrovascular disease Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserCerebrovascularDiseaseVS"
+    },
+    {
+      "code": "CHF",
+      "display": "Congestive heart failure Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserCongestiveHeartFailureVS"
+    },
+    {
+      "code": "COAG",
+      "display": "Coagulopathy Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserCoagulationDeficiencyVS"
+    },
+    {
+      "code": "DEMENTIA",
+      "display": "Dementia Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserDementiaVS"
+    },
+    {
+      "code": "DEPRESS",
+      "display": "Depression Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserDepressionVS"
+    },
+    {
+      "code": "DIAB_CX",
+      "display": "Diabetes with chronic complications Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserDiabetesComplicatedVS"
+    },
+    {
+      "code": "DIAB_UNCX",
+      "display": "Diabetes without chronic complications Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserDiabetesUncomplicatedVS"
+    },
+    {
+      "code": "DRUG_ABUSE",
+      "display": "Drug abuse Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserDrugAbuseVS"
+    },
+    {
+      "code": "HTN_CX",
+      "display": "Hypertension, complicated Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserHypertensionComplicatedVS"
+    },
+    {
+      "code": "HTN_UNCX",
+      "display": "Hypertension, uncomplicated Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserHypertensionUncomplicatedVS"
+    },
+    {
+      "code": "LIVER_MLD",
+      "display": "Liver disease, mild Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserLiverDiseaseMildVS"
+    },
+    {
+      "code": "LIVER_SEV",
+      "display": "Liver disease, moderate to severe Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserLiverDiseaseSevereVS"
+    },
+    {
+      "code": "LUNG_CHRONIC",
+      "display": "Chronic pulmonary disease Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserChronicPulmonaryDiseaseVS"
+    },
+    {
+      "code": "NEURO_MOVT",
+      "display": "Neurological disorders affecting movement Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserNeurologicalMovementDisorderVS"
+    },
+    {
+      "code": "NEURO_OTH",
+      "display": "Other neurological disorders Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserOtherNeurologicalVS"
+    },
+    {
+      "code": "NEURO_SEIZ",
+      "display": "Seizures and epilepsy Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserNeurologicalSeizureDisorderVS"
+    },
+    {
+      "code": "OBESE",
+      "display": "Obesity Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserObesityVS"
+    },
+    {
+      "code": "PARALYSIS",
+      "display": "Paralysis Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserParalysisVS"
+    },
+    {
+      "code": "PERIVASC",
+      "display": "Peripheral vascular disease Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserPeripheralVascularDiseaseVS"
+    },
+    {
+      "code": "PSYCHOSIS",
+      "display": "Psychosis Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserPsychosisVS"
+    },
+    {
+      "code": "PULMCIRC",
+      "display": "Pulmonary circulation disease Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserPulmonaryCirculationDisorderVS"
+    },
+    {
+      "code": "RENLFL_MOD",
+      "display": "Renal failure, moderate Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserRenalFailureModerateVS"
+    },
+    {
+      "code": "RENLFL_SEV",
+      "display": "Renal failure, severe Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserRenalFailureSevereVS"
+    },
+    {
+      "code": "THYROID_HYPO",
+      "display": "Hypothyroidism Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserHypothyroidismVS"
+    },
+    {
+      "code": "THYROID_OTH",
+      "display": "Other thyroid disorders Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserOtherThyroidDisorderVS"
+    },
+    {
+      "code": "ULCER_PEPTIC",
+      "display": "Peptic ulcer with bleeding Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserUlcerVS"
+    },
+    {
+      "code": "VALVE",
+      "display": "Valvular disease Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserValvularDiseaseVS"
+    },
+    {
+      "code": "WGHTLOSS",
+      "display": "Weight loss Elixhauser category",
+      "definition": "Patient has a disorder in the value set ElixhauserWeightLossVS"
+    }
+  ]
+}

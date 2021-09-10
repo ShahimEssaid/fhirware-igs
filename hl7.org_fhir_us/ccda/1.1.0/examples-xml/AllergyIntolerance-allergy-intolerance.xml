@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AllergyIntolerance xmlns="http://hl7.org/fhir">
+  <id value="allergy-intolerance"/>
+  <meta>
+    <versionId value="7"/>
+    <lastUpdated value="2020-08-12T21:30:13.331+00:00"/>
+    <source value="#csn482LCsnDWyxbW"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>clinicalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}">Active</span></p><p><b>category</b>: medication</p><p><b>criticality</b>: high</p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 387406002}">sulfonamide antibacterial</span></p><p><b>patient</b>: <a href="Patient-example.html">Amy V. Shaw. Generated Summary: Medical Record Number: 900 (USUAL); active; Paticia Noelle ; Phone: 555-555-2003, Patricia.Noelle@example.com; gender: female; birthDate: 1954-10-17</a></p><h3>Reactions</h3><table class="grid"><tr><td>-</td><td><b>Manifestation</b></td><td><b>Severity</b></td></tr><tr><td>*</td><td><span title="Codes: {http://snomed.info/sct 271807003}">skin rash</span></td><td>mild</td></tr></table></div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <category value="medication"/>
+  <criticality value="high"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="387406002"/>
+      <display value="Sulfonamide (substance)"/>
+    </coding>
+    <text value="sulfonamide antibacterial"/>
+  </code>
+  <patient>
+    <reference value="Patient/example"/>
+    <display value="Amy V. Shaw"/>
+  </patient>
+  <reaction>
+    <manifestation>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="271807003"/>
+        <display value="skin rash"/>
+      </coding>
+      <text value="skin rash"/>
+    </manifestation>
+    <severity value="mild"/>
+  </reaction>
+</AllergyIntolerance>

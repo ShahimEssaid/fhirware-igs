@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="TxImp06"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/therapeutic-implication"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes therapeutic-implication}">Therapeutic Implication</span></p><p><b>derivedFrom</b>: </p><ul><li><a href="Observation-Pgx-geno-1002.html">CYP2C9*1/*1. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 84413-4}">Genotype display name</span>; effective: 2020-01-01; <span title="Codes: ">CYP2C9*1/*1</span></a></li><li><a href="Observation-Pgx-geno-1003.html">VKORC1 rs9923231 C/T. Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>; <span title="Codes: {http://loinc.org 84413-4}">Genotype display name</span>; effective: 2020-01-01; <span title="Codes: ">VKORC1 rs9923231 C/T</span></a></li></ul><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 51963-7}">Medication assessed [ID]</span></p><p><b>value</b>: <span title="Codes: {http://ncimeta.nci.nih.gov C0043031}">warfarin</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 53040-2}">Genetic variation's effect on drug metabolism</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA25391-6}">Normal metabolizer</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes conclusion-string}">Conclusion text</span></p><p><b>value</b>: This individual is homozygous for the normal allele for the CYP2C9 gene. Based on the genotype result, this patient is predicted to have normal CYP2C9 function. This individual is also heterozygous for the variant allele for the VKORC1 gene. Expression level of the VKORC1 gene is associated with warfarin sensitivity. Based on the genotype result, this patient is predicted to have medium sensitivity to warfarin. See https://cpicpgx.org/guidelines/guideline-for-warfarin-and-cyp2c9-and-vkorc1/ guidelines for detail.</p></blockquote></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+      <code value="therapeutic-implication"/>
+    </coding>
+  </code>
+  <derivedFrom>
+    <reference value="Observation/Pgx-geno-1002"/>
+    <display value="CYP2C9*1/*1"/>
+  </derivedFrom>
+  <derivedFrom>
+    <reference value="Observation/Pgx-geno-1003"/>
+    <display value="VKORC1 rs9923231 C/T"/>
+  </derivedFrom>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="51963-7"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://ncimeta.nci.nih.gov"/>
+        <code value="C0043031"/>
+        <display value="warfarin"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="53040-2"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="LA25391-6"/>
+        <display value="Normal metabolizer"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+        <code value="conclusion-string"/>
+      </coding>
+    </code>
+    <valueString value="This individual is homozygous for the normal allele for the CYP2C9 gene. Based on the genotype result, this patient is predicted to have normal CYP2C9 function. This individual is also heterozygous for the variant allele for the VKORC1 gene. Expression level of the VKORC1 gene is associated with warfarin sensitivity. Based on the genotype result, this patient is predicted to have medium sensitivity to warfarin. See https://cpicpgx.org/guidelines/guideline-for-warfarin-and-cyp2c9-and-vkorc1/ guidelines for detail."/>
+  </component>
+</Observation>

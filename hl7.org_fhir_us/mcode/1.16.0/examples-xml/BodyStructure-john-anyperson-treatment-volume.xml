@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BodyStructure xmlns="http://hl7.org/fhir">
+  <id value="john-anyperson-treatment-volume"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-volume"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>location</b>: <span title="Codes: {http://snomed.info/sct 31094006}">Structure of lobe of lung (body structure)</span></p><p><b>locationQualifier</b>: <span title="Codes: {http://snomed.info/sct 7771000}">Left (qualifier value)</span>, <span title="Codes: {http://snomed.info/sct 261122009}">Lower (qualifier value)</span></p><p><b>description</b>: Structure of lower lobe of left lung</p><p><b>patient</b>: <a href="Patient-cancer-patient-john-anyperson.html">Generated Summary: Medical Record Number: m123 (USUAL); John B. Anyperson ; gender: male; birthDate: 1951-01-20</a></p></div>
+  </text>
+  <location>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="31094006"/>
+      <display value="Structure of lobe of lung (body structure)"/>
+    </coding>
+  </location>
+  <locationQualifier>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="7771000"/>
+      <display value="Left (qualifier value)"/>
+    </coding>
+  </locationQualifier>
+  <locationQualifier>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="261122009"/>
+      <display value="Lower (qualifier value)"/>
+    </coding>
+  </locationQualifier>
+  <description value="Structure of lower lobe of left lung"/>
+  <patient>
+    <reference value="Patient/cancer-patient-john-anyperson"/>
+  </patient>
+</BodyStructure>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="OverallInterpExample1"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/overall-interpretation"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 51968-6}">Discrete variation analysis overall interpretation</span></p><p><b>subject</b>: <a href="Patient-CGPatientExample01.html">Generated Summary: Medical Record Number: m123 (USUAL); Adam B. Everyman ; gender: male; birthDate: 1951-01-20</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6576-8}">Positive</span></p><p><b>specimen</b>: <a href="Specimen-GenomicSpecimenExample01.html">Generated Summary: status: available; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TISS}">Tissue</span></a></p><h3>Components</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes conclusion-string}">Conclusion text</span></td><td>Patient is positive for high risk allele HLA-B*15:02 and should not be treated with CBZ.</td></tr></table></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="51968-6"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/CGPatientExample01"/>
+  </subject>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA6576-8"/>
+      <display value="Positive"/>
+    </coding>
+  </valueCodeableConcept>
+  <specimen>
+    <reference value="Specimen/GenomicSpecimenExample01"/>
+  </specimen>
+  <component>
+    <code>
+      <coding>
+        <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+        <code value="conclusion-string"/>
+      </coding>
+    </code>
+    <valueString value="Patient is positive for high risk allele HLA-B*15:02 and should not be treated with CBZ."/>
+  </component>
+</Observation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BodyStructure xmlns="http://hl7.org/fhir">
+  <id value="jenny-m-chest-wall-lymph-nodes-treatment-volume"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-volume"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 1.2.246.352…2</p><p><b>location</b>: <span title="Codes: {http://snomed.info/sct 245276004}">Mediastinal lymph node group (body structure)</span></p><p><b>locationQualifier</b>: <span title="Codes: {http://snomed.info/sct 51440002}">Right and left (qualifier value)</span></p><p><b>description</b>: Chest Wall Lymph Nodes</p><p><b>patient</b>: <a href="Patient-cancer-patient-jenny-m.html">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p></div>
+  </text>
+  <identifier>
+    <value value="1.2.246.352&#x2026;2"/>
+  </identifier>
+  <location>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="245276004"/>
+      <display value="Mediastinal lymph node group (body structure)"/>
+    </coding>
+  </location>
+  <locationQualifier>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="51440002"/>
+      <display value="Right and left (qualifier value)"/>
+    </coding>
+  </locationQualifier>
+  <description value="Chest Wall Lymph Nodes"/>
+  <patient>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </patient>
+</BodyStructure>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="elixhauser-liver-disease-mild-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="https://terminology.hl7.org/1.0.0//CodeSystem-icd10CM.html"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>A51.45</td><td>Secondary syphilitic hepatitis</td></tr><tr><td>A52.74</td><td>Syphilis of liver and other viscera</td></tr><tr><td>B18.0</td><td>Chronic viral hepatitis B with delta-agent</td></tr><tr><td>B18.1</td><td>Chronic viral hepatitis B without delta-agent</td></tr><tr><td>B18.2</td><td>Chronic viral hepatitis C</td></tr><tr><td>B18.8</td><td>Other chronic viral hepatitis</td></tr><tr><td>B18.9</td><td>Chronic viral hepatitis, unspecified</td></tr><tr><td>B19.10</td><td>Unspecified viral hepatitis B without hepatic coma</td></tr><tr><td>B19.20</td><td>Unspecified viral hepatitis C without hepatic coma</td></tr><tr><td>B19.9</td><td>Unspecified viral hepatitis without hepatic coma</td></tr><tr><td>B25.1</td><td>Cytomegaloviral hepatitis</td></tr><tr><td>B58.1</td><td>Toxoplasma hepatitis</td></tr><tr><td>K70.0</td><td>Alcoholic fatty liver</td></tr><tr><td>K70.10</td><td>Alcoholic hepatitis without ascites</td></tr><tr><td>K70.11</td><td>Alcoholic hepatitis with ascites</td></tr><tr><td>K70.2</td><td>Alcoholic fibrosis and sclerosis of liver</td></tr><tr><td>K70.30</td><td>Alcoholic cirrhosis of liver without ascites</td></tr><tr><td>K70.31</td><td>Alcoholic cirrhosis of liver with ascites</td></tr><tr><td>K70.9</td><td>Alcoholic liver disease, unspecified</td></tr><tr><td>K71.3</td><td>Toxic liver disease with chronic persistent hepatitis</td></tr><tr><td>K71.4</td><td>Toxic liver disease with chronic lobular hepatitis</td></tr><tr><td>K71.50</td><td>Toxic liver disease with chronic active hepatitis without ascites</td></tr><tr><td>K71.51</td><td>Toxic liver disease with chronic active hepatitis with ascites</td></tr><tr><td>K71.6</td><td>Toxic liver disease with hepatitis, not elsewhere classified</td></tr><tr><td>K71.7</td><td>Toxic liver disease with fibrosis and cirrhosis of liver</td></tr><tr><td>K71.8</td><td>Toxic liver disease with other disorders of liver</td></tr><tr><td>K73.0</td><td>Chronic persistent hepatitis, not elsewhere classified</td></tr><tr><td>K73.1</td><td>Chronic lobular hepatitis, not elsewhere classified</td></tr><tr><td>K73.2</td><td>Chronic active hepatitis, not elsewhere classified</td></tr><tr><td>K73.8</td><td>Other chronic hepatitis, not elsewhere classified</td></tr><tr><td>K73.9</td><td>Chronic hepatitis, unspecified</td></tr><tr><td>K74.0</td><td>Hepatic fibrosis</td></tr><tr><td>K74.00</td><td>Hepatic fibrosis, unspecified</td></tr><tr><td>K74.01</td><td>Hepatic fibrosis, early fibrosis</td></tr><tr><td>K74.02</td><td>Hepatic fibrosis, advanced fibrosis</td></tr><tr><td>K74.1</td><td>Hepatic sclerosis</td></tr><tr><td>K74.2</td><td>Hepatic fibrosis with hepatic sclerosis</td></tr><tr><td>K74.3</td><td>Primary biliary cirrhosis</td></tr><tr><td>K74.4</td><td>Secondary biliary cirrhosis</td></tr><tr><td>K74.5</td><td>Biliary cirrhosis, unspecified</td></tr><tr><td>K74.60</td><td>Unspecified cirrhosis of liver</td></tr><tr><td>K74.69</td><td>Other cirrhosis of liver</td></tr><tr><td>K75.1</td><td>Phlebitis of portal vein</td></tr><tr><td>K75.2</td><td>Nonspecific reactive hepatitis</td></tr><tr><td>K75.3</td><td>Granulomatous hepatitis, not elsewhere classified</td></tr><tr><td>K75.4</td><td>Autoimmune hepatitis</td></tr><tr><td>K75.81</td><td>Nonalcoholic steatohepatitis (NASH)</td></tr><tr><td>K75.89</td><td>Other specified inflammatory liver diseases</td></tr><tr><td>K75.9</td><td>Inflammatory liver disease, unspecified</td></tr><tr><td>K76.0</td><td>Fatty (change of) liver, not elsewhere classified</td></tr><tr><td>K76.1</td><td>Chronic passive congestion of liver</td></tr><tr><td>K76.2</td><td>Central hemorrhagic necrosis of liver</td></tr><tr><td>K76.3</td><td>Infarction of liver</td></tr><tr><td>K76.4</td><td>Peliosis hepatis</td></tr><tr><td>K76.81</td><td>Hepatopulmonary syndrome</td></tr><tr><td>K76.89</td><td>Other specified diseases of liver</td></tr><tr><td>K76.9</td><td>Liver disease, unspecified</td></tr><tr><td>K77</td><td>Liver disorders in diseases classified elsewhere</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/mcode/ValueSet/elixhauser-liver-disease-mild-vs"/>
+  <version value="1.16.0"/>
+  <name value="ElixhauserLiverDiseaseMildVS"/>
+  <title value="Elixhauser Comorbid Condition Value Set for Mild Liver Disease"/>
+  <status value="active"/>
+  <date value="2021-04-15T12:44:45+00:00"/>
+  <publisher value="HL7 International Clinical Interoperability Council"/>
+  <contact>
+    <name value="HL7 International Clinical Interoperability Council"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ciclist@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Elixhauser Comorbid Condition Value Set for Mild Liver Disease. ICD-10 codes are drawn from https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp, version 2021.1"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <concept>
+        <code value="A51.45"/>
+        <display value="Secondary syphilitic hepatitis"/>
+      </concept>
+      <concept>
+        <code value="A52.74"/>
+        <display value="Syphilis of liver and other viscera"/>
+      </concept>
+      <concept>
+        <code value="B18.0"/>
+        <display value="Chronic viral hepatitis B with delta-agent"/>
+      </concept>
+      <concept>
+        <code value="B18.1"/>
+        <display value="Chronic viral hepatitis B without delta-agent"/>
+      </concept>
+      <concept>
+        <code value="B18.2"/>
+        <display value="Chronic viral hepatitis C"/>
+      </concept>
+      <concept>
+        <code value="B18.8"/>
+        <display value="Other chronic viral hepatitis"/>
+      </concept>
+      <concept>
+        <code value="B18.9"/>
+        <display value="Chronic viral hepatitis, unspecified"/>
+      </concept>
+      <concept>
+        <code value="B19.10"/>
+        <display value="Unspecified viral hepatitis B without hepatic coma"/>
+      </concept>
+      <concept>
+        <code value="B19.20"/>
+        <display value="Unspecified viral hepatitis C without hepatic coma"/>
+      </concept>
+      <concept>
+        <code value="B19.9"/>
+        <display value="Unspecified viral hepatitis without hepatic coma"/>
+      </concept>
+      <concept>
+        <code value="B25.1"/>
+        <display value="Cytomegaloviral hepatitis"/>
+      </concept>
+      <concept>
+        <code value="B58.1"/>
+        <display value="Toxoplasma hepatitis"/>
+      </concept>
+      <concept>
+        <code value="K70.0"/>
+        <display value="Alcoholic fatty liver"/>
+      </concept>
+      <concept>
+        <code value="K70.10"/>
+        <display value="Alcoholic hepatitis without ascites"/>
+      </concept>
+      <concept>
+        <code value="K70.11"/>
+        <display value="Alcoholic hepatitis with ascites"/>
+      </concept>
+      <concept>
+        <code value="K70.2"/>
+        <display value="Alcoholic fibrosis and sclerosis of liver"/>
+      </concept>
+      <concept>
+        <code value="K70.30"/>
+        <display value="Alcoholic cirrhosis of liver without ascites"/>
+      </concept>
+      <concept>
+        <code value="K70.31"/>
+        <display value="Alcoholic cirrhosis of liver with ascites"/>
+      </concept>
+      <concept>
+        <code value="K70.9"/>
+        <display value="Alcoholic liver disease, unspecified"/>
+      </concept>
+      <concept>
+        <code value="K71.3"/>
+        <display value="Toxic liver disease with chronic persistent hepatitis"/>
+      </concept>
+      <concept>
+        <code value="K71.4"/>
+        <display value="Toxic liver disease with chronic lobular hepatitis"/>
+      </concept>
+      <concept>
+        <code value="K71.50"/>
+        <display value="Toxic liver disease with chronic active hepatitis without ascites"/>
+      </concept>
+      <concept>
+        <code value="K71.51"/>
+        <display value="Toxic liver disease with chronic active hepatitis with ascites"/>
+      </concept>
+      <concept>
+        <code value="K71.6"/>
+        <display value="Toxic liver disease with hepatitis, not elsewhere classified"/>
+      </concept>
+      <concept>
+        <code value="K71.7"/>
+        <display value="Toxic liver disease with fibrosis and cirrhosis of liver"/>
+      </concept>
+      <concept>
+        <code value="K71.8"/>
+        <display value="Toxic liver disease with other disorders of liver"/>
+      </concept>
+      <concept>
+        <code value="K73.0"/>
+        <display value="Chronic persistent hepatitis, not elsewhere classified"/>
+      </concept>
+      <concept>
+        <code value="K73.1"/>
+        <display value="Chronic lobular hepatitis, not elsewhere classified"/>
+      </concept>
+      <concept>
+        <code value="K73.2"/>
+        <display value="Chronic active hepatitis, not elsewhere classified"/>
+      </concept>
+      <concept>
+        <code value="K73.8"/>
+        <display value="Other chronic hepatitis, not elsewhere classified"/>
+      </concept>
+      <concept>
+        <code value="K73.9"/>
+        <display value="Chronic hepatitis, unspecified"/>
+      </concept>
+      <concept>
+        <code value="K74.0"/>
+        <display value="Hepatic fibrosis"/>
+      </concept>
+      <concept>
+        <code value="K74.00"/>
+        <display value="Hepatic fibrosis, unspecified"/>
+      </concept>
+      <concept>
+        <code value="K74.01"/>
+        <display value="Hepatic fibrosis, early fibrosis"/>
+      </concept>
+      <concept>
+        <code value="K74.02"/>
+        <display value="Hepatic fibrosis, advanced fibrosis"/>
+      </concept>
+      <concept>
+        <code value="K74.1"/>
+        <display value="Hepatic sclerosis"/>
+      </concept>
+      <concept>
+        <code value="K74.2"/>
+        <display value="Hepatic fibrosis with hepatic sclerosis"/>
+      </concept>
+      <concept>
+        <code value="K74.3"/>
+        <display value="Primary biliary cirrhosis"/>
+      </concept>
+      <concept>
+        <code value="K74.4"/>
+        <display value="Secondary biliary cirrhosis"/>
+      </concept>
+      <concept>
+        <code value="K74.5"/>
+        <display value="Biliary cirrhosis, unspecified"/>
+      </concept>
+      <concept>
+        <code value="K74.60"/>
+        <display value="Unspecified cirrhosis of liver"/>
+      </concept>
+      <concept>
+        <code value="K74.69"/>
+        <display value="Other cirrhosis of liver"/>
+      </concept>
+      <concept>
+        <code value="K75.1"/>
+        <display value="Phlebitis of portal vein"/>
+      </concept>
+      <concept>
+        <code value="K75.2"/>
+        <display value="Nonspecific reactive hepatitis"/>
+      </concept>
+      <concept>
+        <code value="K75.3"/>
+        <display value="Granulomatous hepatitis, not elsewhere classified"/>
+      </concept>
+      <concept>
+        <code value="K75.4"/>
+        <display value="Autoimmune hepatitis"/>
+      </concept>
+      <concept>
+        <code value="K75.81"/>
+        <display value="Nonalcoholic steatohepatitis (NASH)"/>
+      </concept>
+      <concept>
+        <code value="K75.89"/>
+        <display value="Other specified inflammatory liver diseases"/>
+      </concept>
+      <concept>
+        <code value="K75.9"/>
+        <display value="Inflammatory liver disease, unspecified"/>
+      </concept>
+      <concept>
+        <code value="K76.0"/>
+        <display value="Fatty (change of) liver, not elsewhere classified"/>
+      </concept>
+      <concept>
+        <code value="K76.1"/>
+        <display value="Chronic passive congestion of liver"/>
+      </concept>
+      <concept>
+        <code value="K76.2"/>
+        <display value="Central hemorrhagic necrosis of liver"/>
+      </concept>
+      <concept>
+        <code value="K76.3"/>
+        <display value="Infarction of liver"/>
+      </concept>
+      <concept>
+        <code value="K76.4"/>
+        <display value="Peliosis hepatis"/>
+      </concept>
+      <concept>
+        <code value="K76.81"/>
+        <display value="Hepatopulmonary syndrome"/>
+      </concept>
+      <concept>
+        <code value="K76.89"/>
+        <display value="Other specified diseases of liver"/>
+      </concept>
+      <concept>
+        <code value="K76.9"/>
+        <display value="Liver disease, unspecified"/>
+      </concept>
+      <concept>
+        <code value="K77"/>
+        <display value="Liver disorders in diseases classified elsewhere"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

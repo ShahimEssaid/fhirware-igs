@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="tumor-size-pathology"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-size"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 21889-1}">Size Tumor</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-eve-anyperson.html">Generated Summary: Medical Record Number: m456 (USUAL); Eve A. Anyperson ; gender: female; birthDate: 1955-05-20</a></p><p><b>focus</b>: <a href="BodyStructure-tumor-lobular-carcinoma-left-breast.html">Generated Summary: BodyStructure: Tumor 1234 (USUAL); <span title="Codes: {http://snomed.info/sct 80248007}">Left breast structure (body structure)</span></a></p><p><b>effective</b>: 2019-05-01</p><p><b>method</b>: <span title="Codes: {http://snomed.info/sct 787377000}">Gross examination and sampling of tissue specimen (procedure)</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 33728-7}">Size.maximum dimension in Tumor</span></p><p><b>value</b>: 1.2 cm</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 33729-5}">Size additional dimension in Tumor</span></p><p><b>value</b>: 0.5 cm</p></blockquote></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="21889-1"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cancer-patient-eve-anyperson"/>
+  </subject>
+  <focus>
+    <reference value="BodyStructure/tumor-lobular-carcinoma-left-breast"/>
+  </focus>
+  <effectiveDateTime value="2019-05-01"/>
+  <method>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="787377000"/>
+      <display value="Gross examination and sampling of tissue specimen (procedure)"/>
+    </coding>
+  </method>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="33728-7"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="1.2"/>
+      <unit value="cm"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="cm"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="33729-5"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="0.5"/>
+      <unit value="cm"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="cm"/>
+    </valueQuantity>
+  </component>
+</Observation>

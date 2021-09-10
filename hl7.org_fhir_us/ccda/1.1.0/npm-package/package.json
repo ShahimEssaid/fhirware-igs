@@ -1,0 +1,54 @@
+{
+  "name": "hl7.fhir.us.ccda",
+  "version": "1.1.0",
+  "tools-version": 3,
+  "type": "fhir.ig",
+  "date": "20201021220137",
+  "license": "CC0-1.0",
+  "canonical": "http://hl7.org/fhir/us/ccda",
+  "url": "http://hl7.org/fhir/us/ccda/STU1.1",
+  "title": "C-CDA on FHIR",
+  "description": "Consolidated CDA (C-CDA) is one of the most widely implemented implementation guides for CDA and covers a significant scope of clinical care. Its target of the \u0027common/essential\u0027 elements of healthcare is closely aligned with FHIR\u0027s focus on the \u002780%\u0027. There is significant interest in industry and government in the ability to interoperate between CDA and FHIR and C-CDA is a logical starting point. Implementers and regulators have both expressed an interest in the ability to map between FHIR and C-CDA.\n\nThis Implementation Guide (IG) defines a series of FHIR profiles on the Composition resource to represent the various document types in C-CDA. This release does not directly map every C-CDA template to FHIR profiles, rather tries to accomplish the C-CDA use case using Composition resource profiles created under this project (the equivalent of Level 2 CDA documents), and begins by linking to the profiles created under the US Core project for any coded entries that would normally be included in C-CDA sections. To have a simpler, more streamlined standard that reuses existing work and focuses on the 80% that implementers actually need in production systems, the resources of US Core represents a portion of the 80% needed for coded entries for coded entries of CCD, Care Plan \u0026 Discharge Summary).\n\nThe Composition profiles in this IG do not require coded data in any section. This is a departure from C-CDA, which requires coded data for Problems, Results, Medications, etc. This departure is intentional, as the C-CDA requirement for one or more coded entries in these sections resulted in some very complicated workarounds using nullFlavors to handle the fact that sometimes a patient is not on any medications, or has no current problems. In general, FHIR takes the approach that if something is nullable, it should simply be optional to ease the burden on implementers, thus C-CDA on FHIR does not require any coded entries, but rather uses the \"required if known\" approach, meaning that if an implementer\u0027s system has data for a section that requires data under Meaningful Use, they need to send it, but if they have no data there is no need for a null entry.\n\nWe encourage feedback on these Composition profiles, and the general approach to the project as a whole. We also encourage implementers who wish to see more of the coded data from C-CDA mapped to FHIR to comment on the US Core project and make their requests known there. Once US Core creates new profiles, this project can reference them.\n\n## Scope\n\nTo represent Consolidated CDA Templates for Clinical Notes (C-CDA) 2.1 templates using FHIR profiles.\n\nThis first stage of the project defines all the C-CDA document-level profiles on the Composition resource and contained sections.\n\nAny coded data used by sections will be represented using relevant U.S. Core FHIR profiles where they exist. FHIR profiles defined by other work groups or unconstrained FHIR resources may also be referenced if no appropriate US Core Profile exist.\n\nFor further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id\u003d408.\n\n (built Wed, Oct 21, 2020 22:01+0000+00:00)",
+  "fhirVersions": [
+    "4.0.1"
+  ],
+  "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1",
+    "hl7.fhir.us.core": "3.1.0"
+  },
+  "author": "HL7 Structured Documents Working Group",
+  "maintainers": [
+    {
+      "name": "HL7 Structured Documents Working Group",
+      "url": "http://hl7.org/Special/committees/structure/index.cfm"
+    },
+    {
+      "name": "Rick Geimer",
+      "email": "rick.geimer@lantanagroup.com"
+    },
+    {
+      "name": "Sarah Gaunt",
+      "email": "sarah.gaunt@lantanagroup.com"
+    },
+    {
+      "name": "Brett Marquard",
+      "email": "brett@riverrockassociates.com"
+    },
+    {
+      "name": "Corey Spears",
+      "email": "spears.corey@gmail.com"
+    },
+    {
+      "name": "Meenaxi Gosai",
+      "email": "meenaxi.gosai@lantanagroup.com"
+    },
+    {
+      "name": "HL7 International - Structured Documents",
+      "url": "http://www.hl7.org/Special/committees/structure"
+    }
+  ],
+  "directories": {
+    "lib": "package",
+    "example": "example"
+  }
+}

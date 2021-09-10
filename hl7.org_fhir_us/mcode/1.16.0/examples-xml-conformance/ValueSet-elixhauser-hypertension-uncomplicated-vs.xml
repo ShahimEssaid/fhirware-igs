@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="elixhauser-hypertension-uncomplicated-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="https://terminology.hl7.org/1.0.0//CodeSystem-icd10CM.html"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>I10</td><td>Essential (primary) hypertension</td></tr><tr><td>I16.0</td><td>Hypertensive urgency</td></tr><tr><td>I16.9</td><td>Hypertensive crisis, unspecified</td></tr><tr><td>O10.011</td><td>Pre-existing essential hypertension complicating pregnancy, first trimester</td></tr><tr><td>O10.012</td><td>Pre-existing essential hypertension complicating pregnancy, second trimester</td></tr><tr><td>O10.013</td><td>Pre-existing essential hypertension complicating pregnancy, third trimester</td></tr><tr><td>O10.019</td><td>Pre-existing essential hypertension complicating pregnancy, unspecified trimester</td></tr><tr><td>O10.02</td><td>Pre-existing essential hypertension complicating childbirth</td></tr><tr><td>O10.03</td><td>Pre-existing essential hypertension complicating the puerperium</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/mcode/ValueSet/elixhauser-hypertension-uncomplicated-vs"/>
+  <version value="1.16.0"/>
+  <name value="ElixhauserHypertensionUncomplicatedVS"/>
+  <title value="Elixhauser Comorbid Condition Value Set for Hypertension, Uncomplicated"/>
+  <status value="active"/>
+  <date value="2021-04-15T12:44:45+00:00"/>
+  <publisher value="HL7 International Clinical Interoperability Council"/>
+  <contact>
+    <name value="HL7 International Clinical Interoperability Council"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ciclist@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Elixhauser Comorbid Condition Value Set for Hypertension, Uncomplicated. ICD-10 codes are drawn from https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp, version 2021.1"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <concept>
+        <code value="I10"/>
+        <display value="Essential (primary) hypertension"/>
+      </concept>
+      <concept>
+        <code value="I16.0"/>
+        <display value="Hypertensive urgency"/>
+      </concept>
+      <concept>
+        <code value="I16.9"/>
+        <display value="Hypertensive crisis, unspecified"/>
+      </concept>
+      <concept>
+        <code value="O10.011"/>
+        <display value="Pre-existing essential hypertension complicating pregnancy, first trimester"/>
+      </concept>
+      <concept>
+        <code value="O10.012"/>
+        <display value="Pre-existing essential hypertension complicating pregnancy, second trimester"/>
+      </concept>
+      <concept>
+        <code value="O10.013"/>
+        <display value="Pre-existing essential hypertension complicating pregnancy, third trimester"/>
+      </concept>
+      <concept>
+        <code value="O10.019"/>
+        <display value="Pre-existing essential hypertension complicating pregnancy, unspecified trimester"/>
+      </concept>
+      <concept>
+        <code value="O10.02"/>
+        <display value="Pre-existing essential hypertension complicating childbirth"/>
+      </concept>
+      <concept>
+        <code value="O10.03"/>
+        <display value="Pre-existing essential hypertension complicating the puerperium"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

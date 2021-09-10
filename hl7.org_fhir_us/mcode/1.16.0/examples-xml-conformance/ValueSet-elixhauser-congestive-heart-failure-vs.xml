@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="elixhauser-congestive-heart-failure-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="https://terminology.hl7.org/1.0.0//CodeSystem-icd10CM.html"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>I09.81</td><td>Rheumatic heart failure</td></tr><tr><td>I11.0</td><td>Hypertensive heart disease with heart failure</td></tr><tr><td>I13.0</td><td>Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unsp</td></tr><tr><td>I13.2</td><td>Hypertensive heart and chronic kidney disease with heart failure and with stage 5 chronic kidney disease, or end stage renal</td></tr><tr><td>I50.1</td><td>Left ventricular failure, unspecified</td></tr><tr><td>I50.20</td><td>Unspecified systolic (congestive) heart failure</td></tr><tr><td>I50.21</td><td>Acute systolic (congestive) heart failure</td></tr><tr><td>I50.22</td><td>Chronic systolic (congestive) heart failure</td></tr><tr><td>I50.23</td><td>Acute on chronic systolic (congestive) heart failure</td></tr><tr><td>I50.30</td><td>Unspecified diastolic (congestive) heart failure</td></tr><tr><td>I50.31</td><td>Acute diastolic (congestive) heart failure</td></tr><tr><td>I50.32</td><td>Chronic diastolic (congestive) heart failure</td></tr><tr><td>I50.33</td><td>Acute on chronic diastolic (congestive) heart failure</td></tr><tr><td>I50.40</td><td>Unsp combined systolic and diastolic (congestive) hrt fail</td></tr><tr><td>I50.41</td><td>Acute combined systolic and diastolic (congestive) hrt fail</td></tr><tr><td>I50.42</td><td>Chronic combined systolic and diastolic hrt fail</td></tr><tr><td>I50.43</td><td>Acute on chronic combined systolic and diastolic hrt fail</td></tr><tr><td>I50.810</td><td>Right heart failure, unspecified</td></tr><tr><td>I50.811</td><td>Acute right heart failure</td></tr><tr><td>I50.812</td><td>Chronic right heart failure</td></tr><tr><td>I50.813</td><td>Acute on chronic right heart failure</td></tr><tr><td>I50.814</td><td>Right heart failure due to left heart failure</td></tr><tr><td>I50.82</td><td>Biventricular heart failure</td></tr><tr><td>I50.83</td><td>High output heart failure</td></tr><tr><td>I50.84</td><td>End stage heart failure</td></tr><tr><td>I50.89</td><td>Other heart failure</td></tr><tr><td>I50.9</td><td>Heart failure, unspecified</td></tr><tr><td>I51.81</td><td>Takotsubo syndrome</td></tr><tr><td>I97.130</td><td>Postprocedural heart failure following cardiac surgery</td></tr><tr><td>I97.131</td><td>Postprocedural heart failure following other surgery</td></tr><tr><td>O29.121</td><td>Cardiac failure due to anesthesia during pregnancy, first trimester</td></tr><tr><td>O29.122</td><td>Cardiac failure due to anesthesia during pregnancy, second trimester</td></tr><tr><td>O29.123</td><td>Cardiac failure due to anesthesia during pregnancy, third trimester</td></tr><tr><td>O29.129</td><td>Cardiac failure due to anesthesia during pregnancy, unspecified trimester</td></tr><tr><td>R57.0</td><td>Cardiogenic shock</td></tr><tr><td>Z95.811</td><td>Presence of heart assist device</td></tr><tr><td>Z95.812</td><td>Presence of fully implantable artificial heart</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/mcode/ValueSet/elixhauser-congestive-heart-failure-vs"/>
+  <version value="1.16.0"/>
+  <name value="ElixhauserCongestiveHeartFailureVS"/>
+  <title value="Elixhauser Comorbid Condition Value Set for Congestive Heart Failure"/>
+  <status value="active"/>
+  <date value="2021-04-15T12:44:45+00:00"/>
+  <publisher value="HL7 International Clinical Interoperability Council"/>
+  <contact>
+    <name value="HL7 International Clinical Interoperability Council"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ciclist@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Elixhauser Comorbid Condition Value Set for CongestiveHeartFailure. ICD-10 codes are drawn from https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp, version 2021.1"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <concept>
+        <code value="I09.81"/>
+        <display value="Rheumatic heart failure"/>
+      </concept>
+      <concept>
+        <code value="I11.0"/>
+        <display value="Hypertensive heart disease with heart failure"/>
+      </concept>
+      <concept>
+        <code value="I13.0"/>
+        <display value="Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unsp"/>
+      </concept>
+      <concept>
+        <code value="I13.2"/>
+        <display value="Hypertensive heart and chronic kidney disease with heart failure and with stage 5 chronic kidney disease, or end stage renal"/>
+      </concept>
+      <concept>
+        <code value="I50.1"/>
+        <display value="Left ventricular failure, unspecified"/>
+      </concept>
+      <concept>
+        <code value="I50.20"/>
+        <display value="Unspecified systolic (congestive) heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.21"/>
+        <display value="Acute systolic (congestive) heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.22"/>
+        <display value="Chronic systolic (congestive) heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.23"/>
+        <display value="Acute on chronic systolic (congestive) heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.30"/>
+        <display value="Unspecified diastolic (congestive) heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.31"/>
+        <display value="Acute diastolic (congestive) heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.32"/>
+        <display value="Chronic diastolic (congestive) heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.33"/>
+        <display value="Acute on chronic diastolic (congestive) heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.40"/>
+        <display value="Unsp combined systolic and diastolic (congestive) hrt fail"/>
+      </concept>
+      <concept>
+        <code value="I50.41"/>
+        <display value="Acute combined systolic and diastolic (congestive) hrt fail"/>
+      </concept>
+      <concept>
+        <code value="I50.42"/>
+        <display value="Chronic combined systolic and diastolic hrt fail"/>
+      </concept>
+      <concept>
+        <code value="I50.43"/>
+        <display value="Acute on chronic combined systolic and diastolic hrt fail"/>
+      </concept>
+      <concept>
+        <code value="I50.810"/>
+        <display value="Right heart failure, unspecified"/>
+      </concept>
+      <concept>
+        <code value="I50.811"/>
+        <display value="Acute right heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.812"/>
+        <display value="Chronic right heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.813"/>
+        <display value="Acute on chronic right heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.814"/>
+        <display value="Right heart failure due to left heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.82"/>
+        <display value="Biventricular heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.83"/>
+        <display value="High output heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.84"/>
+        <display value="End stage heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.89"/>
+        <display value="Other heart failure"/>
+      </concept>
+      <concept>
+        <code value="I50.9"/>
+        <display value="Heart failure, unspecified"/>
+      </concept>
+      <concept>
+        <code value="I51.81"/>
+        <display value="Takotsubo syndrome"/>
+      </concept>
+      <concept>
+        <code value="I97.130"/>
+        <display value="Postprocedural heart failure following cardiac surgery"/>
+      </concept>
+      <concept>
+        <code value="I97.131"/>
+        <display value="Postprocedural heart failure following other surgery"/>
+      </concept>
+      <concept>
+        <code value="O29.121"/>
+        <display value="Cardiac failure due to anesthesia during pregnancy, first trimester"/>
+      </concept>
+      <concept>
+        <code value="O29.122"/>
+        <display value="Cardiac failure due to anesthesia during pregnancy, second trimester"/>
+      </concept>
+      <concept>
+        <code value="O29.123"/>
+        <display value="Cardiac failure due to anesthesia during pregnancy, third trimester"/>
+      </concept>
+      <concept>
+        <code value="O29.129"/>
+        <display value="Cardiac failure due to anesthesia during pregnancy, unspecified trimester"/>
+      </concept>
+      <concept>
+        <code value="R57.0"/>
+        <display value="Cardiogenic shock"/>
+      </concept>
+      <concept>
+        <code value="Z95.811"/>
+        <display value="Presence of heart assist device"/>
+      </concept>
+      <concept>
+        <code value="Z95.812"/>
+        <display value="Presence of fully implantable artificial heart"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "id": "functional-effect",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <a href=\"http://sequenceontology.org\"><code>http://sequenceontology.org</code></a> where concept  is-a  SO:0001536</li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/uv/genomics-reporting/ValueSet/functional-effect",
+  "version": "1.1.0",
+  "name": "FunctionalEffectVS",
+  "title": "Functional Effect",
+  "status": "active",
+  "date": "2021-04-13T19:13:37+00:00",
+  "publisher": "HL7 International Clinical Genomics Work Group",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/clingenomics"
+        }
+      ]
+    }
+  ],
+  "description": "The effect of a variant on downstream biological products or pathways.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://sequenceontology.org",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "SO:0001536"
+          }
+        ]
+      }
+    ]
+  }
+}

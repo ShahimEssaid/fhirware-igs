@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="elixhauser-other-neurological-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="https://terminology.hl7.org/1.0.0//CodeSystem-icd10CM.html"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>E75.00</td><td>GM2 gangliosidosis, unspecified</td></tr><tr><td>E75.01</td><td>Sandhoff disease</td></tr><tr><td>E75.02</td><td>Tay-Sachs disease</td></tr><tr><td>E75.09</td><td>Other GM2 gangliosidosis</td></tr><tr><td>E75.10</td><td>Unspecified gangliosidosis</td></tr><tr><td>E75.11</td><td>Mucolipidosis IV</td></tr><tr><td>E75.19</td><td>Other gangliosidosis</td></tr><tr><td>E75.23</td><td>Krabbe disease</td></tr><tr><td>E75.25</td><td>Metachromatic leukodystrophy</td></tr><tr><td>E75.26</td><td>Sulfatase deficiency</td></tr><tr><td>E75.29</td><td>Other sphingolipidosis</td></tr><tr><td>E75.4</td><td>Neuronal ceroid lipofuscinosis</td></tr><tr><td>F05</td><td>Delirium due to known physiological condition</td></tr><tr><td>F84.2</td><td>Rett's syndrome</td></tr><tr><td>G35</td><td>Multiple sclerosis</td></tr><tr><td>G36.0</td><td>Neuromyelitis optica [Devic]</td></tr><tr><td>G36.8</td><td>Other specified acute disseminated demyelination</td></tr><tr><td>G36.9</td><td>Acute disseminated demyelination, unspecified</td></tr><tr><td>G37.0</td><td>Diffuse sclerosis of central nervous system</td></tr><tr><td>G37.1</td><td>Central demyelination of corpus callosum</td></tr><tr><td>G37.2</td><td>Central pontine myelinolysis</td></tr><tr><td>G37.3</td><td>Acute transverse myelitis in demyelinating disease of cnsl</td></tr><tr><td>G37.4</td><td>Subacute necrotizing myelitis of central nervous system</td></tr><tr><td>G37.5</td><td>Concentric sclerosis [Balo] of central nervous system</td></tr><tr><td>G37.8</td><td>Oth demyelinating diseases of central nervous system</td></tr><tr><td>G37.9</td><td>Demyelinating disease of central nervous system, unspecified</td></tr><tr><td>G47.411</td><td>Narcolepsy with cataplexy</td></tr><tr><td>G47.419</td><td>Narcolepsy without cataplexy</td></tr><tr><td>G47.421</td><td>Narcolepsy in conditions classified elsewhere with cataplexy</td></tr><tr><td>G47.429</td><td>Narcolepsy in conditions classified elsewhere w/o cataplexy</td></tr><tr><td>G89.0</td><td>Central pain syndrome</td></tr><tr><td>G91.0</td><td>Communicating hydrocephalus</td></tr><tr><td>G91.1</td><td>Obstructive hydrocephalus</td></tr><tr><td>G91.2</td><td>(Idiopathic) normal pressure hydrocephalus</td></tr><tr><td>G91.3</td><td>Post-traumatic hydrocephalus, unspecified</td></tr><tr><td>G91.4</td><td>Hydrocephalus in diseases classified elsewhere</td></tr><tr><td>G91.8</td><td>Other hydrocephalus</td></tr><tr><td>G91.9</td><td>Hydrocephalus, unspecified</td></tr><tr><td>G93.0</td><td>Cerebral cysts</td></tr><tr><td>G93.40</td><td>Encephalopathy, unspecified</td></tr><tr><td>G93.41</td><td>Metabolic encephalopathy</td></tr><tr><td>G93.49</td><td>Other encephalopathy</td></tr><tr><td>G93.5</td><td>Compression of brain</td></tr><tr><td>G93.6</td><td>Cerebral edema</td></tr><tr><td>G93.7</td><td>Reye's syndrome</td></tr><tr><td>G93.81</td><td>Temporal sclerosis</td></tr><tr><td>G93.82</td><td>Brain death</td></tr><tr><td>G93.89</td><td>Other specified disorders of brain</td></tr><tr><td>G93.9</td><td>Disorder of brain, unspecified</td></tr><tr><td>G94</td><td>Other disorders of brain in diseases classified elsewhere</td></tr><tr><td>O99.350</td><td>Diseases of the nervous sys comp pregnancy, unsp trimester</td></tr><tr><td>O99.351</td><td>Diseases of the nervous sys comp pregnancy, first trimester</td></tr><tr><td>O99.352</td><td>Diseases of the nervous sys comp pregnancy, second trimester</td></tr><tr><td>O99.353</td><td>Diseases of the nervous sys comp pregnancy, third trimester</td></tr><tr><td>O99.354</td><td>Diseases of the nervous system complicating childbirth</td></tr><tr><td>O99.355</td><td>Diseases of the nervous system complicating the puerperium</td></tr><tr><td>P91.60</td><td>Hypoxic ischemic encephalopathy [HIE], unspecified</td></tr><tr><td>P91.61</td><td>Mild hypoxic ischemic encephalopathy [HIE]</td></tr><tr><td>P91.62</td><td>Moderate hypoxic ischemic encephalopathy [HIE]</td></tr><tr><td>P91.63</td><td>Severe hypoxic ischemic encephalopathy [HIE]</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/mcode/ValueSet/elixhauser-other-neurological-vs"/>
+  <version value="1.16.0"/>
+  <name value="ElixhauserOtherNeurologicalVS"/>
+  <title value="Elixhauser Comorbid Condition Value Set for Other Neurological Disorders"/>
+  <status value="active"/>
+  <date value="2021-04-15T12:44:45+00:00"/>
+  <publisher value="HL7 International Clinical Interoperability Council"/>
+  <contact>
+    <name value="HL7 International Clinical Interoperability Council"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ciclist@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Elixhauser Comorbid Condition Value Set for Other Neurological Disorders. ICD-10 codes are drawn from https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp, version 2021.1"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <concept>
+        <code value="E75.00"/>
+        <display value="GM2 gangliosidosis, unspecified"/>
+      </concept>
+      <concept>
+        <code value="E75.01"/>
+        <display value="Sandhoff disease"/>
+      </concept>
+      <concept>
+        <code value="E75.02"/>
+        <display value="Tay-Sachs disease"/>
+      </concept>
+      <concept>
+        <code value="E75.09"/>
+        <display value="Other GM2 gangliosidosis"/>
+      </concept>
+      <concept>
+        <code value="E75.10"/>
+        <display value="Unspecified gangliosidosis"/>
+      </concept>
+      <concept>
+        <code value="E75.11"/>
+        <display value="Mucolipidosis IV"/>
+      </concept>
+      <concept>
+        <code value="E75.19"/>
+        <display value="Other gangliosidosis"/>
+      </concept>
+      <concept>
+        <code value="E75.23"/>
+        <display value="Krabbe disease"/>
+      </concept>
+      <concept>
+        <code value="E75.25"/>
+        <display value="Metachromatic leukodystrophy"/>
+      </concept>
+      <concept>
+        <code value="E75.26"/>
+        <display value="Sulfatase deficiency"/>
+      </concept>
+      <concept>
+        <code value="E75.29"/>
+        <display value="Other sphingolipidosis"/>
+      </concept>
+      <concept>
+        <code value="E75.4"/>
+        <display value="Neuronal ceroid lipofuscinosis"/>
+      </concept>
+      <concept>
+        <code value="F05"/>
+        <display value="Delirium due to known physiological condition"/>
+      </concept>
+      <concept>
+        <code value="F84.2"/>
+        <display value="Rett&#39;s syndrome"/>
+      </concept>
+      <concept>
+        <code value="G35"/>
+        <display value="Multiple sclerosis"/>
+      </concept>
+      <concept>
+        <code value="G36.0"/>
+        <display value="Neuromyelitis optica [Devic]"/>
+      </concept>
+      <concept>
+        <code value="G36.8"/>
+        <display value="Other specified acute disseminated demyelination"/>
+      </concept>
+      <concept>
+        <code value="G36.9"/>
+        <display value="Acute disseminated demyelination, unspecified"/>
+      </concept>
+      <concept>
+        <code value="G37.0"/>
+        <display value="Diffuse sclerosis of central nervous system"/>
+      </concept>
+      <concept>
+        <code value="G37.1"/>
+        <display value="Central demyelination of corpus callosum"/>
+      </concept>
+      <concept>
+        <code value="G37.2"/>
+        <display value="Central pontine myelinolysis"/>
+      </concept>
+      <concept>
+        <code value="G37.3"/>
+        <display value="Acute transverse myelitis in demyelinating disease of cnsl"/>
+      </concept>
+      <concept>
+        <code value="G37.4"/>
+        <display value="Subacute necrotizing myelitis of central nervous system"/>
+      </concept>
+      <concept>
+        <code value="G37.5"/>
+        <display value="Concentric sclerosis [Balo] of central nervous system"/>
+      </concept>
+      <concept>
+        <code value="G37.8"/>
+        <display value="Oth demyelinating diseases of central nervous system"/>
+      </concept>
+      <concept>
+        <code value="G37.9"/>
+        <display value="Demyelinating disease of central nervous system, unspecified"/>
+      </concept>
+      <concept>
+        <code value="G47.411"/>
+        <display value="Narcolepsy with cataplexy"/>
+      </concept>
+      <concept>
+        <code value="G47.419"/>
+        <display value="Narcolepsy without cataplexy"/>
+      </concept>
+      <concept>
+        <code value="G47.421"/>
+        <display value="Narcolepsy in conditions classified elsewhere with cataplexy"/>
+      </concept>
+      <concept>
+        <code value="G47.429"/>
+        <display value="Narcolepsy in conditions classified elsewhere w/o cataplexy"/>
+      </concept>
+      <concept>
+        <code value="G89.0"/>
+        <display value="Central pain syndrome"/>
+      </concept>
+      <concept>
+        <code value="G91.0"/>
+        <display value="Communicating hydrocephalus"/>
+      </concept>
+      <concept>
+        <code value="G91.1"/>
+        <display value="Obstructive hydrocephalus"/>
+      </concept>
+      <concept>
+        <code value="G91.2"/>
+        <display value="(Idiopathic) normal pressure hydrocephalus"/>
+      </concept>
+      <concept>
+        <code value="G91.3"/>
+        <display value="Post-traumatic hydrocephalus, unspecified"/>
+      </concept>
+      <concept>
+        <code value="G91.4"/>
+        <display value="Hydrocephalus in diseases classified elsewhere"/>
+      </concept>
+      <concept>
+        <code value="G91.8"/>
+        <display value="Other hydrocephalus"/>
+      </concept>
+      <concept>
+        <code value="G91.9"/>
+        <display value="Hydrocephalus, unspecified"/>
+      </concept>
+      <concept>
+        <code value="G93.0"/>
+        <display value="Cerebral cysts"/>
+      </concept>
+      <concept>
+        <code value="G93.40"/>
+        <display value="Encephalopathy, unspecified"/>
+      </concept>
+      <concept>
+        <code value="G93.41"/>
+        <display value="Metabolic encephalopathy"/>
+      </concept>
+      <concept>
+        <code value="G93.49"/>
+        <display value="Other encephalopathy"/>
+      </concept>
+      <concept>
+        <code value="G93.5"/>
+        <display value="Compression of brain"/>
+      </concept>
+      <concept>
+        <code value="G93.6"/>
+        <display value="Cerebral edema"/>
+      </concept>
+      <concept>
+        <code value="G93.7"/>
+        <display value="Reye&#39;s syndrome"/>
+      </concept>
+      <concept>
+        <code value="G93.81"/>
+        <display value="Temporal sclerosis"/>
+      </concept>
+      <concept>
+        <code value="G93.82"/>
+        <display value="Brain death"/>
+      </concept>
+      <concept>
+        <code value="G93.89"/>
+        <display value="Other specified disorders of brain"/>
+      </concept>
+      <concept>
+        <code value="G93.9"/>
+        <display value="Disorder of brain, unspecified"/>
+      </concept>
+      <concept>
+        <code value="G94"/>
+        <display value="Other disorders of brain in diseases classified elsewhere"/>
+      </concept>
+      <concept>
+        <code value="O99.350"/>
+        <display value="Diseases of the nervous sys comp pregnancy, unsp trimester"/>
+      </concept>
+      <concept>
+        <code value="O99.351"/>
+        <display value="Diseases of the nervous sys comp pregnancy, first trimester"/>
+      </concept>
+      <concept>
+        <code value="O99.352"/>
+        <display value="Diseases of the nervous sys comp pregnancy, second trimester"/>
+      </concept>
+      <concept>
+        <code value="O99.353"/>
+        <display value="Diseases of the nervous sys comp pregnancy, third trimester"/>
+      </concept>
+      <concept>
+        <code value="O99.354"/>
+        <display value="Diseases of the nervous system complicating childbirth"/>
+      </concept>
+      <concept>
+        <code value="O99.355"/>
+        <display value="Diseases of the nervous system complicating the puerperium"/>
+      </concept>
+      <concept>
+        <code value="P91.60"/>
+        <display value="Hypoxic ischemic encephalopathy [HIE], unspecified"/>
+      </concept>
+      <concept>
+        <code value="P91.61"/>
+        <display value="Mild hypoxic ischemic encephalopathy [HIE]"/>
+      </concept>
+      <concept>
+        <code value="P91.62"/>
+        <display value="Moderate hypoxic ischemic encephalopathy [HIE]"/>
+      </concept>
+      <concept>
+        <code value="P91.63"/>
+        <display value="Severe hypoxic ischemic encephalopathy [HIE]"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

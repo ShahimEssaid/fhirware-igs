@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="Pgx-var-1013"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></p><p><b>subject</b>: <a href="Patient-CGPatientExample01.html">Generated Summary: Medical Record Number: m123 (USUAL); Adam B. Everyman ; gender: male; birthDate: 1951-01-20</a></p><p><b>effective</b>: 2020-01-01</p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p><p><b>method</b>: <span title="Codes: {http://loinc.org LA26398-0}">Sequencing</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48013-7}">Genomic reference sequence [ID]</span></p><p><b>value</b>: <span title="Codes: {https://www.ncbi.nlm.nih.gov/nuccore NC_000010.10}">b37 Chr10</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 92822-6}">Genomic coordinate system [Type]</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA30102-0}">1-based character counting</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes exact-start-end}">Variant exact start and end</span></p><p><b>value</b>: 96535173-96535173</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69547-8}">Genomic ref allele [ID]</span></p><p><b>value</b>: T</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 69551-0}">Genomic alt allele [ID]</span></p><p><b>value</b>: T</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48002-0}">Genomic source class [Type]</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6683-2}">Germline</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 53034-5}">Allelic state</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA6705-3}">homozygous</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48018-6}">Gene studied [ID]</span></p><p><b>value</b>: <span title="Codes: {http://www.genenames.org/geneId HGNC:2621}">CYP2C19</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 48019-4}">DNA Change Type</span></p><p><b>value</b>: <span title="Codes: {http://sequenceontology.org SO:0002073}">wild type</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 82121-5}">Allelic read depth</span></p><p><b>value</b>: &gt;20</p></blockquote></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="69548-6"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/CGPatientExample01"/>
+  </subject>
+  <effectiveDateTime value="2020-01-01"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA9633-4"/>
+      <display value="Present"/>
+    </coding>
+  </valueCodeableConcept>
+  <method>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA26398-0"/>
+      <display value="Sequencing"/>
+    </coding>
+  </method>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="48013-7"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://www.ncbi.nlm.nih.gov/nuccore"/>
+        <code value="NC_000010.10"/>
+        <display value="b37 Chr10"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="92822-6"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="LA30102-0"/>
+        <display value="1-based character counting"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/TbdCodes"/>
+        <code value="exact-start-end"/>
+      </coding>
+    </code>
+    <valueRange>
+      <low>
+        <value value="96535173"/>
+      </low>
+      <high>
+        <value value="96535173"/>
+      </high>
+    </valueRange>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="69547-8"/>
+      </coding>
+    </code>
+    <valueString value="T"/>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="69551-0"/>
+      </coding>
+    </code>
+    <valueString value="T"/>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="48002-0"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="LA6683-2"/>
+        <display value="Germline"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="53034-5"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="LA6705-3"/>
+        <display value="homozygous"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="48018-6"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://www.genenames.org/geneId"/>
+        <code value="HGNC:2621"/>
+        <display value="CYP2C19"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="48019-4"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://sequenceontology.org"/>
+        <code value="SO:0002073"/>
+        <display value="wild type"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="82121-5"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="20"/>
+      <comparator value="&gt;"/>
+    </valueQuantity>
+  </component>
+</Observation>

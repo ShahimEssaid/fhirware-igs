@@ -1,0 +1,3123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="elixhauser-rheumatoid-arthritis-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="https://terminology.hl7.org/1.0.0//CodeSystem-icd10CM.html"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>A18.01</td><td>Tuberculosis of spine</td></tr><tr><td>A18.02</td><td>Tuberculous arthritis of other joints</td></tr><tr><td>A39.84</td><td>Postmeningococcal arthritis</td></tr><tr><td>A54.41</td><td>Gonococcal spondylopathy</td></tr><tr><td>A54.42</td><td>Gonococcal arthritis</td></tr><tr><td>L40.50</td><td>Arthropathic psoriasis, unspecified</td></tr><tr><td>L40.51</td><td>Distal interphalangeal psoriatic arthropathy</td></tr><tr><td>L40.54</td><td>Psoriatic juvenile arthropathy</td></tr><tr><td>L40.59</td><td>Other psoriatic arthropathy</td></tr><tr><td>L90.0</td><td>Lichen sclerosus et atrophicus</td></tr><tr><td>L94.0</td><td>Localized scleroderma [morphea]</td></tr><tr><td>L94.1</td><td>Linear scleroderma</td></tr><tr><td>L94.3</td><td>Sclerodactyly</td></tr><tr><td>M01.X0</td><td>Dir infct of unsp joint in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X11</td><td>Direct infct of r shldr in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X12</td><td>Direct infct of l shldr in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X19</td><td>Dir infct of unsp shldr in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X21</td><td>Direct infct of r elbow in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X22</td><td>Direct infct of l elbow in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X29</td><td>Dir infct of unsp elbow in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X31</td><td>Direct infct of r wrist in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X32</td><td>Direct infct of l wrist in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X39</td><td>Dir infct of unsp wrist in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X41</td><td>Direct infct of r hand in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X42</td><td>Direct infct of l hand in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X49</td><td>Direct infct of unsp hand in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X51</td><td>Direct infct of r hip in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X52</td><td>Direct infct of left hip in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X59</td><td>Direct infct of unsp hip in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X61</td><td>Direct infct of r knee in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X62</td><td>Direct infct of l knee in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X69</td><td>Direct infct of unsp knee in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X71</td><td>Dir infct of right ank/ft in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X72</td><td>Dir infct of left ank/ft in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X79</td><td>Dir infct of unsp ank/ft in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X8</td><td>Direct infct of verteb in infec/parastc dis classd elswhr</td></tr><tr><td>M01.X9</td><td>Dir infct of mult joints in infec/parastc dis classd elswhr</td></tr><tr><td>M02.00</td><td>Arthropathy following intestinal bypass, unspecified site</td></tr><tr><td>M02.011</td><td>Arthropathy following intestinal bypass, right shoulder</td></tr><tr><td>M02.012</td><td>Arthropathy following intestinal bypass, left shoulder</td></tr><tr><td>M02.019</td><td>Arthropathy following intestinal bypass, unsp shoulder</td></tr><tr><td>M02.021</td><td>Arthropathy following intestinal bypass, right elbow</td></tr><tr><td>M02.022</td><td>Arthropathy following intestinal bypass, left elbow</td></tr><tr><td>M02.029</td><td>Arthropathy following intestinal bypass, unspecified elbow</td></tr><tr><td>M02.031</td><td>Arthropathy following intestinal bypass, right wrist</td></tr><tr><td>M02.032</td><td>Arthropathy following intestinal bypass, left wrist</td></tr><tr><td>M02.039</td><td>Arthropathy following intestinal bypass, unspecified wrist</td></tr><tr><td>M02.041</td><td>Arthropathy following intestinal bypass, right hand</td></tr><tr><td>M02.042</td><td>Arthropathy following intestinal bypass, left hand</td></tr><tr><td>M02.049</td><td>Arthropathy following intestinal bypass, unspecified hand</td></tr><tr><td>M02.051</td><td>Arthropathy following intestinal bypass, right hip</td></tr><tr><td>M02.052</td><td>Arthropathy following intestinal bypass, left hip</td></tr><tr><td>M02.059</td><td>Arthropathy following intestinal bypass, unspecified hip</td></tr><tr><td>M02.061</td><td>Arthropathy following intestinal bypass, right knee</td></tr><tr><td>M02.062</td><td>Arthropathy following intestinal bypass, left knee</td></tr><tr><td>M02.069</td><td>Arthropathy following intestinal bypass, unspecified knee</td></tr><tr><td>M02.071</td><td>Arthropathy following intestinal bypass, right ank/ft</td></tr><tr><td>M02.072</td><td>Arthropathy following intestinal bypass, left ankle and foot</td></tr><tr><td>M02.079</td><td>Arthropathy following intestinal bypass, unsp ankle and foot</td></tr><tr><td>M02.08</td><td>Arthropathy following intestinal bypass, vertebrae</td></tr><tr><td>M02.09</td><td>Arthropathy following intestinal bypass, multiple sites</td></tr><tr><td>M02.10</td><td>Postdysenteric arthropathy, unspecified site</td></tr><tr><td>M02.111</td><td>Postdysenteric arthropathy, right shoulder</td></tr><tr><td>M02.112</td><td>Postdysenteric arthropathy, left shoulder</td></tr><tr><td>M02.119</td><td>Postdysenteric arthropathy, unspecified shoulder</td></tr><tr><td>M02.121</td><td>Postdysenteric arthropathy, right elbow</td></tr><tr><td>M02.122</td><td>Postdysenteric arthropathy, left elbow</td></tr><tr><td>M02.129</td><td>Postdysenteric arthropathy, unspecified elbow</td></tr><tr><td>M02.131</td><td>Postdysenteric arthropathy, right wrist</td></tr><tr><td>M02.132</td><td>Postdysenteric arthropathy, left wrist</td></tr><tr><td>M02.139</td><td>Postdysenteric arthropathy, unspecified wrist</td></tr><tr><td>M02.141</td><td>Postdysenteric arthropathy, right hand</td></tr><tr><td>M02.142</td><td>Postdysenteric arthropathy, left hand</td></tr><tr><td>M02.149</td><td>Postdysenteric arthropathy, unspecified hand</td></tr><tr><td>M02.151</td><td>Postdysenteric arthropathy, right hip</td></tr><tr><td>M02.152</td><td>Postdysenteric arthropathy, left hip</td></tr><tr><td>M02.159</td><td>Postdysenteric arthropathy, unspecified hip</td></tr><tr><td>M02.161</td><td>Postdysenteric arthropathy, right knee</td></tr><tr><td>M02.162</td><td>Postdysenteric arthropathy, left knee</td></tr><tr><td>M02.169</td><td>Postdysenteric arthropathy, unspecified knee</td></tr><tr><td>M02.171</td><td>Postdysenteric arthropathy, right ankle and foot</td></tr><tr><td>M02.172</td><td>Postdysenteric arthropathy, left ankle and foot</td></tr><tr><td>M02.179</td><td>Postdysenteric arthropathy, unspecified ankle and foot</td></tr><tr><td>M02.18</td><td>Postdysenteric arthropathy, vertebrae</td></tr><tr><td>M02.19</td><td>Postdysenteric arthropathy, multiple sites</td></tr><tr><td>M02.20</td><td>Postimmunization arthropathy, unspecified site</td></tr><tr><td>M02.211</td><td>Postimmunization arthropathy, right shoulder</td></tr><tr><td>M02.212</td><td>Postimmunization arthropathy, left shoulder</td></tr><tr><td>M02.219</td><td>Postimmunization arthropathy, unspecified shoulder</td></tr><tr><td>M02.221</td><td>Postimmunization arthropathy, right elbow</td></tr><tr><td>M02.222</td><td>Postimmunization arthropathy, left elbow</td></tr><tr><td>M02.229</td><td>Postimmunization arthropathy, unspecified elbow</td></tr><tr><td>M02.231</td><td>Postimmunization arthropathy, right wrist</td></tr><tr><td>M02.232</td><td>Postimmunization arthropathy, left wrist</td></tr><tr><td>M02.239</td><td>Postimmunization arthropathy, unspecified wrist</td></tr><tr><td>M02.241</td><td>Postimmunization arthropathy, right hand</td></tr><tr><td>M02.242</td><td>Postimmunization arthropathy, left hand</td></tr><tr><td>M02.249</td><td>Postimmunization arthropathy, unspecified hand</td></tr><tr><td>M02.251</td><td>Postimmunization arthropathy, right hip</td></tr><tr><td>M02.252</td><td>Postimmunization arthropathy, left hip</td></tr><tr><td>M02.259</td><td>Postimmunization arthropathy, unspecified hip</td></tr><tr><td>M02.261</td><td>Postimmunization arthropathy, right knee</td></tr><tr><td>M02.262</td><td>Postimmunization arthropathy, left knee</td></tr><tr><td>M02.269</td><td>Postimmunization arthropathy, unspecified knee</td></tr><tr><td>M02.271</td><td>Postimmunization arthropathy, right ankle and foot</td></tr><tr><td>M02.272</td><td>Postimmunization arthropathy, left ankle and foot</td></tr><tr><td>M02.279</td><td>Postimmunization arthropathy, unspecified ankle and foot</td></tr><tr><td>M02.28</td><td>Postimmunization arthropathy, vertebrae</td></tr><tr><td>M02.29</td><td>Postimmunization arthropathy, multiple sites</td></tr><tr><td>M02.30</td><td>Reiter's disease, unspecified site</td></tr><tr><td>M02.311</td><td>Reiter's disease, right shoulder</td></tr><tr><td>M02.312</td><td>Reiter's disease, left shoulder</td></tr><tr><td>M02.319</td><td>Reiter's disease, unspecified shoulder</td></tr><tr><td>M02.321</td><td>Reiter's disease, right elbow</td></tr><tr><td>M02.322</td><td>Reiter's disease, left elbow</td></tr><tr><td>M02.329</td><td>Reiter's disease, unspecified elbow</td></tr><tr><td>M02.331</td><td>Reiter's disease, right wrist</td></tr><tr><td>M02.332</td><td>Reiter's disease, left wrist</td></tr><tr><td>M02.339</td><td>Reiter's disease, unspecified wrist</td></tr><tr><td>M02.341</td><td>Reiter's disease, right hand</td></tr><tr><td>M02.342</td><td>Reiter's disease, left hand</td></tr><tr><td>M02.349</td><td>Reiter's disease, unspecified hand</td></tr><tr><td>M02.351</td><td>Reiter's disease, right hip</td></tr><tr><td>M02.352</td><td>Reiter's disease, left hip</td></tr><tr><td>M02.359</td><td>Reiter's disease, unspecified hip</td></tr><tr><td>M02.361</td><td>Reiter's disease, right knee</td></tr><tr><td>M02.362</td><td>Reiter's disease, left knee</td></tr><tr><td>M02.369</td><td>Reiter's disease, unspecified knee</td></tr><tr><td>M02.371</td><td>Reiter's disease, right ankle and foot</td></tr><tr><td>M02.372</td><td>Reiter's disease, left ankle and foot</td></tr><tr><td>M02.379</td><td>Reiter's disease, unspecified ankle and foot</td></tr><tr><td>M02.38</td><td>Reiter's disease, vertebrae</td></tr><tr><td>M02.39</td><td>Reiter's disease, multiple sites</td></tr><tr><td>M02.80</td><td>Other reactive arthropathies, unspecified site</td></tr><tr><td>M02.811</td><td>Other reactive arthropathies, right shoulder</td></tr><tr><td>M02.812</td><td>Other reactive arthropathies, left shoulder</td></tr><tr><td>M02.819</td><td>Other reactive arthropathies, unspecified shoulder</td></tr><tr><td>M02.821</td><td>Other reactive arthropathies, right elbow</td></tr><tr><td>M02.822</td><td>Other reactive arthropathies, left elbow</td></tr><tr><td>M02.829</td><td>Other reactive arthropathies, unspecified elbow</td></tr><tr><td>M02.831</td><td>Other reactive arthropathies, right wrist</td></tr><tr><td>M02.832</td><td>Other reactive arthropathies, left wrist</td></tr><tr><td>M02.839</td><td>Other reactive arthropathies, unspecified wrist</td></tr><tr><td>M02.841</td><td>Other reactive arthropathies, right hand</td></tr><tr><td>M02.842</td><td>Other reactive arthropathies, left hand</td></tr><tr><td>M02.849</td><td>Other reactive arthropathies, unspecified hand</td></tr><tr><td>M02.851</td><td>Other reactive arthropathies, right hip</td></tr><tr><td>M02.852</td><td>Other reactive arthropathies, left hip</td></tr><tr><td>M02.859</td><td>Other reactive arthropathies, unspecified hip</td></tr><tr><td>M02.861</td><td>Other reactive arthropathies, right knee</td></tr><tr><td>M02.862</td><td>Other reactive arthropathies, left knee</td></tr><tr><td>M02.869</td><td>Other reactive arthropathies, unspecified knee</td></tr><tr><td>M02.871</td><td>Other reactive arthropathies, right ankle and foot</td></tr><tr><td>M02.872</td><td>Other reactive arthropathies, left ankle and foot</td></tr><tr><td>M02.879</td><td>Other reactive arthropathies, unspecified ankle and foot</td></tr><tr><td>M02.88</td><td>Other reactive arthropathies, vertebrae</td></tr><tr><td>M02.89</td><td>Other reactive arthropathies, multiple sites</td></tr><tr><td>M02.9</td><td>Reactive arthropathy, unspecified</td></tr><tr><td>M05.00</td><td>Felty's syndrome, unspecified site</td></tr><tr><td>M05.011</td><td>Felty's syndrome, right shoulder</td></tr><tr><td>M05.012</td><td>Felty's syndrome, left shoulder</td></tr><tr><td>M05.019</td><td>Felty's syndrome, unspecified shoulder</td></tr><tr><td>M05.021</td><td>Felty's syndrome, right elbow</td></tr><tr><td>M05.022</td><td>Felty's syndrome, left elbow</td></tr><tr><td>M05.029</td><td>Felty's syndrome, unspecified elbow</td></tr><tr><td>M05.031</td><td>Felty's syndrome, right wrist</td></tr><tr><td>M05.032</td><td>Felty's syndrome, left wrist</td></tr><tr><td>M05.039</td><td>Felty's syndrome, unspecified wrist</td></tr><tr><td>M05.041</td><td>Felty's syndrome, right hand</td></tr><tr><td>M05.042</td><td>Felty's syndrome, left hand</td></tr><tr><td>M05.049</td><td>Felty's syndrome, unspecified hand</td></tr><tr><td>M05.051</td><td>Felty's syndrome, right hip</td></tr><tr><td>M05.052</td><td>Felty's syndrome, left hip</td></tr><tr><td>M05.059</td><td>Felty's syndrome, unspecified hip</td></tr><tr><td>M05.061</td><td>Felty's syndrome, right knee</td></tr><tr><td>M05.062</td><td>Felty's syndrome, left knee</td></tr><tr><td>M05.069</td><td>Felty's syndrome, unspecified knee</td></tr><tr><td>M05.071</td><td>Felty's syndrome, right ankle and foot</td></tr><tr><td>M05.072</td><td>Felty's syndrome, left ankle and foot</td></tr><tr><td>M05.079</td><td>Felty's syndrome, unspecified ankle and foot</td></tr><tr><td>M05.09</td><td>Felty's syndrome, multiple sites</td></tr><tr><td>M05.10</td><td>Rheumatoid lung disease with rheumatoid arthritis of unspecified site</td></tr><tr><td>M05.111</td><td>Rheumatoid lung disease with rheumatoid arthritis of right shoulder</td></tr><tr><td>M05.112</td><td>Rheumatoid lung disease with rheumatoid arthritis of left shoulder</td></tr><tr><td>M05.119</td><td>Rheumatoid lung disease with rheumatoid arthritis of unspecified shoulder</td></tr><tr><td>M05.121</td><td>Rheumatoid lung disease with rheumatoid arthritis of right elbow</td></tr><tr><td>M05.122</td><td>Rheumatoid lung disease with rheumatoid arthritis of left elbow</td></tr><tr><td>M05.129</td><td>Rheumatoid lung disease with rheumatoid arthritis of unspecified elbow</td></tr><tr><td>M05.131</td><td>Rheumatoid lung disease with rheumatoid arthritis of right wrist</td></tr><tr><td>M05.132</td><td>Rheumatoid lung disease with rheumatoid arthritis of left wrist</td></tr><tr><td>M05.139</td><td>Rheumatoid lung disease with rheumatoid arthritis of unspecified wrist</td></tr><tr><td>M05.141</td><td>Rheumatoid lung disease with rheumatoid arthritis of right hand</td></tr><tr><td>M05.142</td><td>Rheumatoid lung disease with rheumatoid arthritis of left hand</td></tr><tr><td>M05.149</td><td>Rheumatoid lung disease with rheumatoid arthritis of unspecified hand</td></tr><tr><td>M05.151</td><td>Rheumatoid lung disease with rheumatoid arthritis of right hip</td></tr><tr><td>M05.152</td><td>Rheumatoid lung disease with rheumatoid arthritis of left hip</td></tr><tr><td>M05.159</td><td>Rheumatoid lung disease with rheumatoid arthritis of unspecified hip</td></tr><tr><td>M05.161</td><td>Rheumatoid lung disease with rheumatoid arthritis of right knee</td></tr><tr><td>M05.162</td><td>Rheumatoid lung disease with rheumatoid arthritis of left knee</td></tr><tr><td>M05.169</td><td>Rheumatoid lung disease with rheumatoid arthritis of unspecified knee</td></tr><tr><td>M05.171</td><td>Rheumatoid lung disease with rheumatoid arthritis of right ankle and foot</td></tr><tr><td>M05.172</td><td>Rheumatoid lung disease with rheumatoid arthritis of left ankle and foot</td></tr><tr><td>M05.179</td><td>Rheumatoid lung disease with rheumatoid arthritis of unspecified ankle and foot</td></tr><tr><td>M05.19</td><td>Rheumatoid lung disease with rheumatoid arthritis of multiple sites</td></tr><tr><td>M05.20</td><td>Rheumatoid vasculitis with rheumatoid arthritis of unspecified site</td></tr><tr><td>M05.211</td><td>Rheumatoid vasculitis with rheumatoid arthritis of right shoulder</td></tr><tr><td>M05.212</td><td>Rheumatoid vasculitis with rheumatoid arthritis of left shoulder</td></tr><tr><td>M05.219</td><td>Rheumatoid vasculitis with rheumatoid arthritis of unspecified shoulder</td></tr><tr><td>M05.221</td><td>Rheumatoid vasculitis with rheumatoid arthritis of right elbow</td></tr><tr><td>M05.222</td><td>Rheumatoid vasculitis with rheumatoid arthritis of left elbow</td></tr><tr><td>M05.229</td><td>Rheumatoid vasculitis with rheumatoid arthritis of unspecified elbow</td></tr><tr><td>M05.231</td><td>Rheumatoid vasculitis with rheumatoid arthritis of right wrist</td></tr><tr><td>M05.232</td><td>Rheumatoid vasculitis with rheumatoid arthritis of left wrist</td></tr><tr><td>M05.239</td><td>Rheumatoid vasculitis with rheumatoid arthritis of unspecified wrist</td></tr><tr><td>M05.241</td><td>Rheumatoid vasculitis with rheumatoid arthritis of right hand</td></tr><tr><td>M05.242</td><td>Rheumatoid vasculitis with rheumatoid arthritis of left hand</td></tr><tr><td>M05.249</td><td>Rheumatoid vasculitis with rheumatoid arthritis of unspecified hand</td></tr><tr><td>M05.251</td><td>Rheumatoid vasculitis with rheumatoid arthritis of right hip</td></tr><tr><td>M05.252</td><td>Rheumatoid vasculitis with rheumatoid arthritis of left hip</td></tr><tr><td>M05.259</td><td>Rheumatoid vasculitis with rheumatoid arthritis of unspecified hip</td></tr><tr><td>M05.261</td><td>Rheumatoid vasculitis with rheumatoid arthritis of right knee</td></tr><tr><td>M05.262</td><td>Rheumatoid vasculitis with rheumatoid arthritis of left knee</td></tr><tr><td>M05.269</td><td>Rheumatoid vasculitis with rheumatoid arthritis of unspecified knee</td></tr><tr><td>M05.271</td><td>Rheumatoid vasculitis with rheumatoid arthritis of right ankle and foot</td></tr><tr><td>M05.272</td><td>Rheumatoid vasculitis with rheumatoid arthritis of left ankle and foot</td></tr><tr><td>M05.279</td><td>Rheumatoid vasculitis with rheumatoid arthritis of unspecified ankle and foot</td></tr><tr><td>M05.29</td><td>Rheumatoid vasculitis with rheumatoid arthritis of multiple sites</td></tr><tr><td>M05.30</td><td>Rheumatoid heart disease with rheumatoid arthritis of unspecified site</td></tr><tr><td>M05.311</td><td>Rheumatoid heart disease with rheumatoid arthritis of right shoulder</td></tr><tr><td>M05.312</td><td>Rheumatoid heart disease with rheumatoid arthritis of left shoulder</td></tr><tr><td>M05.319</td><td>Rheumatoid heart disease with rheumatoid arthritis of unspecified shoulder</td></tr><tr><td>M05.321</td><td>Rheumatoid heart disease with rheumatoid arthritis of right elbow</td></tr><tr><td>M05.322</td><td>Rheumatoid heart disease with rheumatoid arthritis of left elbow</td></tr><tr><td>M05.329</td><td>Rheumatoid heart disease with rheumatoid arthritis of unspecified elbow</td></tr><tr><td>M05.331</td><td>Rheumatoid heart disease with rheumatoid arthritis of right wrist</td></tr><tr><td>M05.332</td><td>Rheumatoid heart disease with rheumatoid arthritis of left wrist</td></tr><tr><td>M05.339</td><td>Rheumatoid heart disease with rheumatoid arthritis of unspecified wrist</td></tr><tr><td>M05.341</td><td>Rheumatoid heart disease with rheumatoid arthritis of right hand</td></tr><tr><td>M05.342</td><td>Rheumatoid heart disease with rheumatoid arthritis of left hand</td></tr><tr><td>M05.349</td><td>Rheumatoid heart disease with rheumatoid arthritis of unspecified hand</td></tr><tr><td>M05.351</td><td>Rheumatoid heart disease with rheumatoid arthritis of right hip</td></tr><tr><td>M05.352</td><td>Rheumatoid heart disease with rheumatoid arthritis of left hip</td></tr><tr><td>M05.359</td><td>Rheumatoid heart disease with rheumatoid arthritis of unspecified hip</td></tr><tr><td>M05.361</td><td>Rheumatoid heart disease with rheumatoid arthritis of right knee</td></tr><tr><td>M05.362</td><td>Rheumatoid heart disease with rheumatoid arthritis of left knee</td></tr><tr><td>M05.369</td><td>Rheumatoid heart disease with rheumatoid arthritis of unspecified knee</td></tr><tr><td>M05.371</td><td>Rheumatoid heart disease with rheumatoid arthritis of right ankle and foot</td></tr><tr><td>M05.372</td><td>Rheumatoid heart disease with rheumatoid arthritis of left ankle and foot</td></tr><tr><td>M05.379</td><td>Rheumatoid heart disease with rheumatoid arthritis of unspecified ankle and foot</td></tr><tr><td>M05.39</td><td>Rheumatoid heart disease with rheumatoid arthritis of multiple sites</td></tr><tr><td>M05.40</td><td>Rheumatoid myopathy with rheumatoid arthritis of unspecified site</td></tr><tr><td>M05.411</td><td>Rheumatoid myopathy with rheumatoid arthritis of right shoulder</td></tr><tr><td>M05.412</td><td>Rheumatoid myopathy with rheumatoid arthritis of left shoulder</td></tr><tr><td>M05.419</td><td>Rheumatoid myopathy with rheumatoid arthritis of unspecified shoulder</td></tr><tr><td>M05.421</td><td>Rheumatoid myopathy with rheumatoid arthritis of right elbow</td></tr><tr><td>M05.422</td><td>Rheumatoid myopathy with rheumatoid arthritis of left elbow</td></tr><tr><td>M05.429</td><td>Rheumatoid myopathy with rheumatoid arthritis of unspecified elbow</td></tr><tr><td>M05.431</td><td>Rheumatoid myopathy with rheumatoid arthritis of right wrist</td></tr><tr><td>M05.432</td><td>Rheumatoid myopathy with rheumatoid arthritis of left wrist</td></tr><tr><td>M05.439</td><td>Rheumatoid myopathy with rheumatoid arthritis of unspecified wrist</td></tr><tr><td>M05.441</td><td>Rheumatoid myopathy with rheumatoid arthritis of right hand</td></tr><tr><td>M05.442</td><td>Rheumatoid myopathy with rheumatoid arthritis of left hand</td></tr><tr><td>M05.449</td><td>Rheumatoid myopathy with rheumatoid arthritis of unspecified hand</td></tr><tr><td>M05.451</td><td>Rheumatoid myopathy with rheumatoid arthritis of right hip</td></tr><tr><td>M05.452</td><td>Rheumatoid myopathy with rheumatoid arthritis of left hip</td></tr><tr><td>M05.459</td><td>Rheumatoid myopathy with rheumatoid arthritis of unspecified hip</td></tr><tr><td>M05.461</td><td>Rheumatoid myopathy with rheumatoid arthritis of right knee</td></tr><tr><td>M05.462</td><td>Rheumatoid myopathy with rheumatoid arthritis of left knee</td></tr><tr><td>M05.469</td><td>Rheumatoid myopathy with rheumatoid arthritis of unspecified knee</td></tr><tr><td>M05.471</td><td>Rheumatoid myopathy with rheumatoid arthritis of right ankle and foot</td></tr><tr><td>M05.472</td><td>Rheumatoid myopathy with rheumatoid arthritis of left ankle and foot</td></tr><tr><td>M05.479</td><td>Rheumatoid myopathy with rheumatoid arthritis of unspecified ankle and foot</td></tr><tr><td>M05.49</td><td>Rheumatoid myopathy with rheumatoid arthritis of multiple sites</td></tr><tr><td>M05.50</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified site</td></tr><tr><td>M05.511</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of right shoulder</td></tr><tr><td>M05.512</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of left shoulder</td></tr><tr><td>M05.519</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified shoulder</td></tr><tr><td>M05.521</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of right elbow</td></tr><tr><td>M05.522</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of left elbow</td></tr><tr><td>M05.529</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified elbow</td></tr><tr><td>M05.531</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of right wrist</td></tr><tr><td>M05.532</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of left wrist</td></tr><tr><td>M05.539</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified wrist</td></tr><tr><td>M05.541</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of right hand</td></tr><tr><td>M05.542</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of left hand</td></tr><tr><td>M05.549</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified hand</td></tr><tr><td>M05.551</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of right hip</td></tr><tr><td>M05.552</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of left hip</td></tr><tr><td>M05.559</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified hip</td></tr><tr><td>M05.561</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of right knee</td></tr><tr><td>M05.562</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of left knee</td></tr><tr><td>M05.569</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified knee</td></tr><tr><td>M05.571</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of right ankle and foot</td></tr><tr><td>M05.572</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of left ankle and foot</td></tr><tr><td>M05.579</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified ankle and foot</td></tr><tr><td>M05.59</td><td>Rheumatoid polyneuropathy with rheumatoid arthritis of multiple sites</td></tr><tr><td>M05.60</td><td>Rheu arthritis of unsp site w involv of organs and systems</td></tr><tr><td>M05.611</td><td>Rheu arthritis of r shoulder w involv of organs and systems</td></tr><tr><td>M05.612</td><td>Rheu arthritis of l shoulder w involv of organs and systems</td></tr><tr><td>M05.619</td><td>Rheu arthrit of unsp shoulder w involv of organs and systems</td></tr><tr><td>M05.621</td><td>Rheu arthritis of r elbow w involv of organs and systems</td></tr><tr><td>M05.622</td><td>Rheu arthritis of l elbow w involv of organs and systems</td></tr><tr><td>M05.629</td><td>Rheu arthritis of unsp elbow w involv of organs and systems</td></tr><tr><td>M05.631</td><td>Rheu arthritis of r wrist w involv of organs and systems</td></tr><tr><td>M05.632</td><td>Rheu arthritis of l wrist w involv of organs and systems</td></tr><tr><td>M05.639</td><td>Rheu arthritis of unsp wrist w involv of organs and systems</td></tr><tr><td>M05.641</td><td>Rheu arthritis of right hand w involv of organs and systems</td></tr><tr><td>M05.642</td><td>Rheu arthritis of left hand w involv of organs and systems</td></tr><tr><td>M05.649</td><td>Rheu arthritis of unsp hand w involv of organs and systems</td></tr><tr><td>M05.651</td><td>Rheu arthritis of right hip w involv of organs and systems</td></tr><tr><td>M05.652</td><td>Rheu arthritis of left hip w involv of organs and systems</td></tr><tr><td>M05.659</td><td>Rheu arthritis of unsp hip w involv of organs and systems</td></tr><tr><td>M05.661</td><td>Rheu arthritis of right knee w involv of organs and systems</td></tr><tr><td>M05.662</td><td>Rheu arthritis of left knee w involv of organs and systems</td></tr><tr><td>M05.669</td><td>Rheu arthritis of unsp knee w involv of organs and systems</td></tr><tr><td>M05.671</td><td>Rheu arthrit of right ank/ft w involv of organs and systems</td></tr><tr><td>M05.672</td><td>Rheu arthritis of left ank/ft w involv of organs and systems</td></tr><tr><td>M05.679</td><td>Rheu arthritis of unsp ank/ft w involv of organs and systems</td></tr><tr><td>M05.69</td><td>Rheu arthritis mult site w involv of organs and systems</td></tr><tr><td>M05.70</td><td>Rheu arthritis w rheu factor of unsp site w/o org/sys involv</td></tr><tr><td>M05.711</td><td>Rheu arthrit w rheu factor of r shoulder w/o org/sys involv</td></tr><tr><td>M05.712</td><td>Rheu arthrit w rheu factor of l shoulder w/o org/sys involv</td></tr><tr><td>M05.719</td><td>Rheu arthrit w rheu factor of unsp shldr w/o org/sys involv</td></tr><tr><td>M05.721</td><td>Rheu arthritis w rheu factor of r elbow w/o org/sys involv</td></tr><tr><td>M05.722</td><td>Rheu arthritis w rheu factor of l elbow w/o org/sys involv</td></tr><tr><td>M05.729</td><td>Rheu arthrit w rheu factor of unsp elbow w/o org/sys involv</td></tr><tr><td>M05.731</td><td>Rheu arthritis w rheu factor of r wrist w/o org/sys involv</td></tr><tr><td>M05.732</td><td>Rheu arthritis w rheu factor of l wrist w/o org/sys involv</td></tr><tr><td>M05.739</td><td>Rheu arthrit w rheu factor of unsp wrist w/o org/sys involv</td></tr><tr><td>M05.741</td><td>Rheu arthritis w rheu factor of r hand w/o org/sys involv</td></tr><tr><td>M05.742</td><td>Rheu arthritis w rheu factor of left hand w/o org/sys involv</td></tr><tr><td>M05.749</td><td>Rheu arthritis w rheu factor of unsp hand w/o org/sys involv</td></tr><tr><td>M05.751</td><td>Rheu arthritis w rheu factor of right hip w/o org/sys involv</td></tr><tr><td>M05.752</td><td>Rheu arthritis w rheu factor of left hip w/o org/sys involv</td></tr><tr><td>M05.759</td><td>Rheu arthritis w rheu factor of unsp hip w/o org/sys involv</td></tr><tr><td>M05.761</td><td>Rheu arthritis w rheu factor of r knee w/o org/sys involv</td></tr><tr><td>M05.762</td><td>Rheu arthritis w rheu factor of left knee w/o org/sys involv</td></tr><tr><td>M05.769</td><td>Rheu arthritis w rheu factor of unsp knee w/o org/sys involv</td></tr><tr><td>M05.771</td><td>Rheu arthrit w rheu fctr of right ank/ft w/o org/sys involv</td></tr><tr><td>M05.772</td><td>Rheu arthrit w rheu factor of left ank/ft w/o org/sys involv</td></tr><tr><td>M05.779</td><td>Rheu arthrit w rheu factor of unsp ank/ft w/o org/sys involv</td></tr><tr><td>M05.79</td><td>Rheu arthritis w rheu factor mult site w/o org/sys involv</td></tr><tr><td>M05.7A</td><td>Rheumatoid arthritis with rheumatoid factor of other specified site without organ or systems involvement</td></tr><tr><td>M05.80</td><td>Oth rheumatoid arthritis with rheumatoid factor of unsp site</td></tr><tr><td>M05.811</td><td>Oth rheumatoid arthritis w rheumatoid factor of r shoulder</td></tr><tr><td>M05.812</td><td>Oth rheumatoid arthritis w rheumatoid factor of l shoulder</td></tr><tr><td>M05.819</td><td>Oth rheu arthritis w rheumatoid factor of unsp shoulder</td></tr><tr><td>M05.821</td><td>Oth rheumatoid arthritis w rheumatoid factor of right elbow</td></tr><tr><td>M05.822</td><td>Oth rheumatoid arthritis w rheumatoid factor of left elbow</td></tr><tr><td>M05.829</td><td>Oth rheumatoid arthritis w rheumatoid factor of unsp elbow</td></tr><tr><td>M05.831</td><td>Oth rheumatoid arthritis w rheumatoid factor of right wrist</td></tr><tr><td>M05.832</td><td>Oth rheumatoid arthritis w rheumatoid factor of left wrist</td></tr><tr><td>M05.839</td><td>Oth rheumatoid arthritis w rheumatoid factor of unsp wrist</td></tr><tr><td>M05.841</td><td>Oth rheumatoid arthritis w rheumatoid factor of right hand</td></tr><tr><td>M05.842</td><td>Oth rheumatoid arthritis with rheumatoid factor of left hand</td></tr><tr><td>M05.849</td><td>Oth rheumatoid arthritis with rheumatoid factor of unsp hand</td></tr><tr><td>M05.851</td><td>Oth rheumatoid arthritis with rheumatoid factor of right hip</td></tr><tr><td>M05.852</td><td>Oth rheumatoid arthritis with rheumatoid factor of left hip</td></tr><tr><td>M05.859</td><td>Oth rheumatoid arthritis with rheumatoid factor of unsp hip</td></tr><tr><td>M05.861</td><td>Oth rheumatoid arthritis w rheumatoid factor of right knee</td></tr><tr><td>M05.862</td><td>Oth rheumatoid arthritis with rheumatoid factor of left knee</td></tr><tr><td>M05.869</td><td>Oth rheumatoid arthritis with rheumatoid factor of unsp knee</td></tr><tr><td>M05.871</td><td>Oth rheumatoid arthritis w rheumatoid factor of right ank/ft</td></tr><tr><td>M05.872</td><td>Oth rheumatoid arthritis w rheumatoid factor of left ank/ft</td></tr><tr><td>M05.879</td><td>Oth rheumatoid arthritis w rheumatoid factor of unsp ank/ft</td></tr><tr><td>M05.89</td><td>Oth rheumatoid arthritis w rheumatoid factor mult site</td></tr><tr><td>M05.8A</td><td>Other rheumatoid arthritis with rheumatoid factor of other specified site</td></tr><tr><td>M05.9</td><td>Rheumatoid arthritis with rheumatoid factor, unspecified</td></tr><tr><td>M06.00</td><td>Rheumatoid arthritis without rheumatoid factor, unsp site</td></tr><tr><td>M06.011</td><td>Rheumatoid arthritis w/o rheumatoid factor, right shoulder</td></tr><tr><td>M06.012</td><td>Rheumatoid arthritis w/o rheumatoid factor, left shoulder</td></tr><tr><td>M06.019</td><td>Rheumatoid arthritis w/o rheumatoid factor, unsp shoulder</td></tr><tr><td>M06.021</td><td>Rheumatoid arthritis without rheumatoid factor, right elbow</td></tr><tr><td>M06.022</td><td>Rheumatoid arthritis without rheumatoid factor, left elbow</td></tr><tr><td>M06.029</td><td>Rheumatoid arthritis without rheumatoid factor, unsp elbow</td></tr><tr><td>M06.031</td><td>Rheumatoid arthritis without rheumatoid factor, right wrist</td></tr><tr><td>M06.032</td><td>Rheumatoid arthritis without rheumatoid factor, left wrist</td></tr><tr><td>M06.039</td><td>Rheumatoid arthritis without rheumatoid factor, unsp wrist</td></tr><tr><td>M06.041</td><td>Rheumatoid arthritis without rheumatoid factor, right hand</td></tr><tr><td>M06.042</td><td>Rheumatoid arthritis without rheumatoid factor, left hand</td></tr><tr><td>M06.049</td><td>Rheumatoid arthritis without rheumatoid factor, unsp hand</td></tr><tr><td>M06.051</td><td>Rheumatoid arthritis without rheumatoid factor, right hip</td></tr><tr><td>M06.052</td><td>Rheumatoid arthritis without rheumatoid factor, left hip</td></tr><tr><td>M06.059</td><td>Rheumatoid arthritis without rheumatoid factor, unsp hip</td></tr><tr><td>M06.061</td><td>Rheumatoid arthritis without rheumatoid factor, right knee</td></tr><tr><td>M06.062</td><td>Rheumatoid arthritis without rheumatoid factor, left knee</td></tr><tr><td>M06.069</td><td>Rheumatoid arthritis without rheumatoid factor, unsp knee</td></tr><tr><td>M06.071</td><td>Rheumatoid arthritis w/o rheumatoid factor, right ank/ft</td></tr><tr><td>M06.072</td><td>Rheumatoid arthritis w/o rheumatoid factor, left ank/ft</td></tr><tr><td>M06.079</td><td>Rheumatoid arthritis w/o rheumatoid factor, unsp ank/ft</td></tr><tr><td>M06.08</td><td>Rheumatoid arthritis without rheumatoid factor, vertebrae</td></tr><tr><td>M06.09</td><td>Rheumatoid arthritis w/o rheumatoid factor, multiple sites</td></tr><tr><td>M06.0A</td><td>Rheumatoid arthritis without rheumatoid factor, other specified site</td></tr><tr><td>M06.1</td><td>Adult-onset Still's disease</td></tr><tr><td>M06.20</td><td>Rheumatoid bursitis, unspecified site</td></tr><tr><td>M06.211</td><td>Rheumatoid bursitis, right shoulder</td></tr><tr><td>M06.212</td><td>Rheumatoid bursitis, left shoulder</td></tr><tr><td>M06.219</td><td>Rheumatoid bursitis, unspecified shoulder</td></tr><tr><td>M06.221</td><td>Rheumatoid bursitis, right elbow</td></tr><tr><td>M06.222</td><td>Rheumatoid bursitis, left elbow</td></tr><tr><td>M06.229</td><td>Rheumatoid bursitis, unspecified elbow</td></tr><tr><td>M06.231</td><td>Rheumatoid bursitis, right wrist</td></tr><tr><td>M06.232</td><td>Rheumatoid bursitis, left wrist</td></tr><tr><td>M06.239</td><td>Rheumatoid bursitis, unspecified wrist</td></tr><tr><td>M06.241</td><td>Rheumatoid bursitis, right hand</td></tr><tr><td>M06.242</td><td>Rheumatoid bursitis, left hand</td></tr><tr><td>M06.249</td><td>Rheumatoid bursitis, unspecified hand</td></tr><tr><td>M06.251</td><td>Rheumatoid bursitis, right hip</td></tr><tr><td>M06.252</td><td>Rheumatoid bursitis, left hip</td></tr><tr><td>M06.259</td><td>Rheumatoid bursitis, unspecified hip</td></tr><tr><td>M06.261</td><td>Rheumatoid bursitis, right knee</td></tr><tr><td>M06.262</td><td>Rheumatoid bursitis, left knee</td></tr><tr><td>M06.269</td><td>Rheumatoid bursitis, unspecified knee</td></tr><tr><td>M06.271</td><td>Rheumatoid bursitis, right ankle and foot</td></tr><tr><td>M06.272</td><td>Rheumatoid bursitis, left ankle and foot</td></tr><tr><td>M06.279</td><td>Rheumatoid bursitis, unspecified ankle and foot</td></tr><tr><td>M06.28</td><td>Rheumatoid bursitis, vertebrae</td></tr><tr><td>M06.29</td><td>Rheumatoid bursitis, multiple sites</td></tr><tr><td>M06.30</td><td>Rheumatoid nodule, unspecified site</td></tr><tr><td>M06.311</td><td>Rheumatoid nodule, right shoulder</td></tr><tr><td>M06.312</td><td>Rheumatoid nodule, left shoulder</td></tr><tr><td>M06.319</td><td>Rheumatoid nodule, unspecified shoulder</td></tr><tr><td>M06.321</td><td>Rheumatoid nodule, right elbow</td></tr><tr><td>M06.322</td><td>Rheumatoid nodule, left elbow</td></tr><tr><td>M06.329</td><td>Rheumatoid nodule, unspecified elbow</td></tr><tr><td>M06.331</td><td>Rheumatoid nodule, right wrist</td></tr><tr><td>M06.332</td><td>Rheumatoid nodule, left wrist</td></tr><tr><td>M06.339</td><td>Rheumatoid nodule, unspecified wrist</td></tr><tr><td>M06.341</td><td>Rheumatoid nodule, right hand</td></tr><tr><td>M06.342</td><td>Rheumatoid nodule, left hand</td></tr><tr><td>M06.349</td><td>Rheumatoid nodule, unspecified hand</td></tr><tr><td>M06.351</td><td>Rheumatoid nodule, right hip</td></tr><tr><td>M06.352</td><td>Rheumatoid nodule, left hip</td></tr><tr><td>M06.359</td><td>Rheumatoid nodule, unspecified hip</td></tr><tr><td>M06.361</td><td>Rheumatoid nodule, right knee</td></tr><tr><td>M06.362</td><td>Rheumatoid nodule, left knee</td></tr><tr><td>M06.369</td><td>Rheumatoid nodule, unspecified knee</td></tr><tr><td>M06.371</td><td>Rheumatoid nodule, right ankle and foot</td></tr><tr><td>M06.372</td><td>Rheumatoid nodule, left ankle and foot</td></tr><tr><td>M06.379</td><td>Rheumatoid nodule, unspecified ankle and foot</td></tr><tr><td>M06.38</td><td>Rheumatoid nodule, vertebrae</td></tr><tr><td>M06.39</td><td>Rheumatoid nodule, multiple sites</td></tr><tr><td>M06.4</td><td>Inflammatory polyarthropathy</td></tr><tr><td>M06.80</td><td>Other specified rheumatoid arthritis, unspecified site</td></tr><tr><td>M06.811</td><td>Other specified rheumatoid arthritis, right shoulder</td></tr><tr><td>M06.812</td><td>Other specified rheumatoid arthritis, left shoulder</td></tr><tr><td>M06.819</td><td>Other specified rheumatoid arthritis, unspecified shoulder</td></tr><tr><td>M06.821</td><td>Other specified rheumatoid arthritis, right elbow</td></tr><tr><td>M06.822</td><td>Other specified rheumatoid arthritis, left elbow</td></tr><tr><td>M06.829</td><td>Other specified rheumatoid arthritis, unspecified elbow</td></tr><tr><td>M06.831</td><td>Other specified rheumatoid arthritis, right wrist</td></tr><tr><td>M06.832</td><td>Other specified rheumatoid arthritis, left wrist</td></tr><tr><td>M06.839</td><td>Other specified rheumatoid arthritis, unspecified wrist</td></tr><tr><td>M06.841</td><td>Other specified rheumatoid arthritis, right hand</td></tr><tr><td>M06.842</td><td>Other specified rheumatoid arthritis, left hand</td></tr><tr><td>M06.849</td><td>Other specified rheumatoid arthritis, unspecified hand</td></tr><tr><td>M06.851</td><td>Other specified rheumatoid arthritis, right hip</td></tr><tr><td>M06.852</td><td>Other specified rheumatoid arthritis, left hip</td></tr><tr><td>M06.859</td><td>Other specified rheumatoid arthritis, unspecified hip</td></tr><tr><td>M06.861</td><td>Other specified rheumatoid arthritis, right knee</td></tr><tr><td>M06.862</td><td>Other specified rheumatoid arthritis, left knee</td></tr><tr><td>M06.869</td><td>Other specified rheumatoid arthritis, unspecified knee</td></tr><tr><td>M06.871</td><td>Other specified rheumatoid arthritis, right ankle and foot</td></tr><tr><td>M06.872</td><td>Other specified rheumatoid arthritis, left ankle and foot</td></tr><tr><td>M06.879</td><td>Oth rheumatoid arthritis, unspecified ankle and foot</td></tr><tr><td>M06.88</td><td>Other specified rheumatoid arthritis, vertebrae</td></tr><tr><td>M06.89</td><td>Other specified rheumatoid arthritis, multiple sites</td></tr><tr><td>M06.8A</td><td>Other specified rheumatoid arthritis, other specified site</td></tr><tr><td>M06.9</td><td>Rheumatoid arthritis, unspecified</td></tr><tr><td>M07.60</td><td>Enteropathic arthropathies, unspecified site</td></tr><tr><td>M07.611</td><td>Enteropathic arthropathies, right shoulder</td></tr><tr><td>M07.612</td><td>Enteropathic arthropathies, left shoulder</td></tr><tr><td>M07.619</td><td>Enteropathic arthropathies, unspecified shoulder</td></tr><tr><td>M07.621</td><td>Enteropathic arthropathies, right elbow</td></tr><tr><td>M07.622</td><td>Enteropathic arthropathies, left elbow</td></tr><tr><td>M07.629</td><td>Enteropathic arthropathies, unspecified elbow</td></tr><tr><td>M07.631</td><td>Enteropathic arthropathies, right wrist</td></tr><tr><td>M07.632</td><td>Enteropathic arthropathies, left wrist</td></tr><tr><td>M07.639</td><td>Enteropathic arthropathies, unspecified wrist</td></tr><tr><td>M07.641</td><td>Enteropathic arthropathies, right hand</td></tr><tr><td>M07.642</td><td>Enteropathic arthropathies, left hand</td></tr><tr><td>M07.649</td><td>Enteropathic arthropathies, unspecified hand</td></tr><tr><td>M07.651</td><td>Enteropathic arthropathies, right hip</td></tr><tr><td>M07.652</td><td>Enteropathic arthropathies, left hip</td></tr><tr><td>M07.659</td><td>Enteropathic arthropathies, unspecified hip</td></tr><tr><td>M07.661</td><td>Enteropathic arthropathies, right knee</td></tr><tr><td>M07.662</td><td>Enteropathic arthropathies, left knee</td></tr><tr><td>M07.669</td><td>Enteropathic arthropathies, unspecified knee</td></tr><tr><td>M07.671</td><td>Enteropathic arthropathies, right ankle and foot</td></tr><tr><td>M07.672</td><td>Enteropathic arthropathies, left ankle and foot</td></tr><tr><td>M07.679</td><td>Enteropathic arthropathies, unspecified ankle and foot</td></tr><tr><td>M07.68</td><td>Enteropathic arthropathies, vertebrae</td></tr><tr><td>M07.69</td><td>Enteropathic arthropathies, multiple sites</td></tr><tr><td>M08.00</td><td>Unsp juvenile rheumatoid arthritis of unspecified site</td></tr><tr><td>M08.011</td><td>Unspecified juvenile rheumatoid arthritis, right shoulder</td></tr><tr><td>M08.012</td><td>Unspecified juvenile rheumatoid arthritis, left shoulder</td></tr><tr><td>M08.019</td><td>Unsp juvenile rheumatoid arthritis, unspecified shoulder</td></tr><tr><td>M08.021</td><td>Unspecified juvenile rheumatoid arthritis, right elbow</td></tr><tr><td>M08.022</td><td>Unspecified juvenile rheumatoid arthritis, left elbow</td></tr><tr><td>M08.029</td><td>Unspecified juvenile rheumatoid arthritis, unspecified elbow</td></tr><tr><td>M08.031</td><td>Unspecified juvenile rheumatoid arthritis, right wrist</td></tr><tr><td>M08.032</td><td>Unspecified juvenile rheumatoid arthritis, left wrist</td></tr><tr><td>M08.039</td><td>Unspecified juvenile rheumatoid arthritis, unspecified wrist</td></tr><tr><td>M08.041</td><td>Unspecified juvenile rheumatoid arthritis, right hand</td></tr><tr><td>M08.042</td><td>Unspecified juvenile rheumatoid arthritis, left hand</td></tr><tr><td>M08.049</td><td>Unspecified juvenile rheumatoid arthritis, unspecified hand</td></tr><tr><td>M08.051</td><td>Unspecified juvenile rheumatoid arthritis, right hip</td></tr><tr><td>M08.052</td><td>Unspecified juvenile rheumatoid arthritis, left hip</td></tr><tr><td>M08.059</td><td>Unspecified juvenile rheumatoid arthritis, unspecified hip</td></tr><tr><td>M08.061</td><td>Unspecified juvenile rheumatoid arthritis, right knee</td></tr><tr><td>M08.062</td><td>Unspecified juvenile rheumatoid arthritis, left knee</td></tr><tr><td>M08.069</td><td>Unspecified juvenile rheumatoid arthritis, unspecified knee</td></tr><tr><td>M08.071</td><td>Unsp juvenile rheumatoid arthritis, right ankle and foot</td></tr><tr><td>M08.072</td><td>Unsp juvenile rheumatoid arthritis, left ankle and foot</td></tr><tr><td>M08.079</td><td>Unsp juvenile rheumatoid arthritis, unsp ankle and foot</td></tr><tr><td>M08.08</td><td>Unspecified juvenile rheumatoid arthritis, vertebrae</td></tr><tr><td>M08.09</td><td>Unspecified juvenile rheumatoid arthritis, multiple sites</td></tr><tr><td>M08.0A</td><td>Unspecified juvenile rheumatoid arthritis, other specified site</td></tr><tr><td>M08.1</td><td>Juvenile ankylosing spondylitis</td></tr><tr><td>M08.20</td><td>Juvenile rheumatoid arthritis with systemic onset, unsp site</td></tr><tr><td>M08.211</td><td>Juvenile rheumatoid arthritis w systemic onset, r shoulder</td></tr><tr><td>M08.212</td><td>Juvenile rheumatoid arthritis w systemic onset, l shoulder</td></tr><tr><td>M08.219</td><td>Juvenile rheu arthritis w systemic onset, unsp shoulder</td></tr><tr><td>M08.221</td><td>Juvenile rheumatoid arthritis w systemic onset, right elbow</td></tr><tr><td>M08.222</td><td>Juvenile rheumatoid arthritis w systemic onset, left elbow</td></tr><tr><td>M08.229</td><td>Juvenile rheumatoid arthritis w systemic onset, unsp elbow</td></tr><tr><td>M08.231</td><td>Juvenile rheumatoid arthritis w systemic onset, right wrist</td></tr><tr><td>M08.232</td><td>Juvenile rheumatoid arthritis w systemic onset, left wrist</td></tr><tr><td>M08.239</td><td>Juvenile rheumatoid arthritis w systemic onset, unsp wrist</td></tr><tr><td>M08.241</td><td>Juvenile rheumatoid arthritis w systemic onset, right hand</td></tr><tr><td>M08.242</td><td>Juvenile rheumatoid arthritis with systemic onset, left hand</td></tr><tr><td>M08.249</td><td>Juvenile rheumatoid arthritis with systemic onset, unsp hand</td></tr><tr><td>M08.251</td><td>Juvenile rheumatoid arthritis with systemic onset, right hip</td></tr><tr><td>M08.252</td><td>Juvenile rheumatoid arthritis with systemic onset, left hip</td></tr><tr><td>M08.259</td><td>Juvenile rheumatoid arthritis with systemic onset, unsp hip</td></tr><tr><td>M08.261</td><td>Juvenile rheumatoid arthritis w systemic onset, right knee</td></tr><tr><td>M08.262</td><td>Juvenile rheumatoid arthritis with systemic onset, left knee</td></tr><tr><td>M08.269</td><td>Juvenile rheumatoid arthritis with systemic onset, unsp knee</td></tr><tr><td>M08.271</td><td>Juvenile rheumatoid arthritis w systemic onset, right ank/ft</td></tr><tr><td>M08.272</td><td>Juvenile rheumatoid arthritis w systemic onset, left ank/ft</td></tr><tr><td>M08.279</td><td>Juvenile rheumatoid arthritis w systemic onset, unsp ank/ft</td></tr><tr><td>M08.28</td><td>Juvenile rheumatoid arthritis with systemic onset, vertebrae</td></tr><tr><td>M08.29</td><td>Juvenile rheu arthritis w systemic onset, multiple sites</td></tr><tr><td>M08.2A</td><td>Juvenile rheumatoid arthritis with systemic onset, other specified site</td></tr><tr><td>M08.3</td><td>Juvenile rheumatoid polyarthritis (seronegative)</td></tr><tr><td>M08.40</td><td>Pauciarticular juvenile rheumatoid arthritis, unsp site</td></tr><tr><td>M08.411</td><td>Pauciarticular juvenile rheumatoid arthritis, right shoulder</td></tr><tr><td>M08.412</td><td>Pauciarticular juvenile rheumatoid arthritis, left shoulder</td></tr><tr><td>M08.419</td><td>Pauciarticular juvenile rheumatoid arthritis, unsp shoulder</td></tr><tr><td>M08.421</td><td>Pauciarticular juvenile rheumatoid arthritis, right elbow</td></tr><tr><td>M08.422</td><td>Pauciarticular juvenile rheumatoid arthritis, left elbow</td></tr><tr><td>M08.429</td><td>Pauciarticular juvenile rheumatoid arthritis, unsp elbow</td></tr><tr><td>M08.431</td><td>Pauciarticular juvenile rheumatoid arthritis, right wrist</td></tr><tr><td>M08.432</td><td>Pauciarticular juvenile rheumatoid arthritis, left wrist</td></tr><tr><td>M08.439</td><td>Pauciarticular juvenile rheumatoid arthritis, unsp wrist</td></tr><tr><td>M08.441</td><td>Pauciarticular juvenile rheumatoid arthritis, right hand</td></tr><tr><td>M08.442</td><td>Pauciarticular juvenile rheumatoid arthritis, left hand</td></tr><tr><td>M08.449</td><td>Pauciarticular juvenile rheumatoid arthritis, unsp hand</td></tr><tr><td>M08.451</td><td>Pauciarticular juvenile rheumatoid arthritis, right hip</td></tr><tr><td>M08.452</td><td>Pauciarticular juvenile rheumatoid arthritis, left hip</td></tr><tr><td>M08.459</td><td>Pauciarticular juvenile rheumatoid arthritis, unsp hip</td></tr><tr><td>M08.461</td><td>Pauciarticular juvenile rheumatoid arthritis, right knee</td></tr><tr><td>M08.462</td><td>Pauciarticular juvenile rheumatoid arthritis, left knee</td></tr><tr><td>M08.469</td><td>Pauciarticular juvenile rheumatoid arthritis, unsp knee</td></tr><tr><td>M08.471</td><td>Pauciarticular juvenile rheumatoid arthritis, right ank/ft</td></tr><tr><td>M08.472</td><td>Pauciarticular juvenile rheumatoid arthritis, left ank/ft</td></tr><tr><td>M08.479</td><td>Pauciarticular juvenile rheumatoid arthritis, unsp ank/ft</td></tr><tr><td>M08.48</td><td>Pauciarticular juvenile rheumatoid arthritis, vertebrae</td></tr><tr><td>M08.4A</td><td>Pauciarticular juvenile rheumatoid arthritis, other specified site</td></tr><tr><td>M08.80</td><td>Other juvenile arthritis, unspecified site</td></tr><tr><td>M08.811</td><td>Other juvenile arthritis, right shoulder</td></tr><tr><td>M08.812</td><td>Other juvenile arthritis, left shoulder</td></tr><tr><td>M08.819</td><td>Other juvenile arthritis, unspecified shoulder</td></tr><tr><td>M08.821</td><td>Other juvenile arthritis, right elbow</td></tr><tr><td>M08.822</td><td>Other juvenile arthritis, left elbow</td></tr><tr><td>M08.829</td><td>Other juvenile arthritis, unspecified elbow</td></tr><tr><td>M08.831</td><td>Other juvenile arthritis, right wrist</td></tr><tr><td>M08.832</td><td>Other juvenile arthritis, left wrist</td></tr><tr><td>M08.839</td><td>Other juvenile arthritis, unspecified wrist</td></tr><tr><td>M08.841</td><td>Other juvenile arthritis, right hand</td></tr><tr><td>M08.842</td><td>Other juvenile arthritis, left hand</td></tr><tr><td>M08.849</td><td>Other juvenile arthritis, unspecified hand</td></tr><tr><td>M08.851</td><td>Other juvenile arthritis, right hip</td></tr><tr><td>M08.852</td><td>Other juvenile arthritis, left hip</td></tr><tr><td>M08.859</td><td>Other juvenile arthritis, unspecified hip</td></tr><tr><td>M08.861</td><td>Other juvenile arthritis, right knee</td></tr><tr><td>M08.862</td><td>Other juvenile arthritis, left knee</td></tr><tr><td>M08.869</td><td>Other juvenile arthritis, unspecified knee</td></tr><tr><td>M08.871</td><td>Other juvenile arthritis, right ankle and foot</td></tr><tr><td>M08.872</td><td>Other juvenile arthritis, left ankle and foot</td></tr><tr><td>M08.879</td><td>Other juvenile arthritis, unspecified ankle and foot</td></tr><tr><td>M08.88</td><td>Other juvenile arthritis, other specified site</td></tr><tr><td>M08.89</td><td>Other juvenile arthritis, multiple sites</td></tr><tr><td>M08.90</td><td>Juvenile arthritis, unspecified, unspecified site</td></tr><tr><td>M08.911</td><td>Juvenile arthritis, unspecified, right shoulder</td></tr><tr><td>M08.912</td><td>Juvenile arthritis, unspecified, left shoulder</td></tr><tr><td>M08.919</td><td>Juvenile arthritis, unspecified, unspecified shoulder</td></tr><tr><td>M08.921</td><td>Juvenile arthritis, unspecified, right elbow</td></tr><tr><td>M08.922</td><td>Juvenile arthritis, unspecified, left elbow</td></tr><tr><td>M08.929</td><td>Juvenile arthritis, unspecified, unspecified elbow</td></tr><tr><td>M08.931</td><td>Juvenile arthritis, unspecified, right wrist</td></tr><tr><td>M08.932</td><td>Juvenile arthritis, unspecified, left wrist</td></tr><tr><td>M08.939</td><td>Juvenile arthritis, unspecified, unspecified wrist</td></tr><tr><td>M08.941</td><td>Juvenile arthritis, unspecified, right hand</td></tr><tr><td>M08.942</td><td>Juvenile arthritis, unspecified, left hand</td></tr><tr><td>M08.949</td><td>Juvenile arthritis, unspecified, unspecified hand</td></tr><tr><td>M08.951</td><td>Juvenile arthritis, unspecified, right hip</td></tr><tr><td>M08.952</td><td>Juvenile arthritis, unspecified, left hip</td></tr><tr><td>M08.959</td><td>Juvenile arthritis, unspecified, unspecified hip</td></tr><tr><td>M08.961</td><td>Juvenile arthritis, unspecified, right knee</td></tr><tr><td>M08.962</td><td>Juvenile arthritis, unspecified, left knee</td></tr><tr><td>M08.969</td><td>Juvenile arthritis, unspecified, unspecified knee</td></tr><tr><td>M08.971</td><td>Juvenile arthritis, unspecified, right ankle and foot</td></tr><tr><td>M08.972</td><td>Juvenile arthritis, unspecified, left ankle and foot</td></tr><tr><td>M08.979</td><td>Juvenile arthritis, unspecified, unspecified ankle and foot</td></tr><tr><td>M08.98</td><td>Juvenile arthritis, unspecified, vertebrae</td></tr><tr><td>M08.99</td><td>Juvenile arthritis, unspecified, multiple sites</td></tr><tr><td>M08.9A</td><td>Juvenile arthritis, unspecified, other specified site</td></tr><tr><td>M12.00</td><td>Chronic postrheumatic arthropathy, unspecified site</td></tr><tr><td>M12.011</td><td>Chronic postrheumatic arthropathy [Jaccoud], right shoulder</td></tr><tr><td>M12.012</td><td>Chronic postrheumatic arthropathy [Jaccoud], left shoulder</td></tr><tr><td>M12.019</td><td>Chronic postrheumatic arthropathy, unspecified shoulder</td></tr><tr><td>M12.021</td><td>Chronic postrheumatic arthropathy [Jaccoud], right elbow</td></tr><tr><td>M12.022</td><td>Chronic postrheumatic arthropathy [Jaccoud], left elbow</td></tr><tr><td>M12.029</td><td>Chronic postrheumatic arthropathy, unspecified elbow</td></tr><tr><td>M12.031</td><td>Chronic postrheumatic arthropathy [Jaccoud], right wrist</td></tr><tr><td>M12.032</td><td>Chronic postrheumatic arthropathy [Jaccoud], left wrist</td></tr><tr><td>M12.039</td><td>Chronic postrheumatic arthropathy, unspecified wrist</td></tr><tr><td>M12.041</td><td>Chronic postrheumatic arthropathy [Jaccoud], right hand</td></tr><tr><td>M12.042</td><td>Chronic postrheumatic arthropathy [Jaccoud], left hand</td></tr><tr><td>M12.049</td><td>Chronic postrheumatic arthropathy, unspecified hand</td></tr><tr><td>M12.051</td><td>Chronic postrheumatic arthropathy [Jaccoud], right hip</td></tr><tr><td>M12.052</td><td>Chronic postrheumatic arthropathy [Jaccoud], left hip</td></tr><tr><td>M12.059</td><td>Chronic postrheumatic arthropathy [Jaccoud], unspecified hip</td></tr><tr><td>M12.061</td><td>Chronic postrheumatic arthropathy [Jaccoud], right knee</td></tr><tr><td>M12.062</td><td>Chronic postrheumatic arthropathy [Jaccoud], left knee</td></tr><tr><td>M12.069</td><td>Chronic postrheumatic arthropathy, unspecified knee</td></tr><tr><td>M12.071</td><td>Chronic postrheumatic arthropathy, right ankle and foot</td></tr><tr><td>M12.072</td><td>Chronic postrheumatic arthropathy, left ankle and foot</td></tr><tr><td>M12.079</td><td>Chronic postrheumatic arthropathy, unsp ankle and foot</td></tr><tr><td>M12.08</td><td>Chronic postrheumatic arthropathy, other specified site</td></tr><tr><td>M12.09</td><td>Chronic postrheumatic arthropathy [Jaccoud], multiple sites</td></tr><tr><td>M30.0</td><td>Polyarteritis nodosa</td></tr><tr><td>M30.1</td><td>Polyarteritis with lung involvement [Churg-Strauss]</td></tr><tr><td>M30.2</td><td>Juvenile polyarteritis</td></tr><tr><td>M30.3</td><td>Mucocutaneous lymph node syndrome [Kawasaki]</td></tr><tr><td>M30.8</td><td>Other conditions related to polyarteritis nodosa</td></tr><tr><td>M31.0</td><td>Hypersensitivity angiitis</td></tr><tr><td>M31.1</td><td>Thrombotic microangiopathy</td></tr><tr><td>M31.2</td><td>Lethal midline granuloma</td></tr><tr><td>M31.30</td><td>Wegener's granulomatosis without renal involvement</td></tr><tr><td>M31.31</td><td>Wegener's granulomatosis with renal involvement</td></tr><tr><td>M31.4</td><td>Aortic arch syndrome [Takayasu]</td></tr><tr><td>M31.5</td><td>Giant cell arteritis with polymyalgia rheumatica</td></tr><tr><td>M31.6</td><td>Other giant cell arteritis</td></tr><tr><td>M31.7</td><td>Microscopic polyangiitis</td></tr><tr><td>M31.8</td><td>Other specified necrotizing vasculopathies</td></tr><tr><td>M31.9</td><td>Necrotizing vasculopathy, unspecified</td></tr><tr><td>M32.0</td><td>Drug-induced systemic lupus erythematosus</td></tr><tr><td>M32.10</td><td>Systemic lupus erythematosus, organ or system involv unsp</td></tr><tr><td>M32.12</td><td>Pericarditis in systemic lupus erythematosus</td></tr><tr><td>M32.13</td><td>Lung involvement in systemic lupus erythematosus</td></tr><tr><td>M32.14</td><td>Glomerular disease in systemic lupus erythematosus</td></tr><tr><td>M32.15</td><td>Tubulo-interstitial neuropath in sys lupus erythematosus</td></tr><tr><td>M32.19</td><td>Oth organ or system involv in systemic lupus erythematosus</td></tr><tr><td>M32.8</td><td>Other forms of systemic lupus erythematosus</td></tr><tr><td>M32.9</td><td>Systemic lupus erythematosus, unspecified</td></tr><tr><td>M33.00</td><td>Juvenile dermatomyositis, organ involvement unspecified</td></tr><tr><td>M33.01</td><td>Juvenile dermatomyositis with respiratory involvement</td></tr><tr><td>M33.02</td><td>Juvenile dermatomyositis with myopathy</td></tr><tr><td>M33.03</td><td>Juvenile dermatomyositis without myopathy</td></tr><tr><td>M33.09</td><td>Juvenile dermatomyositis with other organ involvement</td></tr><tr><td>M33.10</td><td>Other dermatomyositis, organ involvement unspecified</td></tr><tr><td>M33.11</td><td>Other dermatomyositis with respiratory involvement</td></tr><tr><td>M33.12</td><td>Other dermatomyositis with myopathy</td></tr><tr><td>M33.13</td><td>Other dermatomyositis without myopathy</td></tr><tr><td>M33.19</td><td>Other dermatomyositis with other organ involvement</td></tr><tr><td>M33.20</td><td>Polymyositis, organ involvement unspecified</td></tr><tr><td>M33.21</td><td>Polymyositis with respiratory involvement</td></tr><tr><td>M33.22</td><td>Polymyositis with myopathy</td></tr><tr><td>M33.29</td><td>Polymyositis with other organ involvement</td></tr><tr><td>M33.90</td><td>Dermatopolymyositis, unsp, organ involvement unspecified</td></tr><tr><td>M33.91</td><td>Dermatopolymyositis, unsp with respiratory involvement</td></tr><tr><td>M33.92</td><td>Dermatopolymyositis, unspecified with myopathy</td></tr><tr><td>M33.93</td><td>Dermatopolymyositis, unspecified without myopathy</td></tr><tr><td>M33.99</td><td>Dermatopolymyositis, unsp with other organ involvement</td></tr><tr><td>M34.0</td><td>Progressive systemic sclerosis</td></tr><tr><td>M34.1</td><td>CR(E)ST syndrome</td></tr><tr><td>M34.2</td><td>Systemic sclerosis induced by drug and chemical</td></tr><tr><td>M34.81</td><td>Systemic sclerosis with lung involvement</td></tr><tr><td>M34.82</td><td>Systemic sclerosis with myopathy</td></tr><tr><td>M34.83</td><td>Systemic sclerosis with polyneuropathy</td></tr><tr><td>M34.89</td><td>Other systemic sclerosis</td></tr><tr><td>M34.9</td><td>Systemic sclerosis, unspecified</td></tr><tr><td>M35.00</td><td>Sicca syndrome, unspecified</td></tr><tr><td>M35.01</td><td>Sicca syndrome with keratoconjunctivitis</td></tr><tr><td>M35.02</td><td>Sicca syndrome with lung involvement</td></tr><tr><td>M35.03</td><td>Sicca syndrome with myopathy</td></tr><tr><td>M35.04</td><td>Sicca syndrome with tubulo-interstitial nephropathy</td></tr><tr><td>M35.09</td><td>Sicca syndrome with other organ involvement</td></tr><tr><td>M35.1</td><td>Other overlap syndromes</td></tr><tr><td>M35.2</td><td>Behcet's disease</td></tr><tr><td>M35.3</td><td>Polymyalgia rheumatica</td></tr><tr><td>M35.5</td><td>Multifocal fibrosclerosis</td></tr><tr><td>M35.6</td><td>Relapsing panniculitis [Weber-Christian]</td></tr><tr><td>M35.8</td><td>Other specified systemic involvement of connective tissue</td></tr><tr><td>M35.9</td><td>Systemic involvement of connective tissue, unspecified</td></tr><tr><td>M36.0</td><td>Dermato(poly)myositis in neoplastic disease</td></tr><tr><td>M36.1</td><td>Arthropathy in neoplastic disease</td></tr><tr><td>M36.8</td><td>Systemic disord of conn tiss in oth diseases classd elswhr</td></tr><tr><td>M45.0</td><td>Ankylosing spondylitis of multiple sites in spine</td></tr><tr><td>M45.1</td><td>Ankylosing spondylitis of occipito-atlanto-axial region</td></tr><tr><td>M45.2</td><td>Ankylosing spondylitis of cervical region</td></tr><tr><td>M45.3</td><td>Ankylosing spondylitis of cervicothoracic region</td></tr><tr><td>M45.4</td><td>Ankylosing spondylitis of thoracic region</td></tr><tr><td>M45.5</td><td>Ankylosing spondylitis of thoracolumbar region</td></tr><tr><td>M45.6</td><td>Ankylosing spondylitis lumbar region</td></tr><tr><td>M45.7</td><td>Ankylosing spondylitis of lumbosacral region</td></tr><tr><td>M45.8</td><td>Ankylosing spondylitis sacral and sacrococcygeal region</td></tr><tr><td>M45.9</td><td>Ankylosing spondylitis of unspecified sites in spine</td></tr><tr><td>M46.00</td><td>Spinal enthesopathy, site unspecified</td></tr><tr><td>M46.01</td><td>Spinal enthesopathy, occipito-atlanto-axial region</td></tr><tr><td>M46.02</td><td>Spinal enthesopathy, cervical region</td></tr><tr><td>M46.03</td><td>Spinal enthesopathy, cervicothoracic region</td></tr><tr><td>M46.04</td><td>Spinal enthesopathy, thoracic region</td></tr><tr><td>M46.05</td><td>Spinal enthesopathy, thoracolumbar region</td></tr><tr><td>M46.06</td><td>Spinal enthesopathy, lumbar region</td></tr><tr><td>M46.07</td><td>Spinal enthesopathy, lumbosacral region</td></tr><tr><td>M46.08</td><td>Spinal enthesopathy, sacral and sacrococcygeal region</td></tr><tr><td>M46.09</td><td>Spinal enthesopathy, multiple sites in spine</td></tr><tr><td>M46.1</td><td>Sacroiliitis, not elsewhere classified</td></tr><tr><td>M46.50</td><td>Other infective spondylopathies, site unspecified</td></tr><tr><td>M46.51</td><td>Oth infective spondylopathies, occipito-atlanto-axial region</td></tr><tr><td>M46.52</td><td>Other infective spondylopathies, cervical region</td></tr><tr><td>M46.53</td><td>Other infective spondylopathies, cervicothoracic region</td></tr><tr><td>M46.54</td><td>Other infective spondylopathies, thoracic region</td></tr><tr><td>M46.55</td><td>Other infective spondylopathies, thoracolumbar region</td></tr><tr><td>M46.56</td><td>Other infective spondylopathies, lumbar region</td></tr><tr><td>M46.57</td><td>Other infective spondylopathies, lumbosacral region</td></tr><tr><td>M46.58</td><td>Oth infective spondylopathies, sacr/sacrocygl region</td></tr><tr><td>M46.59</td><td>Other infective spondylopathies, multiple sites in spine</td></tr><tr><td>M46.80</td><td>Oth inflammatory spondylopathies, site unspecified</td></tr><tr><td>M46.81</td><td>Oth inflammatory spondylopathies, occipt-atlan-ax region</td></tr><tr><td>M46.82</td><td>Oth inflammatory spondylopathies, cervical region</td></tr><tr><td>M46.83</td><td>Oth inflammatory spondylopathies, cervicothoracic region</td></tr><tr><td>M46.84</td><td>Oth inflammatory spondylopathies, thoracic region</td></tr><tr><td>M46.85</td><td>Oth inflammatory spondylopathies, thoracolumbar region</td></tr><tr><td>M46.86</td><td>Other specified inflammatory spondylopathies, lumbar region</td></tr><tr><td>M46.87</td><td>Oth inflammatory spondylopathies, lumbosacral region</td></tr><tr><td>M46.88</td><td>Oth inflammatory spondylopathies, sacr/sacrocygl region</td></tr><tr><td>M46.89</td><td>Oth inflammatory spondylopathies, multiple sites in spine</td></tr><tr><td>M46.90</td><td>Unspecified inflammatory spondylopathy, site unspecified</td></tr><tr><td>M46.91</td><td>Unsp inflammatory spondylopathy, occipt-atlan-ax region</td></tr><tr><td>M46.92</td><td>Unspecified inflammatory spondylopathy, cervical region</td></tr><tr><td>M46.93</td><td>Unsp inflammatory spondylopathy, cervicothoracic region</td></tr><tr><td>M46.94</td><td>Unspecified inflammatory spondylopathy, thoracic region</td></tr><tr><td>M46.95</td><td>Unspecified inflammatory spondylopathy, thoracolumbar region</td></tr><tr><td>M46.96</td><td>Unspecified inflammatory spondylopathy, lumbar region</td></tr><tr><td>M46.97</td><td>Unspecified inflammatory spondylopathy, lumbosacral region</td></tr><tr><td>M46.98</td><td>Unsp inflammatory spondylopathy, sacr/sacrocygl region</td></tr><tr><td>M46.99</td><td>Unsp inflammatory spondylopathy, multiple sites in spine</td></tr><tr><td>M49.80</td><td>Spondylopathy in diseases classified elsewhere, site unsp</td></tr><tr><td>M49.81</td><td>Spond in diseases classd elswhr, occipt-atlan-ax region</td></tr><tr><td>M49.82</td><td>Spondylopathy in diseases classd elswhr, cervical region</td></tr><tr><td>M49.83</td><td>Spondylopathy in diseases classd elswhr, cervicothor region</td></tr><tr><td>M49.84</td><td>Spondylopathy in diseases classd elswhr, thoracic region</td></tr><tr><td>M49.85</td><td>Spond in diseases classd elswhr, thoracolumbar region</td></tr><tr><td>M49.86</td><td>Spondylopathy in diseases classd elswhr, lumbar region</td></tr><tr><td>M49.87</td><td>Spondylopathy in diseases classd elswhr, lumbosacral region</td></tr><tr><td>M49.88</td><td>Spond in diseases classd elswhr, sacr/sacrocygl region</td></tr><tr><td>M49.89</td><td>Spond in diseases classd elswhr, multiple sites in spine</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/mcode/ValueSet/elixhauser-rheumatoid-arthritis-vs"/>
+  <version value="1.16.0"/>
+  <name value="ElixhauserRheumatoidArthritisVS"/>
+  <title value="Elixhauser Comorbid Condition Value Set for Rheumatoid Arthritis and collagen vascular diseases."/>
+  <status value="active"/>
+  <date value="2021-04-15T12:44:45+00:00"/>
+  <publisher value="HL7 International Clinical Interoperability Council"/>
+  <contact>
+    <name value="HL7 International Clinical Interoperability Council"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ciclist@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Elixhauser Comorbid Condition Value Set for Rheumatoid Arthritis and collagen vascular diseases. ICD-10 codes are drawn from https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp, version 2021.1"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <concept>
+        <code value="A18.01"/>
+        <display value="Tuberculosis of spine"/>
+      </concept>
+      <concept>
+        <code value="A18.02"/>
+        <display value="Tuberculous arthritis of other joints"/>
+      </concept>
+      <concept>
+        <code value="A39.84"/>
+        <display value="Postmeningococcal arthritis"/>
+      </concept>
+      <concept>
+        <code value="A54.41"/>
+        <display value="Gonococcal spondylopathy"/>
+      </concept>
+      <concept>
+        <code value="A54.42"/>
+        <display value="Gonococcal arthritis"/>
+      </concept>
+      <concept>
+        <code value="L40.50"/>
+        <display value="Arthropathic psoriasis, unspecified"/>
+      </concept>
+      <concept>
+        <code value="L40.51"/>
+        <display value="Distal interphalangeal psoriatic arthropathy"/>
+      </concept>
+      <concept>
+        <code value="L40.54"/>
+        <display value="Psoriatic juvenile arthropathy"/>
+      </concept>
+      <concept>
+        <code value="L40.59"/>
+        <display value="Other psoriatic arthropathy"/>
+      </concept>
+      <concept>
+        <code value="L90.0"/>
+        <display value="Lichen sclerosus et atrophicus"/>
+      </concept>
+      <concept>
+        <code value="L94.0"/>
+        <display value="Localized scleroderma [morphea]"/>
+      </concept>
+      <concept>
+        <code value="L94.1"/>
+        <display value="Linear scleroderma"/>
+      </concept>
+      <concept>
+        <code value="L94.3"/>
+        <display value="Sclerodactyly"/>
+      </concept>
+      <concept>
+        <code value="M01.X0"/>
+        <display value="Dir infct of unsp joint in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X11"/>
+        <display value="Direct infct of r shldr in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X12"/>
+        <display value="Direct infct of l shldr in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X19"/>
+        <display value="Dir infct of unsp shldr in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X21"/>
+        <display value="Direct infct of r elbow in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X22"/>
+        <display value="Direct infct of l elbow in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X29"/>
+        <display value="Dir infct of unsp elbow in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X31"/>
+        <display value="Direct infct of r wrist in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X32"/>
+        <display value="Direct infct of l wrist in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X39"/>
+        <display value="Dir infct of unsp wrist in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X41"/>
+        <display value="Direct infct of r hand in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X42"/>
+        <display value="Direct infct of l hand in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X49"/>
+        <display value="Direct infct of unsp hand in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X51"/>
+        <display value="Direct infct of r hip in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X52"/>
+        <display value="Direct infct of left hip in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X59"/>
+        <display value="Direct infct of unsp hip in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X61"/>
+        <display value="Direct infct of r knee in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X62"/>
+        <display value="Direct infct of l knee in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X69"/>
+        <display value="Direct infct of unsp knee in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X71"/>
+        <display value="Dir infct of right ank/ft in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X72"/>
+        <display value="Dir infct of left ank/ft in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X79"/>
+        <display value="Dir infct of unsp ank/ft in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X8"/>
+        <display value="Direct infct of verteb in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M01.X9"/>
+        <display value="Dir infct of mult joints in infec/parastc dis classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M02.00"/>
+        <display value="Arthropathy following intestinal bypass, unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M02.011"/>
+        <display value="Arthropathy following intestinal bypass, right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M02.012"/>
+        <display value="Arthropathy following intestinal bypass, left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M02.019"/>
+        <display value="Arthropathy following intestinal bypass, unsp shoulder"/>
+      </concept>
+      <concept>
+        <code value="M02.021"/>
+        <display value="Arthropathy following intestinal bypass, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M02.022"/>
+        <display value="Arthropathy following intestinal bypass, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M02.029"/>
+        <display value="Arthropathy following intestinal bypass, unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M02.031"/>
+        <display value="Arthropathy following intestinal bypass, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M02.032"/>
+        <display value="Arthropathy following intestinal bypass, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M02.039"/>
+        <display value="Arthropathy following intestinal bypass, unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M02.041"/>
+        <display value="Arthropathy following intestinal bypass, right hand"/>
+      </concept>
+      <concept>
+        <code value="M02.042"/>
+        <display value="Arthropathy following intestinal bypass, left hand"/>
+      </concept>
+      <concept>
+        <code value="M02.049"/>
+        <display value="Arthropathy following intestinal bypass, unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M02.051"/>
+        <display value="Arthropathy following intestinal bypass, right hip"/>
+      </concept>
+      <concept>
+        <code value="M02.052"/>
+        <display value="Arthropathy following intestinal bypass, left hip"/>
+      </concept>
+      <concept>
+        <code value="M02.059"/>
+        <display value="Arthropathy following intestinal bypass, unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M02.061"/>
+        <display value="Arthropathy following intestinal bypass, right knee"/>
+      </concept>
+      <concept>
+        <code value="M02.062"/>
+        <display value="Arthropathy following intestinal bypass, left knee"/>
+      </concept>
+      <concept>
+        <code value="M02.069"/>
+        <display value="Arthropathy following intestinal bypass, unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M02.071"/>
+        <display value="Arthropathy following intestinal bypass, right ank/ft"/>
+      </concept>
+      <concept>
+        <code value="M02.072"/>
+        <display value="Arthropathy following intestinal bypass, left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M02.079"/>
+        <display value="Arthropathy following intestinal bypass, unsp ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M02.08"/>
+        <display value="Arthropathy following intestinal bypass, vertebrae"/>
+      </concept>
+      <concept>
+        <code value="M02.09"/>
+        <display value="Arthropathy following intestinal bypass, multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M02.10"/>
+        <display value="Postdysenteric arthropathy, unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M02.111"/>
+        <display value="Postdysenteric arthropathy, right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M02.112"/>
+        <display value="Postdysenteric arthropathy, left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M02.119"/>
+        <display value="Postdysenteric arthropathy, unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M02.121"/>
+        <display value="Postdysenteric arthropathy, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M02.122"/>
+        <display value="Postdysenteric arthropathy, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M02.129"/>
+        <display value="Postdysenteric arthropathy, unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M02.131"/>
+        <display value="Postdysenteric arthropathy, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M02.132"/>
+        <display value="Postdysenteric arthropathy, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M02.139"/>
+        <display value="Postdysenteric arthropathy, unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M02.141"/>
+        <display value="Postdysenteric arthropathy, right hand"/>
+      </concept>
+      <concept>
+        <code value="M02.142"/>
+        <display value="Postdysenteric arthropathy, left hand"/>
+      </concept>
+      <concept>
+        <code value="M02.149"/>
+        <display value="Postdysenteric arthropathy, unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M02.151"/>
+        <display value="Postdysenteric arthropathy, right hip"/>
+      </concept>
+      <concept>
+        <code value="M02.152"/>
+        <display value="Postdysenteric arthropathy, left hip"/>
+      </concept>
+      <concept>
+        <code value="M02.159"/>
+        <display value="Postdysenteric arthropathy, unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M02.161"/>
+        <display value="Postdysenteric arthropathy, right knee"/>
+      </concept>
+      <concept>
+        <code value="M02.162"/>
+        <display value="Postdysenteric arthropathy, left knee"/>
+      </concept>
+      <concept>
+        <code value="M02.169"/>
+        <display value="Postdysenteric arthropathy, unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M02.171"/>
+        <display value="Postdysenteric arthropathy, right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M02.172"/>
+        <display value="Postdysenteric arthropathy, left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M02.179"/>
+        <display value="Postdysenteric arthropathy, unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M02.18"/>
+        <display value="Postdysenteric arthropathy, vertebrae"/>
+      </concept>
+      <concept>
+        <code value="M02.19"/>
+        <display value="Postdysenteric arthropathy, multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M02.20"/>
+        <display value="Postimmunization arthropathy, unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M02.211"/>
+        <display value="Postimmunization arthropathy, right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M02.212"/>
+        <display value="Postimmunization arthropathy, left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M02.219"/>
+        <display value="Postimmunization arthropathy, unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M02.221"/>
+        <display value="Postimmunization arthropathy, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M02.222"/>
+        <display value="Postimmunization arthropathy, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M02.229"/>
+        <display value="Postimmunization arthropathy, unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M02.231"/>
+        <display value="Postimmunization arthropathy, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M02.232"/>
+        <display value="Postimmunization arthropathy, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M02.239"/>
+        <display value="Postimmunization arthropathy, unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M02.241"/>
+        <display value="Postimmunization arthropathy, right hand"/>
+      </concept>
+      <concept>
+        <code value="M02.242"/>
+        <display value="Postimmunization arthropathy, left hand"/>
+      </concept>
+      <concept>
+        <code value="M02.249"/>
+        <display value="Postimmunization arthropathy, unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M02.251"/>
+        <display value="Postimmunization arthropathy, right hip"/>
+      </concept>
+      <concept>
+        <code value="M02.252"/>
+        <display value="Postimmunization arthropathy, left hip"/>
+      </concept>
+      <concept>
+        <code value="M02.259"/>
+        <display value="Postimmunization arthropathy, unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M02.261"/>
+        <display value="Postimmunization arthropathy, right knee"/>
+      </concept>
+      <concept>
+        <code value="M02.262"/>
+        <display value="Postimmunization arthropathy, left knee"/>
+      </concept>
+      <concept>
+        <code value="M02.269"/>
+        <display value="Postimmunization arthropathy, unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M02.271"/>
+        <display value="Postimmunization arthropathy, right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M02.272"/>
+        <display value="Postimmunization arthropathy, left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M02.279"/>
+        <display value="Postimmunization arthropathy, unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M02.28"/>
+        <display value="Postimmunization arthropathy, vertebrae"/>
+      </concept>
+      <concept>
+        <code value="M02.29"/>
+        <display value="Postimmunization arthropathy, multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M02.30"/>
+        <display value="Reiter&#39;s disease, unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M02.311"/>
+        <display value="Reiter&#39;s disease, right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M02.312"/>
+        <display value="Reiter&#39;s disease, left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M02.319"/>
+        <display value="Reiter&#39;s disease, unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M02.321"/>
+        <display value="Reiter&#39;s disease, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M02.322"/>
+        <display value="Reiter&#39;s disease, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M02.329"/>
+        <display value="Reiter&#39;s disease, unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M02.331"/>
+        <display value="Reiter&#39;s disease, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M02.332"/>
+        <display value="Reiter&#39;s disease, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M02.339"/>
+        <display value="Reiter&#39;s disease, unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M02.341"/>
+        <display value="Reiter&#39;s disease, right hand"/>
+      </concept>
+      <concept>
+        <code value="M02.342"/>
+        <display value="Reiter&#39;s disease, left hand"/>
+      </concept>
+      <concept>
+        <code value="M02.349"/>
+        <display value="Reiter&#39;s disease, unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M02.351"/>
+        <display value="Reiter&#39;s disease, right hip"/>
+      </concept>
+      <concept>
+        <code value="M02.352"/>
+        <display value="Reiter&#39;s disease, left hip"/>
+      </concept>
+      <concept>
+        <code value="M02.359"/>
+        <display value="Reiter&#39;s disease, unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M02.361"/>
+        <display value="Reiter&#39;s disease, right knee"/>
+      </concept>
+      <concept>
+        <code value="M02.362"/>
+        <display value="Reiter&#39;s disease, left knee"/>
+      </concept>
+      <concept>
+        <code value="M02.369"/>
+        <display value="Reiter&#39;s disease, unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M02.371"/>
+        <display value="Reiter&#39;s disease, right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M02.372"/>
+        <display value="Reiter&#39;s disease, left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M02.379"/>
+        <display value="Reiter&#39;s disease, unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M02.38"/>
+        <display value="Reiter&#39;s disease, vertebrae"/>
+      </concept>
+      <concept>
+        <code value="M02.39"/>
+        <display value="Reiter&#39;s disease, multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M02.80"/>
+        <display value="Other reactive arthropathies, unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M02.811"/>
+        <display value="Other reactive arthropathies, right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M02.812"/>
+        <display value="Other reactive arthropathies, left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M02.819"/>
+        <display value="Other reactive arthropathies, unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M02.821"/>
+        <display value="Other reactive arthropathies, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M02.822"/>
+        <display value="Other reactive arthropathies, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M02.829"/>
+        <display value="Other reactive arthropathies, unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M02.831"/>
+        <display value="Other reactive arthropathies, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M02.832"/>
+        <display value="Other reactive arthropathies, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M02.839"/>
+        <display value="Other reactive arthropathies, unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M02.841"/>
+        <display value="Other reactive arthropathies, right hand"/>
+      </concept>
+      <concept>
+        <code value="M02.842"/>
+        <display value="Other reactive arthropathies, left hand"/>
+      </concept>
+      <concept>
+        <code value="M02.849"/>
+        <display value="Other reactive arthropathies, unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M02.851"/>
+        <display value="Other reactive arthropathies, right hip"/>
+      </concept>
+      <concept>
+        <code value="M02.852"/>
+        <display value="Other reactive arthropathies, left hip"/>
+      </concept>
+      <concept>
+        <code value="M02.859"/>
+        <display value="Other reactive arthropathies, unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M02.861"/>
+        <display value="Other reactive arthropathies, right knee"/>
+      </concept>
+      <concept>
+        <code value="M02.862"/>
+        <display value="Other reactive arthropathies, left knee"/>
+      </concept>
+      <concept>
+        <code value="M02.869"/>
+        <display value="Other reactive arthropathies, unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M02.871"/>
+        <display value="Other reactive arthropathies, right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M02.872"/>
+        <display value="Other reactive arthropathies, left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M02.879"/>
+        <display value="Other reactive arthropathies, unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M02.88"/>
+        <display value="Other reactive arthropathies, vertebrae"/>
+      </concept>
+      <concept>
+        <code value="M02.89"/>
+        <display value="Other reactive arthropathies, multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M02.9"/>
+        <display value="Reactive arthropathy, unspecified"/>
+      </concept>
+      <concept>
+        <code value="M05.00"/>
+        <display value="Felty&#39;s syndrome, unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M05.011"/>
+        <display value="Felty&#39;s syndrome, right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.012"/>
+        <display value="Felty&#39;s syndrome, left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.019"/>
+        <display value="Felty&#39;s syndrome, unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.021"/>
+        <display value="Felty&#39;s syndrome, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.022"/>
+        <display value="Felty&#39;s syndrome, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.029"/>
+        <display value="Felty&#39;s syndrome, unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.031"/>
+        <display value="Felty&#39;s syndrome, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.032"/>
+        <display value="Felty&#39;s syndrome, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.039"/>
+        <display value="Felty&#39;s syndrome, unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.041"/>
+        <display value="Felty&#39;s syndrome, right hand"/>
+      </concept>
+      <concept>
+        <code value="M05.042"/>
+        <display value="Felty&#39;s syndrome, left hand"/>
+      </concept>
+      <concept>
+        <code value="M05.049"/>
+        <display value="Felty&#39;s syndrome, unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M05.051"/>
+        <display value="Felty&#39;s syndrome, right hip"/>
+      </concept>
+      <concept>
+        <code value="M05.052"/>
+        <display value="Felty&#39;s syndrome, left hip"/>
+      </concept>
+      <concept>
+        <code value="M05.059"/>
+        <display value="Felty&#39;s syndrome, unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M05.061"/>
+        <display value="Felty&#39;s syndrome, right knee"/>
+      </concept>
+      <concept>
+        <code value="M05.062"/>
+        <display value="Felty&#39;s syndrome, left knee"/>
+      </concept>
+      <concept>
+        <code value="M05.069"/>
+        <display value="Felty&#39;s syndrome, unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M05.071"/>
+        <display value="Felty&#39;s syndrome, right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.072"/>
+        <display value="Felty&#39;s syndrome, left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.079"/>
+        <display value="Felty&#39;s syndrome, unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.09"/>
+        <display value="Felty&#39;s syndrome, multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M05.10"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M05.111"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.112"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.119"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.121"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of right elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.122"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of left elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.129"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.131"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of right wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.132"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of left wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.139"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.141"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of right hand"/>
+      </concept>
+      <concept>
+        <code value="M05.142"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of left hand"/>
+      </concept>
+      <concept>
+        <code value="M05.149"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M05.151"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of right hip"/>
+      </concept>
+      <concept>
+        <code value="M05.152"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of left hip"/>
+      </concept>
+      <concept>
+        <code value="M05.159"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M05.161"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of right knee"/>
+      </concept>
+      <concept>
+        <code value="M05.162"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of left knee"/>
+      </concept>
+      <concept>
+        <code value="M05.169"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M05.171"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.172"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.179"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.19"/>
+        <display value="Rheumatoid lung disease with rheumatoid arthritis of multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M05.20"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M05.211"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.212"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.219"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.221"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of right elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.222"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of left elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.229"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.231"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of right wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.232"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of left wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.239"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.241"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of right hand"/>
+      </concept>
+      <concept>
+        <code value="M05.242"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of left hand"/>
+      </concept>
+      <concept>
+        <code value="M05.249"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M05.251"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of right hip"/>
+      </concept>
+      <concept>
+        <code value="M05.252"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of left hip"/>
+      </concept>
+      <concept>
+        <code value="M05.259"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M05.261"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of right knee"/>
+      </concept>
+      <concept>
+        <code value="M05.262"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of left knee"/>
+      </concept>
+      <concept>
+        <code value="M05.269"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M05.271"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.272"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.279"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.29"/>
+        <display value="Rheumatoid vasculitis with rheumatoid arthritis of multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M05.30"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M05.311"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.312"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.319"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.321"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of right elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.322"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of left elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.329"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.331"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of right wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.332"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of left wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.339"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.341"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of right hand"/>
+      </concept>
+      <concept>
+        <code value="M05.342"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of left hand"/>
+      </concept>
+      <concept>
+        <code value="M05.349"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M05.351"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of right hip"/>
+      </concept>
+      <concept>
+        <code value="M05.352"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of left hip"/>
+      </concept>
+      <concept>
+        <code value="M05.359"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M05.361"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of right knee"/>
+      </concept>
+      <concept>
+        <code value="M05.362"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of left knee"/>
+      </concept>
+      <concept>
+        <code value="M05.369"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M05.371"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.372"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.379"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.39"/>
+        <display value="Rheumatoid heart disease with rheumatoid arthritis of multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M05.40"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M05.411"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.412"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.419"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.421"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of right elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.422"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of left elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.429"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.431"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of right wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.432"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of left wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.439"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.441"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of right hand"/>
+      </concept>
+      <concept>
+        <code value="M05.442"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of left hand"/>
+      </concept>
+      <concept>
+        <code value="M05.449"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M05.451"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of right hip"/>
+      </concept>
+      <concept>
+        <code value="M05.452"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of left hip"/>
+      </concept>
+      <concept>
+        <code value="M05.459"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M05.461"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of right knee"/>
+      </concept>
+      <concept>
+        <code value="M05.462"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of left knee"/>
+      </concept>
+      <concept>
+        <code value="M05.469"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M05.471"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.472"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.479"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.49"/>
+        <display value="Rheumatoid myopathy with rheumatoid arthritis of multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M05.50"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M05.511"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.512"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.519"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.521"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of right elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.522"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of left elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.529"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.531"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of right wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.532"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of left wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.539"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.541"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of right hand"/>
+      </concept>
+      <concept>
+        <code value="M05.542"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of left hand"/>
+      </concept>
+      <concept>
+        <code value="M05.549"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M05.551"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of right hip"/>
+      </concept>
+      <concept>
+        <code value="M05.552"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of left hip"/>
+      </concept>
+      <concept>
+        <code value="M05.559"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M05.561"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of right knee"/>
+      </concept>
+      <concept>
+        <code value="M05.562"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of left knee"/>
+      </concept>
+      <concept>
+        <code value="M05.569"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M05.571"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.572"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.579"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M05.59"/>
+        <display value="Rheumatoid polyneuropathy with rheumatoid arthritis of multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M05.60"/>
+        <display value="Rheu arthritis of unsp site w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.611"/>
+        <display value="Rheu arthritis of r shoulder w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.612"/>
+        <display value="Rheu arthritis of l shoulder w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.619"/>
+        <display value="Rheu arthrit of unsp shoulder w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.621"/>
+        <display value="Rheu arthritis of r elbow w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.622"/>
+        <display value="Rheu arthritis of l elbow w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.629"/>
+        <display value="Rheu arthritis of unsp elbow w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.631"/>
+        <display value="Rheu arthritis of r wrist w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.632"/>
+        <display value="Rheu arthritis of l wrist w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.639"/>
+        <display value="Rheu arthritis of unsp wrist w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.641"/>
+        <display value="Rheu arthritis of right hand w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.642"/>
+        <display value="Rheu arthritis of left hand w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.649"/>
+        <display value="Rheu arthritis of unsp hand w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.651"/>
+        <display value="Rheu arthritis of right hip w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.652"/>
+        <display value="Rheu arthritis of left hip w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.659"/>
+        <display value="Rheu arthritis of unsp hip w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.661"/>
+        <display value="Rheu arthritis of right knee w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.662"/>
+        <display value="Rheu arthritis of left knee w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.669"/>
+        <display value="Rheu arthritis of unsp knee w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.671"/>
+        <display value="Rheu arthrit of right ank/ft w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.672"/>
+        <display value="Rheu arthritis of left ank/ft w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.679"/>
+        <display value="Rheu arthritis of unsp ank/ft w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.69"/>
+        <display value="Rheu arthritis mult site w involv of organs and systems"/>
+      </concept>
+      <concept>
+        <code value="M05.70"/>
+        <display value="Rheu arthritis w rheu factor of unsp site w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.711"/>
+        <display value="Rheu arthrit w rheu factor of r shoulder w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.712"/>
+        <display value="Rheu arthrit w rheu factor of l shoulder w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.719"/>
+        <display value="Rheu arthrit w rheu factor of unsp shldr w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.721"/>
+        <display value="Rheu arthritis w rheu factor of r elbow w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.722"/>
+        <display value="Rheu arthritis w rheu factor of l elbow w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.729"/>
+        <display value="Rheu arthrit w rheu factor of unsp elbow w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.731"/>
+        <display value="Rheu arthritis w rheu factor of r wrist w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.732"/>
+        <display value="Rheu arthritis w rheu factor of l wrist w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.739"/>
+        <display value="Rheu arthrit w rheu factor of unsp wrist w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.741"/>
+        <display value="Rheu arthritis w rheu factor of r hand w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.742"/>
+        <display value="Rheu arthritis w rheu factor of left hand w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.749"/>
+        <display value="Rheu arthritis w rheu factor of unsp hand w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.751"/>
+        <display value="Rheu arthritis w rheu factor of right hip w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.752"/>
+        <display value="Rheu arthritis w rheu factor of left hip w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.759"/>
+        <display value="Rheu arthritis w rheu factor of unsp hip w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.761"/>
+        <display value="Rheu arthritis w rheu factor of r knee w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.762"/>
+        <display value="Rheu arthritis w rheu factor of left knee w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.769"/>
+        <display value="Rheu arthritis w rheu factor of unsp knee w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.771"/>
+        <display value="Rheu arthrit w rheu fctr of right ank/ft w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.772"/>
+        <display value="Rheu arthrit w rheu factor of left ank/ft w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.779"/>
+        <display value="Rheu arthrit w rheu factor of unsp ank/ft w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.79"/>
+        <display value="Rheu arthritis w rheu factor mult site w/o org/sys involv"/>
+      </concept>
+      <concept>
+        <code value="M05.7A"/>
+        <display value="Rheumatoid arthritis with rheumatoid factor of other specified site without organ or systems involvement"/>
+      </concept>
+      <concept>
+        <code value="M05.80"/>
+        <display value="Oth rheumatoid arthritis with rheumatoid factor of unsp site"/>
+      </concept>
+      <concept>
+        <code value="M05.811"/>
+        <display value="Oth rheumatoid arthritis w rheumatoid factor of r shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.812"/>
+        <display value="Oth rheumatoid arthritis w rheumatoid factor of l shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.819"/>
+        <display value="Oth rheu arthritis w rheumatoid factor of unsp shoulder"/>
+      </concept>
+      <concept>
+        <code value="M05.821"/>
+        <display value="Oth rheumatoid arthritis w rheumatoid factor of right elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.822"/>
+        <display value="Oth rheumatoid arthritis w rheumatoid factor of left elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.829"/>
+        <display value="Oth rheumatoid arthritis w rheumatoid factor of unsp elbow"/>
+      </concept>
+      <concept>
+        <code value="M05.831"/>
+        <display value="Oth rheumatoid arthritis w rheumatoid factor of right wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.832"/>
+        <display value="Oth rheumatoid arthritis w rheumatoid factor of left wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.839"/>
+        <display value="Oth rheumatoid arthritis w rheumatoid factor of unsp wrist"/>
+      </concept>
+      <concept>
+        <code value="M05.841"/>
+        <display value="Oth rheumatoid arthritis w rheumatoid factor of right hand"/>
+      </concept>
+      <concept>
+        <code value="M05.842"/>
+        <display value="Oth rheumatoid arthritis with rheumatoid factor of left hand"/>
+      </concept>
+      <concept>
+        <code value="M05.849"/>
+        <display value="Oth rheumatoid arthritis with rheumatoid factor of unsp hand"/>
+      </concept>
+      <concept>
+        <code value="M05.851"/>
+        <display value="Oth rheumatoid arthritis with rheumatoid factor of right hip"/>
+      </concept>
+      <concept>
+        <code value="M05.852"/>
+        <display value="Oth rheumatoid arthritis with rheumatoid factor of left hip"/>
+      </concept>
+      <concept>
+        <code value="M05.859"/>
+        <display value="Oth rheumatoid arthritis with rheumatoid factor of unsp hip"/>
+      </concept>
+      <concept>
+        <code value="M05.861"/>
+        <display value="Oth rheumatoid arthritis w rheumatoid factor of right knee"/>
+      </concept>
+      <concept>
+        <code value="M05.862"/>
+        <display value="Oth rheumatoid arthritis with rheumatoid factor of left knee"/>
+      </concept>
+      <concept>
+        <code value="M05.869"/>
+        <display value="Oth rheumatoid arthritis with rheumatoid factor of unsp knee"/>
+      </concept>
+      <concept>
+        <code value="M05.871"/>
+        <display value="Oth rheumatoid arthritis w rheumatoid factor of right ank/ft"/>
+      </concept>
+      <concept>
+        <code value="M05.872"/>
+        <display value="Oth rheumatoid arthritis w rheumatoid factor of left ank/ft"/>
+      </concept>
+      <concept>
+        <code value="M05.879"/>
+        <display value="Oth rheumatoid arthritis w rheumatoid factor of unsp ank/ft"/>
+      </concept>
+      <concept>
+        <code value="M05.89"/>
+        <display value="Oth rheumatoid arthritis w rheumatoid factor mult site"/>
+      </concept>
+      <concept>
+        <code value="M05.8A"/>
+        <display value="Other rheumatoid arthritis with rheumatoid factor of other specified site"/>
+      </concept>
+      <concept>
+        <code value="M05.9"/>
+        <display value="Rheumatoid arthritis with rheumatoid factor, unspecified"/>
+      </concept>
+      <concept>
+        <code value="M06.00"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, unsp site"/>
+      </concept>
+      <concept>
+        <code value="M06.011"/>
+        <display value="Rheumatoid arthritis w/o rheumatoid factor, right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M06.012"/>
+        <display value="Rheumatoid arthritis w/o rheumatoid factor, left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M06.019"/>
+        <display value="Rheumatoid arthritis w/o rheumatoid factor, unsp shoulder"/>
+      </concept>
+      <concept>
+        <code value="M06.021"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M06.022"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M06.029"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, unsp elbow"/>
+      </concept>
+      <concept>
+        <code value="M06.031"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M06.032"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M06.039"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, unsp wrist"/>
+      </concept>
+      <concept>
+        <code value="M06.041"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, right hand"/>
+      </concept>
+      <concept>
+        <code value="M06.042"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, left hand"/>
+      </concept>
+      <concept>
+        <code value="M06.049"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, unsp hand"/>
+      </concept>
+      <concept>
+        <code value="M06.051"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, right hip"/>
+      </concept>
+      <concept>
+        <code value="M06.052"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, left hip"/>
+      </concept>
+      <concept>
+        <code value="M06.059"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, unsp hip"/>
+      </concept>
+      <concept>
+        <code value="M06.061"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, right knee"/>
+      </concept>
+      <concept>
+        <code value="M06.062"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, left knee"/>
+      </concept>
+      <concept>
+        <code value="M06.069"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, unsp knee"/>
+      </concept>
+      <concept>
+        <code value="M06.071"/>
+        <display value="Rheumatoid arthritis w/o rheumatoid factor, right ank/ft"/>
+      </concept>
+      <concept>
+        <code value="M06.072"/>
+        <display value="Rheumatoid arthritis w/o rheumatoid factor, left ank/ft"/>
+      </concept>
+      <concept>
+        <code value="M06.079"/>
+        <display value="Rheumatoid arthritis w/o rheumatoid factor, unsp ank/ft"/>
+      </concept>
+      <concept>
+        <code value="M06.08"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, vertebrae"/>
+      </concept>
+      <concept>
+        <code value="M06.09"/>
+        <display value="Rheumatoid arthritis w/o rheumatoid factor, multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M06.0A"/>
+        <display value="Rheumatoid arthritis without rheumatoid factor, other specified site"/>
+      </concept>
+      <concept>
+        <code value="M06.1"/>
+        <display value="Adult-onset Still&#39;s disease"/>
+      </concept>
+      <concept>
+        <code value="M06.20"/>
+        <display value="Rheumatoid bursitis, unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M06.211"/>
+        <display value="Rheumatoid bursitis, right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M06.212"/>
+        <display value="Rheumatoid bursitis, left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M06.219"/>
+        <display value="Rheumatoid bursitis, unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M06.221"/>
+        <display value="Rheumatoid bursitis, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M06.222"/>
+        <display value="Rheumatoid bursitis, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M06.229"/>
+        <display value="Rheumatoid bursitis, unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M06.231"/>
+        <display value="Rheumatoid bursitis, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M06.232"/>
+        <display value="Rheumatoid bursitis, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M06.239"/>
+        <display value="Rheumatoid bursitis, unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M06.241"/>
+        <display value="Rheumatoid bursitis, right hand"/>
+      </concept>
+      <concept>
+        <code value="M06.242"/>
+        <display value="Rheumatoid bursitis, left hand"/>
+      </concept>
+      <concept>
+        <code value="M06.249"/>
+        <display value="Rheumatoid bursitis, unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M06.251"/>
+        <display value="Rheumatoid bursitis, right hip"/>
+      </concept>
+      <concept>
+        <code value="M06.252"/>
+        <display value="Rheumatoid bursitis, left hip"/>
+      </concept>
+      <concept>
+        <code value="M06.259"/>
+        <display value="Rheumatoid bursitis, unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M06.261"/>
+        <display value="Rheumatoid bursitis, right knee"/>
+      </concept>
+      <concept>
+        <code value="M06.262"/>
+        <display value="Rheumatoid bursitis, left knee"/>
+      </concept>
+      <concept>
+        <code value="M06.269"/>
+        <display value="Rheumatoid bursitis, unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M06.271"/>
+        <display value="Rheumatoid bursitis, right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M06.272"/>
+        <display value="Rheumatoid bursitis, left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M06.279"/>
+        <display value="Rheumatoid bursitis, unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M06.28"/>
+        <display value="Rheumatoid bursitis, vertebrae"/>
+      </concept>
+      <concept>
+        <code value="M06.29"/>
+        <display value="Rheumatoid bursitis, multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M06.30"/>
+        <display value="Rheumatoid nodule, unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M06.311"/>
+        <display value="Rheumatoid nodule, right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M06.312"/>
+        <display value="Rheumatoid nodule, left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M06.319"/>
+        <display value="Rheumatoid nodule, unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M06.321"/>
+        <display value="Rheumatoid nodule, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M06.322"/>
+        <display value="Rheumatoid nodule, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M06.329"/>
+        <display value="Rheumatoid nodule, unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M06.331"/>
+        <display value="Rheumatoid nodule, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M06.332"/>
+        <display value="Rheumatoid nodule, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M06.339"/>
+        <display value="Rheumatoid nodule, unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M06.341"/>
+        <display value="Rheumatoid nodule, right hand"/>
+      </concept>
+      <concept>
+        <code value="M06.342"/>
+        <display value="Rheumatoid nodule, left hand"/>
+      </concept>
+      <concept>
+        <code value="M06.349"/>
+        <display value="Rheumatoid nodule, unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M06.351"/>
+        <display value="Rheumatoid nodule, right hip"/>
+      </concept>
+      <concept>
+        <code value="M06.352"/>
+        <display value="Rheumatoid nodule, left hip"/>
+      </concept>
+      <concept>
+        <code value="M06.359"/>
+        <display value="Rheumatoid nodule, unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M06.361"/>
+        <display value="Rheumatoid nodule, right knee"/>
+      </concept>
+      <concept>
+        <code value="M06.362"/>
+        <display value="Rheumatoid nodule, left knee"/>
+      </concept>
+      <concept>
+        <code value="M06.369"/>
+        <display value="Rheumatoid nodule, unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M06.371"/>
+        <display value="Rheumatoid nodule, right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M06.372"/>
+        <display value="Rheumatoid nodule, left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M06.379"/>
+        <display value="Rheumatoid nodule, unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M06.38"/>
+        <display value="Rheumatoid nodule, vertebrae"/>
+      </concept>
+      <concept>
+        <code value="M06.39"/>
+        <display value="Rheumatoid nodule, multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M06.4"/>
+        <display value="Inflammatory polyarthropathy"/>
+      </concept>
+      <concept>
+        <code value="M06.80"/>
+        <display value="Other specified rheumatoid arthritis, unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M06.811"/>
+        <display value="Other specified rheumatoid arthritis, right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M06.812"/>
+        <display value="Other specified rheumatoid arthritis, left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M06.819"/>
+        <display value="Other specified rheumatoid arthritis, unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M06.821"/>
+        <display value="Other specified rheumatoid arthritis, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M06.822"/>
+        <display value="Other specified rheumatoid arthritis, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M06.829"/>
+        <display value="Other specified rheumatoid arthritis, unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M06.831"/>
+        <display value="Other specified rheumatoid arthritis, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M06.832"/>
+        <display value="Other specified rheumatoid arthritis, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M06.839"/>
+        <display value="Other specified rheumatoid arthritis, unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M06.841"/>
+        <display value="Other specified rheumatoid arthritis, right hand"/>
+      </concept>
+      <concept>
+        <code value="M06.842"/>
+        <display value="Other specified rheumatoid arthritis, left hand"/>
+      </concept>
+      <concept>
+        <code value="M06.849"/>
+        <display value="Other specified rheumatoid arthritis, unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M06.851"/>
+        <display value="Other specified rheumatoid arthritis, right hip"/>
+      </concept>
+      <concept>
+        <code value="M06.852"/>
+        <display value="Other specified rheumatoid arthritis, left hip"/>
+      </concept>
+      <concept>
+        <code value="M06.859"/>
+        <display value="Other specified rheumatoid arthritis, unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M06.861"/>
+        <display value="Other specified rheumatoid arthritis, right knee"/>
+      </concept>
+      <concept>
+        <code value="M06.862"/>
+        <display value="Other specified rheumatoid arthritis, left knee"/>
+      </concept>
+      <concept>
+        <code value="M06.869"/>
+        <display value="Other specified rheumatoid arthritis, unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M06.871"/>
+        <display value="Other specified rheumatoid arthritis, right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M06.872"/>
+        <display value="Other specified rheumatoid arthritis, left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M06.879"/>
+        <display value="Oth rheumatoid arthritis, unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M06.88"/>
+        <display value="Other specified rheumatoid arthritis, vertebrae"/>
+      </concept>
+      <concept>
+        <code value="M06.89"/>
+        <display value="Other specified rheumatoid arthritis, multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M06.8A"/>
+        <display value="Other specified rheumatoid arthritis, other specified site"/>
+      </concept>
+      <concept>
+        <code value="M06.9"/>
+        <display value="Rheumatoid arthritis, unspecified"/>
+      </concept>
+      <concept>
+        <code value="M07.60"/>
+        <display value="Enteropathic arthropathies, unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M07.611"/>
+        <display value="Enteropathic arthropathies, right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M07.612"/>
+        <display value="Enteropathic arthropathies, left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M07.619"/>
+        <display value="Enteropathic arthropathies, unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M07.621"/>
+        <display value="Enteropathic arthropathies, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M07.622"/>
+        <display value="Enteropathic arthropathies, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M07.629"/>
+        <display value="Enteropathic arthropathies, unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M07.631"/>
+        <display value="Enteropathic arthropathies, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M07.632"/>
+        <display value="Enteropathic arthropathies, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M07.639"/>
+        <display value="Enteropathic arthropathies, unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M07.641"/>
+        <display value="Enteropathic arthropathies, right hand"/>
+      </concept>
+      <concept>
+        <code value="M07.642"/>
+        <display value="Enteropathic arthropathies, left hand"/>
+      </concept>
+      <concept>
+        <code value="M07.649"/>
+        <display value="Enteropathic arthropathies, unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M07.651"/>
+        <display value="Enteropathic arthropathies, right hip"/>
+      </concept>
+      <concept>
+        <code value="M07.652"/>
+        <display value="Enteropathic arthropathies, left hip"/>
+      </concept>
+      <concept>
+        <code value="M07.659"/>
+        <display value="Enteropathic arthropathies, unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M07.661"/>
+        <display value="Enteropathic arthropathies, right knee"/>
+      </concept>
+      <concept>
+        <code value="M07.662"/>
+        <display value="Enteropathic arthropathies, left knee"/>
+      </concept>
+      <concept>
+        <code value="M07.669"/>
+        <display value="Enteropathic arthropathies, unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M07.671"/>
+        <display value="Enteropathic arthropathies, right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M07.672"/>
+        <display value="Enteropathic arthropathies, left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M07.679"/>
+        <display value="Enteropathic arthropathies, unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M07.68"/>
+        <display value="Enteropathic arthropathies, vertebrae"/>
+      </concept>
+      <concept>
+        <code value="M07.69"/>
+        <display value="Enteropathic arthropathies, multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M08.00"/>
+        <display value="Unsp juvenile rheumatoid arthritis of unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M08.011"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M08.012"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M08.019"/>
+        <display value="Unsp juvenile rheumatoid arthritis, unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M08.021"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M08.022"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M08.029"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M08.031"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M08.032"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M08.039"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M08.041"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, right hand"/>
+      </concept>
+      <concept>
+        <code value="M08.042"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, left hand"/>
+      </concept>
+      <concept>
+        <code value="M08.049"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M08.051"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, right hip"/>
+      </concept>
+      <concept>
+        <code value="M08.052"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, left hip"/>
+      </concept>
+      <concept>
+        <code value="M08.059"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M08.061"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, right knee"/>
+      </concept>
+      <concept>
+        <code value="M08.062"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, left knee"/>
+      </concept>
+      <concept>
+        <code value="M08.069"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M08.071"/>
+        <display value="Unsp juvenile rheumatoid arthritis, right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M08.072"/>
+        <display value="Unsp juvenile rheumatoid arthritis, left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M08.079"/>
+        <display value="Unsp juvenile rheumatoid arthritis, unsp ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M08.08"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, vertebrae"/>
+      </concept>
+      <concept>
+        <code value="M08.09"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M08.0A"/>
+        <display value="Unspecified juvenile rheumatoid arthritis, other specified site"/>
+      </concept>
+      <concept>
+        <code value="M08.1"/>
+        <display value="Juvenile ankylosing spondylitis"/>
+      </concept>
+      <concept>
+        <code value="M08.20"/>
+        <display value="Juvenile rheumatoid arthritis with systemic onset, unsp site"/>
+      </concept>
+      <concept>
+        <code value="M08.211"/>
+        <display value="Juvenile rheumatoid arthritis w systemic onset, r shoulder"/>
+      </concept>
+      <concept>
+        <code value="M08.212"/>
+        <display value="Juvenile rheumatoid arthritis w systemic onset, l shoulder"/>
+      </concept>
+      <concept>
+        <code value="M08.219"/>
+        <display value="Juvenile rheu arthritis w systemic onset, unsp shoulder"/>
+      </concept>
+      <concept>
+        <code value="M08.221"/>
+        <display value="Juvenile rheumatoid arthritis w systemic onset, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M08.222"/>
+        <display value="Juvenile rheumatoid arthritis w systemic onset, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M08.229"/>
+        <display value="Juvenile rheumatoid arthritis w systemic onset, unsp elbow"/>
+      </concept>
+      <concept>
+        <code value="M08.231"/>
+        <display value="Juvenile rheumatoid arthritis w systemic onset, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M08.232"/>
+        <display value="Juvenile rheumatoid arthritis w systemic onset, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M08.239"/>
+        <display value="Juvenile rheumatoid arthritis w systemic onset, unsp wrist"/>
+      </concept>
+      <concept>
+        <code value="M08.241"/>
+        <display value="Juvenile rheumatoid arthritis w systemic onset, right hand"/>
+      </concept>
+      <concept>
+        <code value="M08.242"/>
+        <display value="Juvenile rheumatoid arthritis with systemic onset, left hand"/>
+      </concept>
+      <concept>
+        <code value="M08.249"/>
+        <display value="Juvenile rheumatoid arthritis with systemic onset, unsp hand"/>
+      </concept>
+      <concept>
+        <code value="M08.251"/>
+        <display value="Juvenile rheumatoid arthritis with systemic onset, right hip"/>
+      </concept>
+      <concept>
+        <code value="M08.252"/>
+        <display value="Juvenile rheumatoid arthritis with systemic onset, left hip"/>
+      </concept>
+      <concept>
+        <code value="M08.259"/>
+        <display value="Juvenile rheumatoid arthritis with systemic onset, unsp hip"/>
+      </concept>
+      <concept>
+        <code value="M08.261"/>
+        <display value="Juvenile rheumatoid arthritis w systemic onset, right knee"/>
+      </concept>
+      <concept>
+        <code value="M08.262"/>
+        <display value="Juvenile rheumatoid arthritis with systemic onset, left knee"/>
+      </concept>
+      <concept>
+        <code value="M08.269"/>
+        <display value="Juvenile rheumatoid arthritis with systemic onset, unsp knee"/>
+      </concept>
+      <concept>
+        <code value="M08.271"/>
+        <display value="Juvenile rheumatoid arthritis w systemic onset, right ank/ft"/>
+      </concept>
+      <concept>
+        <code value="M08.272"/>
+        <display value="Juvenile rheumatoid arthritis w systemic onset, left ank/ft"/>
+      </concept>
+      <concept>
+        <code value="M08.279"/>
+        <display value="Juvenile rheumatoid arthritis w systemic onset, unsp ank/ft"/>
+      </concept>
+      <concept>
+        <code value="M08.28"/>
+        <display value="Juvenile rheumatoid arthritis with systemic onset, vertebrae"/>
+      </concept>
+      <concept>
+        <code value="M08.29"/>
+        <display value="Juvenile rheu arthritis w systemic onset, multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M08.2A"/>
+        <display value="Juvenile rheumatoid arthritis with systemic onset, other specified site"/>
+      </concept>
+      <concept>
+        <code value="M08.3"/>
+        <display value="Juvenile rheumatoid polyarthritis (seronegative)"/>
+      </concept>
+      <concept>
+        <code value="M08.40"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, unsp site"/>
+      </concept>
+      <concept>
+        <code value="M08.411"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M08.412"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M08.419"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, unsp shoulder"/>
+      </concept>
+      <concept>
+        <code value="M08.421"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M08.422"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M08.429"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, unsp elbow"/>
+      </concept>
+      <concept>
+        <code value="M08.431"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M08.432"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M08.439"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, unsp wrist"/>
+      </concept>
+      <concept>
+        <code value="M08.441"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, right hand"/>
+      </concept>
+      <concept>
+        <code value="M08.442"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, left hand"/>
+      </concept>
+      <concept>
+        <code value="M08.449"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, unsp hand"/>
+      </concept>
+      <concept>
+        <code value="M08.451"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, right hip"/>
+      </concept>
+      <concept>
+        <code value="M08.452"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, left hip"/>
+      </concept>
+      <concept>
+        <code value="M08.459"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, unsp hip"/>
+      </concept>
+      <concept>
+        <code value="M08.461"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, right knee"/>
+      </concept>
+      <concept>
+        <code value="M08.462"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, left knee"/>
+      </concept>
+      <concept>
+        <code value="M08.469"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, unsp knee"/>
+      </concept>
+      <concept>
+        <code value="M08.471"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, right ank/ft"/>
+      </concept>
+      <concept>
+        <code value="M08.472"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, left ank/ft"/>
+      </concept>
+      <concept>
+        <code value="M08.479"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, unsp ank/ft"/>
+      </concept>
+      <concept>
+        <code value="M08.48"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, vertebrae"/>
+      </concept>
+      <concept>
+        <code value="M08.4A"/>
+        <display value="Pauciarticular juvenile rheumatoid arthritis, other specified site"/>
+      </concept>
+      <concept>
+        <code value="M08.80"/>
+        <display value="Other juvenile arthritis, unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M08.811"/>
+        <display value="Other juvenile arthritis, right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M08.812"/>
+        <display value="Other juvenile arthritis, left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M08.819"/>
+        <display value="Other juvenile arthritis, unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M08.821"/>
+        <display value="Other juvenile arthritis, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M08.822"/>
+        <display value="Other juvenile arthritis, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M08.829"/>
+        <display value="Other juvenile arthritis, unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M08.831"/>
+        <display value="Other juvenile arthritis, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M08.832"/>
+        <display value="Other juvenile arthritis, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M08.839"/>
+        <display value="Other juvenile arthritis, unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M08.841"/>
+        <display value="Other juvenile arthritis, right hand"/>
+      </concept>
+      <concept>
+        <code value="M08.842"/>
+        <display value="Other juvenile arthritis, left hand"/>
+      </concept>
+      <concept>
+        <code value="M08.849"/>
+        <display value="Other juvenile arthritis, unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M08.851"/>
+        <display value="Other juvenile arthritis, right hip"/>
+      </concept>
+      <concept>
+        <code value="M08.852"/>
+        <display value="Other juvenile arthritis, left hip"/>
+      </concept>
+      <concept>
+        <code value="M08.859"/>
+        <display value="Other juvenile arthritis, unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M08.861"/>
+        <display value="Other juvenile arthritis, right knee"/>
+      </concept>
+      <concept>
+        <code value="M08.862"/>
+        <display value="Other juvenile arthritis, left knee"/>
+      </concept>
+      <concept>
+        <code value="M08.869"/>
+        <display value="Other juvenile arthritis, unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M08.871"/>
+        <display value="Other juvenile arthritis, right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M08.872"/>
+        <display value="Other juvenile arthritis, left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M08.879"/>
+        <display value="Other juvenile arthritis, unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M08.88"/>
+        <display value="Other juvenile arthritis, other specified site"/>
+      </concept>
+      <concept>
+        <code value="M08.89"/>
+        <display value="Other juvenile arthritis, multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M08.90"/>
+        <display value="Juvenile arthritis, unspecified, unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M08.911"/>
+        <display value="Juvenile arthritis, unspecified, right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M08.912"/>
+        <display value="Juvenile arthritis, unspecified, left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M08.919"/>
+        <display value="Juvenile arthritis, unspecified, unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M08.921"/>
+        <display value="Juvenile arthritis, unspecified, right elbow"/>
+      </concept>
+      <concept>
+        <code value="M08.922"/>
+        <display value="Juvenile arthritis, unspecified, left elbow"/>
+      </concept>
+      <concept>
+        <code value="M08.929"/>
+        <display value="Juvenile arthritis, unspecified, unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M08.931"/>
+        <display value="Juvenile arthritis, unspecified, right wrist"/>
+      </concept>
+      <concept>
+        <code value="M08.932"/>
+        <display value="Juvenile arthritis, unspecified, left wrist"/>
+      </concept>
+      <concept>
+        <code value="M08.939"/>
+        <display value="Juvenile arthritis, unspecified, unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M08.941"/>
+        <display value="Juvenile arthritis, unspecified, right hand"/>
+      </concept>
+      <concept>
+        <code value="M08.942"/>
+        <display value="Juvenile arthritis, unspecified, left hand"/>
+      </concept>
+      <concept>
+        <code value="M08.949"/>
+        <display value="Juvenile arthritis, unspecified, unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M08.951"/>
+        <display value="Juvenile arthritis, unspecified, right hip"/>
+      </concept>
+      <concept>
+        <code value="M08.952"/>
+        <display value="Juvenile arthritis, unspecified, left hip"/>
+      </concept>
+      <concept>
+        <code value="M08.959"/>
+        <display value="Juvenile arthritis, unspecified, unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M08.961"/>
+        <display value="Juvenile arthritis, unspecified, right knee"/>
+      </concept>
+      <concept>
+        <code value="M08.962"/>
+        <display value="Juvenile arthritis, unspecified, left knee"/>
+      </concept>
+      <concept>
+        <code value="M08.969"/>
+        <display value="Juvenile arthritis, unspecified, unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M08.971"/>
+        <display value="Juvenile arthritis, unspecified, right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M08.972"/>
+        <display value="Juvenile arthritis, unspecified, left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M08.979"/>
+        <display value="Juvenile arthritis, unspecified, unspecified ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M08.98"/>
+        <display value="Juvenile arthritis, unspecified, vertebrae"/>
+      </concept>
+      <concept>
+        <code value="M08.99"/>
+        <display value="Juvenile arthritis, unspecified, multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M08.9A"/>
+        <display value="Juvenile arthritis, unspecified, other specified site"/>
+      </concept>
+      <concept>
+        <code value="M12.00"/>
+        <display value="Chronic postrheumatic arthropathy, unspecified site"/>
+      </concept>
+      <concept>
+        <code value="M12.011"/>
+        <display value="Chronic postrheumatic arthropathy [Jaccoud], right shoulder"/>
+      </concept>
+      <concept>
+        <code value="M12.012"/>
+        <display value="Chronic postrheumatic arthropathy [Jaccoud], left shoulder"/>
+      </concept>
+      <concept>
+        <code value="M12.019"/>
+        <display value="Chronic postrheumatic arthropathy, unspecified shoulder"/>
+      </concept>
+      <concept>
+        <code value="M12.021"/>
+        <display value="Chronic postrheumatic arthropathy [Jaccoud], right elbow"/>
+      </concept>
+      <concept>
+        <code value="M12.022"/>
+        <display value="Chronic postrheumatic arthropathy [Jaccoud], left elbow"/>
+      </concept>
+      <concept>
+        <code value="M12.029"/>
+        <display value="Chronic postrheumatic arthropathy, unspecified elbow"/>
+      </concept>
+      <concept>
+        <code value="M12.031"/>
+        <display value="Chronic postrheumatic arthropathy [Jaccoud], right wrist"/>
+      </concept>
+      <concept>
+        <code value="M12.032"/>
+        <display value="Chronic postrheumatic arthropathy [Jaccoud], left wrist"/>
+      </concept>
+      <concept>
+        <code value="M12.039"/>
+        <display value="Chronic postrheumatic arthropathy, unspecified wrist"/>
+      </concept>
+      <concept>
+        <code value="M12.041"/>
+        <display value="Chronic postrheumatic arthropathy [Jaccoud], right hand"/>
+      </concept>
+      <concept>
+        <code value="M12.042"/>
+        <display value="Chronic postrheumatic arthropathy [Jaccoud], left hand"/>
+      </concept>
+      <concept>
+        <code value="M12.049"/>
+        <display value="Chronic postrheumatic arthropathy, unspecified hand"/>
+      </concept>
+      <concept>
+        <code value="M12.051"/>
+        <display value="Chronic postrheumatic arthropathy [Jaccoud], right hip"/>
+      </concept>
+      <concept>
+        <code value="M12.052"/>
+        <display value="Chronic postrheumatic arthropathy [Jaccoud], left hip"/>
+      </concept>
+      <concept>
+        <code value="M12.059"/>
+        <display value="Chronic postrheumatic arthropathy [Jaccoud], unspecified hip"/>
+      </concept>
+      <concept>
+        <code value="M12.061"/>
+        <display value="Chronic postrheumatic arthropathy [Jaccoud], right knee"/>
+      </concept>
+      <concept>
+        <code value="M12.062"/>
+        <display value="Chronic postrheumatic arthropathy [Jaccoud], left knee"/>
+      </concept>
+      <concept>
+        <code value="M12.069"/>
+        <display value="Chronic postrheumatic arthropathy, unspecified knee"/>
+      </concept>
+      <concept>
+        <code value="M12.071"/>
+        <display value="Chronic postrheumatic arthropathy, right ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M12.072"/>
+        <display value="Chronic postrheumatic arthropathy, left ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M12.079"/>
+        <display value="Chronic postrheumatic arthropathy, unsp ankle and foot"/>
+      </concept>
+      <concept>
+        <code value="M12.08"/>
+        <display value="Chronic postrheumatic arthropathy, other specified site"/>
+      </concept>
+      <concept>
+        <code value="M12.09"/>
+        <display value="Chronic postrheumatic arthropathy [Jaccoud], multiple sites"/>
+      </concept>
+      <concept>
+        <code value="M30.0"/>
+        <display value="Polyarteritis nodosa"/>
+      </concept>
+      <concept>
+        <code value="M30.1"/>
+        <display value="Polyarteritis with lung involvement [Churg-Strauss]"/>
+      </concept>
+      <concept>
+        <code value="M30.2"/>
+        <display value="Juvenile polyarteritis"/>
+      </concept>
+      <concept>
+        <code value="M30.3"/>
+        <display value="Mucocutaneous lymph node syndrome [Kawasaki]"/>
+      </concept>
+      <concept>
+        <code value="M30.8"/>
+        <display value="Other conditions related to polyarteritis nodosa"/>
+      </concept>
+      <concept>
+        <code value="M31.0"/>
+        <display value="Hypersensitivity angiitis"/>
+      </concept>
+      <concept>
+        <code value="M31.1"/>
+        <display value="Thrombotic microangiopathy"/>
+      </concept>
+      <concept>
+        <code value="M31.2"/>
+        <display value="Lethal midline granuloma"/>
+      </concept>
+      <concept>
+        <code value="M31.30"/>
+        <display value="Wegener&#39;s granulomatosis without renal involvement"/>
+      </concept>
+      <concept>
+        <code value="M31.31"/>
+        <display value="Wegener&#39;s granulomatosis with renal involvement"/>
+      </concept>
+      <concept>
+        <code value="M31.4"/>
+        <display value="Aortic arch syndrome [Takayasu]"/>
+      </concept>
+      <concept>
+        <code value="M31.5"/>
+        <display value="Giant cell arteritis with polymyalgia rheumatica"/>
+      </concept>
+      <concept>
+        <code value="M31.6"/>
+        <display value="Other giant cell arteritis"/>
+      </concept>
+      <concept>
+        <code value="M31.7"/>
+        <display value="Microscopic polyangiitis"/>
+      </concept>
+      <concept>
+        <code value="M31.8"/>
+        <display value="Other specified necrotizing vasculopathies"/>
+      </concept>
+      <concept>
+        <code value="M31.9"/>
+        <display value="Necrotizing vasculopathy, unspecified"/>
+      </concept>
+      <concept>
+        <code value="M32.0"/>
+        <display value="Drug-induced systemic lupus erythematosus"/>
+      </concept>
+      <concept>
+        <code value="M32.10"/>
+        <display value="Systemic lupus erythematosus, organ or system involv unsp"/>
+      </concept>
+      <concept>
+        <code value="M32.12"/>
+        <display value="Pericarditis in systemic lupus erythematosus"/>
+      </concept>
+      <concept>
+        <code value="M32.13"/>
+        <display value="Lung involvement in systemic lupus erythematosus"/>
+      </concept>
+      <concept>
+        <code value="M32.14"/>
+        <display value="Glomerular disease in systemic lupus erythematosus"/>
+      </concept>
+      <concept>
+        <code value="M32.15"/>
+        <display value="Tubulo-interstitial neuropath in sys lupus erythematosus"/>
+      </concept>
+      <concept>
+        <code value="M32.19"/>
+        <display value="Oth organ or system involv in systemic lupus erythematosus"/>
+      </concept>
+      <concept>
+        <code value="M32.8"/>
+        <display value="Other forms of systemic lupus erythematosus"/>
+      </concept>
+      <concept>
+        <code value="M32.9"/>
+        <display value="Systemic lupus erythematosus, unspecified"/>
+      </concept>
+      <concept>
+        <code value="M33.00"/>
+        <display value="Juvenile dermatomyositis, organ involvement unspecified"/>
+      </concept>
+      <concept>
+        <code value="M33.01"/>
+        <display value="Juvenile dermatomyositis with respiratory involvement"/>
+      </concept>
+      <concept>
+        <code value="M33.02"/>
+        <display value="Juvenile dermatomyositis with myopathy"/>
+      </concept>
+      <concept>
+        <code value="M33.03"/>
+        <display value="Juvenile dermatomyositis without myopathy"/>
+      </concept>
+      <concept>
+        <code value="M33.09"/>
+        <display value="Juvenile dermatomyositis with other organ involvement"/>
+      </concept>
+      <concept>
+        <code value="M33.10"/>
+        <display value="Other dermatomyositis, organ involvement unspecified"/>
+      </concept>
+      <concept>
+        <code value="M33.11"/>
+        <display value="Other dermatomyositis with respiratory involvement"/>
+      </concept>
+      <concept>
+        <code value="M33.12"/>
+        <display value="Other dermatomyositis with myopathy"/>
+      </concept>
+      <concept>
+        <code value="M33.13"/>
+        <display value="Other dermatomyositis without myopathy"/>
+      </concept>
+      <concept>
+        <code value="M33.19"/>
+        <display value="Other dermatomyositis with other organ involvement"/>
+      </concept>
+      <concept>
+        <code value="M33.20"/>
+        <display value="Polymyositis, organ involvement unspecified"/>
+      </concept>
+      <concept>
+        <code value="M33.21"/>
+        <display value="Polymyositis with respiratory involvement"/>
+      </concept>
+      <concept>
+        <code value="M33.22"/>
+        <display value="Polymyositis with myopathy"/>
+      </concept>
+      <concept>
+        <code value="M33.29"/>
+        <display value="Polymyositis with other organ involvement"/>
+      </concept>
+      <concept>
+        <code value="M33.90"/>
+        <display value="Dermatopolymyositis, unsp, organ involvement unspecified"/>
+      </concept>
+      <concept>
+        <code value="M33.91"/>
+        <display value="Dermatopolymyositis, unsp with respiratory involvement"/>
+      </concept>
+      <concept>
+        <code value="M33.92"/>
+        <display value="Dermatopolymyositis, unspecified with myopathy"/>
+      </concept>
+      <concept>
+        <code value="M33.93"/>
+        <display value="Dermatopolymyositis, unspecified without myopathy"/>
+      </concept>
+      <concept>
+        <code value="M33.99"/>
+        <display value="Dermatopolymyositis, unsp with other organ involvement"/>
+      </concept>
+      <concept>
+        <code value="M34.0"/>
+        <display value="Progressive systemic sclerosis"/>
+      </concept>
+      <concept>
+        <code value="M34.1"/>
+        <display value="CR(E)ST syndrome"/>
+      </concept>
+      <concept>
+        <code value="M34.2"/>
+        <display value="Systemic sclerosis induced by drug and chemical"/>
+      </concept>
+      <concept>
+        <code value="M34.81"/>
+        <display value="Systemic sclerosis with lung involvement"/>
+      </concept>
+      <concept>
+        <code value="M34.82"/>
+        <display value="Systemic sclerosis with myopathy"/>
+      </concept>
+      <concept>
+        <code value="M34.83"/>
+        <display value="Systemic sclerosis with polyneuropathy"/>
+      </concept>
+      <concept>
+        <code value="M34.89"/>
+        <display value="Other systemic sclerosis"/>
+      </concept>
+      <concept>
+        <code value="M34.9"/>
+        <display value="Systemic sclerosis, unspecified"/>
+      </concept>
+      <concept>
+        <code value="M35.00"/>
+        <display value="Sicca syndrome, unspecified"/>
+      </concept>
+      <concept>
+        <code value="M35.01"/>
+        <display value="Sicca syndrome with keratoconjunctivitis"/>
+      </concept>
+      <concept>
+        <code value="M35.02"/>
+        <display value="Sicca syndrome with lung involvement"/>
+      </concept>
+      <concept>
+        <code value="M35.03"/>
+        <display value="Sicca syndrome with myopathy"/>
+      </concept>
+      <concept>
+        <code value="M35.04"/>
+        <display value="Sicca syndrome with tubulo-interstitial nephropathy"/>
+      </concept>
+      <concept>
+        <code value="M35.09"/>
+        <display value="Sicca syndrome with other organ involvement"/>
+      </concept>
+      <concept>
+        <code value="M35.1"/>
+        <display value="Other overlap syndromes"/>
+      </concept>
+      <concept>
+        <code value="M35.2"/>
+        <display value="Behcet&#39;s disease"/>
+      </concept>
+      <concept>
+        <code value="M35.3"/>
+        <display value="Polymyalgia rheumatica"/>
+      </concept>
+      <concept>
+        <code value="M35.5"/>
+        <display value="Multifocal fibrosclerosis"/>
+      </concept>
+      <concept>
+        <code value="M35.6"/>
+        <display value="Relapsing panniculitis [Weber-Christian]"/>
+      </concept>
+      <concept>
+        <code value="M35.8"/>
+        <display value="Other specified systemic involvement of connective tissue"/>
+      </concept>
+      <concept>
+        <code value="M35.9"/>
+        <display value="Systemic involvement of connective tissue, unspecified"/>
+      </concept>
+      <concept>
+        <code value="M36.0"/>
+        <display value="Dermato(poly)myositis in neoplastic disease"/>
+      </concept>
+      <concept>
+        <code value="M36.1"/>
+        <display value="Arthropathy in neoplastic disease"/>
+      </concept>
+      <concept>
+        <code value="M36.8"/>
+        <display value="Systemic disord of conn tiss in oth diseases classd elswhr"/>
+      </concept>
+      <concept>
+        <code value="M45.0"/>
+        <display value="Ankylosing spondylitis of multiple sites in spine"/>
+      </concept>
+      <concept>
+        <code value="M45.1"/>
+        <display value="Ankylosing spondylitis of occipito-atlanto-axial region"/>
+      </concept>
+      <concept>
+        <code value="M45.2"/>
+        <display value="Ankylosing spondylitis of cervical region"/>
+      </concept>
+      <concept>
+        <code value="M45.3"/>
+        <display value="Ankylosing spondylitis of cervicothoracic region"/>
+      </concept>
+      <concept>
+        <code value="M45.4"/>
+        <display value="Ankylosing spondylitis of thoracic region"/>
+      </concept>
+      <concept>
+        <code value="M45.5"/>
+        <display value="Ankylosing spondylitis of thoracolumbar region"/>
+      </concept>
+      <concept>
+        <code value="M45.6"/>
+        <display value="Ankylosing spondylitis lumbar region"/>
+      </concept>
+      <concept>
+        <code value="M45.7"/>
+        <display value="Ankylosing spondylitis of lumbosacral region"/>
+      </concept>
+      <concept>
+        <code value="M45.8"/>
+        <display value="Ankylosing spondylitis sacral and sacrococcygeal region"/>
+      </concept>
+      <concept>
+        <code value="M45.9"/>
+        <display value="Ankylosing spondylitis of unspecified sites in spine"/>
+      </concept>
+      <concept>
+        <code value="M46.00"/>
+        <display value="Spinal enthesopathy, site unspecified"/>
+      </concept>
+      <concept>
+        <code value="M46.01"/>
+        <display value="Spinal enthesopathy, occipito-atlanto-axial region"/>
+      </concept>
+      <concept>
+        <code value="M46.02"/>
+        <display value="Spinal enthesopathy, cervical region"/>
+      </concept>
+      <concept>
+        <code value="M46.03"/>
+        <display value="Spinal enthesopathy, cervicothoracic region"/>
+      </concept>
+      <concept>
+        <code value="M46.04"/>
+        <display value="Spinal enthesopathy, thoracic region"/>
+      </concept>
+      <concept>
+        <code value="M46.05"/>
+        <display value="Spinal enthesopathy, thoracolumbar region"/>
+      </concept>
+      <concept>
+        <code value="M46.06"/>
+        <display value="Spinal enthesopathy, lumbar region"/>
+      </concept>
+      <concept>
+        <code value="M46.07"/>
+        <display value="Spinal enthesopathy, lumbosacral region"/>
+      </concept>
+      <concept>
+        <code value="M46.08"/>
+        <display value="Spinal enthesopathy, sacral and sacrococcygeal region"/>
+      </concept>
+      <concept>
+        <code value="M46.09"/>
+        <display value="Spinal enthesopathy, multiple sites in spine"/>
+      </concept>
+      <concept>
+        <code value="M46.1"/>
+        <display value="Sacroiliitis, not elsewhere classified"/>
+      </concept>
+      <concept>
+        <code value="M46.50"/>
+        <display value="Other infective spondylopathies, site unspecified"/>
+      </concept>
+      <concept>
+        <code value="M46.51"/>
+        <display value="Oth infective spondylopathies, occipito-atlanto-axial region"/>
+      </concept>
+      <concept>
+        <code value="M46.52"/>
+        <display value="Other infective spondylopathies, cervical region"/>
+      </concept>
+      <concept>
+        <code value="M46.53"/>
+        <display value="Other infective spondylopathies, cervicothoracic region"/>
+      </concept>
+      <concept>
+        <code value="M46.54"/>
+        <display value="Other infective spondylopathies, thoracic region"/>
+      </concept>
+      <concept>
+        <code value="M46.55"/>
+        <display value="Other infective spondylopathies, thoracolumbar region"/>
+      </concept>
+      <concept>
+        <code value="M46.56"/>
+        <display value="Other infective spondylopathies, lumbar region"/>
+      </concept>
+      <concept>
+        <code value="M46.57"/>
+        <display value="Other infective spondylopathies, lumbosacral region"/>
+      </concept>
+      <concept>
+        <code value="M46.58"/>
+        <display value="Oth infective spondylopathies, sacr/sacrocygl region"/>
+      </concept>
+      <concept>
+        <code value="M46.59"/>
+        <display value="Other infective spondylopathies, multiple sites in spine"/>
+      </concept>
+      <concept>
+        <code value="M46.80"/>
+        <display value="Oth inflammatory spondylopathies, site unspecified"/>
+      </concept>
+      <concept>
+        <code value="M46.81"/>
+        <display value="Oth inflammatory spondylopathies, occipt-atlan-ax region"/>
+      </concept>
+      <concept>
+        <code value="M46.82"/>
+        <display value="Oth inflammatory spondylopathies, cervical region"/>
+      </concept>
+      <concept>
+        <code value="M46.83"/>
+        <display value="Oth inflammatory spondylopathies, cervicothoracic region"/>
+      </concept>
+      <concept>
+        <code value="M46.84"/>
+        <display value="Oth inflammatory spondylopathies, thoracic region"/>
+      </concept>
+      <concept>
+        <code value="M46.85"/>
+        <display value="Oth inflammatory spondylopathies, thoracolumbar region"/>
+      </concept>
+      <concept>
+        <code value="M46.86"/>
+        <display value="Other specified inflammatory spondylopathies, lumbar region"/>
+      </concept>
+      <concept>
+        <code value="M46.87"/>
+        <display value="Oth inflammatory spondylopathies, lumbosacral region"/>
+      </concept>
+      <concept>
+        <code value="M46.88"/>
+        <display value="Oth inflammatory spondylopathies, sacr/sacrocygl region"/>
+      </concept>
+      <concept>
+        <code value="M46.89"/>
+        <display value="Oth inflammatory spondylopathies, multiple sites in spine"/>
+      </concept>
+      <concept>
+        <code value="M46.90"/>
+        <display value="Unspecified inflammatory spondylopathy, site unspecified"/>
+      </concept>
+      <concept>
+        <code value="M46.91"/>
+        <display value="Unsp inflammatory spondylopathy, occipt-atlan-ax region"/>
+      </concept>
+      <concept>
+        <code value="M46.92"/>
+        <display value="Unspecified inflammatory spondylopathy, cervical region"/>
+      </concept>
+      <concept>
+        <code value="M46.93"/>
+        <display value="Unsp inflammatory spondylopathy, cervicothoracic region"/>
+      </concept>
+      <concept>
+        <code value="M46.94"/>
+        <display value="Unspecified inflammatory spondylopathy, thoracic region"/>
+      </concept>
+      <concept>
+        <code value="M46.95"/>
+        <display value="Unspecified inflammatory spondylopathy, thoracolumbar region"/>
+      </concept>
+      <concept>
+        <code value="M46.96"/>
+        <display value="Unspecified inflammatory spondylopathy, lumbar region"/>
+      </concept>
+      <concept>
+        <code value="M46.97"/>
+        <display value="Unspecified inflammatory spondylopathy, lumbosacral region"/>
+      </concept>
+      <concept>
+        <code value="M46.98"/>
+        <display value="Unsp inflammatory spondylopathy, sacr/sacrocygl region"/>
+      </concept>
+      <concept>
+        <code value="M46.99"/>
+        <display value="Unsp inflammatory spondylopathy, multiple sites in spine"/>
+      </concept>
+      <concept>
+        <code value="M49.80"/>
+        <display value="Spondylopathy in diseases classified elsewhere, site unsp"/>
+      </concept>
+      <concept>
+        <code value="M49.81"/>
+        <display value="Spond in diseases classd elswhr, occipt-atlan-ax region"/>
+      </concept>
+      <concept>
+        <code value="M49.82"/>
+        <display value="Spondylopathy in diseases classd elswhr, cervical region"/>
+      </concept>
+      <concept>
+        <code value="M49.83"/>
+        <display value="Spondylopathy in diseases classd elswhr, cervicothor region"/>
+      </concept>
+      <concept>
+        <code value="M49.84"/>
+        <display value="Spondylopathy in diseases classd elswhr, thoracic region"/>
+      </concept>
+      <concept>
+        <code value="M49.85"/>
+        <display value="Spond in diseases classd elswhr, thoracolumbar region"/>
+      </concept>
+      <concept>
+        <code value="M49.86"/>
+        <display value="Spondylopathy in diseases classd elswhr, lumbar region"/>
+      </concept>
+      <concept>
+        <code value="M49.87"/>
+        <display value="Spondylopathy in diseases classd elswhr, lumbosacral region"/>
+      </concept>
+      <concept>
+        <code value="M49.88"/>
+        <display value="Spond in diseases classd elswhr, sacr/sacrocygl region"/>
+      </concept>
+      <concept>
+        <code value="M49.89"/>
+        <display value="Spond in diseases classd elswhr, multiple sites in spine"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

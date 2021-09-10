@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="elixhauser-drug-abuse-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="https://terminology.hl7.org/1.0.0//CodeSystem-icd10CM.html"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>F11.10</td><td>Opioid abuse, uncomplicated</td></tr><tr><td>F11.11</td><td>Opioid abuse, in remission</td></tr><tr><td>F11.120</td><td>Opioid abuse with intoxication, uncomplicated</td></tr><tr><td>F11.121</td><td>Opioid abuse with intoxication delirium</td></tr><tr><td>F11.122</td><td>Opioid abuse with intoxication with perceptual disturbance</td></tr><tr><td>F11.129</td><td>Opioid abuse with intoxication, unspecified</td></tr><tr><td>F11.13</td><td>Opioid abuse with withdrawal</td></tr><tr><td>F11.14</td><td>Opioid abuse with opioid-induced mood disorder</td></tr><tr><td>F11.150</td><td>Opioid abuse with opioid-induced psychotic disorder with delusions</td></tr><tr><td>F11.151</td><td>Opioid abuse with opioid-induced psychotic disorder with hallucinations</td></tr><tr><td>F11.159</td><td>Opioid abuse with opioid-induced psychotic disorder, unspecified</td></tr><tr><td>F11.181</td><td>Opioid abuse with opioid-induced sexual dysfunction</td></tr><tr><td>F11.182</td><td>Opioid abuse with opioid-induced sleep disorder</td></tr><tr><td>F11.188</td><td>Opioid abuse with other opioid-induced disorder</td></tr><tr><td>F11.19</td><td>Opioid abuse with unspecified opioid-induced disorder</td></tr><tr><td>F11.20</td><td>Opioid dependence, uncomplicated</td></tr><tr><td>F11.21</td><td>Opioid dependence, in remission</td></tr><tr><td>F11.220</td><td>Opioid dependence with intoxication, uncomplicated</td></tr><tr><td>F11.221</td><td>Opioid dependence with intoxication delirium</td></tr><tr><td>F11.222</td><td>Opioid dependence w intoxication with perceptual disturbance</td></tr><tr><td>F11.229</td><td>Opioid dependence with intoxication, unspecified</td></tr><tr><td>F11.23</td><td>Opioid dependence with withdrawal</td></tr><tr><td>F11.24</td><td>Opioid dependence with opioid-induced mood disorder</td></tr><tr><td>F11.250</td><td>Opioid dependence with opioid-induced psychotic disorder with delusions</td></tr><tr><td>F11.251</td><td>Opioid dependence with opioid-induced psychotic disorder with hallucinations</td></tr><tr><td>F11.259</td><td>Opioid dependence with opioid-induced psychotic disorder, unspecified</td></tr><tr><td>F11.281</td><td>Opioid dependence with opioid-induced sexual dysfunction</td></tr><tr><td>F11.282</td><td>Opioid dependence with opioid-induced sleep disorder</td></tr><tr><td>F11.288</td><td>Opioid dependence with other opioid-induced disorder</td></tr><tr><td>F11.29</td><td>Opioid dependence with unspecified opioid-induced disorder</td></tr><tr><td>F12.10</td><td>Cannabis abuse, uncomplicated</td></tr><tr><td>F12.11</td><td>Cannabis abuse, in remission</td></tr><tr><td>F12.120</td><td>Cannabis abuse with intoxication, uncomplicated</td></tr><tr><td>F12.121</td><td>Cannabis abuse with intoxication delirium</td></tr><tr><td>F12.122</td><td>Cannabis abuse with intoxication with perceptual disturbance</td></tr><tr><td>F12.129</td><td>Cannabis abuse with intoxication, unspecified</td></tr><tr><td>F12.13</td><td>Cannabis abuse with withdrawal</td></tr><tr><td>F12.150</td><td>Cannabis abuse with psychotic disorder with delusions</td></tr><tr><td>F12.151</td><td>Cannabis abuse with psychotic disorder with hallucinations</td></tr><tr><td>F12.159</td><td>Cannabis abuse with psychotic disorder, unspecified</td></tr><tr><td>F12.180</td><td>Cannabis abuse with cannabis-induced anxiety disorder</td></tr><tr><td>F12.188</td><td>Cannabis abuse with other cannabis-induced disorder</td></tr><tr><td>F12.19</td><td>Cannabis abuse with unspecified cannabis-induced disorder</td></tr><tr><td>F12.20</td><td>Cannabis dependence, uncomplicated</td></tr><tr><td>F12.21</td><td>Cannabis dependence, in remission</td></tr><tr><td>F12.220</td><td>Cannabis dependence with intoxication, uncomplicated</td></tr><tr><td>F12.221</td><td>Cannabis dependence with intoxication delirium</td></tr><tr><td>F12.222</td><td>Cannabis dependence w intoxication w perceptual disturbance</td></tr><tr><td>F12.229</td><td>Cannabis dependence with intoxication, unspecified</td></tr><tr><td>F12.23</td><td>Cannabis dependence with withdrawal</td></tr><tr><td>F12.250</td><td>Cannabis dependence with psychotic disorder with delusions</td></tr><tr><td>F12.251</td><td>Cannabis dependence with psychotic disorder with hallucinations</td></tr><tr><td>F12.259</td><td>Cannabis dependence with psychotic disorder, unspecified</td></tr><tr><td>F12.280</td><td>Cannabis dependence with cannabis-induced anxiety disorder</td></tr><tr><td>F12.288</td><td>Cannabis dependence with other cannabis-induced disorder</td></tr><tr><td>F12.29</td><td>Cannabis dependence with unsp cannabis-induced disorder</td></tr><tr><td>F13.10</td><td>Sedative, hypnotic or anxiolytic abuse, uncomplicated</td></tr><tr><td>F13.11</td><td>Sedative, hypnotic or anxiolytic abuse, in remission</td></tr><tr><td>F13.120</td><td>Sedatv/hyp/anxiolytc abuse w intoxication, uncomplicated</td></tr><tr><td>F13.121</td><td>Sedatv/hyp/anxiolytc abuse w intoxication delirium</td></tr><tr><td>F13.129</td><td>Sedative, hypnotic or anxiolytic abuse w intoxication, unsp</td></tr><tr><td>F13.130</td><td>Sedative, hypnotic or anxiolytic abuse with withdrawal, uncomplicated</td></tr><tr><td>F13.131</td><td>Sedative, hypnotic or anxiolytic abuse with withdrawal delirium</td></tr><tr><td>F13.132</td><td>Sedative, hypnotic or anxiolytic abuse with withdrawal with perceptual disturbance</td></tr><tr><td>F13.139</td><td>Sedative, hypnotic or anxiolytic abuse with withdrawal, unspecified</td></tr><tr><td>F13.14</td><td>Sedative, hypnotic or anxiolytic abuse w mood disorder</td></tr><tr><td>F13.150</td><td>Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced psychotic disorder with delusions</td></tr><tr><td>F13.151</td><td>Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced psychotic disorder with hallucinations</td></tr><tr><td>F13.159</td><td>Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced psychotic disorder, unspecified</td></tr><tr><td>F13.180</td><td>Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced anxiety disorder</td></tr><tr><td>F13.181</td><td>Sedative, hypnotic or anxiolytic abuse w sexual dysfunction</td></tr><tr><td>F13.182</td><td>Sedative, hypnotic or anxiolytic abuse w sleep disorder</td></tr><tr><td>F13.188</td><td>Sedative, hypnotic or anxiolytic abuse w oth disorder</td></tr><tr><td>F13.19</td><td>Sedative, hypnotic or anxiolytic abuse w unsp disorder</td></tr><tr><td>F13.20</td><td>Sedative, hypnotic or anxiolytic dependence, uncomplicated</td></tr><tr><td>F13.21</td><td>Sedative, hypnotic or anxiolytic dependence, in remission</td></tr><tr><td>F13.220</td><td>Sedatv/hyp/anxiolytc dependence w intoxication, uncomp</td></tr><tr><td>F13.221</td><td>Sedatv/hyp/anxiolytc dependence w intoxication delirium</td></tr><tr><td>F13.229</td><td>Sedatv/hyp/anxiolytc dependence w intoxication, unsp</td></tr><tr><td>F13.230</td><td>Sedatv/hyp/anxiolytc dependence w withdrawal, uncomplicated</td></tr><tr><td>F13.231</td><td>Sedatv/hyp/anxiolytc dependence w withdrawal delirium</td></tr><tr><td>F13.232</td><td>Sedatv/hyp/anxiolytc depend w w/drawal w perceptual disturb</td></tr><tr><td>F13.239</td><td>Sedatv/hyp/anxiolytc dependence w withdrawal, unsp</td></tr><tr><td>F13.24</td><td>Sedative, hypnotic or anxiolytic dependence w mood disorder</td></tr><tr><td>F13.250</td><td>Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced psychotic disorder with delusions</td></tr><tr><td>F13.251</td><td>Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced psychotic disorder with hallucinat</td></tr><tr><td>F13.259</td><td>Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced psychotic disorder, unspecified</td></tr><tr><td>F13.26</td><td>Sedatv/hyp/anxiolytc depend w persisting amnestic disorder</td></tr><tr><td>F13.27</td><td>Sedatv/hyp/anxiolytc dependence w persisting dementia</td></tr><tr><td>F13.280</td><td>Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced anxiety disorder</td></tr><tr><td>F13.281</td><td>Sedatv/hyp/anxiolytc dependence w sexual dysfunction</td></tr><tr><td>F13.282</td><td>Sedative, hypnotic or anxiolytic dependence w sleep disorder</td></tr><tr><td>F13.288</td><td>Sedative, hypnotic or anxiolytic dependence w oth disorder</td></tr><tr><td>F13.29</td><td>Sedative, hypnotic or anxiolytic dependence w unsp disorder</td></tr><tr><td>F14.10</td><td>Cocaine abuse, uncomplicated</td></tr><tr><td>F14.11</td><td>Cocaine abuse, in remission</td></tr><tr><td>F14.120</td><td>Cocaine abuse with intoxication, uncomplicated</td></tr><tr><td>F14.121</td><td>Cocaine abuse with intoxication with delirium</td></tr><tr><td>F14.122</td><td>Cocaine abuse with intoxication with perceptual disturbance</td></tr><tr><td>F14.129</td><td>Cocaine abuse with intoxication, unspecified</td></tr><tr><td>F14.13</td><td>Cocaine abuse, unspecified with withdrawal</td></tr><tr><td>F14.14</td><td>Cocaine abuse with cocaine-induced mood disorder</td></tr><tr><td>F14.150</td><td>Cocaine abuse with cocaine-induced psychotic disorder with delusions</td></tr><tr><td>F14.151</td><td>Cocaine abuse with cocaine-induced psychotic disorder with hallucinations</td></tr><tr><td>F14.159</td><td>Cocaine abuse with cocaine-induced psychotic disorder, unspecified</td></tr><tr><td>F14.180</td><td>Cocaine abuse with cocaine-induced anxiety disorder</td></tr><tr><td>F14.181</td><td>Cocaine abuse with cocaine-induced sexual dysfunction</td></tr><tr><td>F14.182</td><td>Cocaine abuse with cocaine-induced sleep disorder</td></tr><tr><td>F14.188</td><td>Cocaine abuse with other cocaine-induced disorder</td></tr><tr><td>F14.19</td><td>Cocaine abuse with unspecified cocaine-induced disorder</td></tr><tr><td>F14.20</td><td>Cocaine dependence, uncomplicated</td></tr><tr><td>F14.21</td><td>Cocaine dependence, in remission</td></tr><tr><td>F14.220</td><td>Cocaine dependence with intoxication, uncomplicated</td></tr><tr><td>F14.221</td><td>Cocaine dependence with intoxication delirium</td></tr><tr><td>F14.222</td><td>Cocaine dependence w intoxication w perceptual disturbance</td></tr><tr><td>F14.229</td><td>Cocaine dependence with intoxication, unspecified</td></tr><tr><td>F14.23</td><td>Cocaine dependence with withdrawal</td></tr><tr><td>F14.24</td><td>Cocaine dependence with cocaine-induced mood disorder</td></tr><tr><td>F14.250</td><td>Cocaine dependence with cocaine-induced psychotic disorder with delusions</td></tr><tr><td>F14.251</td><td>Cocaine dependence with cocaine-induced psychotic disorder with hallucinations</td></tr><tr><td>F14.259</td><td>Cocaine dependence with cocaine-induced psychotic disorder, unspecified</td></tr><tr><td>F14.280</td><td>Cocaine dependence with cocaine-induced anxiety disorder</td></tr><tr><td>F14.281</td><td>Cocaine dependence with cocaine-induced sexual dysfunction</td></tr><tr><td>F14.282</td><td>Cocaine dependence with cocaine-induced sleep disorder</td></tr><tr><td>F14.288</td><td>Cocaine dependence with other cocaine-induced disorder</td></tr><tr><td>F14.29</td><td>Cocaine dependence with unspecified cocaine-induced disorder</td></tr><tr><td>F15.10</td><td>Other stimulant abuse, uncomplicated</td></tr><tr><td>F15.11</td><td>Other stimulant abuse, in remission</td></tr><tr><td>F15.120</td><td>Other stimulant abuse with intoxication, uncomplicated</td></tr><tr><td>F15.121</td><td>Other stimulant abuse with intoxication delirium</td></tr><tr><td>F15.122</td><td>Oth stimulant abuse w intoxication w perceptual disturbance</td></tr><tr><td>F15.129</td><td>Other stimulant abuse with intoxication, unspecified</td></tr><tr><td>F15.13</td><td>Other stimulant abuse with withdrawal</td></tr><tr><td>F15.14</td><td>Other stimulant abuse with stimulant-induced mood disorder</td></tr><tr><td>F15.150</td><td>Other stimulant abuse with stimulant-induced psychotic disorder with delusions</td></tr><tr><td>F15.151</td><td>Other stimulant abuse with stimulant-induced psychotic disorder with hallucinations</td></tr><tr><td>F15.159</td><td>Other stimulant abuse with stimulant-induced psychotic disorder, unspecified</td></tr><tr><td>F15.180</td><td>Other stimulant abuse with stimulant-induced anxiety disorder</td></tr><tr><td>F15.181</td><td>Oth stimulant abuse w stimulant-induced sexual dysfunction</td></tr><tr><td>F15.182</td><td>Other stimulant abuse with stimulant-induced sleep disorder</td></tr><tr><td>F15.188</td><td>Other stimulant abuse with other stimulant-induced disorder</td></tr><tr><td>F15.19</td><td>Other stimulant abuse with unsp stimulant-induced disorder</td></tr><tr><td>F15.20</td><td>Other stimulant dependence, uncomplicated</td></tr><tr><td>F15.21</td><td>Other stimulant dependence, in remission</td></tr><tr><td>F15.220</td><td>Other stimulant dependence with intoxication, uncomplicated</td></tr><tr><td>F15.221</td><td>Other stimulant dependence with intoxication delirium</td></tr><tr><td>F15.222</td><td>Oth stimulant dependence w intox w perceptual disturbance</td></tr><tr><td>F15.229</td><td>Other stimulant dependence with intoxication, unspecified</td></tr><tr><td>F15.23</td><td>Other stimulant dependence with withdrawal</td></tr><tr><td>F15.24</td><td>Oth stimulant dependence w stimulant-induced mood disorder</td></tr><tr><td>F15.250</td><td>Other stimulant dependence with stimulant-induced psychotic disorder with delusions</td></tr><tr><td>F15.251</td><td>Other stimulant dependence with stimulant-induced psychotic disorder with hallucinations</td></tr><tr><td>F15.259</td><td>Other stimulant dependence with stimulant-induced psychotic disorder, unspecified</td></tr><tr><td>F15.280</td><td>Other stimulant dependence with stimulant-induced anxiety disorder</td></tr><tr><td>F15.281</td><td>Oth stimulant dependence w stim-induce sexual dysfunction</td></tr><tr><td>F15.282</td><td>Oth stimulant dependence w stimulant-induced sleep disorder</td></tr><tr><td>F15.288</td><td>Oth stimulant dependence with oth stimulant-induced disorder</td></tr><tr><td>F15.29</td><td>Oth stimulant dependence w unsp stimulant-induced disorder</td></tr><tr><td>F16.10</td><td>Hallucinogen abuse, uncomplicated</td></tr><tr><td>F16.11</td><td>Hallucinogen abuse, in remission</td></tr><tr><td>F16.120</td><td>Hallucinogen abuse with intoxication, uncomplicated</td></tr><tr><td>F16.121</td><td>Hallucinogen abuse with intoxication with delirium</td></tr><tr><td>F16.122</td><td>Hallucinogen abuse w intoxication w perceptual disturbance</td></tr><tr><td>F16.129</td><td>Hallucinogen abuse with intoxication, unspecified</td></tr><tr><td>F16.14</td><td>Hallucinogen abuse with hallucinogen-induced mood disorder</td></tr><tr><td>F16.150</td><td>Hallucinogen abuse with hallucinogen-induced psychotic disorder with delusions</td></tr><tr><td>F16.151</td><td>Hallucinogen abuse with hallucinogen-induced psychotic disorder with hallucinations</td></tr><tr><td>F16.159</td><td>Hallucinogen abuse with hallucinogen-induced psychotic disorder, unspecified</td></tr><tr><td>F16.180</td><td>Hallucinogen abuse with hallucinogen-induced anxiety disorder</td></tr><tr><td>F16.183</td><td>Hallucign abuse w hallucign persisting perception disorder</td></tr><tr><td>F16.188</td><td>Hallucinogen abuse with other hallucinogen-induced disorder</td></tr><tr><td>F16.19</td><td>Hallucinogen abuse with unsp hallucinogen-induced disorder</td></tr><tr><td>F16.20</td><td>Hallucinogen dependence, uncomplicated</td></tr><tr><td>F16.21</td><td>Hallucinogen dependence, in remission</td></tr><tr><td>F16.220</td><td>Hallucinogen dependence with intoxication, uncomplicated</td></tr><tr><td>F16.221</td><td>Hallucinogen dependence with intoxication with delirium</td></tr><tr><td>F16.229</td><td>Hallucinogen dependence with intoxication, unspecified</td></tr><tr><td>F16.24</td><td>Hallucinogen dependence w hallucinogen-induced mood disorder</td></tr><tr><td>F16.250</td><td>Hallucinogen dependence with hallucinogen-induced psychotic disorder with delusions</td></tr><tr><td>F16.251</td><td>Hallucinogen dependence with hallucinogen-induced psychotic disorder with hallucinations</td></tr><tr><td>F16.259</td><td>Hallucinogen dependence with hallucinogen-induced psychotic disorder, unspecified</td></tr><tr><td>F16.280</td><td>Hallucinogen dependence with hallucinogen-induced anxiety disorder</td></tr><tr><td>F16.283</td><td>Hallucign depend w hallucign persisting perception disorder</td></tr><tr><td>F16.288</td><td>Hallucinogen dependence w oth hallucinogen-induced disorder</td></tr><tr><td>F16.29</td><td>Hallucinogen dependence w unsp hallucinogen-induced disorder</td></tr><tr><td>F18.10</td><td>Inhalant abuse, uncomplicated</td></tr><tr><td>F18.11</td><td>Inhalant abuse, in remission</td></tr><tr><td>F18.120</td><td>Inhalant abuse with intoxication, uncomplicated</td></tr><tr><td>F18.121</td><td>Inhalant abuse with intoxication delirium</td></tr><tr><td>F18.129</td><td>Inhalant abuse with intoxication, unspecified</td></tr><tr><td>F18.14</td><td>Inhalant abuse with inhalant-induced mood disorder</td></tr><tr><td>F18.150</td><td>Inhalant abuse with inhalant-induced psychotic disorder with delusions</td></tr><tr><td>F18.151</td><td>Inhalant abuse with inhalant-induced psychotic disorder with hallucinations</td></tr><tr><td>F18.159</td><td>Inhalant abuse with inhalant-induced psychotic disorder, unspecified</td></tr><tr><td>F18.17</td><td>Inhalant abuse with inhalant-induced dementia</td></tr><tr><td>F18.180</td><td>Inhalant abuse with inhalant-induced anxiety disorder</td></tr><tr><td>F18.188</td><td>Inhalant abuse with other inhalant-induced disorder</td></tr><tr><td>F18.19</td><td>Inhalant abuse with unspecified inhalant-induced disorder</td></tr><tr><td>F18.20</td><td>Inhalant dependence, uncomplicated</td></tr><tr><td>F18.21</td><td>Inhalant dependence, in remission</td></tr><tr><td>F18.220</td><td>Inhalant dependence with intoxication, uncomplicated</td></tr><tr><td>F18.221</td><td>Inhalant dependence with intoxication delirium</td></tr><tr><td>F18.229</td><td>Inhalant dependence with intoxication, unspecified</td></tr><tr><td>F18.24</td><td>Inhalant dependence with inhalant-induced mood disorder</td></tr><tr><td>F18.250</td><td>Inhalant dependence with inhalant-induced psychotic disorder with delusions</td></tr><tr><td>F18.251</td><td>Inhalant dependence with inhalant-induced psychotic disorder with hallucinations</td></tr><tr><td>F18.259</td><td>Inhalant dependence with inhalant-induced psychotic disorder, unspecified</td></tr><tr><td>F18.27</td><td>Inhalant dependence with inhalant-induced dementia</td></tr><tr><td>F18.280</td><td>Inhalant dependence with inhalant-induced anxiety disorder</td></tr><tr><td>F18.288</td><td>Inhalant dependence with other inhalant-induced disorder</td></tr><tr><td>F18.29</td><td>Inhalant dependence with unsp inhalant-induced disorder</td></tr><tr><td>F19.10</td><td>Other psychoactive substance abuse, uncomplicated</td></tr><tr><td>F19.11</td><td>Other psychoactive substance abuse, in remission</td></tr><tr><td>F19.120</td><td>Oth psychoactive substance abuse w intoxication, uncomp</td></tr><tr><td>F19.121</td><td>Oth psychoactive substance abuse with intoxication delirium</td></tr><tr><td>F19.122</td><td>Oth psychoactv substance abuse w intox w perceptual disturb</td></tr><tr><td>F19.129</td><td>Other psychoactive substance abuse with intoxication, unsp</td></tr><tr><td>F19.130</td><td>Other psychoactive substance abuse with withdrawal, uncomplicated</td></tr><tr><td>F19.131</td><td>Other psychoactive substance abuse with withdrawal delirium</td></tr><tr><td>F19.132</td><td>Other psychoactive substance abuse with withdrawal with perceptual disturbance</td></tr><tr><td>F19.139</td><td>Other psychoactive substance abuse with withdrawal, unspecified</td></tr><tr><td>F19.14</td><td>Oth psychoactive substance abuse w mood disorder</td></tr><tr><td>F19.150</td><td>Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with delusions</td></tr><tr><td>F19.151</td><td>Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with hallucinations</td></tr><tr><td>F19.159</td><td>Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder, unspecified</td></tr><tr><td>F19.16</td><td>Oth psychoactv substance abuse w persist amnestic disorder</td></tr><tr><td>F19.17</td><td>Other psychoactive substance abuse with psychoactive substance-induced persisting dementia</td></tr><tr><td>F19.180</td><td>Other psychoactive substance abuse with psychoactive substance-induced anxiety disorder</td></tr><tr><td>F19.181</td><td>Oth psychoactive substance abuse w sexual dysfunction</td></tr><tr><td>F19.182</td><td>Other psychoactive substance abuse with psychoactive substance-induced sleep disorder</td></tr><tr><td>F19.188</td><td>Oth psychoactive substance abuse w oth disorder</td></tr><tr><td>F19.19</td><td>Oth psychoactive substance abuse w unsp disorder</td></tr><tr><td>F19.20</td><td>Other psychoactive substance dependence, uncomplicated</td></tr><tr><td>F19.21</td><td>Other psychoactive substance dependence, in remission</td></tr><tr><td>F19.220</td><td>Oth psychoactive substance dependence w intoxication, uncomp</td></tr><tr><td>F19.221</td><td>Oth psychoactive substance dependence w intox delirium</td></tr><tr><td>F19.222</td><td>Oth psychoactv substance depend w intox w perceptual disturb</td></tr><tr><td>F19.229</td><td>Oth psychoactive substance dependence w intoxication, unsp</td></tr><tr><td>F19.230</td><td>Oth psychoactive substance dependence w withdrawal, uncomp</td></tr><tr><td>F19.231</td><td>Oth psychoactive substance dependence w withdrawal delirium</td></tr><tr><td>F19.232</td><td>Oth psychoactv sub depend w w/drawal w perceptl disturb</td></tr><tr><td>F19.239</td><td>Oth psychoactive substance dependence with withdrawal, unsp</td></tr><tr><td>F19.24</td><td>Oth psychoactive substance dependence w mood disorder</td></tr><tr><td>F19.250</td><td>Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with delusions</td></tr><tr><td>F19.251</td><td>Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with hallucinations</td></tr><tr><td>F19.259</td><td>Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder, unspecified</td></tr><tr><td>F19.26</td><td>Oth psychoactv substance depend w persist amnestic disorder</td></tr><tr><td>F19.27</td><td>Other psychoactive substance dependence with psychoactive substance-induced persisting dementia</td></tr><tr><td>F19.280</td><td>Other psychoactive substance dependence with psychoactive substance-induced anxiety disorder</td></tr><tr><td>F19.281</td><td>Oth psychoactive substance dependence w sexual dysfunction</td></tr><tr><td>F19.282</td><td>Other psychoactive substance dependence with psychoactive substance-induced sleep disorder</td></tr><tr><td>F19.288</td><td>Oth psychoactive substance dependence w oth disorder</td></tr><tr><td>F19.29</td><td>Oth psychoactive substance dependence w unsp disorder</td></tr><tr><td>O99.320</td><td>Drug use complicating pregnancy, unspecified trimester</td></tr><tr><td>O99.321</td><td>Drug use complicating pregnancy, first trimester</td></tr><tr><td>O99.322</td><td>Drug use complicating pregnancy, second trimester</td></tr><tr><td>O99.323</td><td>Drug use complicating pregnancy, third trimester</td></tr><tr><td>O99.324</td><td>Drug use complicating childbirth</td></tr><tr><td>O99.325</td><td>Drug use complicating the puerperium</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/mcode/ValueSet/elixhauser-drug-abuse-vs"/>
+  <version value="1.16.0"/>
+  <name value="ElixhauserDrugAbuseVS"/>
+  <title value="Elixhauser Comorbid Condition Value Set for drug abuse"/>
+  <status value="active"/>
+  <date value="2021-04-15T12:44:45+00:00"/>
+  <publisher value="HL7 International Clinical Interoperability Council"/>
+  <contact>
+    <name value="HL7 International Clinical Interoperability Council"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ciclist@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Elixhauser Comorbid Condition Value Set for drug abuse. ICD-10 codes are drawn from https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp, version 2021.1"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <concept>
+        <code value="F11.10"/>
+        <display value="Opioid abuse, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F11.11"/>
+        <display value="Opioid abuse, in remission"/>
+      </concept>
+      <concept>
+        <code value="F11.120"/>
+        <display value="Opioid abuse with intoxication, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F11.121"/>
+        <display value="Opioid abuse with intoxication delirium"/>
+      </concept>
+      <concept>
+        <code value="F11.122"/>
+        <display value="Opioid abuse with intoxication with perceptual disturbance"/>
+      </concept>
+      <concept>
+        <code value="F11.129"/>
+        <display value="Opioid abuse with intoxication, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F11.13"/>
+        <display value="Opioid abuse with withdrawal"/>
+      </concept>
+      <concept>
+        <code value="F11.14"/>
+        <display value="Opioid abuse with opioid-induced mood disorder"/>
+      </concept>
+      <concept>
+        <code value="F11.150"/>
+        <display value="Opioid abuse with opioid-induced psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F11.151"/>
+        <display value="Opioid abuse with opioid-induced psychotic disorder with hallucinations"/>
+      </concept>
+      <concept>
+        <code value="F11.159"/>
+        <display value="Opioid abuse with opioid-induced psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F11.181"/>
+        <display value="Opioid abuse with opioid-induced sexual dysfunction"/>
+      </concept>
+      <concept>
+        <code value="F11.182"/>
+        <display value="Opioid abuse with opioid-induced sleep disorder"/>
+      </concept>
+      <concept>
+        <code value="F11.188"/>
+        <display value="Opioid abuse with other opioid-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F11.19"/>
+        <display value="Opioid abuse with unspecified opioid-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F11.20"/>
+        <display value="Opioid dependence, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F11.21"/>
+        <display value="Opioid dependence, in remission"/>
+      </concept>
+      <concept>
+        <code value="F11.220"/>
+        <display value="Opioid dependence with intoxication, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F11.221"/>
+        <display value="Opioid dependence with intoxication delirium"/>
+      </concept>
+      <concept>
+        <code value="F11.222"/>
+        <display value="Opioid dependence w intoxication with perceptual disturbance"/>
+      </concept>
+      <concept>
+        <code value="F11.229"/>
+        <display value="Opioid dependence with intoxication, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F11.23"/>
+        <display value="Opioid dependence with withdrawal"/>
+      </concept>
+      <concept>
+        <code value="F11.24"/>
+        <display value="Opioid dependence with opioid-induced mood disorder"/>
+      </concept>
+      <concept>
+        <code value="F11.250"/>
+        <display value="Opioid dependence with opioid-induced psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F11.251"/>
+        <display value="Opioid dependence with opioid-induced psychotic disorder with hallucinations"/>
+      </concept>
+      <concept>
+        <code value="F11.259"/>
+        <display value="Opioid dependence with opioid-induced psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F11.281"/>
+        <display value="Opioid dependence with opioid-induced sexual dysfunction"/>
+      </concept>
+      <concept>
+        <code value="F11.282"/>
+        <display value="Opioid dependence with opioid-induced sleep disorder"/>
+      </concept>
+      <concept>
+        <code value="F11.288"/>
+        <display value="Opioid dependence with other opioid-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F11.29"/>
+        <display value="Opioid dependence with unspecified opioid-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F12.10"/>
+        <display value="Cannabis abuse, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F12.11"/>
+        <display value="Cannabis abuse, in remission"/>
+      </concept>
+      <concept>
+        <code value="F12.120"/>
+        <display value="Cannabis abuse with intoxication, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F12.121"/>
+        <display value="Cannabis abuse with intoxication delirium"/>
+      </concept>
+      <concept>
+        <code value="F12.122"/>
+        <display value="Cannabis abuse with intoxication with perceptual disturbance"/>
+      </concept>
+      <concept>
+        <code value="F12.129"/>
+        <display value="Cannabis abuse with intoxication, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F12.13"/>
+        <display value="Cannabis abuse with withdrawal"/>
+      </concept>
+      <concept>
+        <code value="F12.150"/>
+        <display value="Cannabis abuse with psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F12.151"/>
+        <display value="Cannabis abuse with psychotic disorder with hallucinations"/>
+      </concept>
+      <concept>
+        <code value="F12.159"/>
+        <display value="Cannabis abuse with psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F12.180"/>
+        <display value="Cannabis abuse with cannabis-induced anxiety disorder"/>
+      </concept>
+      <concept>
+        <code value="F12.188"/>
+        <display value="Cannabis abuse with other cannabis-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F12.19"/>
+        <display value="Cannabis abuse with unspecified cannabis-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F12.20"/>
+        <display value="Cannabis dependence, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F12.21"/>
+        <display value="Cannabis dependence, in remission"/>
+      </concept>
+      <concept>
+        <code value="F12.220"/>
+        <display value="Cannabis dependence with intoxication, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F12.221"/>
+        <display value="Cannabis dependence with intoxication delirium"/>
+      </concept>
+      <concept>
+        <code value="F12.222"/>
+        <display value="Cannabis dependence w intoxication w perceptual disturbance"/>
+      </concept>
+      <concept>
+        <code value="F12.229"/>
+        <display value="Cannabis dependence with intoxication, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F12.23"/>
+        <display value="Cannabis dependence with withdrawal"/>
+      </concept>
+      <concept>
+        <code value="F12.250"/>
+        <display value="Cannabis dependence with psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F12.251"/>
+        <display value="Cannabis dependence with psychotic disorder with hallucinations"/>
+      </concept>
+      <concept>
+        <code value="F12.259"/>
+        <display value="Cannabis dependence with psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F12.280"/>
+        <display value="Cannabis dependence with cannabis-induced anxiety disorder"/>
+      </concept>
+      <concept>
+        <code value="F12.288"/>
+        <display value="Cannabis dependence with other cannabis-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F12.29"/>
+        <display value="Cannabis dependence with unsp cannabis-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F13.10"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F13.11"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse, in remission"/>
+      </concept>
+      <concept>
+        <code value="F13.120"/>
+        <display value="Sedatv/hyp/anxiolytc abuse w intoxication, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F13.121"/>
+        <display value="Sedatv/hyp/anxiolytc abuse w intoxication delirium"/>
+      </concept>
+      <concept>
+        <code value="F13.129"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse w intoxication, unsp"/>
+      </concept>
+      <concept>
+        <code value="F13.130"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse with withdrawal, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F13.131"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse with withdrawal delirium"/>
+      </concept>
+      <concept>
+        <code value="F13.132"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse with withdrawal with perceptual disturbance"/>
+      </concept>
+      <concept>
+        <code value="F13.139"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse with withdrawal, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F13.14"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse w mood disorder"/>
+      </concept>
+      <concept>
+        <code value="F13.150"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F13.151"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced psychotic disorder with hallucinations"/>
+      </concept>
+      <concept>
+        <code value="F13.159"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F13.180"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced anxiety disorder"/>
+      </concept>
+      <concept>
+        <code value="F13.181"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse w sexual dysfunction"/>
+      </concept>
+      <concept>
+        <code value="F13.182"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse w sleep disorder"/>
+      </concept>
+      <concept>
+        <code value="F13.188"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse w oth disorder"/>
+      </concept>
+      <concept>
+        <code value="F13.19"/>
+        <display value="Sedative, hypnotic or anxiolytic abuse w unsp disorder"/>
+      </concept>
+      <concept>
+        <code value="F13.20"/>
+        <display value="Sedative, hypnotic or anxiolytic dependence, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F13.21"/>
+        <display value="Sedative, hypnotic or anxiolytic dependence, in remission"/>
+      </concept>
+      <concept>
+        <code value="F13.220"/>
+        <display value="Sedatv/hyp/anxiolytc dependence w intoxication, uncomp"/>
+      </concept>
+      <concept>
+        <code value="F13.221"/>
+        <display value="Sedatv/hyp/anxiolytc dependence w intoxication delirium"/>
+      </concept>
+      <concept>
+        <code value="F13.229"/>
+        <display value="Sedatv/hyp/anxiolytc dependence w intoxication, unsp"/>
+      </concept>
+      <concept>
+        <code value="F13.230"/>
+        <display value="Sedatv/hyp/anxiolytc dependence w withdrawal, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F13.231"/>
+        <display value="Sedatv/hyp/anxiolytc dependence w withdrawal delirium"/>
+      </concept>
+      <concept>
+        <code value="F13.232"/>
+        <display value="Sedatv/hyp/anxiolytc depend w w/drawal w perceptual disturb"/>
+      </concept>
+      <concept>
+        <code value="F13.239"/>
+        <display value="Sedatv/hyp/anxiolytc dependence w withdrawal, unsp"/>
+      </concept>
+      <concept>
+        <code value="F13.24"/>
+        <display value="Sedative, hypnotic or anxiolytic dependence w mood disorder"/>
+      </concept>
+      <concept>
+        <code value="F13.250"/>
+        <display value="Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F13.251"/>
+        <display value="Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced psychotic disorder with hallucinat"/>
+      </concept>
+      <concept>
+        <code value="F13.259"/>
+        <display value="Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F13.26"/>
+        <display value="Sedatv/hyp/anxiolytc depend w persisting amnestic disorder"/>
+      </concept>
+      <concept>
+        <code value="F13.27"/>
+        <display value="Sedatv/hyp/anxiolytc dependence w persisting dementia"/>
+      </concept>
+      <concept>
+        <code value="F13.280"/>
+        <display value="Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced anxiety disorder"/>
+      </concept>
+      <concept>
+        <code value="F13.281"/>
+        <display value="Sedatv/hyp/anxiolytc dependence w sexual dysfunction"/>
+      </concept>
+      <concept>
+        <code value="F13.282"/>
+        <display value="Sedative, hypnotic or anxiolytic dependence w sleep disorder"/>
+      </concept>
+      <concept>
+        <code value="F13.288"/>
+        <display value="Sedative, hypnotic or anxiolytic dependence w oth disorder"/>
+      </concept>
+      <concept>
+        <code value="F13.29"/>
+        <display value="Sedative, hypnotic or anxiolytic dependence w unsp disorder"/>
+      </concept>
+      <concept>
+        <code value="F14.10"/>
+        <display value="Cocaine abuse, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F14.11"/>
+        <display value="Cocaine abuse, in remission"/>
+      </concept>
+      <concept>
+        <code value="F14.120"/>
+        <display value="Cocaine abuse with intoxication, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F14.121"/>
+        <display value="Cocaine abuse with intoxication with delirium"/>
+      </concept>
+      <concept>
+        <code value="F14.122"/>
+        <display value="Cocaine abuse with intoxication with perceptual disturbance"/>
+      </concept>
+      <concept>
+        <code value="F14.129"/>
+        <display value="Cocaine abuse with intoxication, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F14.13"/>
+        <display value="Cocaine abuse, unspecified with withdrawal"/>
+      </concept>
+      <concept>
+        <code value="F14.14"/>
+        <display value="Cocaine abuse with cocaine-induced mood disorder"/>
+      </concept>
+      <concept>
+        <code value="F14.150"/>
+        <display value="Cocaine abuse with cocaine-induced psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F14.151"/>
+        <display value="Cocaine abuse with cocaine-induced psychotic disorder with hallucinations"/>
+      </concept>
+      <concept>
+        <code value="F14.159"/>
+        <display value="Cocaine abuse with cocaine-induced psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F14.180"/>
+        <display value="Cocaine abuse with cocaine-induced anxiety disorder"/>
+      </concept>
+      <concept>
+        <code value="F14.181"/>
+        <display value="Cocaine abuse with cocaine-induced sexual dysfunction"/>
+      </concept>
+      <concept>
+        <code value="F14.182"/>
+        <display value="Cocaine abuse with cocaine-induced sleep disorder"/>
+      </concept>
+      <concept>
+        <code value="F14.188"/>
+        <display value="Cocaine abuse with other cocaine-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F14.19"/>
+        <display value="Cocaine abuse with unspecified cocaine-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F14.20"/>
+        <display value="Cocaine dependence, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F14.21"/>
+        <display value="Cocaine dependence, in remission"/>
+      </concept>
+      <concept>
+        <code value="F14.220"/>
+        <display value="Cocaine dependence with intoxication, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F14.221"/>
+        <display value="Cocaine dependence with intoxication delirium"/>
+      </concept>
+      <concept>
+        <code value="F14.222"/>
+        <display value="Cocaine dependence w intoxication w perceptual disturbance"/>
+      </concept>
+      <concept>
+        <code value="F14.229"/>
+        <display value="Cocaine dependence with intoxication, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F14.23"/>
+        <display value="Cocaine dependence with withdrawal"/>
+      </concept>
+      <concept>
+        <code value="F14.24"/>
+        <display value="Cocaine dependence with cocaine-induced mood disorder"/>
+      </concept>
+      <concept>
+        <code value="F14.250"/>
+        <display value="Cocaine dependence with cocaine-induced psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F14.251"/>
+        <display value="Cocaine dependence with cocaine-induced psychotic disorder with hallucinations"/>
+      </concept>
+      <concept>
+        <code value="F14.259"/>
+        <display value="Cocaine dependence with cocaine-induced psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F14.280"/>
+        <display value="Cocaine dependence with cocaine-induced anxiety disorder"/>
+      </concept>
+      <concept>
+        <code value="F14.281"/>
+        <display value="Cocaine dependence with cocaine-induced sexual dysfunction"/>
+      </concept>
+      <concept>
+        <code value="F14.282"/>
+        <display value="Cocaine dependence with cocaine-induced sleep disorder"/>
+      </concept>
+      <concept>
+        <code value="F14.288"/>
+        <display value="Cocaine dependence with other cocaine-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F14.29"/>
+        <display value="Cocaine dependence with unspecified cocaine-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F15.10"/>
+        <display value="Other stimulant abuse, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F15.11"/>
+        <display value="Other stimulant abuse, in remission"/>
+      </concept>
+      <concept>
+        <code value="F15.120"/>
+        <display value="Other stimulant abuse with intoxication, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F15.121"/>
+        <display value="Other stimulant abuse with intoxication delirium"/>
+      </concept>
+      <concept>
+        <code value="F15.122"/>
+        <display value="Oth stimulant abuse w intoxication w perceptual disturbance"/>
+      </concept>
+      <concept>
+        <code value="F15.129"/>
+        <display value="Other stimulant abuse with intoxication, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F15.13"/>
+        <display value="Other stimulant abuse with withdrawal"/>
+      </concept>
+      <concept>
+        <code value="F15.14"/>
+        <display value="Other stimulant abuse with stimulant-induced mood disorder"/>
+      </concept>
+      <concept>
+        <code value="F15.150"/>
+        <display value="Other stimulant abuse with stimulant-induced psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F15.151"/>
+        <display value="Other stimulant abuse with stimulant-induced psychotic disorder with hallucinations"/>
+      </concept>
+      <concept>
+        <code value="F15.159"/>
+        <display value="Other stimulant abuse with stimulant-induced psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F15.180"/>
+        <display value="Other stimulant abuse with stimulant-induced anxiety disorder"/>
+      </concept>
+      <concept>
+        <code value="F15.181"/>
+        <display value="Oth stimulant abuse w stimulant-induced sexual dysfunction"/>
+      </concept>
+      <concept>
+        <code value="F15.182"/>
+        <display value="Other stimulant abuse with stimulant-induced sleep disorder"/>
+      </concept>
+      <concept>
+        <code value="F15.188"/>
+        <display value="Other stimulant abuse with other stimulant-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F15.19"/>
+        <display value="Other stimulant abuse with unsp stimulant-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F15.20"/>
+        <display value="Other stimulant dependence, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F15.21"/>
+        <display value="Other stimulant dependence, in remission"/>
+      </concept>
+      <concept>
+        <code value="F15.220"/>
+        <display value="Other stimulant dependence with intoxication, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F15.221"/>
+        <display value="Other stimulant dependence with intoxication delirium"/>
+      </concept>
+      <concept>
+        <code value="F15.222"/>
+        <display value="Oth stimulant dependence w intox w perceptual disturbance"/>
+      </concept>
+      <concept>
+        <code value="F15.229"/>
+        <display value="Other stimulant dependence with intoxication, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F15.23"/>
+        <display value="Other stimulant dependence with withdrawal"/>
+      </concept>
+      <concept>
+        <code value="F15.24"/>
+        <display value="Oth stimulant dependence w stimulant-induced mood disorder"/>
+      </concept>
+      <concept>
+        <code value="F15.250"/>
+        <display value="Other stimulant dependence with stimulant-induced psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F15.251"/>
+        <display value="Other stimulant dependence with stimulant-induced psychotic disorder with hallucinations"/>
+      </concept>
+      <concept>
+        <code value="F15.259"/>
+        <display value="Other stimulant dependence with stimulant-induced psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F15.280"/>
+        <display value="Other stimulant dependence with stimulant-induced anxiety disorder"/>
+      </concept>
+      <concept>
+        <code value="F15.281"/>
+        <display value="Oth stimulant dependence w stim-induce sexual dysfunction"/>
+      </concept>
+      <concept>
+        <code value="F15.282"/>
+        <display value="Oth stimulant dependence w stimulant-induced sleep disorder"/>
+      </concept>
+      <concept>
+        <code value="F15.288"/>
+        <display value="Oth stimulant dependence with oth stimulant-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F15.29"/>
+        <display value="Oth stimulant dependence w unsp stimulant-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F16.10"/>
+        <display value="Hallucinogen abuse, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F16.11"/>
+        <display value="Hallucinogen abuse, in remission"/>
+      </concept>
+      <concept>
+        <code value="F16.120"/>
+        <display value="Hallucinogen abuse with intoxication, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F16.121"/>
+        <display value="Hallucinogen abuse with intoxication with delirium"/>
+      </concept>
+      <concept>
+        <code value="F16.122"/>
+        <display value="Hallucinogen abuse w intoxication w perceptual disturbance"/>
+      </concept>
+      <concept>
+        <code value="F16.129"/>
+        <display value="Hallucinogen abuse with intoxication, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F16.14"/>
+        <display value="Hallucinogen abuse with hallucinogen-induced mood disorder"/>
+      </concept>
+      <concept>
+        <code value="F16.150"/>
+        <display value="Hallucinogen abuse with hallucinogen-induced psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F16.151"/>
+        <display value="Hallucinogen abuse with hallucinogen-induced psychotic disorder with hallucinations"/>
+      </concept>
+      <concept>
+        <code value="F16.159"/>
+        <display value="Hallucinogen abuse with hallucinogen-induced psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F16.180"/>
+        <display value="Hallucinogen abuse with hallucinogen-induced anxiety disorder"/>
+      </concept>
+      <concept>
+        <code value="F16.183"/>
+        <display value="Hallucign abuse w hallucign persisting perception disorder"/>
+      </concept>
+      <concept>
+        <code value="F16.188"/>
+        <display value="Hallucinogen abuse with other hallucinogen-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F16.19"/>
+        <display value="Hallucinogen abuse with unsp hallucinogen-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F16.20"/>
+        <display value="Hallucinogen dependence, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F16.21"/>
+        <display value="Hallucinogen dependence, in remission"/>
+      </concept>
+      <concept>
+        <code value="F16.220"/>
+        <display value="Hallucinogen dependence with intoxication, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F16.221"/>
+        <display value="Hallucinogen dependence with intoxication with delirium"/>
+      </concept>
+      <concept>
+        <code value="F16.229"/>
+        <display value="Hallucinogen dependence with intoxication, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F16.24"/>
+        <display value="Hallucinogen dependence w hallucinogen-induced mood disorder"/>
+      </concept>
+      <concept>
+        <code value="F16.250"/>
+        <display value="Hallucinogen dependence with hallucinogen-induced psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F16.251"/>
+        <display value="Hallucinogen dependence with hallucinogen-induced psychotic disorder with hallucinations"/>
+      </concept>
+      <concept>
+        <code value="F16.259"/>
+        <display value="Hallucinogen dependence with hallucinogen-induced psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F16.280"/>
+        <display value="Hallucinogen dependence with hallucinogen-induced anxiety disorder"/>
+      </concept>
+      <concept>
+        <code value="F16.283"/>
+        <display value="Hallucign depend w hallucign persisting perception disorder"/>
+      </concept>
+      <concept>
+        <code value="F16.288"/>
+        <display value="Hallucinogen dependence w oth hallucinogen-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F16.29"/>
+        <display value="Hallucinogen dependence w unsp hallucinogen-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F18.10"/>
+        <display value="Inhalant abuse, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F18.11"/>
+        <display value="Inhalant abuse, in remission"/>
+      </concept>
+      <concept>
+        <code value="F18.120"/>
+        <display value="Inhalant abuse with intoxication, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F18.121"/>
+        <display value="Inhalant abuse with intoxication delirium"/>
+      </concept>
+      <concept>
+        <code value="F18.129"/>
+        <display value="Inhalant abuse with intoxication, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F18.14"/>
+        <display value="Inhalant abuse with inhalant-induced mood disorder"/>
+      </concept>
+      <concept>
+        <code value="F18.150"/>
+        <display value="Inhalant abuse with inhalant-induced psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F18.151"/>
+        <display value="Inhalant abuse with inhalant-induced psychotic disorder with hallucinations"/>
+      </concept>
+      <concept>
+        <code value="F18.159"/>
+        <display value="Inhalant abuse with inhalant-induced psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F18.17"/>
+        <display value="Inhalant abuse with inhalant-induced dementia"/>
+      </concept>
+      <concept>
+        <code value="F18.180"/>
+        <display value="Inhalant abuse with inhalant-induced anxiety disorder"/>
+      </concept>
+      <concept>
+        <code value="F18.188"/>
+        <display value="Inhalant abuse with other inhalant-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F18.19"/>
+        <display value="Inhalant abuse with unspecified inhalant-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F18.20"/>
+        <display value="Inhalant dependence, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F18.21"/>
+        <display value="Inhalant dependence, in remission"/>
+      </concept>
+      <concept>
+        <code value="F18.220"/>
+        <display value="Inhalant dependence with intoxication, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F18.221"/>
+        <display value="Inhalant dependence with intoxication delirium"/>
+      </concept>
+      <concept>
+        <code value="F18.229"/>
+        <display value="Inhalant dependence with intoxication, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F18.24"/>
+        <display value="Inhalant dependence with inhalant-induced mood disorder"/>
+      </concept>
+      <concept>
+        <code value="F18.250"/>
+        <display value="Inhalant dependence with inhalant-induced psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F18.251"/>
+        <display value="Inhalant dependence with inhalant-induced psychotic disorder with hallucinations"/>
+      </concept>
+      <concept>
+        <code value="F18.259"/>
+        <display value="Inhalant dependence with inhalant-induced psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F18.27"/>
+        <display value="Inhalant dependence with inhalant-induced dementia"/>
+      </concept>
+      <concept>
+        <code value="F18.280"/>
+        <display value="Inhalant dependence with inhalant-induced anxiety disorder"/>
+      </concept>
+      <concept>
+        <code value="F18.288"/>
+        <display value="Inhalant dependence with other inhalant-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F18.29"/>
+        <display value="Inhalant dependence with unsp inhalant-induced disorder"/>
+      </concept>
+      <concept>
+        <code value="F19.10"/>
+        <display value="Other psychoactive substance abuse, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F19.11"/>
+        <display value="Other psychoactive substance abuse, in remission"/>
+      </concept>
+      <concept>
+        <code value="F19.120"/>
+        <display value="Oth psychoactive substance abuse w intoxication, uncomp"/>
+      </concept>
+      <concept>
+        <code value="F19.121"/>
+        <display value="Oth psychoactive substance abuse with intoxication delirium"/>
+      </concept>
+      <concept>
+        <code value="F19.122"/>
+        <display value="Oth psychoactv substance abuse w intox w perceptual disturb"/>
+      </concept>
+      <concept>
+        <code value="F19.129"/>
+        <display value="Other psychoactive substance abuse with intoxication, unsp"/>
+      </concept>
+      <concept>
+        <code value="F19.130"/>
+        <display value="Other psychoactive substance abuse with withdrawal, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F19.131"/>
+        <display value="Other psychoactive substance abuse with withdrawal delirium"/>
+      </concept>
+      <concept>
+        <code value="F19.132"/>
+        <display value="Other psychoactive substance abuse with withdrawal with perceptual disturbance"/>
+      </concept>
+      <concept>
+        <code value="F19.139"/>
+        <display value="Other psychoactive substance abuse with withdrawal, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F19.14"/>
+        <display value="Oth psychoactive substance abuse w mood disorder"/>
+      </concept>
+      <concept>
+        <code value="F19.150"/>
+        <display value="Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F19.151"/>
+        <display value="Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with hallucinations"/>
+      </concept>
+      <concept>
+        <code value="F19.159"/>
+        <display value="Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F19.16"/>
+        <display value="Oth psychoactv substance abuse w persist amnestic disorder"/>
+      </concept>
+      <concept>
+        <code value="F19.17"/>
+        <display value="Other psychoactive substance abuse with psychoactive substance-induced persisting dementia"/>
+      </concept>
+      <concept>
+        <code value="F19.180"/>
+        <display value="Other psychoactive substance abuse with psychoactive substance-induced anxiety disorder"/>
+      </concept>
+      <concept>
+        <code value="F19.181"/>
+        <display value="Oth psychoactive substance abuse w sexual dysfunction"/>
+      </concept>
+      <concept>
+        <code value="F19.182"/>
+        <display value="Other psychoactive substance abuse with psychoactive substance-induced sleep disorder"/>
+      </concept>
+      <concept>
+        <code value="F19.188"/>
+        <display value="Oth psychoactive substance abuse w oth disorder"/>
+      </concept>
+      <concept>
+        <code value="F19.19"/>
+        <display value="Oth psychoactive substance abuse w unsp disorder"/>
+      </concept>
+      <concept>
+        <code value="F19.20"/>
+        <display value="Other psychoactive substance dependence, uncomplicated"/>
+      </concept>
+      <concept>
+        <code value="F19.21"/>
+        <display value="Other psychoactive substance dependence, in remission"/>
+      </concept>
+      <concept>
+        <code value="F19.220"/>
+        <display value="Oth psychoactive substance dependence w intoxication, uncomp"/>
+      </concept>
+      <concept>
+        <code value="F19.221"/>
+        <display value="Oth psychoactive substance dependence w intox delirium"/>
+      </concept>
+      <concept>
+        <code value="F19.222"/>
+        <display value="Oth psychoactv substance depend w intox w perceptual disturb"/>
+      </concept>
+      <concept>
+        <code value="F19.229"/>
+        <display value="Oth psychoactive substance dependence w intoxication, unsp"/>
+      </concept>
+      <concept>
+        <code value="F19.230"/>
+        <display value="Oth psychoactive substance dependence w withdrawal, uncomp"/>
+      </concept>
+      <concept>
+        <code value="F19.231"/>
+        <display value="Oth psychoactive substance dependence w withdrawal delirium"/>
+      </concept>
+      <concept>
+        <code value="F19.232"/>
+        <display value="Oth psychoactv sub depend w w/drawal w perceptl disturb"/>
+      </concept>
+      <concept>
+        <code value="F19.239"/>
+        <display value="Oth psychoactive substance dependence with withdrawal, unsp"/>
+      </concept>
+      <concept>
+        <code value="F19.24"/>
+        <display value="Oth psychoactive substance dependence w mood disorder"/>
+      </concept>
+      <concept>
+        <code value="F19.250"/>
+        <display value="Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with delusions"/>
+      </concept>
+      <concept>
+        <code value="F19.251"/>
+        <display value="Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with hallucinations"/>
+      </concept>
+      <concept>
+        <code value="F19.259"/>
+        <display value="Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder, unspecified"/>
+      </concept>
+      <concept>
+        <code value="F19.26"/>
+        <display value="Oth psychoactv substance depend w persist amnestic disorder"/>
+      </concept>
+      <concept>
+        <code value="F19.27"/>
+        <display value="Other psychoactive substance dependence with psychoactive substance-induced persisting dementia"/>
+      </concept>
+      <concept>
+        <code value="F19.280"/>
+        <display value="Other psychoactive substance dependence with psychoactive substance-induced anxiety disorder"/>
+      </concept>
+      <concept>
+        <code value="F19.281"/>
+        <display value="Oth psychoactive substance dependence w sexual dysfunction"/>
+      </concept>
+      <concept>
+        <code value="F19.282"/>
+        <display value="Other psychoactive substance dependence with psychoactive substance-induced sleep disorder"/>
+      </concept>
+      <concept>
+        <code value="F19.288"/>
+        <display value="Oth psychoactive substance dependence w oth disorder"/>
+      </concept>
+      <concept>
+        <code value="F19.29"/>
+        <display value="Oth psychoactive substance dependence w unsp disorder"/>
+      </concept>
+      <concept>
+        <code value="O99.320"/>
+        <display value="Drug use complicating pregnancy, unspecified trimester"/>
+      </concept>
+      <concept>
+        <code value="O99.321"/>
+        <display value="Drug use complicating pregnancy, first trimester"/>
+      </concept>
+      <concept>
+        <code value="O99.322"/>
+        <display value="Drug use complicating pregnancy, second trimester"/>
+      </concept>
+      <concept>
+        <code value="O99.323"/>
+        <display value="Drug use complicating pregnancy, third trimester"/>
+      </concept>
+      <concept>
+        <code value="O99.324"/>
+        <display value="Drug use complicating childbirth"/>
+      </concept>
+      <concept>
+        <code value="O99.325"/>
+        <display value="Drug use complicating the puerperium"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

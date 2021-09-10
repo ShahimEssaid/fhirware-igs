@@ -1,0 +1,65 @@
+{
+  "resourceType": "Observation",
+  "id": "tumor-marker-test-oncotype-dx-jenny-m",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-marker-test"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span></p><p><b>code</b>: <span title=\"Codes: {http://hl7.org/fhir/us/mcode/CodeSystem/mcode-catch-code-cs TMT-OTHER}, {http://www.ncbi.nlm.nih.gov/gtr 509910}\">Oncotype DX Breast Recurrence Score Assay</span></p><p><b>subject</b>: <a href=\"Patient-cancer-patient-jenny-m.html\">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p><p><b>effective</b>: 2018-04-12</p><p><b>performer</b>: <a href=\"Organization-us-core-organization-bedrock-medicine.html\">Generated Summary: id: 1265710000; active; name: Bedrock Medicine</a></p><p><b>value</b>: 47 Recurrence score</p><p><b>interpretation</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation H}\">High</span></p></div>"
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/us/mcode/CodeSystem/mcode-catch-code-cs",
+        "code": "TMT-OTHER",
+        "display": "Other Tumor Marker Test, Specify"
+      },
+      {
+        "system": "http://www.ncbi.nlm.nih.gov/gtr",
+        "code": "509910",
+        "display": "Oncotype DX Breast Recurrence Score Assay"
+      }
+    ],
+    "text": "Oncotype DX Breast Recurrence Score Assay"
+  },
+  "subject": {
+    "reference": "Patient/cancer-patient-jenny-m"
+  },
+  "effectiveDateTime": "2018-04-12",
+  "performer": [
+    {
+      "reference": "Organization/us-core-organization-bedrock-medicine"
+    }
+  ],
+  "valueQuantity": {
+    "value": 47,
+    "unit": "Recurrence score",
+    "system": "http://unitsofmeasure.org",
+    "code": "{ScoreOf}"
+  },
+  "interpretation": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+          "code": "H",
+          "display": "High"
+        }
+      ]
+    }
+  ]
+}

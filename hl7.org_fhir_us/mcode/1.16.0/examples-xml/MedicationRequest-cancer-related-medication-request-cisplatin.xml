@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicationRequest xmlns="http://hl7.org/fhir">
+  <id value="cancer-related-medication-request-cisplatin"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-request"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Treatment Intent</b>: <span title="Codes: {http://snomed.info/sct 373808002}">Curative - procedure intent</span></p><p><b>Termination Reason</b>: <span title="Codes: {http://snomed.info/sct 182992009}">Treatment completed (situation)</span></p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>medication</b>: <span title="Codes: {http://www.nlm.nih.gov/research/umls/rxnorm 309311}">CISplatin 50 MG per 50 ML Injectable Solution</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-john-anyperson.html">Generated Summary: Medical Record Number: m123 (USUAL); John B. Anyperson ; gender: male; birthDate: 1951-01-20</a></p><p><b>authoredOn</b>: 2019-04-01</p><p><b>requester</b>: <a href="Practitioner-us-core-practitioner-kyle-anydoc.html">Generated Summary: id: 9988776655; Kyle Anydoc ; gender: male</a></p><p><b>reasonCode</b>: <span title="Codes: {http://snomed.info/sct 254637007}">Non-small cell lung cancer (disorder)</span></p><p><b>note</b>: Day 1 of NSCLC regimen: Cisplatin 75 mg/m2 day 1; docetaxel 75 mg/m2 day 1 every 21 days for 4 cycles.</p><h3>DosageInstructions</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-treatment-intent">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="373808002"/>
+        <display value="Curative - procedure intent"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-treatment-termination-reason">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="182992009"/>
+        <display value="Treatment completed (situation)"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <status value="active"/>
+  <intent value="order"/>
+  <medicationCodeableConcept>
+    <coding>
+      <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+      <code value="309311"/>
+      <display value="CISplatin 50 MG per 50 ML Injectable Solution"/>
+    </coding>
+  </medicationCodeableConcept>
+  <subject>
+    <reference value="Patient/cancer-patient-john-anyperson"/>
+  </subject>
+  <authoredOn value="2019-04-01"/>
+  <requester>
+    <reference value="Practitioner/us-core-practitioner-kyle-anydoc"/>
+  </requester>
+  <reasonCode>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="254637007"/>
+      <display value="Non-small cell lung cancer (disorder)"/>
+    </coding>
+  </reasonCode>
+  <note>
+    <text value="Day 1 of NSCLC regimen: Cisplatin 75 mg/m2 day 1; docetaxel 75 mg/m2 day 1 every 21 days for 4 cycles."/>
+  </note>
+  <dosageInstruction>
+    <text value="calculate absolute dose on day of administration."/>
+    <timing>
+      <event value="2019-06-15"/>
+      <repeat>
+        <count value="1"/>
+      </repeat>
+    </timing>
+    <route>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="47625008"/>
+        <display value="Intravenous use"/>
+      </coding>
+    </route>
+    <doseAndRate>
+      <doseQuantity>
+        <value value="75"/>
+        <unit value="mg/m2"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mg/m2"/>
+      </doseQuantity>
+    </doseAndRate>
+  </dosageInstruction>
+</MedicationRequest>

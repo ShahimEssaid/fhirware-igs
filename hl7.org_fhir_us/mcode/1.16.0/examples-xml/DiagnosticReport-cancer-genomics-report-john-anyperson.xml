@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+  <id value="cancer-genomics-report-john-anyperson"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-genomics-report"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2><span title="Codes: {http://loinc.org 81247-9}">Master HL7 genetic variant reporting panel</span> (<span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0074 LAB}">Laboratory</span>, <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0074 GE}">Genetics</span>) </h2><table class="grid"><tr><td>Subject</td><td><b>John B. Anyperson </b>  1951-01-20 ( Medical Record Number: m123 (USUAL))</td></tr><tr><td>When For</td><td>2019-04-01</td></tr><tr><td>Reported</td><td>Apr 1, 2019 12:45:33 AM</td></tr></table><p><b>Report Details</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Flags</b></td><td><b>When For</b></td><td><b>Reported</b></td></tr><tr><td><a href="Observation-cancer-genetic-variant-somatic-single-nucleotide.html"><span title="Codes: {http://loinc.org 69548-6}">Genetic variant assessment</span></a></td><td><span title="Codes: {http://loinc.org LA9633-4}">Present</span></td><td><span title="Codes: {http://snomed.info/sct 10828004}">Positive (qualifier value)</span></td><td>2019-04-01</td><td></td></tr><tr><td><a href="Observation-genomic-region-studied-stk11.html"><span title="Codes: {http://loinc.org 53041-0}">DNA region of interest panel</span></a></td><td></td><td></td><td>2019-04-01</td><td></td></tr></table></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+      <code value="LAB"/>
+    </coding>
+  </category>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+      <code value="GE"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="81247-9"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cancer-patient-john-anyperson"/>
+  </subject>
+  <effectiveDateTime value="2019-04-01"/>
+  <issued value="2019-04-01T11:45:33+11:00"/>
+  <specimen>
+    <reference value="Specimen/genetic-specimen-lung"/>
+  </specimen>
+  <result>
+    <reference value="Observation/cancer-genetic-variant-somatic-single-nucleotide"/>
+  </result>
+  <result>
+    <reference value="Observation/genomic-region-studied-stk11"/>
+  </result>
+</DiagnosticReport>

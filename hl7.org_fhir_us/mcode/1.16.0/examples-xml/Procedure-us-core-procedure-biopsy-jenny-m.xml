@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="us-core-procedure-biopsy-jenny-m"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 723990008}">Biopsy of breast using ultrasonographic guidance (procedure)</span></p><p><b>subject</b>: <a href="Patient-cancer-patient-jenny-m.html">Generated Summary: Medical Record Number: MRN1234 (USUAL); Jenny M ; gender: female; birthDate: 1965-01-01</a></p><p><b>performed</b>: 2018-03-06</p><p><b>asserter</b>: <a href="Practitioner-us-core-practitioner-mary-obgyn.html">Generated Summary: id: 234512367; Mary Obgyn ; gender: female</a></p><h3>Performers</h3><table class="grid"><tr><td>-</td><td><b>Actor</b></td></tr><tr><td>*</td><td><a href="Practitioner-us-core-practitioner-mary-obgyn.html">Generated Summary: id: 234512367; Mary Obgyn ; gender: female</a></td></tr></table><p><b>reasonReference</b>: <a href="Condition-primary-cancer-condition-jenny-m.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical remission}">Remission</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span>; <span title="Codes: {http://snomed.info/sct 353431000119107}">Primary malignant neoplasm of female left breast (disorder)</span>; onset: 2018-03-16</a></p><p><b>bodySite</b>: <span title="Codes: {http://snomed.info/sct 80248007}">Left breast structure (body structure)</span></p></div>
+  </text>
+  <status value="completed"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="723990008"/>
+      <display value="Biopsy of breast using ultrasonographic guidance (procedure)"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cancer-patient-jenny-m"/>
+  </subject>
+  <performedDateTime value="2018-03-06"/>
+  <asserter>
+    <reference value="Practitioner/us-core-practitioner-mary-obgyn"/>
+  </asserter>
+  <performer>
+    <actor>
+      <reference value="Practitioner/us-core-practitioner-mary-obgyn"/>
+    </actor>
+  </performer>
+  <reasonReference>
+    <reference value="Condition/primary-cancer-condition-jenny-m"/>
+  </reasonReference>
+  <bodySite>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="80248007"/>
+      <display value="Left breast structure (body structure)"/>
+    </coding>
+  </bodySite>
+</Procedure>

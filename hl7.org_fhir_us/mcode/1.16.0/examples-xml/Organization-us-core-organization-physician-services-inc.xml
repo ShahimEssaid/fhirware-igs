@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="us-core-organization-physician-services-inc"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}">Healthcare Provider</span></p><p><b>name</b>: Physician Services, Inc.</p><p><b>telecom</b>: ph: 999-999-9999(WORK)</p><p><b>address</b>: 123 Corporate Drive Anytown MA 12345 US </p></div>
+  </text>
+  <active value="true"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/organization-type"/>
+      <code value="prov"/>
+      <display value="Healthcare Provider"/>
+    </coding>
+  </type>
+  <name value="Physician Services, Inc."/>
+  <telecom>
+    <system value="phone"/>
+    <value value="999-999-9999"/>
+    <use value="work"/>
+  </telecom>
+  <address>
+    <line value="123 Corporate Drive"/>
+    <city value="Anytown"/>
+    <state value="MA"/>
+    <postalCode value="12345"/>
+    <country value="US"/>
+  </address>
+</Organization>
